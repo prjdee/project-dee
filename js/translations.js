@@ -41,7 +41,7 @@ const translations = {
         contact_title: "CONTATTI",
         contact_btn_write: "Scrivici...",
         contact_subtitle: "Entra in Contatto",
-        contact_desc: "Vuoi prenotare un set di Project Dee per il tuo club o festival? Oppure vuoi proporre una traccia per un remix? Compila il modulo o scrivici direttamente.",
+        contact_desc: "Vuoi contattare noi di Project Dee per informazioni o per collaborazioni oppure vuoi proporre una traccia per un remix? Scrivici direttamente.",
         contact_method_email: "Email Generale / Promo",
         contact_method_booking: "Booking & Management",
         newsletter_title: "Iscriviti alla Newsletter",
