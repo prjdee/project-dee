@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sito ufficiale di Project Dee (prjdee.com). Esplora le ultime produzioni EDM, i DJ set su SoundCloud e YouTube, le notizie sulla musica elettronica e contatta per booking.">
+    <meta name="keywords" content="Project Dee, prjdee, EDM, musica elettronica, DJ, SoundCloud, YouTube, Deep House, Melodic Techno">
+    <meta name="author" content="Project Dee">
+    <title>Project Dee | Official Website</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <!-- Sticky Header -->
+    <header class="main-header" id="header">
+        <div class="header-container">
+            <a href="#home" class="logo-link">
+                <img src="assets/logo-pjd.png" alt="Project Dee Logo" class="logo-img">
+                <span class="logo-text">Project Dee</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#home" class="nav-link active" data-translate="nav_home">Home</a></li>
+                    <li><a href="#music" class="nav-link" data-translate="nav_music">Musica</a></li>
+                    <li><a href="#video" class="nav-link" data-translate="nav_video">Video</a></li>
+                    <li><a href="#news" class="nav-link" data-translate="nav_news">News</a></li>
+                    <li><a href="#contact" class="nav-link" data-translate="nav_contact">Contatti</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Language Selector -->
+            <div class="lang-selector" id="lang-selector">
+                <button class="lang-btn" id="lang-btn" aria-label="Seleziona lingua">
+                    <i class="fa-solid fa-globe"></i> <span id="active-lang">IT</span> <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="lang-dropdown" id="lang-dropdown">
+                    <a href="#" data-lang="it" class="lang-opt active">IT</a>
+                    <a href="#" data-lang="en" class="lang-opt">EN</a>
+                    <a href="#" data-lang="es" class="lang-opt">ES</a>
+                    <a href="#" data-lang="fr" class="lang-opt">FR</a>
+                    <a href="#" data-lang="de" class="lang-opt">DE</a>
+                </div>
+            </div>
+            
+            <button class="mobile-menu-toggle" id="menu-toggle" aria-label="Apri menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <canvas id="hero-canvas"></canvas>
+        <div class="hero-content">
+            <div class="hero-logo-wrapper">
+                <div class="hero-logo-container" id="scrolling-logo">
+                    <img src="assets/logo.png" alt="Project Dee Logo Big" class="hero-logo-big">
+                </div>
+            </div>
+            <h1 class="hero-title">Project Dee</h1>
+            <p class="hero-subtitle">
+                <span data-translate="hero_tagline">Un'idea che è diventata un progetto, e un progetto che è diventato un esperimento che unisce creazione tradizionale (DAW), anima umana ed Intelligenza Artificiale.</span><br>
+                <span class="hero-motto" data-translate="hero_motto">Nothing more to prove, nothing less to deliver!</span>
+            </p>
+
+        </div>
+        <div class="scroll-indicator">
+            <span class="mouse">
+                <span class="wheel"></span>
+            </span>
+            <p data-translate="hero_scroll">Scorri</p>
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music" class="section music-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tagline" data-translate="music_tagline">IL NOSTRO SOUND</span>
+                <h2 class="section-title" data-translate="music_title">LA NOSTRA MUSICA</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="music-layout">
+                <!-- Custom Waveform Master Deck Player -->
+                <div class="player-container">
+                    <div class="custom-waveform-deck" id="waveform-master-deck">
+                        <!-- Top Header Info -->
+                        <div class="deck-header">
+                            <div class="deck-thumb-box">
+                                <img id="wf-cover-img" src="https://img.youtube.com/vi/5qegZ_NBvqI/mqdefault.jpg" alt="Track Cover" class="deck-thumb">
+                                <div class="deck-disc-glow" id="wf-disc-glow"><i class="fa-solid fa-compact-disc"></i></div>
+                            </div>
+                            <div class="deck-meta">
+                                <div class="deck-status"><span class="pulse-beacon" id="wf-pulse-beacon"></span> <span id="wf-status-text">WAVEFORM DECK</span></div>
+                                <h3 id="wf-track-title" class="deck-title">Honey and the Tide (Original Mix)</h3>
+                                <div class="deck-tags">
+                                    <span class="genre-badge sc-badge" id="wf-genre-badge">Melodic House</span>
+                                    <span class="bpm-tag" id="wf-bpm-tag"><i class="fa-solid fa-bolt"></i> 124 BPM</span>
+                                    <span class="key-tag" id="wf-key-tag">F# min</span>
+                                </div>
+                            </div>
+                            <div class="deck-time">
+                                <span id="wf-current-time">00:00</span> / <span id="wf-total-time">05:20</span>
+                            </div>
+                        </div>
+
+                        <!-- Interactive Waveform Visualizer -->
+                        <div class="deck-waveform-container" id="waveform-container">
+                            <div class="waveform-bars-grid" id="waveform-bars-grid">
+                                <!-- 56 dynamic frequency bars generated by JS -->
+                            </div>
+                            <div class="waveform-scrubber" id="waveform-scrubber"></div>
+                            <div class="waveform-hover-info" id="waveform-hover-info">00:00</div>
+                        </div>
+
+                        <!-- Deck Player Controls -->
+                        <div class="deck-controls">
+                            <div class="deck-buttons">
+                                <button class="deck-btn deck-btn-step" id="wf-btn-prev" title="Brano Precedente"><i class="fa-solid fa-backward-step"></i></button>
+                                <button class="deck-btn deck-btn-play" id="wf-btn-play" title="Riproduci / Pausa"><i class="fa-solid fa-play" id="wf-play-icon"></i></button>
+                                <button class="deck-btn deck-btn-step" id="wf-btn-next" title="Brano Successivo"><i class="fa-solid fa-forward-step"></i></button>
+                            </div>
+                            
+                            <div class="deck-volume">
+                                <i class="fa-solid fa-volume-high" id="wf-vol-icon"></i>
+                                <input type="range" class="volume-range" id="wf-vol-range" min="0" max="100" value="80" aria-label="Volume">
+                            </div>
+
+                            <div class="deck-external-links">
+                                <a id="wf-link-sc" href="https://soundcloud.com/project_d2025" target="_blank" class="track-icon sc-hover" title="Ascolta su SoundCloud"><i class="fa-brands fa-soundcloud"></i></a>
+                                <a id="wf-link-yt" href="https://www.youtube.com/watch?v=5qegZ_NBvqI" target="_blank" class="track-icon yt-hover" title="Guarda su YouTube"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Real Project Dee YouTube Audio Engine -->
+                    <iframe id="waveform-yt-audio" 
+                        src="https://www.youtube-nocookie.com/embed/5qegZ_NBvqI?enablejsapi=1&autoplay=0" 
+                        title="Project Dee Audio Engine"
+                        style="position: absolute; width: 1px; height: 1px; opacity: 0.01; pointer-events: none;"
+                        allow="autoplay">
+                    </iframe>
+                </div>
+                
+                <!-- Track Grid / Streaming Links (Scrollable Catalog) -->
+                <div class="tracks-list-container">
+                    <h3 class="subsection-title" style="justify-content: center; text-align: center;" data-translate="music_listen_title">COSA VUOI ASCOLTARE?</h3>
+                    
+                    <div class="tracks-list">
+                        <div class="track-card">
+                            <div class="track-info">
+                                <span class="track-number">01</span>
+                                <div>
+                                    <h4>Honey and the Tide (Original Mix)</h4>
+                                    <p><span class="genre-badge sc-badge">Melodic House</span> • 2026</p>
+                                </div>
+                            </div>
+                            <div class="track-links">
+                                <a href="https://soundcloud.com/project_d2025" target="_blank" class="track-icon sc-hover" title="Ascolta su SoundCloud"><i class="fa-brands fa-soundcloud"></i></a>
+                                <a href="https://www.youtube.com/watch?v=5qegZ_NBvqI" target="_blank" class="track-icon yt-hover" title="Guarda su YouTube"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        
+                        <div class="track-card">
+                            <div class="track-info">
+                                <span class="track-number">02</span>
+                                <div>
+                                    <h4>Come to Dubai (Habibi)</h4>
+                                    <p><span class="genre-badge yt-badge">Tech House</span> • 2026</p>
+                                </div>
+                            </div>
+                            <div class="track-links">
+                                <a href="https://soundcloud.com/project_d2025" target="_blank" class="track-icon sc-hover" title="Ascolta su SoundCloud"><i class="fa-brands fa-soundcloud"></i></a>
+                                <a href="https://www.youtube.com/watch?v=zmMbdhg6nn0" target="_blank" class="track-icon yt-hover" title="Guarda su YouTube"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        
+                        <div class="track-card">
+                            <div class="track-info">
+                                <span class="track-number">03</span>
+                                <div>
+                                    <h4>THE GRID (Mix)</h4>
+                                    <p><span class="genre-badge dark-badge">Dark Techno</span> • 2026</p>
+                                </div>
+                            </div>
+                            <div class="track-links">
+                                <a href="https://soundcloud.com/project_d2025" target="_blank" class="track-icon sc-hover" title="Ascolta su SoundCloud"><i class="fa-brands fa-soundcloud"></i></a>
+                                <a href="https://www.youtube.com/watch?v=FVJ_vvxKILo" target="_blank" class="track-icon yt-hover" title="Guarda su YouTube"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="track-card">
+                            <div class="track-info">
+                                <span class="track-number">04</span>
+                                <div>
+                                    <h4>Angel of Light (Progressive Mix)</h4>
+                                    <p><span class="genre-badge gold-badge">Progressive House</span> • 2026</p>
+                                </div>
+                            </div>
+                            <div class="track-links">
+                                <a href="https://soundcloud.com/project_d2025" target="_blank" class="track-icon sc-hover" title="Ascolta su SoundCloud"><i class="fa-brands fa-soundcloud"></i></a>
+                                <a href="https://www.youtube.com/watch?v=jWlCvzgN_xE" target="_blank" class="track-icon yt-hover" title="Guarda su YouTube"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video" class="section video-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tagline" data-translate="video_tagline">VISUAL EXPERIENCE</span>
+                <h2 class="section-title" data-translate="video_title">SET & VIDEO UFFICIALI</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="video-layout">
+                <!-- Main Active Video Player -->
+                <div class="main-video-container">
+                    <div class="video-ratio-wrapper">
+                        <iframe id="main-yt-player" src="https://www.youtube-nocookie.com/embed/5qegZ_NBvqI" 
+                            title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <!-- Direct link button -->
+                    <div class="video-direct-link" style="margin-top: 1.25rem; display: flex; justify-content: center;">
+                        <a id="watch-on-yt-btn" href="https://www.youtube.com/watch?v=5qegZ_NBvqI" target="_blank" class="btn btn-secondary btn-sm" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.6rem 1.2rem; font-size: 0.85rem; font-weight: 500; font-family: var(--font-titles); text-decoration: none; border-radius: 4px; transition: var(--transition-quick);">
+                            <i class="fa-brands fa-youtube" style="color: var(--yt-red); font-size: 1.1rem;"></i> 
+                            <span data-translate="watch_on_youtube">Guarda su YouTube</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Video Playlist Sidebar (Scrollable Catalog) -->
+                <div class="video-playlist">
+                    <h3 class="subsection-title" style="justify-content: center; text-align: center;" data-translate="video_playlist">Playlist Set & Visualizer</h3>
+                    
+                    <div class="video-playlist-scroll">
+                        <div class="video-thumb-card active" data-video-id="5qegZ_NBvqI">
+                            <div class="video-thumb-img" style="background-image: url('https://img.youtube.com/vi/5qegZ_NBvqI/mqdefault.jpg')">
+                                <span class="play-overlay"><i class="fa-solid fa-play"></i></span>
+                            </div>
+                            <div class="video-thumb-info">
+                                <div class="video-card-header">
+                                    <h4>Honey and the Tide</h4>
+                                    <span class="video-type-badge badge-red">OFFICIAL</span>
+                                </div>
+                                <p>Melodic House • 5:20</p>
+                            </div>
+                        </div>
+                        
+                        <div class="video-thumb-card" data-video-id="zmMbdhg6nn0">
+                            <div class="video-thumb-img" style="background-image: url('https://img.youtube.com/vi/zmMbdhg6nn0/mqdefault.jpg')">
+                                <span class="play-overlay"><i class="fa-solid fa-play"></i></span>
+                            </div>
+                            <div class="video-thumb-info">
+                                <div class="video-card-header">
+                                    <h4>Come to Dubai (Habibi)</h4>
+                                    <span class="video-type-badge badge-orange">TECH HOUSE</span>
+                                </div>
+                                <p>Tech House • 4:10</p>
+                            </div>
+                        </div>
+                        
+                        <div class="video-thumb-card" data-video-id="FVJ_vvxKILo">
+                            <div class="video-thumb-img" style="background-image: url('https://img.youtube.com/vi/FVJ_vvxKILo/mqdefault.jpg')">
+                                <span class="play-overlay"><i class="fa-solid fa-play"></i></span>
+                            </div>
+                            <div class="video-thumb-info">
+                                <div class="video-card-header">
+                                    <h4>THE GRID (Mix)</h4>
+                                    <span class="video-type-badge badge-cyan">DARK TECHNO</span>
+                                </div>
+                                <p>Dark Techno • 3:45</p>
+                            </div>
+                        </div>
+
+                        <div class="video-thumb-card" data-video-id="jWlCvzgN_xE">
+                            <div class="video-thumb-img" style="background-image: url('https://img.youtube.com/vi/jWlCvzgN_xE/mqdefault.jpg')">
+                                <span class="play-overlay"><i class="fa-solid fa-play"></i></span>
+                            </div>
+                            <div class="video-thumb-info">
+                                <div class="video-card-header">
+                                    <h4>Angel of Light</h4>
+                                    <span class="video-type-badge badge-gold">PROGRESSIVE</span>
+                                </div>
+                                <p>Progressive House • 6:05</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="section news-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tagline" data-translate="news_tagline">FEED EDM</span>
+                <h2 class="section-title" data-translate="news_title">NEWS & FEEDS</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <!-- Category Filters -->
+            <div class="news-filters">
+                <button class="filter-btn active" data-category="ALL" data-translate="news_filter_all">Tutte</button>
+                <button class="filter-btn" data-category="RELEASE" data-translate="news_filter_release">Release</button>
+                <button class="filter-btn" data-category="CULTURE" data-translate="news_filter_culture">Culture</button>
+                <button class="filter-btn" data-category="TECH" data-translate="news_filter_tech">Tech / Produzione</button>
+                <button class="filter-btn" data-category="TRENDS" data-translate="news_filter_trends">Trends</button>
+            </div>
+            
+            <!-- Dynamic Grid (populated by JS) -->
+            <div class="news-grid" id="news-grid">
+                <!-- Skeleton loader shown initially -->
+                <div class="news-skeleton"></div>
+                <div class="news-skeleton"></div>
+                <div class="news-skeleton"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bio & Origins Section (Collapsible Accordion) -->
+    <section id="bio" class="section bio-section-collapsible" style="padding: 2rem 0; border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); background-color: rgba(13, 13, 21, 0.25);">
+        <div class="container">
+            <!-- Collapsible Trigger Header -->
+            <button id="bio-toggle-btn" class="bio-toggle-trigger" style="width: 100%; background: none; border: none; padding: 1.5rem 0; display: flex; align-items: center; justify-content: center; gap: 1rem; color: #fff; cursor: pointer; transition: var(--transition-quick);">
+                <i class="fa-solid fa-address-card" style="color: var(--cyber-cyan); font-size: 1.8rem; filter: drop-shadow(0 0 5px var(--cyber-cyan-glow));"></i>
+                <h2 style="font-family: var(--font-titles); font-size: clamp(1.4rem, 3vw, 1.8rem); font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin: 0;" data-translate="bio_title_collapsible">SCOPRI LA NOSTRA STORIA (BIO)</h2>
+                <i id="bio-toggle-chevron" class="fa-solid fa-chevron-down" style="font-size: 1.2rem; color: var(--text-muted); transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);"></i>
+            </button>
+            
+            <!-- Collapsible Body Content -->
+            <div id="bio-collapse-content" class="bio-collapse-body" style="max-height: 0; overflow: hidden; opacity: 0; transition: max-height 0.5s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease;">
+                <div style="padding-top: 3rem; padding-bottom: 2rem;">
+                    <div class="bio-grid">
+                        <div class="bio-text">
+                            <p class="lead" data-translate="bio_lead">Project Dee unisce ritmi profondi e trame futuristiche, plasmando un'esperienza sonora ispirata alla Melodic House e Techno.</p>
+                            <p data-translate="bio_p1">Nato e cresciuto nella scena underground digitale, il progetto affonda le sue radici su <strong>SoundCloud</strong>, dove i primi bootleg e mix curati hanno raccolto una fedele nicchia di appassionati di musica dance. L'evoluzione naturale è passata per <strong>YouTube</strong>, combinando set audio e visualizer immersivi per dare vita a una vera e propria esperienza audio-visiva.</p>
+                            <p data-translate="bio_p2">Oggi, Project Dee rappresenta una sintesi di quelle origini: una costante ricerca del drop perfetto, atmosfere sognanti e bassi potenti che si fondono in un viaggio sonoro indimenticabile, ora pronto per i palchi reali.</p>
+                        </div>
+                        
+                        <!-- Interactive Timeline -->
+                        <div class="timeline-container">
+                            <div class="timeline-item">
+                                <div class="timeline-dot orange-glow"></div>
+                                <div class="timeline-date">2020 - 2022</div>
+                                <div class="timeline-content">
+                                    <h3 data-translate="time_1_title">Le Radici su SoundCloud</h3>
+                                    <p data-translate="time_1_text">Pubblicazione dei primi mixtape amatoriali, bootleg house ed esperimenti sonori che attirano l'attenzione della community online.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot red-glow"></div>
+                                <div class="timeline-date">2022 - 2024</div>
+                                <div class="timeline-content">
+                                    <h3 data-translate="time_2_title">L'Espansione su YouTube</h3>
+                                    <p data-translate="time_2_text">Creazione dei primi visualizer 3D e pubblicazione di DJ set completi su YouTube, raggiungendo ascoltatori in tutto il mondo.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot gold-glow"></div>
+                                <div class="timeline-date" data-translate="time_3_date">2026 - Presente</div>
+                                <div class="timeline-content">
+                                    <h3 data-translate="time_3_title">PRJDEE.COM & Oltre</h3>
+                                    <p data-translate="time_3_text">Lancio del portale ufficiale e transizione verso produzioni originali, eventi live e una presenza multimediale consolidata.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Booking Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tagline" data-translate="contact_tagline">CONNETTITI</span>
+                <h2 class="section-title" data-translate="contact_title">CONTATTI</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="contact-grid" style="display: flex; justify-content: center; text-align: center;">
+                <!-- Booking Info -->
+                <div class="contact-info" style="max-width: 600px; display: flex; flex-direction: column; align-items: center;">
+                    <h3 class="subsection-title" style="justify-content: center;" data-translate="contact_subtitle">Entra in Contatto</h3>
+                    <p data-translate="contact_desc">Vuoi prenotare un set di Project Dee per il tuo club o festival? Oppure vuoi proporre una traccia per un remix? Scrivici direttamente via email.</p>
+                    
+                    <div class="contact-methods" style="margin-top: 1.5rem;">
+                        <div class="method-item" style="justify-content: center;">
+                            <a href="mailto:u3184907649@gmail.com" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 2.2rem; font-size: 0.95rem; font-weight: 500; font-family: var(--font-titles); text-decoration: none; border-radius: 4px;" data-translate="contact_btn_write">
+                                <i class="fa-solid fa-paper-plane"></i> Scrivici...
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <img src="assets/logo-pjd.png" alt="Project Dee Logo Footer" class="footer-logo">
+                <h3>Project Dee</h3>
+                <p data-translate="footer_desc">Dal 2020, plasmando il futuro del suono elettronico underground.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4 data-translate="footer_nav">Navigazione</h4>
+                <ul>
+                    <li><a href="#home" data-translate="nav_home">Home</a></li>
+                    <li><a href="#bio" data-translate="nav_bio">Bio</a></li>
+                    <li><a href="#music" data-translate="nav_music">Musica</a></li>
+                    <li><a href="#video" data-translate="nav_video">Video</a></li>
+                    <li><a href="#news" data-translate="nav_news">News</a></li>
+                    <li><a href="#contact" data-translate="nav_contact">Contatti</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-socials">
+                <h4 data-translate="footer_socials">Segui i Canali</h4>
+                <div class="social-grid">
+                    <a href="https://soundcloud.com/project_d2025" target="_blank" class="social-circle sc-bg" aria-label="SoundCloud"><i class="fa-brands fa-soundcloud"></i></a>
+                    <a href="https://www.youtube.com/@PRJDEE" target="_blank" class="social-circle yt-bg" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://spotify.com" target="_blank" class="social-circle sp-bg" aria-label="Spotify"><i class="fa-brands fa-spotify"></i></a>
+                    <a href="https://www.instagram.com/projdee/" target="_blank" class="social-circle ig-bg" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@prjdee?is_from_webapp=1&amp;sender_device=pc" target="_blank" class="social-circle tt-bg" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p>&copy; 2026 Project Dee. Tutti i diritti riservati.</p>
+                <div class="footer-policy-links">
+                    <a href="#" id="open-cookie-settings" data-translate="footer_cookies">Preferenze Cookie</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- GDPR Cookie Banner -->
+    <div class="cookie-banner" id="cookie-banner">
+        <div class="cookie-content">
+            <div class="cookie-header">
+                <i class="fa-solid fa-cookie-bite cookie-icon"></i>
+                <h3 data-translate="cookie_title">Consenso per i Cookie</h3>
+            </div>
+            <p data-translate="cookie_desc">Utilizziamo cookie tecnici per migliorare la tua esperienza su prjdee.com. Cliccando su "Accetta", acconsenti al loro utilizzo in linea con la nostra Privacy Policy.</p>
+        </div>
+        <div class="cookie-actions">
+            <button class="btn btn-secondary btn-sm" id="cookie-reject" data-translate="cookie_reject">Rifiuta</button>
+            <button class="btn btn-primary btn-sm" id="cookie-accept" data-translate="cookie_accept">Accetta</button>
+        </div>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="js/translations.js"></script>
+    <script src="js/news-data.js"></script>
+    <script src="js/catalog-data.js"></script>
+    <script src="js/canvas-effect.js"></script>
+    <script src="js/global-energy-beams.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
