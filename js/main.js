@@ -176,6 +176,28 @@ function initVideoPlaylist() {
             }
         });
     });
+
+    // Initialize Collapsible Video Accordion Toggle
+    const toggleVideoBtn = document.getElementById('btn-toggle-videos');
+    const txtVideoLabel = document.getElementById('txt-expand-videos');
+    
+    if (toggleVideoBtn && scrollContainer) {
+        toggleVideoBtn.addEventListener('click', () => {
+            scrollContainer.classList.toggle('expanded');
+            toggleVideoBtn.classList.toggle('active');
+            
+            const isExpanded = scrollContainer.classList.contains('expanded');
+            const lang = currentLang || 'it';
+            
+            if (txtVideoLabel) {
+                if (isExpanded) {
+                    txtVideoLabel.textContent = (translations[lang] && translations[lang].video_collapse_catalog) || "MOSTRA MENO";
+                } else {
+                    txtVideoLabel.textContent = (translations[lang] && translations[lang].video_expand_catalog) || "MOSTRA TOP 20 VIDEO";
+                }
+            }
+        });
+    }
 }
 
 /* --------------------------------------------------
