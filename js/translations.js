@@ -27,6 +27,8 @@ const translations = {
         music_tagline: "IL NOSTRO SOUND",
         music_title: "LA NOSTRA MUSICA",
         music_listen_title: "COSA VUOI ASCOLTARE?",
+        music_expand_catalog: "MOSTRA TUTTI I BRANI (20)",
+        music_collapse_catalog: "MOSTRA MENO BRANI",
         video_tagline: "VISUAL EXPERIENCE",
         video_title: "SET & VIDEO UFFICIALI",
         video_playlist: "Altri Set e Visualizer",
