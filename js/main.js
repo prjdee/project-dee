@@ -231,6 +231,28 @@ function initMusicCatalog() {
                 }
             });
         });
+
+        // Initialize Collapsible Astuccio / Accordion Toggle
+        const toggleBtn = document.getElementById('btn-toggle-catalog');
+        const txtLabel = document.getElementById('txt-expand-catalog');
+        
+        if (toggleBtn) {
+            toggleBtn.addEventListener('click', () => {
+                tracksContainer.classList.toggle('expanded');
+                toggleBtn.classList.toggle('active');
+                
+                const isExpanded = tracksContainer.classList.contains('expanded');
+                const lang = currentLang || 'it';
+                
+                if (txtLabel) {
+                    if (isExpanded) {
+                        txtLabel.textContent = (translations[lang] && translations[lang].music_collapse_catalog) || "MOSTRA MENO BRANI";
+                    } else {
+                        txtLabel.textContent = (translations[lang] && translations[lang].music_expand_catalog) || "MOSTRA TUTTI I BRANI (20)";
+                    }
+                }
+            });
+        }
     }
 }
 
