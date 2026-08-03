@@ -7,7 +7,7 @@ const soundCloudCatalog = [
         "yt_url": null,
         "published": "2026-07-28",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-01.jpg",
-        "genre": "Melodic Techno"
+        "genre": "Dance & EDM"
     },
     {
         "id": "zmMbdhg6nn0",
@@ -16,7 +16,7 @@ const soundCloudCatalog = [
         "yt_url": null,
         "published": "2026-07-16",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-02.jpg",
-        "genre": "Progressive House"
+        "genre": "Dance & EDM"
     },
     {
         "id": "FVJ_vvxKILo",
@@ -25,7 +25,7 @@ const soundCloudCatalog = [
         "yt_url": "https://www.youtube.com/watch?v=FVJ_vvxKILo",
         "published": "2026-06-22",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-03.jpg",
-        "genre": "Peak Techno"
+        "genre": "Electronic"
     },
     {
         "id": "zmMbdhg6nn0",
@@ -34,7 +34,7 @@ const soundCloudCatalog = [
         "yt_url": "https://www.youtube.com/watch?v=zmMbdhg6nn0",
         "published": "2026-06-15",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-04.jpg",
-        "genre": "Dance / Afro House"
+        "genre": "Deep House"
     },
     {
         "id": "5qegZ_NBvqI",
@@ -43,7 +43,7 @@ const soundCloudCatalog = [
         "yt_url": "https://www.youtube.com/watch?v=5qegZ_NBvqI",
         "published": "2026-06-02",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-05.jpg",
-        "genre": "Melodic House"
+        "genre": "Deep House"
     },
     {
         "id": "jWlCvzgN_xE",
@@ -52,7 +52,7 @@ const soundCloudCatalog = [
         "yt_url": "https://www.youtube.com/watch?v=jWlCvzgN_xE",
         "published": "2026-05-24",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-06.jpg",
-        "genre": "Progressive House"
+        "genre": "Electronic"
     },
     {
         "id": "NiGySiGy6ik",
@@ -70,7 +70,7 @@ const soundCloudCatalog = [
         "yt_url": "https://www.youtube.com/watch?v=NiGySiGy6ik",
         "published": "2026-04-30",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-08.jpg",
-        "genre": "Urban Pop / Dance"
+        "genre": "Pop"
     },
     {
         "id": "5qegZ_NBvqI",
@@ -79,7 +79,7 @@ const soundCloudCatalog = [
         "yt_url": null,
         "published": "2026-04-23",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-09.jpg",
-        "genre": "Melodic Techno"
+        "genre": "Electronic"
     },
     {
         "id": "5qegZ_NBvqI",
@@ -88,16 +88,16 @@ const soundCloudCatalog = [
         "yt_url": null,
         "published": "2026-04-15",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-10.jpg",
-        "genre": "Deep House"
+        "genre": "Electronic"
     },
     {
-        "id": "SVN03CZMGJg",
+        "id": "5qegZ_NBvqI",
         "title": "The Pressure",
         "sc_url": "https://soundcloud.com/project_d2025/pressure",
         "yt_url": "https://www.youtube.com/watch?v=SVN03CZMGJg",
         "published": "2026-04-09",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-11.jpg",
-        "genre": "Melodic Techno"
+        "genre": "Electronic"
     },
     {
         "id": "5qegZ_NBvqI",
@@ -106,7 +106,7 @@ const soundCloudCatalog = [
         "yt_url": null,
         "published": "2026-04-06",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-12.jpg",
-        "genre": "Peak Techno"
+        "genre": "Electronic"
     },
     {
         "id": "5qegZ_NBvqI",
@@ -115,7 +115,7 @@ const soundCloudCatalog = [
         "yt_url": null,
         "published": "2026-03-04",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-13.jpg",
-        "genre": "Organic House"
+        "genre": "Dance & EDM"
     },
     {
         "id": "5qegZ_NBvqI",
@@ -124,7 +124,7 @@ const soundCloudCatalog = [
         "yt_url": null,
         "published": "2026-02-26",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-14.jpg",
-        "genre": "Melodic Techno"
+        "genre": "Electronic"
     },
     {
         "id": "5qegZ_NBvqI",
@@ -133,7 +133,7 @@ const soundCloudCatalog = [
         "yt_url": null,
         "published": "2026-02-18",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-15.jpg",
-        "genre": "Progressive House"
+        "genre": "Dance & EDM"
     },
     {
         "id": "5qegZ_NBvqI",
@@ -169,7 +169,7 @@ const soundCloudCatalog = [
         "yt_url": null,
         "published": "2026-01-22",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-19.jpg",
-        "genre": "EDM / Dance"
+        "genre": "Dance & EDM"
     },
     {
         "id": "5qegZ_NBvqI",
@@ -241,4 +241,4 @@ const youtubeCatalog = [
     }
 ];
 
-const catalogVideos = soundCloudCatalog;
+const catalogVideos = youtubeCatalog;
