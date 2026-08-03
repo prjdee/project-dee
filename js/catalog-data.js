@@ -4,6 +4,7 @@ const soundCloudCatalog = [
         "id": "5qegZ_NBvqI",
         "title": "Before The Floor Shakes",
         "sc_url": "https://soundcloud.com/project_d2025/before-the-floor-shakes",
+        "yt_url": null,
         "published": "2026-07-28",
         "thumb": "assets/covers/cover-01.jpg",
         "genre": "Melodic Techno"
@@ -12,6 +13,7 @@ const soundCloudCatalog = [
         "id": "zmMbdhg6nn0",
         "title": "Catch the Sun",
         "sc_url": "https://soundcloud.com/project_d2025/thesun",
+        "yt_url": null,
         "published": "2026-07-16",
         "thumb": "assets/covers/cover-02.jpg",
         "genre": "Progressive House"
@@ -20,6 +22,7 @@ const soundCloudCatalog = [
         "id": "FVJ_vvxKILo",
         "title": "The Grid",
         "sc_url": "https://soundcloud.com/project_d2025/grid",
+        "yt_url": "https://www.youtube.com/watch?v=FVJ_vvxKILo",
         "published": "2026-06-22",
         "thumb": "assets/covers/cover-03.jpg",
         "genre": "Peak Techno"
@@ -28,6 +31,7 @@ const soundCloudCatalog = [
         "id": "zmMbdhg6nn0",
         "title": "Come To Dubai (Original Mix)",
         "sc_url": "https://soundcloud.com/project_d2025/dubai",
+        "yt_url": "https://www.youtube.com/watch?v=zmMbdhg6nn0",
         "published": "2026-06-15",
         "thumb": "assets/covers/cover-04.jpg",
         "genre": "Dance / Afro House"
@@ -36,6 +40,7 @@ const soundCloudCatalog = [
         "id": "5qegZ_NBvqI",
         "title": "Honey and the Tide",
         "sc_url": "https://soundcloud.com/project_d2025/honeymoon",
+        "yt_url": "https://www.youtube.com/watch?v=5qegZ_NBvqI",
         "published": "2026-06-02",
         "thumb": "assets/covers/cover-05.jpg",
         "genre": "Melodic House"
@@ -44,6 +49,7 @@ const soundCloudCatalog = [
         "id": "jWlCvzgN_xE",
         "title": "Angel of Light",
         "sc_url": "https://soundcloud.com/project_d2025/angeloflight",
+        "yt_url": "https://www.youtube.com/watch?v=jWlCvzgN_xE",
         "published": "2026-05-24",
         "thumb": "assets/covers/cover-06.jpg",
         "genre": "Progressive House"
@@ -52,6 +58,7 @@ const soundCloudCatalog = [
         "id": "NiGySiGy6ik",
         "title": "Silver Light",
         "sc_url": "https://soundcloud.com/project_d2025/silverlight",
+        "yt_url": null,
         "published": "2026-05-05",
         "thumb": "assets/covers/cover-07.jpg",
         "genre": "Deep House"
@@ -60,6 +67,7 @@ const soundCloudCatalog = [
         "id": "NiGySiGy6ik",
         "title": "C60",
         "sc_url": "https://soundcloud.com/project_d2025/c60",
+        "yt_url": "https://www.youtube.com/watch?v=NiGySiGy6ik",
         "published": "2026-04-30",
         "thumb": "assets/covers/cover-08.jpg",
         "genre": "Urban Pop / Dance"
@@ -68,6 +76,7 @@ const soundCloudCatalog = [
         "id": "NQmDbgjFzq4",
         "title": "The Weight of Light",
         "sc_url": "https://soundcloud.com/project_d2025/weightoflight",
+        "yt_url": null,
         "published": "2026-04-23",
         "thumb": "assets/covers/cover-09.jpg",
         "genre": "Melodic Techno"
