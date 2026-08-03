@@ -246,9 +246,9 @@ function initMusicCatalog() {
                 
                 if (txtLabel) {
                     if (isExpanded) {
-                        txtLabel.textContent = (translations[lang] && translations[lang].music_collapse_catalog) || "MOSTRA MENO BRANI";
+                        txtLabel.textContent = (translations[lang] && translations[lang].music_collapse_catalog) || "MOSTRA MENO";
                     } else {
-                        txtLabel.textContent = (translations[lang] && translations[lang].music_expand_catalog) || "MOSTRA TUTTI I BRANI (20)";
+                        txtLabel.textContent = (translations[lang] && translations[lang].music_expand_catalog) || "MOSTRA TOP 20";
                     }
                 }
             });
