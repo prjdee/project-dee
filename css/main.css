@@ -2259,10 +2259,26 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 0.8rem;
     }
 
-    /* Hero title & subtitle typography scaling */
+    /* Hero D Logo Centering & Double Size Optimization for Mobile */
+    .hero-logo-container {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        transform: none !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 0 auto 1.25rem auto !important;
+        width: 100% !important;
+        opacity: 1 !important;
+    }
+
     .hero-logo-big {
-        max-height: 120px;
-        width: auto;
+        height: 220px !important;
+        width: 220px !important;
+        max-width: 80vw !important;
+        max-height: 220px !important;
+        object-fit: contain !important;
     }
     
     .hero-title {
@@ -2339,6 +2355,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Specific optimization for Samsung Galaxy Fold cover screen and ultra-narrow displays (width <= 360px) */
 @media (max-width: 360px) {
+    .hero-logo-big {
+        height: 195px !important;
+        width: 195px !important;
+    }
+
     .hero-title {
         font-size: 1.85rem;
         letter-spacing: 0;
