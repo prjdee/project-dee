@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-titles);
     font-size: 1.2rem;
     font-weight: 900;
-    letter-spacing: 0.1em;
+    letter-spacing: -0.01em;
     color: #ffffff;
 }
 
@@ -530,7 +530,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero-title {
     font-size: var(--heading-size-l);
     font-weight: 900;
-    letter-spacing: 0.15em;
+    letter-spacing: -0.01em;
     background: linear-gradient(135deg, var(--sc-orange) 0%, #ffffff 50%, var(--cyber-cyan) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1795,7 +1795,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-titles);
     font-size: 1.4rem;
     font-weight: 900;
-    letter-spacing: 0.1em;
+    letter-spacing: -0.01em;
 }
 
 .footer-brand p {
