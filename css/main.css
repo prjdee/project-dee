@@ -531,8 +531,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: clamp(3.2rem, 7.5vw, 6rem);
     font-weight: 900;
     font-family: var(--font-titles);
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
+    letter-spacing: 0.01em;
     margin-bottom: 1.5rem;
     position: relative;
     display: inline-block;
