@@ -2241,6 +2241,48 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 480px) {
+    /* Header layout optimization for narrow & foldable screens (Galaxy Fold cover) */
+    .header-container {
+        padding: 0.5rem 0.85rem;
+    }
+    
+    .logo-text {
+        display: none; /* Hide header text logo so PjD mark + lang dropdown + menu fit cleanly */
+    }
+    
+    .nav-actions {
+        gap: 0.5rem;
+    }
+    
+    .lang-dropdown-btn {
+        padding: 0.35rem 0.65rem;
+        font-size: 0.8rem;
+    }
+
+    /* Hero title & subtitle typography scaling */
+    .hero-logo-big {
+        max-height: 120px;
+        width: auto;
+    }
+    
+    .hero-title {
+        font-size: clamp(2rem, 8vw, 3rem);
+        margin-bottom: 1rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 0.92rem;
+        text-align: center;
+        text-align-last: center;
+        line-height: 1.6;
+        padding: 0 0.5rem;
+        margin-bottom: 1.8rem;
+    }
+
+    .hero-motto {
+        font-size: 0.88rem;
+    }
+
     .hero-ctas {
         flex-direction: column;
         width: 100%;
@@ -2251,6 +2293,15 @@ h1, h2, h3, h4, h5, h6 {
         width: 100%;
     }
     
+    /* Track cards responsive layout */
+    .track-card {
+        padding: 0.7rem 0.85rem;
+    }
+
+    .track-info h4 {
+        font-size: 0.9rem;
+    }
+    
     .video-thumb-card {
         padding: 0.6rem;
     }
@@ -2258,6 +2309,18 @@ h1, h2, h3, h4, h5, h6 {
     .video-thumb-img {
         width: 90px;
         height: 52px;
+    }
+    
+    .tracks-expand-wrapper, .video-expand-wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .catalog-expand-btn, .catalog-sc-btn, .video-yt-all-btn {
+        width: 100%;
+        justify-content: center;
+        font-size: 0.82rem;
+        padding: 0.7rem 1.2rem;
     }
     
     .cookie-banner {
@@ -2271,6 +2334,34 @@ h1, h2, h3, h4, h5, h6 {
     
     .cookie-actions button {
         flex-grow: 1;
+    }
+}
+
+/* Specific optimization for Samsung Galaxy Fold cover screen and ultra-narrow displays (width <= 360px) */
+@media (max-width: 360px) {
+    .hero-title {
+        font-size: 1.85rem;
+        letter-spacing: 0;
+    }
+
+    .hero-subtitle {
+        font-size: 0.85rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .track-card {
+        padding: 0.6rem;
+    }
+
+    .track-number {
+        font-size: 0.75rem;
+    }
+
+    .track-info h4 {
+        font-size: 0.85rem;
     }
 }
 
