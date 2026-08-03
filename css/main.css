@@ -1410,10 +1410,18 @@ h1, h2, h3, h4, h5, h6 {
     transition: var(--transition-quick);
 }
 
-.filter-btn.active, .filter-btn:hover {
-    color: var(--text-primary);
-    background-color: rgba(255, 255, 255, 0.05);
-    border-color: var(--text-primary);
+.filter-btn:hover {
+    color: #ffffff;
+    border-color: rgba(0, 243, 255, 0.5);
+    background-color: rgba(0, 243, 255, 0.08);
+}
+
+.filter-btn.active {
+    color: var(--cyber-cyan);
+    background-color: rgba(0, 243, 255, 0.12);
+    border-color: var(--cyber-cyan);
+    box-shadow: 0 0 15px rgba(0, 243, 255, 0.4), inset 0 0 10px rgba(0, 243, 255, 0.15);
+    text-shadow: 0 0 8px rgba(0, 243, 255, 0.6);
 }
 
 /* News Grid layout */
