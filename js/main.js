@@ -185,12 +185,25 @@ function initMusicCatalog() {
     const tracksContainer = document.querySelector('.tracks-list');
     if (!tracksContainer) return;
 
-    if (typeof catalogVideos !== 'undefined' && catalogVideos.length > 0) {
+    const tracksList = (typeof soundCloudCatalog !== 'undefined' && soundCloudCatalog.length > 0) 
+        ? soundCloudCatalog 
+        : (typeof catalogVideos !== 'undefined' ? catalogVideos : []);
+
+    if (tracksList.length > 0) {
         let html = '';
-        catalogVideos.forEach((track, index) => {
+        tracksList.forEach((track, index) => {
             const num = (index + 1).toString().padStart(2, '0');
             const badgeClass = index % 3 === 0 ? 'sc-badge' : (index % 3 === 1 ? 'yt-badge' : 'cyan-badge');
             
+            // Build dynamic platform icons based on actual availability
+            let iconsHtml = '';
+            if (track.sc_url) {
+                iconsHtml += `<a href="${track.sc_url}" target="_blank" class="track-icon sc-hover" title="Ascolta su SoundCloud" onclick="event.stopPropagation();"><i class="fa-brands fa-soundcloud"></i></a>`;
+            }
+            if (track.yt_url) {
+                iconsHtml += `<a href="${track.yt_url}" target="_blank" class="track-icon yt-hover" title="Guarda su YouTube" onclick="event.stopPropagation();"><i class="fa-brands fa-youtube"></i></a>`;
+            }
+
             html += `
                 <div class="track-card" data-track-index="${index}" style="cursor: pointer;">
                     <div class="track-info">
@@ -202,8 +215,7 @@ function initMusicCatalog() {
                         </div>
                     </div>
                     <div class="track-links">
-                        <a href="${track.sc_url || 'https://soundcloud.com/project_d2025'}" target="_blank" class="track-icon sc-hover" title="Ascolta su SoundCloud" onclick="event.stopPropagation();"><i class="fa-brands fa-soundcloud"></i></a>
-                        <a href="https://www.youtube.com/watch?v=${track.id}" target="_blank" class="track-icon yt-hover" title="Guarda su YouTube" onclick="event.stopPropagation();"><i class="fa-brands fa-youtube"></i></a>
+                        ${iconsHtml}
                     </div>
                 </div>
             `;
@@ -215,7 +227,7 @@ function initMusicCatalog() {
         cards.forEach((card, idx) => {
             card.addEventListener('click', () => {
                 if (typeof window.loadTrackIntoWaveform === 'function') {
-                    window.loadTrackIntoWaveform(catalogVideos[idx], idx);
+                    window.loadTrackIntoWaveform(tracksList[idx], idx);
                 }
             });
         });
@@ -393,8 +405,25 @@ function initCustomWaveformPlayer() {
 
         if (titleEl) titleEl.textContent = trackData.title;
         if (coverEl && trackData.thumb) coverEl.src = trackData.thumb;
-        if (scLink) scLink.href = trackData.sc_url || 'https://soundcloud.com/project_d2025';
-        if (ytLink && trackData.id) ytLink.href = `https://www.youtube.com/watch?v=${trackData.id}`;
+        
+        if (scLink) {
+            if (trackData.sc_url) {
+                scLink.href = trackData.sc_url;
+                scLink.style.display = 'inline-flex';
+            } else {
+                scLink.style.display = 'none';
+            }
+        }
+        
+        if (ytLink) {
+            if (trackData.yt_url) {
+                ytLink.href = trackData.yt_url;
+                ytLink.style.display = 'inline-flex';
+            } else {
+                ytLink.style.display = 'none';
+            }
+        }
+        
         if (genreBadge) genreBadge.textContent = trackData.genre || 'Official Release';
 
         // Load Project Dee's exact video ID into the audio engine
