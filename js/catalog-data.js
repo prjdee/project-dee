@@ -232,75 +232,13 @@ const youtubeCatalog = [
         "genre": "RELEASE"
     },
     {
-        "id": "NQmDbgjFzq4",
-        "title": "ThePressure",
-        "full_title": "ThePressure #edm #edmmusic #electronic #prjdee",
-        "published": "2026-04-25",
-        "thumb": "https://img.youtube.com/vi/NQmDbgjFzq4/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "0h2rGTagQCk",
-        "title": "The Pulse!",
-        "full_title": "The Pulse!",
-        "published": "2026-04-14",
-        "thumb": "https://img.youtube.com/vi/0h2rGTagQCk/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "YIBnVnTjnv8",
-        "title": "Sakura Drift",
-        "full_title": "Sakura Drift",
-        "published": "2026-03-31",
-        "thumb": "https://img.youtube.com/vi/YIBnVnTjnv8/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "wf1xRyLs_Y4",
-        "title": "The Space in Between (Pure Extended)",
-        "full_title": "The Space in Between (Pure Extended)",
-        "published": "2026-02-19",
-        "thumb": "https://img.youtube.com/vi/wf1xRyLs_Y4/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "4vvo0RPXMYY",
-        "title": "ウルトラ・ディーバ・ダンス (UltraDivaDance)",
-        "full_title": "ウルトラ・ディーバ・ダンス (UltraDivaDance)",
-        "published": "2026-01-28",
-        "thumb": "https://img.youtube.com/vi/4vvo0RPXMYY/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "3pgLo0GyYzc",
-        "title": "Ambarabà",
-        "full_title": "Ambarabà",
-        "published": "2026-01-09",
-        "thumb": "https://img.youtube.com/vi/3pgLo0GyYzc/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "pJOpwextQJw",
-        "title": "New Year's Ave",
-        "full_title": "New Year's Ave #newyear2026 #progressivehouse #edm #capodanno #prjdee",
-        "published": "2025-12-31",
-        "thumb": "https://img.youtube.com/vi/pJOpwextQJw/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "v6lS0co4GDs",
-        "title": "Holy War | A journey into human conflict",
-        "full_title": "Holy War | A journey into human conflict #darktechno #techno #prjdee",
-        "published": "2025-12-29",
-        "thumb": "https://img.youtube.com/vi/v6lS0co4GDs/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "PiOdkKvMJYc",
-        "title": "Golden Rope Geordie's Fate",
-        "full_title": "Golden Rope Geordie's Fate #shorts #edms",
-        "published": "2025-12-13",
-        "thumb": "https://img.youtube.com/vi/PiOdkKvMJYc/hqdefault.jpg",
+        "id": "t5J5_J1qHq0",
+        "title": "The Space Between (Pure Extended Mix)",
+        "full_title": "The Space Between (Pure Extended Mix) #edm #prjdee",
+        "published": "2026-02-16",
+        "thumb": "https://img.youtube.com/vi/t5J5_J1qHq0/hqdefault.jpg",
         "genre": "RELEASE"
     }
 ];
+
+const catalogVideos = soundCloudCatalog;
