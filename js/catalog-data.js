@@ -1,4 +1,4 @@
-// Automatically generated catalog datasets
+// Automatically generated SoundCloud & YouTube catalog datasets
 const soundCloudCatalog = [
     {
         "id": "5qegZ_NBvqI",
@@ -6,8 +6,8 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/before-the-floor-shakes",
         "yt_url": null,
         "published": "2026-07-28",
-        "thumb": "assets/covers/cover-01.jpg",
-        "genre": "Melodic Techno"
+        "thumb": "assets/covers/sc-cover-01.jpg",
+        "genre": "Dance & EDM"
     },
     {
         "id": "zmMbdhg6nn0",
@@ -15,8 +15,8 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/thesun",
         "yt_url": null,
         "published": "2026-07-16",
-        "thumb": "assets/covers/cover-02.jpg",
-        "genre": "Progressive House"
+        "thumb": "assets/covers/sc-cover-02.jpg",
+        "genre": "Dance & EDM"
     },
     {
         "id": "FVJ_vvxKILo",
@@ -24,8 +24,8 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/grid",
         "yt_url": "https://www.youtube.com/watch?v=FVJ_vvxKILo",
         "published": "2026-06-22",
-        "thumb": "assets/covers/cover-03.jpg",
-        "genre": "Peak Techno"
+        "thumb": "assets/covers/sc-cover-03.jpg",
+        "genre": "Electronic"
     },
     {
         "id": "zmMbdhg6nn0",
@@ -33,8 +33,8 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/dubai",
         "yt_url": "https://www.youtube.com/watch?v=zmMbdhg6nn0",
         "published": "2026-06-15",
-        "thumb": "assets/covers/cover-04.jpg",
-        "genre": "Dance / Afro House"
+        "thumb": "assets/covers/sc-cover-04.jpg",
+        "genre": "Deep House"
     },
     {
         "id": "5qegZ_NBvqI",
@@ -42,8 +42,8 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/honeymoon",
         "yt_url": "https://www.youtube.com/watch?v=5qegZ_NBvqI",
         "published": "2026-06-02",
-        "thumb": "assets/covers/cover-05.jpg",
-        "genre": "Melodic House"
+        "thumb": "assets/covers/sc-cover-05.jpg",
+        "genre": "Deep House"
     },
     {
         "id": "jWlCvzgN_xE",
@@ -51,8 +51,8 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/angeloflight",
         "yt_url": "https://www.youtube.com/watch?v=jWlCvzgN_xE",
         "published": "2026-05-24",
-        "thumb": "assets/covers/cover-06.jpg",
-        "genre": "Progressive House"
+        "thumb": "assets/covers/sc-cover-06.jpg",
+        "genre": "Electronic"
     },
     {
         "id": "NiGySiGy6ik",
@@ -60,7 +60,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/silverlight",
         "yt_url": null,
         "published": "2026-05-05",
-        "thumb": "assets/covers/cover-07.jpg",
+        "thumb": "assets/covers/sc-cover-07.jpg",
         "genre": "Deep House"
     },
     {
@@ -69,17 +69,116 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/c60",
         "yt_url": "https://www.youtube.com/watch?v=NiGySiGy6ik",
         "published": "2026-04-30",
-        "thumb": "assets/covers/cover-08.jpg",
-        "genre": "Urban Pop / Dance"
+        "thumb": "assets/covers/sc-cover-08.jpg",
+        "genre": "Pop"
     },
     {
-        "id": "NQmDbgjFzq4",
+        "id": "5qegZ_NBvqI",
         "title": "The Weight of Light",
         "sc_url": "https://soundcloud.com/project_d2025/weightoflight",
         "yt_url": null,
         "published": "2026-04-23",
-        "thumb": "assets/covers/cover-09.jpg",
-        "genre": "Melodic Techno"
+        "thumb": "assets/covers/sc-cover-09.jpg",
+        "genre": "Electronic"
+    },
+    {
+        "id": "5qegZ_NBvqI",
+        "title": "The Flow of Time",
+        "sc_url": "https://soundcloud.com/project_d2025/theflow",
+        "yt_url": null,
+        "published": "2026-04-15",
+        "thumb": "assets/covers/sc-cover-10.jpg",
+        "genre": "Electronic"
+    },
+    {
+        "id": "5qegZ_NBvqI",
+        "title": "The Pressure",
+        "sc_url": "https://soundcloud.com/project_d2025/pressure",
+        "yt_url": "https://www.youtube.com/watch?v=SVN03CZMGJg",
+        "published": "2026-04-09",
+        "thumb": "assets/covers/sc-cover-11.jpg",
+        "genre": "Electronic"
+    },
+    {
+        "id": "5qegZ_NBvqI",
+        "title": "The Machine's Pulse",
+        "sc_url": "https://soundcloud.com/project_d2025/machinepulse",
+        "yt_url": null,
+        "published": "2026-04-06",
+        "thumb": "assets/covers/sc-cover-12.jpg",
+        "genre": "Electronic"
+    },
+    {
+        "id": "5qegZ_NBvqI",
+        "title": "Do you remember Sài Gòn?",
+        "sc_url": "https://soundcloud.com/project_d2025/doyouremember",
+        "yt_url": null,
+        "published": "2026-03-04",
+        "thumb": "assets/covers/sc-cover-13.jpg",
+        "genre": "Dance & EDM"
+    },
+    {
+        "id": "5qegZ_NBvqI",
+        "title": "Strega (Dorno 2026)",
+        "sc_url": "https://soundcloud.com/project_d2025/strega2026",
+        "yt_url": null,
+        "published": "2026-02-26",
+        "thumb": "assets/covers/sc-cover-14.jpg",
+        "genre": "Electronic"
+    },
+    {
+        "id": "5qegZ_NBvqI",
+        "title": "The space in between (EssentialMix)",
+        "sc_url": "https://soundcloud.com/project_d2025/thespacessential",
+        "yt_url": null,
+        "published": "2026-02-18",
+        "thumb": "assets/covers/sc-cover-15.jpg",
+        "genre": "Dance & EDM"
+    },
+    {
+        "id": "5qegZ_NBvqI",
+        "title": "The Space Between (Pure Extended Mix)",
+        "sc_url": "https://soundcloud.com/project_d2025/6min",
+        "yt_url": "https://www.youtube.com/watch?v=t5J5_J1qHq0",
+        "published": "2026-02-16",
+        "thumb": "assets/covers/sc-cover-16.jpg",
+        "genre": "Peak Techno"
+    },
+    {
+        "id": "5qegZ_NBvqI",
+        "title": "Cuuscritt!",
+        "sc_url": "https://soundcloud.com/project_d2025/cuscritt",
+        "yt_url": null,
+        "published": "2026-02-10",
+        "thumb": "assets/covers/sc-cover-17.jpg",
+        "genre": "Peak Techno"
+    },
+    {
+        "id": "5qegZ_NBvqI",
+        "title": "Dual Disruption - Jesto Tribute 2026",
+        "sc_url": "https://soundcloud.com/project_d2025/dual-disruption",
+        "yt_url": null,
+        "published": "2026-01-24",
+        "thumb": "assets/covers/sc-cover-18.jpg",
+        "genre": "Dance & EDM"
+    },
+    {
+        "id": "5qegZ_NBvqI",
+        "title": "ウルトラ・ディーバ・ダンス (UltraDivaDance)",
+        "sc_url": "https://soundcloud.com/project_d2025/udd",
+        "yt_url": null,
+        "published": "2026-01-22",
+        "thumb": "assets/covers/sc-cover-19.jpg",
+        "genre": "Dance & EDM"
+    },
+    {
+        "id": "5qegZ_NBvqI",
+        "title": "The 2026 March Protocol",
+        "sc_url": "https://soundcloud.com/project_d2025/783hz-the-march-protocol",
+        "yt_url": null,
+        "published": "2026-01-20",
+        "thumb": "assets/covers/sc-cover-20.jpg",
+        "genre": "Peak Techno"
     }
 ];
 
@@ -205,6 +304,3 @@ const youtubeCatalog = [
         "genre": "RELEASE"
     }
 ];
-
-// Legacy alias for compatibility
-const catalogVideos = soundCloudCatalog;
