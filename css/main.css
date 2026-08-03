@@ -1079,7 +1079,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .tracks-expand-wrapper {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
     margin-top: 1.25rem;
 }
 
@@ -1114,6 +1118,32 @@ h1, h2, h3, h4, h5, h6 {
 
 .catalog-expand-btn.active i {
     transform: rotate(180deg);
+}
+
+.catalog-sc-btn {
+    background: rgba(255, 85, 0, 0.1);
+    border: 1px solid #ff5500;
+    color: #ff5500;
+    font-family: var(--font-titles);
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    padding: 0.75rem 1.75rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px rgba(255, 85, 0, 0.2);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    text-decoration: none;
+}
+
+.catalog-sc-btn:hover {
+    background: #ff5500;
+    color: #fff;
+    box-shadow: 0 0 25px rgba(255, 85, 0, 0.6);
+    transform: translateY(-2px);
 }
 
 .track-card {
