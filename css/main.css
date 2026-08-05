@@ -2400,3 +2400,195 @@ h1, h2, h3, h4, h5, h6 {
     outline: 2px solid var(--cyber-cyan);
     border-radius: 4px;
 }
+
+/* --------------------------------------------------
+   New Release Spotlight Pop-up Modal (Glassmorphic & Cyber Neon)
+-------------------------------------------------- */
+.spotlight-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(5, 5, 10, 0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+    padding: 1.5rem;
+}
+
+.spotlight-modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.spotlight-modal-card {
+    background: linear-gradient(145deg, rgba(20, 20, 32, 0.95), rgba(10, 10, 18, 0.98));
+    border: 1px solid rgba(0, 243, 255, 0.4);
+    box-shadow: 0 0 50px rgba(0, 243, 255, 0.25), 0 0 80px rgba(255, 85, 0, 0.15);
+    border-radius: 16px;
+    padding: 2.5rem 2rem;
+    max-width: 440px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    transform: scale(0.85) translateY(20px);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.spotlight-modal-overlay.active .spotlight-modal-card {
+    transform: scale(1) translateY(0);
+}
+
+.spotlight-close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1.2rem;
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-size: 1.8rem;
+    cursor: pointer;
+    line-height: 1;
+    transition: color 0.2s ease;
+}
+
+.spotlight-close-btn:hover {
+    color: #fff;
+}
+
+.spotlight-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: rgba(255, 85, 0, 0.15);
+    border: 1px solid #ff5500;
+    color: #ff5500;
+    font-family: var(--font-titles);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    padding: 0.35rem 0.85rem;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+    animation: pulseBadgeGlow 2s infinite alternate;
+}
+
+@keyframes pulseBadgeGlow {
+    0% { box-shadow: 0 0 10px rgba(255, 85, 0, 0.3); }
+    100% { box-shadow: 0 0 25px rgba(255, 85, 0, 0.7); }
+}
+
+.spotlight-cover-box {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 1.5rem;
+}
+
+.spotlight-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.spotlight-disc-glow {
+    position: absolute;
+    bottom: -8px;
+    right: -8px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--cyber-cyan);
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    box-shadow: 0 0 15px var(--cyber-cyan-glow);
+    animation: spinDisc 8s linear infinite;
+}
+
+@keyframes spinDisc {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.spotlight-title {
+    font-size: 1.6rem;
+    font-weight: 900;
+    font-family: var(--font-titles);
+    background: linear-gradient(135deg, #ffffff 0%, #00f3ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.4rem;
+}
+
+.spotlight-meta {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 1.8rem;
+}
+
+.spotlight-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.spotlight-btn-sc {
+    background: #ff5500;
+    color: #fff;
+    font-family: var(--font-titles);
+    font-weight: 800;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    padding: 0.85rem 1.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    box-shadow: 0 0 20px rgba(255, 85, 0, 0.4);
+    transition: all 0.3s ease;
+}
+
+.spotlight-btn-sc:hover {
+    box-shadow: 0 0 35px rgba(255, 85, 0, 0.8);
+    transform: translateY(-2px);
+}
+
+.spotlight-btn-play {
+    background: rgba(0, 243, 255, 0.1);
+    border: 1px solid var(--cyber-cyan);
+    color: var(--cyber-cyan);
+    font-family: var(--font-titles);
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    padding: 0.85rem 1.5rem;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    transition: all 0.3s ease;
+}
+
+.spotlight-btn-play:hover {
+    background: var(--cyber-cyan);
+    color: #000;
+    box-shadow: 0 0 25px rgba(0, 243, 255, 0.5);
+    transform: translateY(-2px);
+}
