@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initBioAccordion(); // Expandable Bio Drawer
     initContactForms();
     initCookieBanner();
+    initSpotlightModal(); // New Release Pop-up Modal
 });
 
 /* --------------------------------------------------
@@ -962,4 +963,60 @@ function initBioAccordion() {
             bioContent.style.maxHeight = bioContent.scrollHeight + 'px';
         }
     });
+}
+
+/* --------------------------------------------------
+   New Release Spotlight Pop-up Modal
+-------------------------------------------------- */
+function initSpotlightModal() {
+    const modal = document.getElementById('spotlight-modal');
+    const closeBtn = document.getElementById('spotlight-close');
+    const playSiteBtn = document.getElementById('spotlight-play-site');
+    
+    if (!modal) return;
+    
+    // Check if session storage already dismissed
+    if (sessionStorage.getItem('prj_dee_spotlight_dismissed') === 'true') {
+        return;
+    }
+    
+    // Populate latest track info automatically from soundCloudCatalog[0]
+    if (typeof soundCloudCatalog !== 'undefined' && soundCloudCatalog.length > 0) {
+        const latest = soundCloudCatalog[0];
+        const titleEl = document.getElementById('spotlight-title');
+        const coverEl = document.getElementById('spotlight-cover-img');
+        const scLinkEl = document.getElementById('spotlight-sc-link');
+        const genreEl = document.getElementById('spotlight-genre');
+        const dateEl = document.getElementById('spotlight-date');
+        
+        if (titleEl) titleEl.textContent = latest.title;
+        if (coverEl && latest.thumb) coverEl.src = latest.thumb;
+        if (scLinkEl && latest.sc_url) scLinkEl.href = latest.sc_url;
+        if (genreEl) genreEl.textContent = latest.genre || 'Melodic Techno';
+        if (dateEl) dateEl.textContent = latest.published || '';
+    }
+    
+    // Show modal after 1.2s delay for maximum wow factor
+    setTimeout(() => {
+        modal.classList.add('active');
+    }, 1200);
+    
+    const closeModal = () => {
+        modal.classList.remove('active');
+        sessionStorage.setItem('prj_dee_spotlight_dismissed', 'true');
+    };
+    
+    if (closeBtn) closeBtn.addEventListener('click', closeModal);
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal();
+    });
+    
+    if (playSiteBtn) {
+        playSiteBtn.addEventListener('click', () => {
+            closeModal();
+            if (typeof window.loadTrackIntoWaveform === 'function' && typeof soundCloudCatalog !== 'undefined') {
+                window.loadTrackIntoWaveform(soundCloudCatalog[0], 0);
+            }
+        });
+    }
 }
