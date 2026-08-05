@@ -189,7 +189,7 @@ const youtubeCatalog = [
         "full_title": "Honey and the Tide #deephouse #melodictechno #ethnoedm #organichouse  #anjunadeep #afterlife",
         "published": "2026-07-31",
         "thumb": "https://img.youtube.com/vi/5qegZ_NBvqI/hqdefault.jpg",
-        "genre": "OFFICIAL"
+        "genre": "RELEASE"
     },
     {
         "id": "zmMbdhg6nn0",
@@ -224,19 +224,123 @@ const youtubeCatalog = [
         "genre": "RELEASE"
     },
     {
-        "id": "SVN03CZMGJg",
-        "title": "The Pressure",
-        "full_title": "The Pressure #shorts",
+        "id": "NQmDbgjFzq4",
+        "title": "ThePressure",
+        "full_title": "ThePressure #edm #edmmusic #electronic #prjdee",
         "published": "2026-04-25",
-        "thumb": "https://img.youtube.com/vi/SVN03CZMGJg/hqdefault.jpg",
+        "thumb": "https://img.youtube.com/vi/NQmDbgjFzq4/hqdefault.jpg",
         "genre": "RELEASE"
     },
     {
-        "id": "t5J5_J1qHq0",
-        "title": "The Space Between (Pure Extended Mix)",
-        "full_title": "The Space Between (Pure Extended Mix) #edm #prjdee",
-        "published": "2026-02-16",
-        "thumb": "https://img.youtube.com/vi/t5J5_J1qHq0/hqdefault.jpg",
+        "id": "0h2rGTagQCk",
+        "title": "The Pulse!",
+        "full_title": "The Pulse!",
+        "published": "2026-04-14",
+        "thumb": "https://img.youtube.com/vi/0h2rGTagQCk/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "YIBnVnTjnv8",
+        "title": "Sakura Drift",
+        "full_title": "Sakura Drift",
+        "published": "2026-03-31",
+        "thumb": "https://img.youtube.com/vi/YIBnVnTjnv8/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "wf1xRyLs_Y4",
+        "title": "The Space in Between (Pure Extended)",
+        "full_title": "The Space in Between (Pure Extended)",
+        "published": "2026-02-19",
+        "thumb": "https://img.youtube.com/vi/wf1xRyLs_Y4/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "4vvo0RPXMYY",
+        "title": "ウルトラ・ディーバ・ダンス (UltraDivaDance)",
+        "full_title": "ウルトラ・ディーバ・ダンス (UltraDivaDance)",
+        "published": "2026-01-28",
+        "thumb": "https://img.youtube.com/vi/4vvo0RPXMYY/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "3pgLo0GyYzc",
+        "title": "Ambarabà",
+        "full_title": "Ambarabà",
+        "published": "2026-01-09",
+        "thumb": "https://img.youtube.com/vi/3pgLo0GyYzc/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "pJOpwextQJw",
+        "title": "New Year&",
+        "full_title": "New Year&#39;s Ave #newyear2026 #progressivehouse #edm #capodanno #prjdee",
+        "published": "2025-12-31",
+        "thumb": "https://img.youtube.com/vi/pJOpwextQJw/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "v6lS0co4GDs",
+        "title": "Holy War | A journey into human conflict",
+        "full_title": "Holy War | A journey into human conflict #darktechno #techno #prjdee",
+        "published": "2025-12-28",
+        "thumb": "https://img.youtube.com/vi/v6lS0co4GDs/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "TA9p8fcwROA",
+        "title": "Golden Rope | Geordie&",
+        "full_title": "Golden Rope | Geordie&#39;s Fate Final",
+        "published": "2025-12-12",
+        "thumb": "https://img.youtube.com/vi/TA9p8fcwROA/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "Bx6hLvbMmEw",
+        "title": "Hollow Earth",
+        "full_title": "Hollow Earth",
+        "published": "2025-11-29",
+        "thumb": "https://img.youtube.com/vi/Bx6hLvbMmEw/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "Qyap0GgI6iE",
+        "title": "Gravity of Silence",
+        "full_title": "Gravity of Silence",
+        "published": "2025-11-24",
+        "thumb": "https://img.youtube.com/vi/Qyap0GgI6iE/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "LBSiSHseW38",
+        "title": "The Weekend!",
+        "full_title": "The Weekend! #edm #electronicmusic #dancemusic #futurebass #progressivehouse  #newmusic #producer",
+        "published": "2025-11-02",
+        "thumb": "https://img.youtube.com/vi/LBSiSHseW38/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "IDD1OX8CoM0",
+        "title": "3I-Atlas",
+        "full_title": "3I-Atlas #edms #trance #trancemusic #edm2025 #3iatlas",
+        "published": "2025-10-25",
+        "thumb": "https://img.youtube.com/vi/IDD1OX8CoM0/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "Ki4QUZPafNA",
+        "title": "The Algorithm&",
+        "full_title": "The Algorithm&#39;s Gaze #edm  #trance  #techno  #cyberpunk #electronicmusic  #prjdee #thealgorithm",
+        "published": "2025-10-17",
+        "thumb": "https://img.youtube.com/vi/Ki4QUZPafNA/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "OaIA9eg0f5Q",
+        "title": "In a night of Magic",
+        "full_title": "In a night of Magic #90s #italodisco #dance #anni90 #prjdee",
+        "published": "2025-10-12",
+        "thumb": "https://img.youtube.com/vi/OaIA9eg0f5Q/hqdefault.jpg",
         "genre": "RELEASE"
     }
 ];
