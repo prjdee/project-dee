@@ -102,7 +102,22 @@
             <div class="music-layout">
                 <!-- Custom Waveform Master Deck Player -->
                 <div class="player-container">
-                    <div class="custom-waveform-deck" id="waveform-master-deck">
+                    <!-- Native SoundCloud Official Audio Deck -->
+                    <div class="sc-embed-deck" id="sc-embed-deck">
+                        <div class="sc-deck-header">
+                            <span class="sc-badge-pulse"><i class="fa-brands fa-soundcloud"></i> SOUNDCLOUD OFFICIAL PLAYER</span>
+                        </div>
+                        <iframe id="sc-widget-iframe" 
+                            width="100%" 
+                            height="166" 
+                            scrolling="no" 
+                            frameborder="no" 
+                            allow="autoplay" 
+                            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/project_d2025/threshold&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false">
+                        </iframe>
+                    </div>
+
+                    <div class="custom-waveform-deck" id="waveform-master-deck" style="display: none;">
                         <!-- Top Header Info -->
                         <div class="deck-header">
                             <div class="deck-thumb-box">
