@@ -44,8 +44,6 @@ def get_track_og_image(sc_url):
 
 def download_cover_image(img_url, filename):
     local_path = os.path.join(COVERS_DIR, filename)
-    if os.path.exists(local_path):
-        return
     try:
         req = urllib.request.Request(img_url, headers=headers)
         with urllib.request.urlopen(req) as resp:
@@ -79,6 +77,7 @@ def main():
     for idx, track in enumerate(collection[:20]):
         title = track.get('title')
         sc_url = track.get('permalink_url')
+        permalink = track.get('permalink') or f"track-{idx+1}"
         published = track.get('created_at', '').split('T')[0]
         genre = track.get('genre') or 'Official Track'
         
@@ -89,16 +88,22 @@ def main():
         elif not genre or genre == 'Official Track':
             genre = 'EDM / Dance'
 
-        filename = f"sc-cover-{idx+1:02d}.jpg"
-        img_url = get_track_og_image(sc_url)
+        filename = f"sc-{permalink}.jpg"
+        artwork_url = track.get('artwork_url')
+        img_url = None
+        if artwork_url:
+            img_url = artwork_url.replace('-large', '-t500x500').replace('-original', '-t500x500')
+        else:
+            img_url = get_track_og_image(sc_url)
+            
         if img_url:
             download_cover_image(img_url, filename)
         
         thumb_url = f"https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/{filename}"
         yt_url = yt_mapping.get(title, None)
 
-        # Assign stream ID for waveform engine
-        yt_stream_id = "5qegZ_NBvqI"
+        # Assign exact stream ID for waveform engine
+        yt_stream_id = None
         if "Dubai" in title or "Catch" in title:
             yt_stream_id = "zmMbdhg6nn0"
         elif "Grid" in title:
