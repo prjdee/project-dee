@@ -2,11 +2,20 @@
 const soundCloudCatalog = [
     {
         "id": "5qegZ_NBvqI",
+        "title": "Threshold",
+        "sc_url": "https://soundcloud.com/project_d2025/threshold",
+        "yt_url": null,
+        "published": "2026-08-04",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-01.jpg",
+        "genre": "Melodic Techno"
+    },
+    {
+        "id": "5qegZ_NBvqI",
         "title": "Before The Floor Shakes",
         "sc_url": "https://soundcloud.com/project_d2025/before-the-floor-shakes",
         "yt_url": null,
         "published": "2026-07-28",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-01.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-02.jpg",
         "genre": "Dance & EDM"
     },
     {
@@ -15,7 +24,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/thesun",
         "yt_url": null,
         "published": "2026-07-16",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-02.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-03.jpg",
         "genre": "Dance & EDM"
     },
     {
@@ -24,7 +33,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/grid",
         "yt_url": "https://www.youtube.com/watch?v=FVJ_vvxKILo",
         "published": "2026-06-22",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-03.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-04.jpg",
         "genre": "Electronic"
     },
     {
@@ -33,7 +42,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/dubai",
         "yt_url": "https://www.youtube.com/watch?v=zmMbdhg6nn0",
         "published": "2026-06-15",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-04.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-05.jpg",
         "genre": "Deep House"
     },
     {
@@ -42,7 +51,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/honeymoon",
         "yt_url": "https://www.youtube.com/watch?v=5qegZ_NBvqI",
         "published": "2026-06-02",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-05.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-06.jpg",
         "genre": "Deep House"
     },
     {
@@ -51,7 +60,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/angeloflight",
         "yt_url": "https://www.youtube.com/watch?v=jWlCvzgN_xE",
         "published": "2026-05-24",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-06.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-07.jpg",
         "genre": "Electronic"
     },
     {
@@ -60,7 +69,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/silverlight",
         "yt_url": null,
         "published": "2026-05-05",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-07.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-08.jpg",
         "genre": "Deep House"
     },
     {
@@ -69,7 +78,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/c60",
         "yt_url": "https://www.youtube.com/watch?v=NiGySiGy6ik",
         "published": "2026-04-30",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-08.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-09.jpg",
         "genre": "Pop"
     },
     {
@@ -78,7 +87,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/weightoflight",
         "yt_url": null,
         "published": "2026-04-23",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-09.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-10.jpg",
         "genre": "Electronic"
     },
     {
@@ -87,7 +96,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/theflow",
         "yt_url": null,
         "published": "2026-04-15",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-10.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-11.jpg",
         "genre": "Electronic"
     },
     {
@@ -96,7 +105,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/pressure",
         "yt_url": "https://www.youtube.com/watch?v=SVN03CZMGJg",
         "published": "2026-04-09",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-11.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-12.jpg",
         "genre": "Electronic"
     },
     {
@@ -105,7 +114,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/machinepulse",
         "yt_url": null,
         "published": "2026-04-06",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-12.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-13.jpg",
         "genre": "Electronic"
     },
     {
@@ -114,7 +123,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/doyouremember",
         "yt_url": null,
         "published": "2026-03-04",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-13.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-14.jpg",
         "genre": "Dance & EDM"
     },
     {
@@ -123,7 +132,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/strega2026",
         "yt_url": null,
         "published": "2026-02-26",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-14.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-15.jpg",
         "genre": "Electronic"
     },
     {
@@ -132,7 +141,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/thespacessential",
         "yt_url": null,
         "published": "2026-02-18",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-15.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-16.jpg",
         "genre": "Dance & EDM"
     },
     {
@@ -141,7 +150,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/6min",
         "yt_url": "https://www.youtube.com/watch?v=t5J5_J1qHq0",
         "published": "2026-02-16",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-16.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-17.jpg",
         "genre": "Peak Techno"
     },
     {
@@ -150,7 +159,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/cuscritt",
         "yt_url": null,
         "published": "2026-02-10",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-17.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-18.jpg",
         "genre": "Peak Techno"
     },
     {
@@ -159,7 +168,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/dual-disruption",
         "yt_url": null,
         "published": "2026-01-24",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-18.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-19.jpg",
         "genre": "Dance & EDM"
     },
     {
@@ -168,17 +177,8 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/udd",
         "yt_url": null,
         "published": "2026-01-22",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-19.jpg",
-        "genre": "Dance & EDM"
-    },
-    {
-        "id": "5qegZ_NBvqI",
-        "title": "The 2026 March Protocol",
-        "sc_url": "https://soundcloud.com/project_d2025/783hz-the-march-protocol",
-        "yt_url": null,
-        "published": "2026-01-20",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-20.jpg",
-        "genre": "Peak Techno"
+        "genre": "Dance & EDM"
     }
 ];
 
@@ -189,7 +189,7 @@ const youtubeCatalog = [
         "full_title": "Honey and the Tide #deephouse #melodictechno #ethnoedm #organichouse  #anjunadeep #afterlife",
         "published": "2026-07-31",
         "thumb": "https://img.youtube.com/vi/5qegZ_NBvqI/hqdefault.jpg",
-        "genre": "RELEASE"
+        "genre": "OFFICIAL"
     },
     {
         "id": "zmMbdhg6nn0",
@@ -224,125 +224,21 @@ const youtubeCatalog = [
         "genre": "RELEASE"
     },
     {
-        "id": "NQmDbgjFzq4",
-        "title": "ThePressure",
-        "full_title": "ThePressure #edm #edmmusic #electronic #prjdee",
+        "id": "SVN03CZMGJg",
+        "title": "The Pressure",
+        "full_title": "The Pressure #shorts",
         "published": "2026-04-25",
-        "thumb": "https://img.youtube.com/vi/NQmDbgjFzq4/hqdefault.jpg",
+        "thumb": "https://img.youtube.com/vi/SVN03CZMGJg/hqdefault.jpg",
         "genre": "RELEASE"
     },
     {
-        "id": "0h2rGTagQCk",
-        "title": "The Pulse!",
-        "full_title": "The Pulse!",
-        "published": "2026-04-14",
-        "thumb": "https://img.youtube.com/vi/0h2rGTagQCk/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "YIBnVnTjnv8",
-        "title": "Sakura Drift",
-        "full_title": "Sakura Drift",
-        "published": "2026-03-31",
-        "thumb": "https://img.youtube.com/vi/YIBnVnTjnv8/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "wf1xRyLs_Y4",
-        "title": "The Space in Between (Pure Extended)",
-        "full_title": "The Space in Between (Pure Extended)",
-        "published": "2026-02-19",
-        "thumb": "https://img.youtube.com/vi/wf1xRyLs_Y4/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "4vvo0RPXMYY",
-        "title": "ウルトラ・ディーバ・ダンス (UltraDivaDance)",
-        "full_title": "ウルトラ・ディーバ・ダンス (UltraDivaDance)",
-        "published": "2026-01-28",
-        "thumb": "https://img.youtube.com/vi/4vvo0RPXMYY/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "3pgLo0GyYzc",
-        "title": "Ambarabà",
-        "full_title": "Ambarabà",
-        "published": "2026-01-09",
-        "thumb": "https://img.youtube.com/vi/3pgLo0GyYzc/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "pJOpwextQJw",
-        "title": "New Year&",
-        "full_title": "New Year&#39;s Ave #newyear2026 #progressivehouse #edm #capodanno #prjdee",
-        "published": "2025-12-31",
-        "thumb": "https://img.youtube.com/vi/pJOpwextQJw/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "v6lS0co4GDs",
-        "title": "Holy War | A journey into human conflict",
-        "full_title": "Holy War | A journey into human conflict #darktechno #techno #prjdee",
-        "published": "2025-12-28",
-        "thumb": "https://img.youtube.com/vi/v6lS0co4GDs/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "TA9p8fcwROA",
-        "title": "Golden Rope | Geordie&",
-        "full_title": "Golden Rope | Geordie&#39;s Fate Final",
-        "published": "2025-12-12",
-        "thumb": "https://img.youtube.com/vi/TA9p8fcwROA/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "Bx6hLvbMmEw",
-        "title": "Hollow Earth",
-        "full_title": "Hollow Earth",
-        "published": "2025-11-29",
-        "thumb": "https://img.youtube.com/vi/Bx6hLvbMmEw/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "Qyap0GgI6iE",
-        "title": "Gravity of Silence",
-        "full_title": "Gravity of Silence",
-        "published": "2025-11-24",
-        "thumb": "https://img.youtube.com/vi/Qyap0GgI6iE/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "LBSiSHseW38",
-        "title": "The Weekend!",
-        "full_title": "The Weekend! #edm #electronicmusic #dancemusic #futurebass #progressivehouse  #newmusic #producer",
-        "published": "2025-11-02",
-        "thumb": "https://img.youtube.com/vi/LBSiSHseW38/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "IDD1OX8CoM0",
-        "title": "3I-Atlas",
-        "full_title": "3I-Atlas #edms #trance #trancemusic #edm2025 #3iatlas",
-        "published": "2025-10-25",
-        "thumb": "https://img.youtube.com/vi/IDD1OX8CoM0/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "Ki4QUZPafNA",
-        "title": "The Algorithm&",
-        "full_title": "The Algorithm&#39;s Gaze #edm  #trance  #techno  #cyberpunk #electronicmusic  #prjdee #thealgorithm",
-        "published": "2025-10-17",
-        "thumb": "https://img.youtube.com/vi/Ki4QUZPafNA/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "OaIA9eg0f5Q",
-        "title": "In a night of Magic",
-        "full_title": "In a night of Magic #90s #italodisco #dance #anni90 #prjdee",
-        "published": "2025-10-12",
-        "thumb": "https://img.youtube.com/vi/OaIA9eg0f5Q/hqdefault.jpg",
+        "id": "t5J5_J1qHq0",
+        "title": "The Space Between (Pure Extended Mix)",
+        "full_title": "The Space Between (Pure Extended Mix) #edm #prjdee",
+        "published": "2026-02-16",
+        "thumb": "https://img.youtube.com/vi/t5J5_J1qHq0/hqdefault.jpg",
         "genre": "RELEASE"
     }
 ];
 
-const catalogVideos = youtubeCatalog;
+const catalogVideos = soundCloudCatalog;
