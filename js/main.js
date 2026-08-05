@@ -990,12 +990,14 @@ function initBioAccordion() {
 }
 
 /* --------------------------------------------------
-   New Release Spotlight Pop-up Modal
+   New Release Spotlight Pop-up Modal (With 3s Auto-Close Timer)
 -------------------------------------------------- */
 function initSpotlightModal() {
     const modal = document.getElementById('spotlight-modal');
     const closeBtn = document.getElementById('spotlight-close');
     const playSiteBtn = document.getElementById('spotlight-play-site');
+    const scLinkEl = document.getElementById('spotlight-sc-link');
+    const timerBar = document.getElementById('spotlight-timer-bar');
     
     if (!modal) return;
     
@@ -1009,7 +1011,6 @@ function initSpotlightModal() {
         const latest = soundCloudCatalog[0];
         const titleEl = document.getElementById('spotlight-title');
         const coverEl = document.getElementById('spotlight-cover-img');
-        const scLinkEl = document.getElementById('spotlight-sc-link');
         const genreEl = document.getElementById('spotlight-genre');
         const dateEl = document.getElementById('spotlight-date');
         
@@ -1020,17 +1021,39 @@ function initSpotlightModal() {
         if (dateEl) dateEl.textContent = latest.published || '';
     }
     
-    // Show modal after 1.2s delay for maximum wow factor
-    setTimeout(() => {
-        modal.classList.add('active');
-    }, 1200);
-    
+    let autoCloseTimer = null;
+
     const closeModal = () => {
+        if (autoCloseTimer) clearTimeout(autoCloseTimer);
         modal.classList.remove('active');
         sessionStorage.setItem('prj_dee_spotlight_dismissed', 'true');
     };
+
+    // Show modal after 1.2s delay for maximum impact
+    setTimeout(() => {
+        modal.classList.add('active');
+        
+        // Start 3-second visual progress bar animation
+        if (timerBar) {
+            setTimeout(() => {
+                timerBar.style.width = '100%';
+            }, 50);
+        }
+
+        // Start 3-second auto-close timer
+        autoCloseTimer = setTimeout(() => {
+            closeModal();
+        }, 3050);
+    }, 1200);
+
+    if (closeBtn) {
+        closeBtn.addEventListener('click', closeModal);
+    }
     
-    if (closeBtn) closeBtn.addEventListener('click', closeModal);
+    if (scLinkEl) {
+        scLinkEl.addEventListener('click', closeModal);
+    }
+
     modal.addEventListener('click', (e) => {
         if (e.target === modal) closeModal();
     });
