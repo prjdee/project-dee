@@ -447,6 +447,10 @@ function initCustomWaveformPlayer() {
         const scLink = document.getElementById('wf-link-sc');
         const ytLink = document.getElementById('wf-link-yt');
         const genreBadge = document.getElementById('wf-genre-badge');
+        const customDeck = document.getElementById('waveform-master-deck');
+        const scDeck = document.getElementById('sc-embed-deck');
+        const scIframe = document.getElementById('sc-widget-iframe');
+        const ytAudioIframe = document.getElementById('waveform-yt-audio');
 
         if (titleEl) titleEl.textContent = trackData.title;
         if (coverEl && trackData.thumb) coverEl.src = trackData.thumb;
@@ -471,21 +475,33 @@ function initCustomWaveformPlayer() {
         
         if (genreBadge) genreBadge.textContent = trackData.genre || 'Official Release';
 
-        // Load exact audio source: SoundCloud widget API for SoundCloud tracks, YouTube embed for YouTube tracks
-        if (ytAudioIframe) {
-            if (trackData.sc_url) {
-                const encodedUrl = encodeURIComponent(trackData.sc_url);
-                ytAudioIframe.src = `https://w.soundcloud.com/player/?url=${encodedUrl}&color=%23ff5500&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false`;
-            } else if (trackData.id) {
+        // Check if this is a SoundCloud track or YouTube track
+        if (trackData.sc_url) {
+            // Use Official SoundCloud Player Deck for 100% true audio & volume
+            if (customDeck) customDeck.style.display = 'none';
+            if (scDeck) {
+                scDeck.style.display = 'block';
+                if (scIframe) {
+                    const encodedUrl = encodeURIComponent(trackData.sc_url);
+                    scIframe.src = `https://w.soundcloud.com/player/?url=${encodedUrl}&color=%23ff5500&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false`;
+                }
+            }
+        } else if (trackData.id) {
+            // Use Master Custom Waveform Deck with YouTube Engine
+            if (scDeck) scDeck.style.display = 'none';
+            if (customDeck) customDeck.style.display = 'block';
+            if (ytAudioIframe) {
                 ytAudioIframe.src = `https://www.youtube-nocookie.com/embed/${trackData.id}?enablejsapi=1&autoplay=1`;
             }
+            progressPercent = 0;
+            updateWaveformDisplay();
+            togglePlay(true);
         }
 
-        progressPercent = 0;
-        updateWaveformDisplay();
-        togglePlay(true);
-
-        deck.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        const musicSection = document.getElementById('music');
+        if (musicSection) {
+            musicSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
     };
 
     // Prev / Next Buttons
