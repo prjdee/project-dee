@@ -471,9 +471,14 @@ function initCustomWaveformPlayer() {
         
         if (genreBadge) genreBadge.textContent = trackData.genre || 'Official Release';
 
-        // Load Project Dee's exact video ID into the audio engine
-        if (ytAudioIframe && trackData.id) {
-            ytAudioIframe.src = `https://www.youtube-nocookie.com/embed/${trackData.id}?enablejsapi=1&autoplay=1`;
+        // Load exact audio source: SoundCloud widget API for SoundCloud tracks, YouTube embed for YouTube tracks
+        if (ytAudioIframe) {
+            if (trackData.sc_url) {
+                const encodedUrl = encodeURIComponent(trackData.sc_url);
+                ytAudioIframe.src = `https://w.soundcloud.com/player/?url=${encodedUrl}&color=%23ff5500&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false`;
+            } else if (trackData.id) {
+                ytAudioIframe.src = `https://www.youtube-nocookie.com/embed/${trackData.id}?enablejsapi=1&autoplay=1`;
+            }
         }
 
         progressPercent = 0;
@@ -486,25 +491,27 @@ function initCustomWaveformPlayer() {
     // Prev / Next Buttons
     if (btnPrev) {
         btnPrev.addEventListener('click', () => {
-            if (typeof catalogVideos !== 'undefined' && catalogVideos.length > 0) {
-                activeTrackIndex = (activeTrackIndex - 1 + catalogVideos.length) % catalogVideos.length;
-                window.loadTrackIntoWaveform(catalogVideos[activeTrackIndex], activeTrackIndex);
+            const trackList = (typeof soundCloudCatalog !== 'undefined' && soundCloudCatalog.length > 0) ? soundCloudCatalog : catalogVideos;
+            if (trackList && trackList.length > 0) {
+                activeTrackIndex = (activeTrackIndex - 1 + trackList.length) % trackList.length;
+                window.loadTrackIntoWaveform(trackList[activeTrackIndex], activeTrackIndex);
             }
         });
     }
 
     if (btnNext) {
         btnNext.addEventListener('click', () => {
-            if (typeof catalogVideos !== 'undefined' && catalogVideos.length > 0) {
-                activeTrackIndex = (activeTrackIndex + 1) % catalogVideos.length;
-                window.loadTrackIntoWaveform(catalogVideos[activeTrackIndex], activeTrackIndex);
+            const trackList = (typeof soundCloudCatalog !== 'undefined' && soundCloudCatalog.length > 0) ? soundCloudCatalog : catalogVideos;
+            if (trackList && trackList.length > 0) {
+                activeTrackIndex = (activeTrackIndex + 1) % trackList.length;
+                window.loadTrackIntoWaveform(trackList[activeTrackIndex], activeTrackIndex);
             }
         });
     }
 
-    // Preload latest track from SoundCloud / YouTube catalog automatically at startup
-    if (typeof catalogVideos !== 'undefined' && catalogVideos.length > 0) {
-        const latestTrack = catalogVideos[0];
+    // Preload latest track from SoundCloud catalog automatically at startup
+    if (typeof soundCloudCatalog !== 'undefined' && soundCloudCatalog.length > 0) {
+        const latestTrack = soundCloudCatalog[0];
         activeTrackIndex = 0;
         const titleEl = document.getElementById('wf-track-title');
         const coverEl = document.getElementById('wf-cover-img');
@@ -515,12 +522,13 @@ function initCustomWaveformPlayer() {
         if (titleEl) titleEl.textContent = latestTrack.title;
         if (coverEl && latestTrack.thumb) coverEl.src = latestTrack.thumb;
         if (scLink) scLink.href = latestTrack.sc_url || 'https://soundcloud.com/project_d2025';
-        if (ytLink && latestTrack.id) ytLink.href = `https://www.youtube.com/watch?v=${latestTrack.id}`;
+        if (ytLink && latestTrack.yt_url) ytLink.href = latestTrack.yt_url;
         if (genreBadge) genreBadge.textContent = latestTrack.genre || 'Official Release';
 
-        // Preload video stream into audio engine without forced autoplay
-        if (ytAudioIframe && latestTrack.id) {
-            ytAudioIframe.src = `https://www.youtube-nocookie.com/embed/${latestTrack.id}?enablejsapi=1`;
+        // Preload track stream into audio engine without forced autoplay
+        if (ytAudioIframe && latestTrack.sc_url) {
+            const encodedUrl = encodeURIComponent(latestTrack.sc_url);
+            ytAudioIframe.src = `https://w.soundcloud.com/player/?url=${encodedUrl}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false`;
         }
     }
 
