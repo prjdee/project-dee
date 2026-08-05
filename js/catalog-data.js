@@ -15,7 +15,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/before-the-floor-shakes",
         "yt_url": null,
         "published": "2026-07-28",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-before-the-floor-shakes.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-01.jpg",
         "genre": "Dance & EDM"
     },
     {
@@ -24,7 +24,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/thesun",
         "yt_url": null,
         "published": "2026-07-16",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-thesun.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-02.jpg",
         "genre": "Dance & EDM"
     },
     {
@@ -33,7 +33,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/grid",
         "yt_url": "https://www.youtube.com/watch?v=FVJ_vvxKILo",
         "published": "2026-06-22",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-grid.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-03.jpg",
         "genre": "Electronic"
     },
     {
@@ -42,7 +42,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/dubai",
         "yt_url": "https://www.youtube.com/watch?v=zmMbdhg6nn0",
         "published": "2026-06-15",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-dubai.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-04.jpg",
         "genre": "Deep House"
     },
     {
@@ -51,7 +51,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/honeymoon",
         "yt_url": "https://www.youtube.com/watch?v=5qegZ_NBvqI",
         "published": "2026-06-02",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-honeymoon.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-05.jpg",
         "genre": "Deep House"
     },
     {
@@ -60,7 +60,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/angeloflight",
         "yt_url": "https://www.youtube.com/watch?v=jWlCvzgN_xE",
         "published": "2026-05-24",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-angeloflight.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-06.jpg",
         "genre": "Electronic"
     },
     {
@@ -69,7 +69,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/silverlight",
         "yt_url": null,
         "published": "2026-05-05",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-silverlight.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-07.jpg",
         "genre": "Deep House"
     },
     {
@@ -78,7 +78,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/c60",
         "yt_url": "https://www.youtube.com/watch?v=NiGySiGy6ik",
         "published": "2026-04-30",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-c60.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-08.jpg",
         "genre": "Pop"
     },
     {
@@ -87,7 +87,7 @@ const soundCloudCatalog = [
         "sc_url": "https://soundcloud.com/project_d2025/weightoflight",
         "yt_url": null,
         "published": "2026-04-23",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-weightoflight.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-09.jpg",
         "genre": "Electronic"
     },
     {
@@ -119,7 +119,7 @@ const soundCloudCatalog = [
     },
     {
         "id": null,
-        "title": "Do you remember Sài Gòn?",
+        "title": "Do you remember S\u00e0i G\u00f2n?",
         "sc_url": "https://soundcloud.com/project_d2025/doyouremember",
         "yt_url": null,
         "published": "2026-03-04",
@@ -173,7 +173,7 @@ const soundCloudCatalog = [
     },
     {
         "id": null,
-        "title": "ウルトラ・ディーバ・ダンス (UltraDivaDance)",
+        "title": "\u30a6\u30eb\u30c8\u30e9\u30fb\u30c7\u30a3\u30fc\u30d0\u30fb\u30c0\u30f3\u30b9 (UltraDivaDance)",
         "sc_url": "https://soundcloud.com/project_d2025/udd",
         "yt_url": null,
         "published": "2026-01-22",
