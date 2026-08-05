@@ -2592,3 +2592,41 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 25px rgba(0, 243, 255, 0.5);
     transform: translateY(-2px);
 }
+
+/* Native SoundCloud Player Deck Frame Styling */
+.sc-embed-deck {
+    background: linear-gradient(145deg, rgba(16, 16, 26, 0.95), rgba(8, 8, 14, 0.98));
+    border: 1px solid rgba(255, 85, 0, 0.4);
+    box-shadow: 0 0 35px rgba(255, 85, 0, 0.25), 0 0 50px rgba(0, 243, 255, 0.1);
+    border-radius: 12px;
+    padding: 1.25rem;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.sc-deck-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.85rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 85, 0, 0.2);
+}
+
+.sc-badge-pulse {
+    font-family: var(--font-titles);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: #ff5500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+#sc-widget-iframe {
+    border: none;
+    border-radius: 8px;
+    background: #000;
+}
