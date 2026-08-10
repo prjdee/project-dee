@@ -35,6 +35,7 @@ const translations = {
         spotlight_btn_play: "RIPRODUCI SUL SITO",
         radio_btn_text: "PRJDEE RADIO STATION 24/7",
         header_radio_pill: "RADIO 24/7",
+        yt_radio_btn_text: "PRJDEE YOUTUBE RADIO MIX 24/7",
         video_tagline: "VISUAL EXPERIENCE",
         video_title: "SET & VIDEO UFFICIALI",
         video_playlist: "Playlist Set & Visualizer",
