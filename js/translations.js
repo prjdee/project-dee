@@ -33,6 +33,8 @@ const translations = {
         spotlight_badge: "OUT NOW • NUOVA RELEASE",
         spotlight_btn_sc: "ASCOLTA SU SOUNDCLOUD",
         spotlight_btn_play: "RIPRODUCI SUL SITO",
+        radio_btn_text: "PRJDEE RADIO STATION 24/7",
+        header_radio_pill: "RADIO 24/7",
         video_tagline: "VISUAL EXPERIENCE",
         video_title: "SET & VIDEO UFFICIALI",
         video_playlist: "Playlist Set & Visualizer",
