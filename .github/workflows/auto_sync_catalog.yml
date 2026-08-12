@@ -1,0 +1,46 @@
+name: Auto-Sync SoundCloud & YouTube Catalog
+
+on:
+  schedule:
+    # Esegue ogni notte alle 03:00 UTC (05:00 ora italiana)
+    - cron: '0 3 * * *'
+  workflow_dispatch: # Permette l'esecuzione manuale da GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  sync-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Sync SoundCloud Catalog
+        run: python scripts/sync_catalog.py
+
+      - name: Sync YouTube Catalog
+        run: python scripts/sync_youtube_catalog.py
+
+      - name: Verify Catalog Integrity
+        run: python scripts/verify_catalog_integrity.py
+
+      - name: Commit and Push if changes detected
+        run: |
+          git config --global user.name "PRJDEE AutoSync Bot"
+          git config --global user.email "bot@prjdee.com"
+          git add js/catalog-data.js assets/covers/
+          if git diff --staged --quiet; then
+            echo "No changes detected in SoundCloud or YouTube catalog."
+          else
+            echo "New tracks or videos detected! Committing and pushing updates..."
+            git commit -m "Auto-sync SoundCloud & YouTube catalog [daily update]"
+            git push
+          fi
