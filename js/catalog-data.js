@@ -2,6 +2,15 @@
 const soundCloudCatalog = [
     {
         "id": null,
+        "title": "Cats - Project Dee (Original Mix)",
+        "sc_url": "https://soundcloud.com/project_d2025/cats",
+        "yt_url": null,
+        "published": "2026-08-16",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cats.jpg",
+        "genre": "Electronic"
+    },
+    {
+        "id": null,
         "title": "Threshold",
         "sc_url": "https://soundcloud.com/project_d2025/threshold",
         "yt_url": null,
@@ -25,7 +34,7 @@ const soundCloudCatalog = [
         "yt_url": null,
         "published": "2026-07-16",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-thesun.jpg",
-        "genre": "Dance & EDM"
+        "genre": "Electronic"
     },
     {
         "id": "FVJ_vvxKILo",
@@ -169,15 +178,6 @@ const soundCloudCatalog = [
         "yt_url": null,
         "published": "2026-01-24",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-dual-disruption.jpg",
-        "genre": "Dance & EDM"
-    },
-    {
-        "id": null,
-        "title": "ウルトラ・ディーバ・ダンス (UltraDivaDance)",
-        "sc_url": "https://soundcloud.com/project_d2025/udd",
-        "yt_url": null,
-        "published": "2026-01-22",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-udd.jpg",
         "genre": "Dance & EDM"
     }
 ];
