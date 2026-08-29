@@ -65,6 +65,7 @@
                     <li><a href="#home" class="nav-link active" data-translate="nav_home">Home</a></li>
                     <li><a href="#music" class="nav-link" data-translate="nav_music">Musica</a></li>
                     <li><a href="#video" class="nav-link" data-translate="nav_video">Video</a></li>
+                    <li><a href="#community" class="nav-link" data-translate="nav_community">Community</a></li>
                     <li><a href="#news" class="nav-link" data-translate="nav_news">News</a></li>
                     <li><a href="#contact" class="nav-link" data-translate="nav_contact">Contatti</a></li>
                 </ul>
@@ -414,6 +415,43 @@
         </div>
     </section>
 
+    <!-- Community Vibes & Fan Reviews Section -->
+    <section id="community" class="section community-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tagline" data-translate="community_tagline">VOCE DEI FAN</span>
+                <h2 class="section-title" data-translate="community_title">COMMUNITY VIBES &amp; RECENSIONI</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle" data-translate="community_subtitle">Reazioni, commenti ed energia pura lasciati dagli ascoltatori e dai DJ sulle tracce SoundCloud di Project Dee.</p>
+            </div>
+            
+            <!-- Filter Pills -->
+            <div class="community-filters" id="community-filters">
+                <button class="comm-filter-btn active" data-track="ALL" data-translate="community_filter_all">Tutte le Recensioni</button>
+            </div>
+
+            <!-- Dynamic Reviews Grid -->
+            <div class="reviews-grid" id="reviews-grid">
+                <!-- Dynamically rendered via js/main.js and js/reviews-data.js -->
+            </div>
+
+            <!-- SoundCloud Community Banner -->
+            <div class="community-sc-banner">
+                <div class="sc-banner-content">
+                    <div class="sc-banner-icon"><i class="fa-brands fa-soundcloud"></i></div>
+                    <div class="sc-banner-text">
+                        <h3>UNISCITI ALLA COMMUNITY SU SOUNDCLOUD</h3>
+                        <p>Lascia anche tu il tuo feedback e supporta le ultime release di Project Dee!</p>
+                    </div>
+                </div>
+                <a href="https://soundcloud.com/project_d2025" target="_blank" rel="noopener noreferrer" class="sc-banner-btn">
+                    <span>SEGUI SU SOUNDCLOUD</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- News Section -->
     <section id="news" class="section news-section">
         <div class="container">
@@ -609,6 +647,7 @@
 
     <!-- Custom JavaScript -->
     <script src="js/translations.js?v=2.0"></script>
+    <script src="js/reviews-data.js?v=2.0"></script>
     <script src="js/news-data.js?v=2.0"></script>
     <script src="js/catalog-data.js?v=2.0"></script>
     <script src="js/canvas-effect.js?v=2.0"></script>
