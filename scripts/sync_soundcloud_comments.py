@@ -14,6 +14,18 @@ CLIENT_ID = "sUn5toeW5d8MC2jOLpE2yAibTG7RRYsA"
 USER_ID = "1575093459"
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 
+BLACKLIST_AUTHORS = [
+    "matteo girardi",
+    "mathew turns",
+    "project dee",
+    "project_d2025",
+    "prjdee"
+]
+
+def is_blacklisted(author, username, full_name):
+    combined = f"{author} {username} {full_name}".lower()
+    return any(b in combined for b in BLACKLIST_AUTHORS)
+
 def fetch_json(url):
     try:
         req = urllib.request.Request(url, headers=HEADERS)
@@ -34,7 +46,7 @@ def sync_comments():
     tracks = data["collection"]
     print(f"Found {len(tracks)} tracks.")
 
-    reviews = []
+    track_reviews_map = {}
     review_id = 1
 
     for t in tracks:
@@ -47,9 +59,10 @@ def sync_comments():
             track_thumb = track_thumb.replace("-large", "-t500x500")
 
         if comment_count > 0 and track_id:
-            comm_url = f"https://api-v2.soundcloud.com/tracks/{track_id}/comments?threaded=0&filter_replies=0&client_id={CLIENT_ID}&limit=25&offset=0"
+            comm_url = f"https://api-v2.soundcloud.com/tracks/{track_id}/comments?threaded=0&filter_replies=0&client_id={CLIENT_ID}&limit=30&offset=0"
             cdata = fetch_json(comm_url)
             if cdata and "collection" in cdata:
+                track_reviews = []
                 for c in cdata["collection"]:
                     body = (c.get("body") or "").strip()
                     user = c.get("user") or {}
@@ -59,10 +72,15 @@ def sync_comments():
                     created_at = c.get("created_at") or "2026-08-01"
                     date_str = created_at.split("T")[0] if "T" in created_at else created_at
 
+                    display_name = full_name if full_name and len(full_name) > 2 else username
+
+                    # Blacklist check
+                    if is_blacklisted(display_name, username, full_name):
+                        continue
+
                     # Filter out spam / short text
                     if len(body) >= 4 and not any(kw in body.lower() for kw in ["http", "bit.ly", "repostexchange", "download", "free followers"]):
-                        display_name = full_name if full_name and len(full_name) > 2 else username
-                        reviews.append({
+                        track_reviews.append({
                             "id": review_id,
                             "author": display_name,
                             "username": username,
@@ -74,15 +92,29 @@ def sync_comments():
                             "date": date_str
                         })
                         review_id += 1
+                if track_reviews:
+                    track_reviews_map[track_title] = track_reviews
 
-    print(f"Total valid fan reviews extracted: {len(reviews)}")
-    selected_reviews = reviews[:18]
+    final_reviews = []
+    track_titles = list(track_reviews_map.keys())
+    max_per_track = 4
 
-    file_content = "// Automatically curated fan & DJ reviews from SoundCloud\nconst communityReviews = " + json.dumps(selected_reviews, indent=4, ensure_ascii=False) + ";\n"
+    for i in range(max_per_track):
+        for title in track_titles:
+            reviews_list = track_reviews_map[title]
+            if i < len(reviews_list):
+                final_reviews.append(reviews_list[i])
+
+    for idx, r in enumerate(final_reviews):
+        r["id"] = idx + 1
+
+    print(f"Total diverse reviews compiled: {len(final_reviews)} across {len(track_titles)} tracks.")
+
+    file_content = "// Automatically curated fan & DJ reviews from SoundCloud\nconst communityReviews = " + json.dumps(final_reviews, indent=4, ensure_ascii=False) + ";\n"
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         f.write(file_content)
 
-    print(f"Successfully saved {len(selected_reviews)} curated reviews to {OUTPUT_PATH}")
+    print(f"Successfully saved {len(final_reviews)} curated reviews to {OUTPUT_PATH}")
 
 if __name__ == "__main__":
     sync_comments()
