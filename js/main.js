@@ -582,8 +582,8 @@ function initCommunityReviews() {
             }
         });
 
-        // Top 5 tracks for filter pills
-        const topFilterTracks = uniqueTracks.slice(0, 5);
+        // Top 8 tracks for filter pills
+        const topFilterTracks = uniqueTracks.slice(0, 8);
         const lang = (typeof currentLang !== 'undefined' ? currentLang : 'it');
         let filtersHtml = `<button class="comm-filter-btn active" data-track="ALL" data-translate="community_filter_all">${(translations[lang] && translations[lang].community_filter_all) || "Tutte le Recensioni"}</button>`;
         
