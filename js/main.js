@@ -541,7 +541,12 @@ function initCustomWaveformPlayer() {
         if (ytLink && latestTrack.yt_url) ytLink.href = latestTrack.yt_url;
         if (genreBadge) genreBadge.textContent = latestTrack.genre || 'Official Release';
 
-        // Preload track stream into audio engine without forced autoplay
+        // Preload track stream into visible SoundCloud Player Deck without forced autoplay
+        const scIframe = document.getElementById('sc-widget-iframe');
+        if (scIframe && latestTrack.sc_url) {
+            const encodedUrl = encodeURIComponent(latestTrack.sc_url);
+            scIframe.src = `https://w.soundcloud.com/player/?url=${encodedUrl}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false`;
+        }
         if (ytAudioIframe && latestTrack.sc_url) {
             const encodedUrl = encodeURIComponent(latestTrack.sc_url);
             ytAudioIframe.src = `https://w.soundcloud.com/player/?url=${encodedUrl}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false`;
