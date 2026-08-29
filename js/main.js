@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initCustomWaveformPlayer(); // Master Waveform Audio Deck
     initMusicCatalog(); // Dynamic Track Catalog
     initVideoPlaylist(); // Dynamic YouTube Catalog
+    initCommunityReviews(); // Dynamic SoundCloud Fan Reviews & Community Vibes
     initNewsFeed();
     initBioAccordion(); // Expandable Bio Drawer
     initContactForms();
@@ -558,6 +559,109 @@ function initCustomWaveformPlayer() {
 }
 
 /* --------------------------------------------------
+   Community Vibes & SoundCloud Fan Reviews Rendering
+-------------------------------------------------- */
+function initCommunityReviews() {
+    const reviewsContainer = document.getElementById('reviews-grid');
+    const filtersContainer = document.getElementById('community-filters');
+    if (!reviewsContainer || typeof communityReviews === 'undefined' || communityReviews.length === 0) return;
+
+    // Expose render trigger for language changes
+    window.triggerCommunityRender = () => {
+        const activeBtn = filtersContainer ? filtersContainer.querySelector('.comm-filter-btn.active') : null;
+        const currentFilter = activeBtn ? activeBtn.getAttribute('data-track') : 'ALL';
+        renderReviews(currentFilter);
+    };
+
+    // Build dynamic track filter pills
+    if (filtersContainer) {
+        const uniqueTracks = [];
+        communityReviews.forEach(r => {
+            if (r.trackTitle && !uniqueTracks.includes(r.trackTitle)) {
+                uniqueTracks.push(r.trackTitle);
+            }
+        });
+
+        // Top 5 tracks for filter pills
+        const topFilterTracks = uniqueTracks.slice(0, 5);
+        const lang = (typeof currentLang !== 'undefined' ? currentLang : 'it');
+        let filtersHtml = `<button class="comm-filter-btn active" data-track="ALL" data-translate="community_filter_all">${(translations[lang] && translations[lang].community_filter_all) || "Tutte le Recensioni"}</button>`;
+        
+        topFilterTracks.forEach(t => {
+            const shortName = t.split(' - ')[0].replace(' (Original Mix)', '').replace(' (Mix)', '');
+            filtersHtml += `<button class="comm-filter-btn" data-track="${encodeURIComponent(t)}">${shortName}</button>`;
+        });
+        filtersContainer.innerHTML = filtersHtml;
+
+        const filterBtns = filtersContainer.querySelectorAll('.comm-filter-btn');
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const filterValue = btn.getAttribute('data-track');
+                renderReviews(filterValue);
+            });
+        });
+    }
+
+    function renderReviews(filterTrack) {
+        const lang = (typeof currentLang !== 'undefined' ? currentLang : 'it');
+        const listenText = (translations[lang] && translations[lang].community_listen_track) || "Ascolta Traccia";
+
+        let filtered = communityReviews;
+        if (filterTrack && filterTrack !== 'ALL') {
+            const decoded = decodeURIComponent(filterTrack);
+            filtered = communityReviews.filter(r => r.trackTitle === decoded);
+        }
+
+        if (filtered.length === 0) {
+            reviewsContainer.innerHTML = `<p style="color:#a0a5b5; text-align:center; grid-column: 1/-1; padding: 2rem 0;">Nessuna recensione trovata per questa traccia.</p>`;
+            return;
+        }
+
+        let html = '';
+        filtered.forEach(rev => {
+            const avatarUrl = rev.avatar || 'https://a-v2.sndcdn.com/assets/images/default/avatar.png';
+            const shortTrackName = rev.trackTitle ? rev.trackTitle.split(' - ')[0] : 'Project Dee Track';
+            const safeComment = rev.comment.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+            html += `
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar-box">
+                            <img src="${avatarUrl}" alt="${rev.author}" class="review-avatar-img" loading="lazy" onerror="this.src='https://a-v2.sndcdn.com/assets/images/default/avatar.png'">
+                            <span class="review-sc-badge-icon"><i class="fa-brands fa-soundcloud"></i></span>
+                        </div>
+                        <div class="review-user-info">
+                            <h4 class="review-author-name" title="${rev.author}">${rev.author}</h4>
+                            <span class="review-date">${rev.date || 'SoundCloud Fan'}</span>
+                        </div>
+                        <div class="review-quote-mark"><i class="fa-solid fa-quote-right"></i></div>
+                    </div>
+                    <div class="review-body">
+                        "${safeComment}"
+                    </div>
+                    <div class="review-footer">
+                        <a href="${rev.trackUrl}" target="_blank" rel="noopener noreferrer" class="review-track-badge" title="Ascolta ${rev.trackTitle} su SoundCloud">
+                            <i class="fa-solid fa-music"></i>
+                            <span>${shortTrackName}</span>
+                        </a>
+                        <a href="${rev.trackUrl}" target="_blank" rel="noopener noreferrer" class="review-sc-link-btn" title="Apri su SoundCloud">
+                            <span>${listenText}</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            `;
+        });
+        reviewsContainer.innerHTML = html;
+    }
+
+    // Initial render all
+    renderReviews('ALL');
+}
+
+/* --------------------------------------------------
    Dynamic News Feed & Category Filter
 -------------------------------------------------- */
 function initNewsFeed() {
@@ -911,7 +1015,13 @@ function setLanguage(lang) {
 
     // Notify News feed to re-render in the new language
     if (typeof window.triggerNewsRender === 'function') {
-        window.triggerNewsRender(document.querySelector('.filter-btn.active').getAttribute('data-category') || 'ALL', lang);
+        const activeCat = document.querySelector('.filter-btn.active');
+        window.triggerNewsRender(activeCat ? activeCat.getAttribute('data-category') : 'ALL', lang);
+    }
+
+    // Notify Community feed to re-render in the new language
+    if (typeof window.triggerCommunityRender === 'function') {
+        window.triggerCommunityRender();
     }
 }
 
