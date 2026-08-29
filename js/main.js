@@ -567,10 +567,17 @@ function initCommunityReviews() {
     if (!reviewsContainer || typeof communityReviews === 'undefined' || communityReviews.length === 0) return;
 
     // Expose render trigger for language changes
-    window.triggerCommunityRender = () => {
+    window.triggerCommunityRender = (lang = activeLang) => {
         const activeBtn = filtersContainer ? filtersContainer.querySelector('.comm-filter-btn.active') : null;
         const currentFilter = activeBtn ? activeBtn.getAttribute('data-track') : 'ALL';
-        renderReviews(currentFilter);
+        
+        // Update the ALL button text for the current language
+        const allBtn = filtersContainer ? filtersContainer.querySelector('.comm-filter-btn[data-track="ALL"]') : null;
+        if (allBtn && translations[lang] && translations[lang].community_filter_all) {
+            allBtn.textContent = translations[lang].community_filter_all;
+        }
+
+        renderReviews(currentFilter, lang);
     };
 
     // Build dynamic track filter pills
@@ -584,7 +591,7 @@ function initCommunityReviews() {
 
         // Top 8 tracks for filter pills
         const topFilterTracks = uniqueTracks.slice(0, 8);
-        const lang = (typeof currentLang !== 'undefined' ? currentLang : 'it');
+        const lang = (typeof activeLang !== 'undefined' ? activeLang : 'it');
         let filtersHtml = `<button class="comm-filter-btn active" data-track="ALL" data-translate="community_filter_all">${(translations[lang] && translations[lang].community_filter_all) || "Tutte le Recensioni"}</button>`;
         
         topFilterTracks.forEach(t => {
@@ -599,14 +606,15 @@ function initCommunityReviews() {
                 filterBtns.forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
                 const filterValue = btn.getAttribute('data-track');
-                renderReviews(filterValue);
+                const currentLanguage = (typeof activeLang !== 'undefined' ? activeLang : 'it');
+                renderReviews(filterValue, currentLanguage);
             });
         });
     }
 
-    function renderReviews(filterTrack) {
-        const lang = (typeof currentLang !== 'undefined' ? currentLang : 'it');
-        const listenText = (translations[lang] && translations[lang].community_listen_track) || "Ascolta Traccia";
+    function renderReviews(filterTrack = 'ALL', lang = activeLang) {
+        const currentLanguage = lang || (typeof activeLang !== 'undefined' ? activeLang : 'it');
+        const listenText = (translations[currentLanguage] && translations[currentLanguage].community_listen_track) || "Ascolta Traccia";
 
         let filtered = communityReviews;
         if (filterTrack && filterTrack !== 'ALL') {
@@ -1021,7 +1029,7 @@ function setLanguage(lang) {
 
     // Notify Community feed to re-render in the new language
     if (typeof window.triggerCommunityRender === 'function') {
-        window.triggerCommunityRender();
+        window.triggerCommunityRender(lang);
     }
 }
 
