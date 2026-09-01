@@ -141,10 +141,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-divider {
-    width: 45px;
+    width: 50px;
     height: 3px;
-    background: linear-gradient(90deg, #0055ff, #38bdf8);
-    box-shadow: 0 0 10px rgba(0, 102, 255, 0.8);
+    background: linear-gradient(90deg, #0055ff 0%, #00f3ff 100%);
+    box-shadow: 0 0 12px rgba(0, 243, 255, 0.8), 0 0 20px rgba(0, 85, 255, 0.5);
     margin: 1rem auto 0;
     border-radius: 3px;
 }
@@ -310,14 +310,15 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     width: 0;
     height: 3px;
-    background: linear-gradient(90deg, #0055ff, #3b82f6);
-    box-shadow: 0 0 10px rgba(0, 102, 255, 0.8);
+    background: linear-gradient(90deg, #0055ff 0%, #00f3ff 100%);
+    box-shadow: 0 0 12px rgba(0, 243, 255, 0.8), 0 0 20px rgba(0, 85, 255, 0.5);
     transition: var(--transition-quick);
     border-radius: 3px;
 }
 
 .nav-link:hover, .nav-link.active {
     color: var(--text-primary);
+    text-shadow: 0 0 10px rgba(0, 243, 255, 0.6);
 }
 
 .nav-link.active::after, .nav-link:hover::after {
@@ -3116,13 +3117,13 @@ h1, h2, h3, h4, h5, h6 {
 /* 3. Navigation Laser Wave Underline */
 .nav-link::after {
     height: 3px;
-    background: linear-gradient(90deg, #ff5500, var(--cyber-cyan), #0055ff);
-    box-shadow: 0 0 12px var(--cyber-cyan), 0 0 20px #ff5500;
+    background: linear-gradient(90deg, #0055ff 0%, #00f3ff 100%);
+    box-shadow: 0 0 12px rgba(0, 243, 255, 0.8), 0 0 20px rgba(0, 85, 255, 0.5);
 }
 
 .nav-link:hover {
     color: #fff;
-    text-shadow: 0 0 10px var(--cyber-cyan);
+    text-shadow: 0 0 12px rgba(0, 243, 255, 0.8);
     transform: translateY(-1px);
 }
 
