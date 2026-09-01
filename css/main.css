@@ -3172,4 +3172,175 @@ h1, h2, h3, h4, h5, h6 {
     transform: scale(1.18);
 }
 
+/* ==================================================
+   MAINSTAGE EDM & DARK LUXURY EXPERIENCE ENHANCEMENTS
+================================================== */
+
+/* 1. Atmospheric Haze & Stage Lighting */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: 
+        radial-gradient(ellipse 80% 50% at 50% -20%, rgba(0, 243, 255, 0.07), transparent 70%),
+        radial-gradient(ellipse 60% 40% at 80% 60%, rgba(255, 85, 0, 0.05), transparent 70%),
+        radial-gradient(ellipse 60% 40% at 20% 80%, rgba(0, 102, 255, 0.06), transparent 70%);
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* 2. Glassmorphism 2.0 Luxury Header & Section Wire Borders */
+.main-header {
+    background-color: rgba(6, 6, 10, 0.72) !important;
+    backdrop-filter: blur(28px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(28px) saturate(180%) !important;
+    border-bottom: 1px solid rgba(0, 243, 255, 0.12) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* 3. Hardware DJ Deck Luxury Finish */
+.custom-waveform-deck {
+    background: linear-gradient(145deg, rgba(16, 16, 26, 0.92) 0%, rgba(8, 8, 14, 0.95) 100%) !important;
+    border: 1px solid rgba(0, 243, 255, 0.25) !important;
+    box-shadow: 
+        0 20px 50px rgba(0, 0, 0, 0.8),
+        0 0 30px rgba(0, 243, 255, 0.12),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+    position: relative;
+}
+
+.custom-waveform-deck::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 10%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--cyber-cyan), transparent);
+    opacity: 0.7;
+}
+
+/* Floating Artwork & Specular Reflection on Track Thumbs */
+.track-thumb-img, .deck-thumb {
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6) !important;
+}
+
+.track-card {
+    background: linear-gradient(135deg, rgba(20, 20, 32, 0.6) 0%, rgba(10, 10, 18, 0.6) 100%) !important;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4) !important;
+}
+
+.track-card:hover {
+    background: linear-gradient(135deg, rgba(26, 26, 42, 0.8) 0%, rgba(14, 14, 24, 0.8) 100%) !important;
+    border-color: rgba(0, 243, 255, 0.4) !important;
+    box-shadow: 
+        0 10px 30px rgba(0, 0, 0, 0.7),
+        0 0 25px rgba(0, 243, 255, 0.2),
+        inset 0 0 15px rgba(0, 243, 255, 0.05) !important;
+}
+
+/* 4. Festival LED Wall Video Frame */
+.main-video-container {
+    background: linear-gradient(145deg, rgba(16, 16, 26, 0.95) 0%, rgba(6, 6, 10, 0.98) 100%) !important;
+    border: 1px solid rgba(255, 0, 60, 0.25) !important;
+    box-shadow: 
+        0 25px 60px rgba(0, 0, 0, 0.85),
+        0 0 40px rgba(255, 0, 60, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.12) !important;
+    position: relative;
+}
+
+.main-video-container::after {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    border-radius: 12px;
+    padding: 1px;
+    background: linear-gradient(135deg, rgba(255, 0, 60, 0.6), transparent 50%, rgba(0, 243, 255, 0.5));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+/* 5. Backstage VIP Badges (Community Section) */
+.review-card {
+    background: linear-gradient(145deg, rgba(18, 18, 28, 0.7) 0%, rgba(9, 9, 16, 0.85) 100%) !important;
+    backdrop-filter: blur(16px) !important;
+    border: 1px solid rgba(255, 85, 0, 0.2) !important;
+    box-shadow: 
+        0 12px 35px rgba(0, 0, 0, 0.6),
+        0 0 20px rgba(255, 85, 0, 0.08) !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.review-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, var(--sc-orange), var(--cyber-cyan), transparent);
+    opacity: 0.8;
+}
+
+.review-card:hover {
+    border-color: var(--sc-orange) !important;
+    box-shadow: 
+        0 16px 45px rgba(0, 0, 0, 0.75),
+        0 0 30px rgba(255, 85, 0, 0.3) !important;
+    transform: translateY(-5px) !important;
+}
+
+.review-avatar-img {
+    border: 2px solid var(--sc-orange) !important;
+    box-shadow: 0 0 12px var(--sc-orange-glow) !important;
+}
+
+/* 6. Cyber Circuit Timeline (Bio Section) */
+.timeline-container {
+    border-left: 2px solid rgba(0, 243, 255, 0.25) !important;
+    box-shadow: -2px 0 15px rgba(0, 243, 255, 0.15);
+    position: relative;
+}
+
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -2px;
+    width: 2px;
+    background: linear-gradient(180deg, var(--sc-orange) 0%, var(--cyber-cyan) 50%, var(--cyber-gold) 100%);
+    animation: circuitPulse 3s ease-in-out infinite alternate;
+}
+
+@keyframes circuitPulse {
+    0% { opacity: 0.5; filter: drop-shadow(0 0 2px var(--cyber-cyan)); }
+    100% { opacity: 1; filter: drop-shadow(0 0 8px var(--cyber-cyan)); }
+}
+
+.timeline-item {
+    background: rgba(14, 14, 22, 0.35);
+    padding: 1.25rem 1.5rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    transition: var(--transition-smooth);
+}
+
+.timeline-item:hover {
+    background: rgba(18, 18, 30, 0.6);
+    border-color: rgba(0, 243, 255, 0.2);
+    transform: translateX(6px);
+}
+
+
 
