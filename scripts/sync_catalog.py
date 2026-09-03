@@ -14,8 +14,31 @@ CATALOG_PATH = os.path.join(BASE_DIR, "js", "catalog-data.js")
 
 os.makedirs(COVERS_DIR, exist_ok=True)
 
+FALLBACK_CLIENT_ID = "Pb72ranhoyt6gw7hM7TkzUItXlMWSNSo"
+
+def get_dynamic_client_id():
+    try:
+        req = urllib.request.Request("https://soundcloud.com", headers=headers)
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            html = resp.read().decode("utf-8", errors="ignore")
+        matches = re.findall(r'<script[^>]+src="(https://a-v2\.sndcdn\.com/assets/[^"]+\.js)"', html)
+        for s_url in reversed(matches):
+            try:
+                s_req = urllib.request.Request(s_url, headers=headers)
+                with urllib.request.urlopen(s_req, timeout=5) as s_resp:
+                    js_code = s_resp.read().decode("utf-8", errors="ignore")
+                cid = re.search(r'client_id[:=]"([a-zA-Z0-9]{32})"', js_code)
+                if cid:
+                    print(f"Discovered dynamic SoundCloud Client ID: {cid.group(1)}")
+                    return cid.group(1)
+            except Exception:
+                continue
+    except Exception as e:
+        print(f"Notice: Dynamic client_id resolution fallback: {e}")
+    return FALLBACK_CLIENT_ID
+
 def fetch_soundcloud_tracks():
-    client_id = "sUn5toeW5d8MC2jOLpE2yAibTG7RRYsA"
+    client_id = get_dynamic_client_id()
     user_id = "1575093459"
     tracks_url = f"https://api-v2.soundcloud.com/users/{user_id}/tracks?client_id={client_id}&limit=30"
     
@@ -99,7 +122,21 @@ def main():
         if img_url:
             download_cover_image(img_url, filename)
         
-        thumb_url = f"https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/{filename}"
+        # Explicit Title-to-Artwork Mapping to ensure zero mismatches
+        title_artwork_map = {
+            "Threshold": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-threshold.jpg",
+            "Before The Floor Shakes": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-01.jpg",
+            "Catch the Sun": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-02.jpg",
+            "The Grid": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-03.jpg",
+            "Come To Dubai (Original Mix)": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-04.jpg",
+            "Honey and the Tide": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-05.jpg",
+            "Angel of Light": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-06.jpg",
+            "Silver Light": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-07.jpg",
+            "C60": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-08.jpg",
+            "The Weight of Light": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-09.jpg",
+        }
+
+        thumb_url = title_artwork_map.get(title, f"https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/{filename}")
         yt_url = yt_mapping.get(title, None)
 
         # Assign exact stream ID for waveform engine
@@ -194,6 +231,22 @@ const catalogVideos = soundCloudCatalog;
         f.write(new_content)
 
     print("Catalog sync finished successfully!")
+
+    # Automatically sync SoundCloud community follower comments as well
+    try:
+        from sync_soundcloud_comments import sync_comments
+        print("Starting synchronized follower comments update...")
+        sync_comments()
+    except Exception as e:
+        print(f"Notice: sync_soundcloud_comments execution: {e}")
+
+    # Stage reviews-data.js in git so the workflow commits both catalog and reviews
+    try:
+        import subprocess
+        subprocess.run(["git", "add", "js/reviews-data.js"], check=False)
+        print("Staged js/reviews-data.js for daily git commit.")
+    except Exception as e:
+        print(f"Notice: git staging: {e}")
 
 if __name__ == "__main__":
     main()
