@@ -241,9 +241,9 @@ const youtubeCatalog = [
     },
     {
         "id": "NiGySiGy6ik",
-        "title": "C60 -",
-        "full_title": "C60 - #popitaliano #urbanpop @prjdee",
-        "published": "2026-05-03",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
         "thumb": "https://img.youtube.com/vi/NiGySiGy6ik/hqdefault.jpg",
         "genre": "RELEASE"
     },
@@ -289,9 +289,9 @@ const youtubeCatalog = [
     },
     {
         "id": "3pgLo0GyYzc",
-        "title": "Ambarabà",
-        "full_title": "Ambarabà",
-        "published": "2026-01-09",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
         "thumb": "https://img.youtube.com/vi/3pgLo0GyYzc/hqdefault.jpg",
         "genre": "RELEASE"
     },
