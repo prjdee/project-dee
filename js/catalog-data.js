@@ -2,6 +2,15 @@
 const soundCloudCatalog = [
     {
         "id": null,
+        "title": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
+        "sc_url": "https://soundcloud.com/project_d2025/jpsinks",
+        "yt_url": null,
+        "published": "2026-08-24",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-jpsinks.jpg",
+        "genre": "Dance & EDM"
+    },
+    {
+        "id": null,
         "title": "Cats - Project Dee (Original Mix)",
         "sc_url": "https://soundcloud.com/project_d2025/cats",
         "yt_url": null,
@@ -170,15 +179,6 @@ const soundCloudCatalog = [
         "published": "2026-02-10",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cuscritt.jpg",
         "genre": "Peak Techno"
-    },
-    {
-        "id": null,
-        "title": "Dual Disruption - Jesto Tribute 2026",
-        "sc_url": "https://soundcloud.com/project_d2025/dual-disruption",
-        "yt_url": null,
-        "published": "2026-01-24",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-dual-disruption.jpg",
-        "genre": "Dance & EDM"
     }
 ];
 
