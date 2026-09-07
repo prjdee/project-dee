@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "KRT Production",
-        "username": "KRT Production",
-        "avatar": "https://i1.sndcdn.com/avatars-SXbacvZ3UrAOoI1K-QHyyFQ-large.jpg",
-        "comment": "Wow!",
+        "author": "ROY L",
+        "username": "ROY L",
+        "avatar": "https://i1.sndcdn.com/avatars-r3GSl4Nz47EMbz3p-bvczXQ-large.jpg",
+        "comment": "i fw this",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-sunzgvhYDyizZaIl-e50UgQ-t500x500.jpg",
-        "date": "2026-09-06"
+        "date": "2026-09-07"
     },
     {
         "id": 2,
@@ -189,10 +189,10 @@ const communityReviews = [
     },
     {
         "id": 18,
-        "author": "Ray Hermann Angossio Liwa",
-        "username": "Alpha Mystery",
-        "avatar": "https://i1.sndcdn.com/avatars-mpnsWdqmAVnNUE9L-zPxFEQ-large.jpg",
-        "comment": "Interesting vibe with this Japan Sinks Dance & EDM",
+        "author": "NeverNot",
+        "username": "NeverNot",
+        "avatar": "https://i1.sndcdn.com/avatars-M466h2wBzNClF0zM-nFPoZg-large.jpg",
+        "comment": "Yeah boy this hits hard !! Come on !!",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-sunzgvhYDyizZaIl-e50UgQ-t500x500.jpg",
@@ -332,10 +332,10 @@ const communityReviews = [
     },
     {
         "id": 31,
-        "author": "Balm Angel",
-        "username": "Balm Angel",
-        "avatar": "https://i1.sndcdn.com/avatars-001379431920-epwwj0-large.jpg",
-        "comment": "killer instinct tracks how you vibed it to the fullest",
+        "author": "LEKS BEATS",
+        "username": "LEKS BEATS",
+        "avatar": "https://i1.sndcdn.com/avatars-RlxFgNa6yGln4mKf-yzwFkw-large.jpg",
+        "comment": "Sounds interesting mate, reposted the tune. That vox play is amazing.",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-sunzgvhYDyizZaIl-e50UgQ-t500x500.jpg",
@@ -409,14 +409,14 @@ const communityReviews = [
     },
     {
         "id": 38,
-        "author": "Tyler Harris",
-        "username": "Baby Junegem",
-        "avatar": "https://i1.sndcdn.com/avatars-9UtOP4QNyuRUtyU2-S5pwXg-large.jpg",
-        "comment": "This hella cool I love it keep it going",
+        "author": "ShaqiLLiWiLL AKA Black Trash T AKA The Phoeroach",
+        "username": "ShaqiLLiWiLL AKA Black Trash T AKA The Phoeroach",
+        "avatar": "https://i1.sndcdn.com/avatars-q8SDqb4NaBq6nThB-xxNltw-large.jpg",
+        "comment": "this is cold and fire u fd up the climate",
         "trackTitle": "The Flow of Time",
         "trackUrl": "https://soundcloud.com/project_d2025/theflow",
         "trackThumb": "https://i1.sndcdn.com/artworks-YpySSkPUAzrphpm2-D4EA7g-t500x500.png",
-        "date": "2026-08-03"
+        "date": "2026-07-26"
     },
     {
         "id": 39,
@@ -475,14 +475,14 @@ const communityReviews = [
     },
     {
         "id": 44,
-        "author": "Frank Zozky",
-        "username": "Frank Zozky",
-        "avatar": "https://i1.sndcdn.com/avatars-q9c8Ss4Nrzyr8OXb-SJP2yw-large.jpg",
-        "comment": "lush sound",
+        "author": "Sativadiva",
+        "username": "Sativadiva",
+        "avatar": "https://i1.sndcdn.com/avatars-ffqSvOAyxReUQPe4-CzoZaA-large.jpg",
+        "comment": "next level",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-sunzgvhYDyizZaIl-e50UgQ-t500x500.jpg",
-        "date": "2026-09-05"
+        "date": "2026-09-06"
     },
     {
         "id": 45,
@@ -552,14 +552,14 @@ const communityReviews = [
     },
     {
         "id": 51,
-        "author": "ShaqiLLiWiLL AKA Black Trash T AKA The Phoeroach",
-        "username": "ShaqiLLiWiLL AKA Black Trash T AKA The Phoeroach",
-        "avatar": "https://i1.sndcdn.com/avatars-q8SDqb4NaBq6nThB-xxNltw-large.jpg",
-        "comment": "this is cold and fire u fd up the climate",
+        "author": "Karl Heimgartner",
+        "username": "Karl Heinz - Heimgartner",
+        "avatar": "https://i1.sndcdn.com/avatars-DqQUSNTg3LCgru8M-0p4gAA-large.jpg",
+        "comment": "epic energy 💎",
         "trackTitle": "The Flow of Time",
         "trackUrl": "https://soundcloud.com/project_d2025/theflow",
         "trackThumb": "https://i1.sndcdn.com/artworks-YpySSkPUAzrphpm2-D4EA7g-t500x500.png",
-        "date": "2026-07-26"
+        "date": "2026-07-23"
     },
     {
         "id": 52,
