@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "ROY L",
-        "username": "ROY L",
-        "avatar": "https://i1.sndcdn.com/avatars-r3GSl4Nz47EMbz3p-bvczXQ-large.jpg",
-        "comment": "i fw this",
+        "author": "Arthur Weprich",
+        "username": "ALIMA",
+        "avatar": "https://i1.sndcdn.com/avatars-ryy5lriEoI1c34MS-BrilOA-large.jpg",
+        "comment": "Great tune 💪🏼🎵 very much festival vibes in this one",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-sunzgvhYDyizZaIl-e50UgQ-t500x500.jpg",
-        "date": "2026-09-07"
+        "date": "2026-09-08"
     },
     {
         "id": 2,
@@ -103,7 +103,7 @@ const communityReviews = [
         "id": 10,
         "author": "ROSSCO",
         "username": "ROSSCO",
-        "avatar": "https://i1.sndcdn.com/avatars-vEkUtNzyMybOji5x-OQHm5Q-large.jpg",
+        "avatar": "https://i1.sndcdn.com/avatars-YLbKRaOySPW0N4eF-FyoeIw-large.jpg",
         "comment": "clean mix 🚀",
         "trackTitle": "The Weight of Light",
         "trackUrl": "https://soundcloud.com/project_d2025/weightoflight",
@@ -189,14 +189,14 @@ const communityReviews = [
     },
     {
         "id": 18,
-        "author": "NeverNot",
-        "username": "NeverNot",
-        "avatar": "https://i1.sndcdn.com/avatars-M466h2wBzNClF0zM-nFPoZg-large.jpg",
-        "comment": "Yeah boy this hits hard !! Come on !!",
+        "author": "Alvaro Castrillón",
+        "username": "Alvaro Castrillon Music",
+        "avatar": "https://i1.sndcdn.com/avatars-JLfbrmHLgpDurYia-7zlnTQ-large.jpg",
+        "comment": "Love this",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-sunzgvhYDyizZaIl-e50UgQ-t500x500.jpg",
-        "date": "2026-09-06"
+        "date": "2026-09-07"
     },
     {
         "id": 19,
@@ -332,14 +332,14 @@ const communityReviews = [
     },
     {
         "id": 31,
-        "author": "LEKS BEATS",
-        "username": "LEKS BEATS",
-        "avatar": "https://i1.sndcdn.com/avatars-RlxFgNa6yGln4mKf-yzwFkw-large.jpg",
-        "comment": "Sounds interesting mate, reposted the tune. That vox play is amazing.",
+        "author": "Music Producer",
+        "username": "Magic Sound Beats",
+        "avatar": "https://i1.sndcdn.com/avatars-bz2j0BYS0Bknelf4-TvI85Q-large.jpg",
+        "comment": "just WOW 🚀",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-sunzgvhYDyizZaIl-e50UgQ-t500x500.jpg",
-        "date": "2026-09-06"
+        "date": "2026-09-07"
     },
     {
         "id": 32,
@@ -475,14 +475,14 @@ const communityReviews = [
     },
     {
         "id": 44,
-        "author": "Sativadiva",
-        "username": "Sativadiva",
-        "avatar": "https://i1.sndcdn.com/avatars-ffqSvOAyxReUQPe4-CzoZaA-large.jpg",
-        "comment": "next level",
+        "author": "Manuel Varella",
+        "username": "Manuel Varella Dj",
+        "avatar": "https://i1.sndcdn.com/avatars-TUkeLAOeMS0bhLBl-yMoxxg-large.jpg",
+        "comment": "A heavy, hypnotic rhythm pattern that locks every movement into precise, effortless sync",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-sunzgvhYDyizZaIl-e50UgQ-t500x500.jpg",
-        "date": "2026-09-06"
+        "date": "2026-09-07"
     },
     {
         "id": 45,

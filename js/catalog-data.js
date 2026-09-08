@@ -184,6 +184,14 @@ const soundCloudCatalog = [
 
 const youtubeCatalog = [
     {
+        "id": "qCDsOK54jPA",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
+        "thumb": "https://img.youtube.com/vi/qCDsOK54jPA/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
         "id": "2BSCm67v8-w",
         "title": "",
         "full_title": "",
@@ -333,14 +341,6 @@ const youtubeCatalog = [
         "full_title": "",
         "published": "2026-01-01",
         "thumb": "https://img.youtube.com/vi/Qyap0GgI6iE/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "LBSiSHseW38",
-        "title": "",
-        "full_title": "",
-        "published": "2026-01-01",
-        "thumb": "https://img.youtube.com/vi/LBSiSHseW38/hqdefault.jpg",
         "genre": "RELEASE"
     }
 ];
