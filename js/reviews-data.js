@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Arthur Weprich",
-        "username": "ALIMA",
-        "avatar": "https://i1.sndcdn.com/avatars-ryy5lriEoI1c34MS-BrilOA-large.jpg",
-        "comment": "Great tune 💪🏼🎵 very much festival vibes in this one",
+        "author": "Gefangen Intrance",
+        "username": "Gefangen Intrance",
+        "avatar": "https://i1.sndcdn.com/avatars-gCZ3ruSCGPmuUWxT-SbCgYA-large.jpg",
+        "comment": "wonderful track, beauty vibes and good vocal parts!",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
-        "trackThumb": "https://i1.sndcdn.com/artworks-sunzgvhYDyizZaIl-e50UgQ-t500x500.jpg",
-        "date": "2026-09-08"
+        "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
+        "date": "2026-09-09"
     },
     {
         "id": 2,
@@ -189,14 +189,14 @@ const communityReviews = [
     },
     {
         "id": 18,
-        "author": "Alvaro Castrillón",
-        "username": "Alvaro Castrillon Music",
-        "avatar": "https://i1.sndcdn.com/avatars-JLfbrmHLgpDurYia-7zlnTQ-large.jpg",
-        "comment": "Love this",
+        "author": "(The Unorthodox)",
+        "username": "(ShAnkAri)",
+        "avatar": "https://i1.sndcdn.com/avatars-acKIiZ7DbypcPF7A-y9Umaw-large.jpg",
+        "comment": "Love the way you blend genres to create this apocalyptic atmosphere, very good job ! ⚡️",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
-        "trackThumb": "https://i1.sndcdn.com/artworks-sunzgvhYDyizZaIl-e50UgQ-t500x500.jpg",
-        "date": "2026-09-07"
+        "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
+        "date": "2026-09-09"
     },
     {
         "id": 19,
@@ -332,14 +332,14 @@ const communityReviews = [
     },
     {
         "id": 31,
-        "author": "Music Producer",
-        "username": "Magic Sound Beats",
-        "avatar": "https://i1.sndcdn.com/avatars-bz2j0BYS0Bknelf4-TvI85Q-large.jpg",
-        "comment": "just WOW 🚀",
+        "author": "Arthur Weprich",
+        "username": "ALIMA",
+        "avatar": "https://i1.sndcdn.com/avatars-ryy5lriEoI1c34MS-BrilOA-large.jpg",
+        "comment": "Great tune 💪🏼🎵 very much festival vibes in this one",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
-        "trackThumb": "https://i1.sndcdn.com/artworks-sunzgvhYDyizZaIl-e50UgQ-t500x500.jpg",
-        "date": "2026-09-07"
+        "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
+        "date": "2026-09-08"
     },
     {
         "id": 32,
@@ -475,13 +475,13 @@ const communityReviews = [
     },
     {
         "id": 44,
-        "author": "Manuel Varella",
-        "username": "Manuel Varella Dj",
-        "avatar": "https://i1.sndcdn.com/avatars-TUkeLAOeMS0bhLBl-yMoxxg-large.jpg",
-        "comment": "A heavy, hypnotic rhythm pattern that locks every movement into precise, effortless sync",
+        "author": "Alvaro Castrillón",
+        "username": "Alvaro Castrillon Music",
+        "avatar": "https://i1.sndcdn.com/avatars-JLfbrmHLgpDurYia-7zlnTQ-large.jpg",
+        "comment": "Love this",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
-        "trackThumb": "https://i1.sndcdn.com/artworks-sunzgvhYDyizZaIl-e50UgQ-t500x500.jpg",
+        "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
         "date": "2026-09-07"
     },
     {

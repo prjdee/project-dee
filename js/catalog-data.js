@@ -7,7 +7,7 @@ const soundCloudCatalog = [
         "yt_url": null,
         "published": "2026-08-24",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-jpsinks.jpg",
-        "genre": "Dance & EDM"
+        "genre": "Electronic"
     },
     {
         "id": null,
