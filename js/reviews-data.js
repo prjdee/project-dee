@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Gefangen Intrance",
-        "username": "Gefangen Intrance",
-        "avatar": "https://i1.sndcdn.com/avatars-gCZ3ruSCGPmuUWxT-SbCgYA-large.jpg",
-        "comment": "wonderful track, beauty vibes and good vocal parts!",
+        "author": "Kakarottomax",
+        "username": "Kakarottomax",
+        "avatar": "https://i1.sndcdn.com/avatars-nUdICZSozh2rp6wG-uxZKJA-large.jpg",
+        "comment": "Good one , nice quality mate, support",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
-        "date": "2026-09-09"
+        "date": "2026-09-10"
     },
     {
         "id": 2,
@@ -36,7 +36,7 @@ const communityReviews = [
     {
         "id": 4,
         "author": "Angel Pendragon",
-        "username": "AdonaiAm",
+        "username": "AdonaiAm ☀️",
         "avatar": "https://i1.sndcdn.com/avatars-5jbodyP4uTpofCfN-gbPmZA-large.jpg",
         "comment": "Gorgeous track! Very well done. ✨",
         "trackTitle": "Before The Floor Shakes",
@@ -189,14 +189,14 @@ const communityReviews = [
     },
     {
         "id": 18,
-        "author": "(The Unorthodox)",
-        "username": "(ShAnkAri)",
-        "avatar": "https://i1.sndcdn.com/avatars-acKIiZ7DbypcPF7A-y9Umaw-large.jpg",
-        "comment": "Love the way you blend genres to create this apocalyptic atmosphere, very good job ! ⚡️",
+        "author": "Cade Ackermann",
+        "username": "Raebay",
+        "avatar": "https://i1.sndcdn.com/avatars-aFJGd3teFTwhcyiM-DvVQ7A-large.jpg",
+        "comment": "Sick buildup I really like this",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
-        "date": "2026-09-09"
+        "date": "2026-09-10"
     },
     {
         "id": 19,
@@ -332,14 +332,14 @@ const communityReviews = [
     },
     {
         "id": 31,
-        "author": "Arthur Weprich",
-        "username": "ALIMA",
-        "avatar": "https://i1.sndcdn.com/avatars-ryy5lriEoI1c34MS-BrilOA-large.jpg",
-        "comment": "Great tune 💪🏼🎵 very much festival vibes in this one",
+        "author": "K N Z D 3 N",
+        "username": "KNZD3N",
+        "avatar": "https://i1.sndcdn.com/avatars-QMHtJQ3ap4NvOJJR-Wb0vzg-large.jpg",
+        "comment": "Tuff track.  Great bass and vox chopz, KEEP GOIN 👽🔥👽🔥",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
-        "date": "2026-09-08"
+        "date": "2026-09-09"
     },
     {
         "id": 32,
@@ -475,14 +475,14 @@ const communityReviews = [
     },
     {
         "id": 44,
-        "author": "Alvaro Castrillón",
-        "username": "Alvaro Castrillon Music",
-        "avatar": "https://i1.sndcdn.com/avatars-JLfbrmHLgpDurYia-7zlnTQ-large.jpg",
-        "comment": "Love this",
+        "author": "guittim",
+        "username": "guittim",
+        "avatar": "https://i1.sndcdn.com/avatars-PVTR5wN5IYVyXzEY-rjTe2g-large.jpg",
+        "comment": "absolute banger 🔉",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
-        "date": "2026-09-07"
+        "date": "2026-09-09"
     },
     {
         "id": 45,
