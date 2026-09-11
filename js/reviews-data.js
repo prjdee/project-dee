@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Kakarottomax",
-        "username": "Kakarottomax",
-        "avatar": "https://i1.sndcdn.com/avatars-nUdICZSozh2rp6wG-uxZKJA-large.jpg",
-        "comment": "Good one , nice quality mate, support",
+        "author": "James Samson",
+        "username": "Navic",
+        "avatar": "https://i1.sndcdn.com/avatars-EpwmtsQpryV4NA25-mQxDEQ-large.jpg",
+        "comment": "TAKE ME AWAY,GREAT MASTERPIECE,BREAK THE DANCE FLOOR",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
-        "date": "2026-09-10"
+        "date": "2026-09-11"
     },
     {
         "id": 2,
@@ -189,10 +189,10 @@ const communityReviews = [
     },
     {
         "id": 18,
-        "author": "Cade Ackermann",
-        "username": "Raebay",
-        "avatar": "https://i1.sndcdn.com/avatars-aFJGd3teFTwhcyiM-DvVQ7A-large.jpg",
-        "comment": "Sick buildup I really like this",
+        "author": "Utopian Digit",
+        "username": "Utopian Digit",
+        "avatar": "https://i1.sndcdn.com/avatars-4cVFK8zPZACZEe20-cOnF3g-large.jpg",
+        "comment": "nice one, well done, good stuff",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
@@ -332,14 +332,14 @@ const communityReviews = [
     },
     {
         "id": 31,
-        "author": "K N Z D 3 N",
-        "username": "KNZD3N",
-        "avatar": "https://i1.sndcdn.com/avatars-QMHtJQ3ap4NvOJJR-Wb0vzg-large.jpg",
-        "comment": "Tuff track.  Great bass and vox chopz, KEEP GOIN 👽🔥👽🔥",
+        "author": "Harmonia At Night",
+        "username": "Harmonia At Night",
+        "avatar": "https://i1.sndcdn.com/avatars-000140583453-338nvj-large.jpg",
+        "comment": "serious vibes",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
-        "date": "2026-09-09"
+        "date": "2026-09-10"
     },
     {
         "id": 32,
@@ -475,14 +475,14 @@ const communityReviews = [
     },
     {
         "id": 44,
-        "author": "guittim",
-        "username": "guittim",
-        "avatar": "https://i1.sndcdn.com/avatars-PVTR5wN5IYVyXzEY-rjTe2g-large.jpg",
-        "comment": "absolute banger 🔉",
+        "author": "light gal",
+        "username": "light gal",
+        "avatar": "https://i1.sndcdn.com/avatars-000294650110-ccj841-large.jpg",
+        "comment": "cool and dramatic and different i like it",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
-        "date": "2026-09-09"
+        "date": "2026-09-10"
     },
     {
         "id": 45,
