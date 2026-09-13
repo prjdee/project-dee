@@ -587,7 +587,7 @@ const communityReviews = [
         "id": 54,
         "author": "Astronaut.Musik",
         "username": "Astronaut.Musik",
-        "avatar": "https://i1.sndcdn.com/avatars-Hzf4KcyTbDFyqg1n-a7Zwmw-large.jpg",
+        "avatar": "https://i1.sndcdn.com/avatars-NZuMCZqcs2SArlHN-KCvRpA-large.jpg",
         "comment": "boss vibes 😎",
         "trackTitle": "The Space Between (Pure Extended Mix)",
         "trackUrl": "https://soundcloud.com/project_d2025/6min",
