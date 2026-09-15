@@ -170,15 +170,6 @@ const soundCloudCatalog = [
         "published": "2026-02-16",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-6min.jpg",
         "genre": "Peak Techno"
-    },
-    {
-        "id": null,
-        "title": "Cuuscritt!",
-        "sc_url": "https://soundcloud.com/project_d2025/cuscritt",
-        "yt_url": null,
-        "published": "2026-02-10",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cuscritt.jpg",
-        "genre": "Peak Techno"
     }
 ];
 
