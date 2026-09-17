@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Chris Palmer",
-        "username": "Chris Palmer Refinoir",
-        "avatar": "https://i1.sndcdn.com/avatars-dmL8Z1sifnINpkwH-8ATmSg-large.jpg",
-        "comment": "Cool beat and drive, cool vocals, solid production",
+        "author": "Manuel Marino",
+        "username": "Manuel Marino",
+        "avatar": "https://i1.sndcdn.com/avatars-Ez2Ut6Y4HpEfAhHn-HjlxBA-large.jpg",
+        "comment": "weird and interesting this cyberpunk song",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
-        "date": "2026-09-11"
+        "date": "2026-09-17"
     },
     {
         "id": 2,
@@ -136,7 +136,7 @@ const communityReviews = [
         "id": 13,
         "author": "Cloud Stalkin",
         "username": "Cloud Stalkin",
-        "avatar": "https://i1.sndcdn.com/avatars-drX23JihyJWQYnWR-9Zn2zg-large.jpg",
+        "avatar": "https://i1.sndcdn.com/avatars-F0oqaF1wY0Li828y-hKvazw-large.jpg",
         "comment": "daaaaaaaam did you rub some funk in your coffee, love this",
         "trackTitle": "The Machine's Pulse",
         "trackUrl": "https://soundcloud.com/project_d2025/machinepulse",
@@ -178,14 +178,14 @@ const communityReviews = [
     },
     {
         "id": 17,
-        "author": "James Samson",
-        "username": "Navic",
-        "avatar": "https://i1.sndcdn.com/avatars-Qi1Aiz9YAY0FVoQV-aDyhqA-large.jpg",
-        "comment": "TAKE ME AWAY,GREAT MASTERPIECE,BREAK THE DANCE FLOOR",
+        "author": "Aka Natty Rebel Aka KSB",
+        "username": "KillaSoundBoy",
+        "avatar": "https://i1.sndcdn.com/avatars-bcyzoSMfiorWIjgT-oypr2g-large.jpg",
+        "comment": "banger",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
-        "date": "2026-09-11"
+        "date": "2026-09-16"
     },
     {
         "id": 18,
@@ -310,14 +310,14 @@ const communityReviews = [
     },
     {
         "id": 29,
-        "author": "Utopian Digit",
-        "username": "Utopian Digit",
-        "avatar": "https://i1.sndcdn.com/avatars-4cVFK8zPZACZEe20-cOnF3g-large.jpg",
-        "comment": "nice one, well done, good stuff",
+        "author": "Maribekz",
+        "username": "Maribekz",
+        "avatar": "https://i1.sndcdn.com/avatars-iTqhWBTe2XQrzZ0f-7weDpg-large.jpg",
+        "comment": "on point 🙌",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
-        "date": "2026-09-10"
+        "date": "2026-09-16"
     },
     {
         "id": 30,
@@ -442,14 +442,14 @@ const communityReviews = [
     },
     {
         "id": 41,
-        "author": "Harmonia At Night",
-        "username": "Harmonia At Night",
-        "avatar": "https://i1.sndcdn.com/avatars-000140583453-338nvj-large.jpg",
-        "comment": "serious vibes",
+        "author": "Chris Palmer",
+        "username": "Chris Palmer Refinoir",
+        "avatar": "https://i1.sndcdn.com/avatars-dmL8Z1sifnINpkwH-8ATmSg-large.jpg",
+        "comment": "Cool beat and drive, cool vocals, solid production",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
-        "date": "2026-09-10"
+        "date": "2026-09-11"
     },
     {
         "id": 42,
