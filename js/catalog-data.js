@@ -2,6 +2,15 @@
 const soundCloudCatalog = [
     {
         "id": null,
+        "title": "Silentium | Lux Obscura (PjD)",
+        "sc_url": "https://soundcloud.com/project_d2025/luxobscura",
+        "yt_url": null,
+        "published": "2026-09-06",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-luxobscura.jpg",
+        "genre": "Electronic"
+    },
+    {
+        "id": null,
         "title": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "sc_url": "https://soundcloud.com/project_d2025/jpsinks",
         "yt_url": null,
