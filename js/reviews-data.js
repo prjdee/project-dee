@@ -35,14 +35,14 @@ const communityReviews = [
     },
     {
         "id": 4,
-        "author": "I G",
-        "username": "Syngo",
-        "avatar": "https://i1.sndcdn.com/avatars-ZbySydmJiyGYQoaN-JTE7pw-large.jpg",
-        "comment": "nice",
+        "author": "Hagar Shay",
+        "username": "Hagar Shay",
+        "avatar": "https://i1.sndcdn.com/avatars-3E18YZepkqYz2Nf2-FU9XLw-large.jpg",
+        "comment": "The baseline gives this great momentum",
         "trackTitle": "Threshold",
         "trackUrl": "https://soundcloud.com/project_d2025/threshold",
         "trackThumb": "https://i1.sndcdn.com/artworks-UY8bg5P5oMoPJQlq-sWVghg-t500x500.jpg",
-        "date": "2026-09-14"
+        "date": "2026-09-18"
     },
     {
         "id": 5,
@@ -211,14 +211,14 @@ const communityReviews = [
     },
     {
         "id": 20,
-        "author": "Ingwer Jensen",
-        "username": "Grenzfrequenz",
-        "avatar": "https://i1.sndcdn.com/avatars-000023104384-6e1y8w-large.jpg",
-        "comment": "very nice composition and production 🤯❤️",
+        "author": "craig jones",
+        "username": "Onizanka 鬼残歌",
+        "avatar": "https://i1.sndcdn.com/avatars-4ZiS2TdwOj7y9Fkc-OWBdoA-large.jpg",
+        "comment": "straight gold 🙌",
         "trackTitle": "Threshold",
         "trackUrl": "https://soundcloud.com/project_d2025/threshold",
         "trackThumb": "https://i1.sndcdn.com/artworks-UY8bg5P5oMoPJQlq-sWVghg-t500x500.jpg",
-        "date": "2026-08-26"
+        "date": "2026-09-18"
     },
     {
         "id": 21,
@@ -343,14 +343,14 @@ const communityReviews = [
     },
     {
         "id": 32,
-        "author": "Michael Meyer",
-        "username": "DJ Mandala",
-        "avatar": "https://i1.sndcdn.com/avatars-t8eFjyERzFXiqzvq-H8LwJA-large.jpg",
-        "comment": "fresh drop 🔁",
+        "author": "Nova Shevlin",
+        "username": "UniKast Radio",
+        "avatar": "https://i1.sndcdn.com/avatars-phjpYDUEhDPzuYzz-KgGPvA-large.jpg",
+        "comment": "I like the vibe here fam! Keep up the good work",
         "trackTitle": "Threshold",
         "trackUrl": "https://soundcloud.com/project_d2025/threshold",
         "trackThumb": "https://i1.sndcdn.com/artworks-UY8bg5P5oMoPJQlq-sWVghg-t500x500.jpg",
-        "date": "2026-08-17"
+        "date": "2026-09-18"
     },
     {
         "id": 33,
@@ -475,14 +475,14 @@ const communityReviews = [
     },
     {
         "id": 44,
-        "author": "AKA Mudlark ^",
-        "username": "AKA Mudlark ^",
-        "avatar": "https://i1.sndcdn.com/avatars-EMS2dg42vlOz2TVU-dSC55A-large.jpg",
-        "comment": "wicked tune 🔥",
+        "author": "I G",
+        "username": "Syngo",
+        "avatar": "https://i1.sndcdn.com/avatars-ZbySydmJiyGYQoaN-JTE7pw-large.jpg",
+        "comment": "nice",
         "trackTitle": "Threshold",
         "trackUrl": "https://soundcloud.com/project_d2025/threshold",
         "trackThumb": "https://i1.sndcdn.com/artworks-UY8bg5P5oMoPJQlq-sWVghg-t500x500.jpg",
-        "date": "2026-08-17"
+        "date": "2026-09-14"
     },
     {
         "id": 45,
