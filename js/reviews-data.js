@@ -2,9 +2,9 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "BRIGHT CRATIVE",
-        "username": "BRIGHT CRATIVE",
-        "avatar": "https://i1.sndcdn.com/avatars-qqDHgJz8n2pyLKr0-XY6JFg-large.jpg",
+        "author": "U.G CRATIVE",
+        "username": "U.G CRATIVE",
+        "avatar": "https://i1.sndcdn.com/avatars-wwsihB7j59tT1vSs-AwXOXQ-large.jpg",
         "comment": "good vibe",
         "trackTitle": "Silentium | Lux Obscura (PjD)",
         "trackUrl": "https://soundcloud.com/project_d2025/luxobscura",
@@ -13,14 +13,14 @@ const communityReviews = [
     },
     {
         "id": 2,
-        "author": "Jiri Boruvka",
-        "username": "Juroz",
-        "avatar": "https://i1.sndcdn.com/avatars-dGKCllsikU9tQqOV-xdknTA-large.jpg",
-        "comment": "wild track 👏",
+        "author": "Zingoes Zaur",
+        "username": "Zingosaur",
+        "avatar": "https://i1.sndcdn.com/avatars-Y5eEi6WyFthRyEPV-fBouMA-large.jpg",
+        "comment": "uplifting",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
-        "date": "2026-09-17"
+        "date": "2026-09-19"
     },
     {
         "id": 3,
@@ -189,10 +189,10 @@ const communityReviews = [
     },
     {
         "id": 18,
-        "author": "Manuel Marino",
-        "username": "Manuel Marino",
-        "avatar": "https://i1.sndcdn.com/avatars-Ez2Ut6Y4HpEfAhHn-HjlxBA-large.jpg",
-        "comment": "weird and interesting this cyberpunk song",
+        "author": "Jiri Boruvka",
+        "username": "Juroz",
+        "avatar": "https://i1.sndcdn.com/avatars-dGKCllsikU9tQqOV-xdknTA-large.jpg",
+        "comment": "wild track 👏",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
@@ -321,14 +321,14 @@ const communityReviews = [
     },
     {
         "id": 30,
-        "author": "Aka Natty Rebel Aka KSB",
-        "username": "KillaSoundBoy",
-        "avatar": "https://i1.sndcdn.com/avatars-bcyzoSMfiorWIjgT-oypr2g-large.jpg",
-        "comment": "banger",
+        "author": "Manuel Marino",
+        "username": "Manuel Marino",
+        "avatar": "https://i1.sndcdn.com/avatars-Ez2Ut6Y4HpEfAhHn-HjlxBA-large.jpg",
+        "comment": "weird and interesting this cyberpunk song",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
-        "date": "2026-09-16"
+        "date": "2026-09-17"
     },
     {
         "id": 31,
@@ -453,10 +453,10 @@ const communityReviews = [
     },
     {
         "id": 42,
-        "author": "Maribekz",
-        "username": "Maribekz",
-        "avatar": "https://i1.sndcdn.com/avatars-iTqhWBTe2XQrzZ0f-7weDpg-large.jpg",
-        "comment": "on point 🙌",
+        "author": "Aka Natty Rebel Aka KSB",
+        "username": "KillaSoundBoy",
+        "avatar": "https://i1.sndcdn.com/avatars-bcyzoSMfiorWIjgT-oypr2g-large.jpg",
+        "comment": "banger",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
