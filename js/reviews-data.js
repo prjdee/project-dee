@@ -13,14 +13,14 @@ const communityReviews = [
     },
     {
         "id": 2,
-        "author": "Zingoes Zaur",
-        "username": "Zingosaur",
-        "avatar": "https://i1.sndcdn.com/avatars-Y5eEi6WyFthRyEPV-fBouMA-large.jpg",
-        "comment": "uplifting",
+        "author": "AKA OlynCTrance",
+        "username": "Olyn.cs",
+        "avatar": "https://i1.sndcdn.com/avatars-Jdh6IbperzqPqfom-K4mzbg-large.jpg",
+        "comment": "Buen tema de electronica. los drums muy crigientes",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
-        "date": "2026-09-19"
+        "date": "2026-09-21"
     },
     {
         "id": 3,
@@ -35,14 +35,14 @@ const communityReviews = [
     },
     {
         "id": 4,
-        "author": "Hagar Shay",
-        "username": "Hagar Shay",
-        "avatar": "https://i1.sndcdn.com/avatars-3E18YZepkqYz2Nf2-FU9XLw-large.jpg",
-        "comment": "The baseline gives this great momentum",
+        "author": "Khaos Creator",
+        "username": "Khaos Creator",
+        "avatar": "https://i1.sndcdn.com/avatars-QYriw83UO1MyzVFI-ECYPyQ-large.jpg",
+        "comment": "smooth af 🙌",
         "trackTitle": "Threshold",
         "trackUrl": "https://soundcloud.com/project_d2025/threshold",
         "trackThumb": "https://i1.sndcdn.com/artworks-UY8bg5P5oMoPJQlq-sWVghg-t500x500.jpg",
-        "date": "2026-09-18"
+        "date": "2026-09-21"
     },
     {
         "id": 5,
@@ -189,14 +189,14 @@ const communityReviews = [
     },
     {
         "id": 18,
-        "author": "Jiri Boruvka",
-        "username": "Juroz",
-        "avatar": "https://i1.sndcdn.com/avatars-dGKCllsikU9tQqOV-xdknTA-large.jpg",
-        "comment": "wild track 👏",
+        "author": "Zingoes Zaur",
+        "username": "Zingosaur",
+        "avatar": "https://i1.sndcdn.com/avatars-Y5eEi6WyFthRyEPV-fBouMA-large.jpg",
+        "comment": "uplifting",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
-        "date": "2026-09-17"
+        "date": "2026-09-19"
     },
     {
         "id": 19,
@@ -211,10 +211,10 @@ const communityReviews = [
     },
     {
         "id": 20,
-        "author": "craig jones",
-        "username": "Onizanka 鬼残歌",
-        "avatar": "https://i1.sndcdn.com/avatars-4ZiS2TdwOj7y9Fkc-OWBdoA-large.jpg",
-        "comment": "straight gold 🙌",
+        "author": "Hagar Shay",
+        "username": "Hagar Shay",
+        "avatar": "https://i1.sndcdn.com/avatars-3E18YZepkqYz2Nf2-FU9XLw-large.jpg",
+        "comment": "The baseline gives this great momentum",
         "trackTitle": "Threshold",
         "trackUrl": "https://soundcloud.com/project_d2025/threshold",
         "trackThumb": "https://i1.sndcdn.com/artworks-UY8bg5P5oMoPJQlq-sWVghg-t500x500.jpg",
@@ -321,10 +321,10 @@ const communityReviews = [
     },
     {
         "id": 30,
-        "author": "Manuel Marino",
-        "username": "Manuel Marino",
-        "avatar": "https://i1.sndcdn.com/avatars-Ez2Ut6Y4HpEfAhHn-HjlxBA-large.jpg",
-        "comment": "weird and interesting this cyberpunk song",
+        "author": "Jiri Boruvka",
+        "username": "Juroz",
+        "avatar": "https://i1.sndcdn.com/avatars-dGKCllsikU9tQqOV-xdknTA-large.jpg",
+        "comment": "wild track 👏",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
@@ -343,10 +343,10 @@ const communityReviews = [
     },
     {
         "id": 32,
-        "author": "Nova Shevlin",
-        "username": "UniKast Radio",
-        "avatar": "https://i1.sndcdn.com/avatars-phjpYDUEhDPzuYzz-KgGPvA-large.jpg",
-        "comment": "I like the vibe here fam! Keep up the good work",
+        "author": "craig jones",
+        "username": "Onizanka 鬼残歌",
+        "avatar": "https://i1.sndcdn.com/avatars-4ZiS2TdwOj7y9Fkc-OWBdoA-large.jpg",
+        "comment": "straight gold 🙌",
         "trackTitle": "Threshold",
         "trackUrl": "https://soundcloud.com/project_d2025/threshold",
         "trackThumb": "https://i1.sndcdn.com/artworks-UY8bg5P5oMoPJQlq-sWVghg-t500x500.jpg",
@@ -453,14 +453,14 @@ const communityReviews = [
     },
     {
         "id": 42,
-        "author": "Aka Natty Rebel Aka KSB",
-        "username": "KillaSoundBoy",
-        "avatar": "https://i1.sndcdn.com/avatars-bcyzoSMfiorWIjgT-oypr2g-large.jpg",
-        "comment": "banger",
+        "author": "Manuel Marino",
+        "username": "Manuel Marino",
+        "avatar": "https://i1.sndcdn.com/avatars-Ez2Ut6Y4HpEfAhHn-HjlxBA-large.jpg",
+        "comment": "weird and interesting this cyberpunk song",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
         "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
-        "date": "2026-09-16"
+        "date": "2026-09-17"
     },
     {
         "id": 43,
@@ -475,14 +475,14 @@ const communityReviews = [
     },
     {
         "id": 44,
-        "author": "I G",
-        "username": "Syngo",
-        "avatar": "https://i1.sndcdn.com/avatars-ZbySydmJiyGYQoaN-JTE7pw-large.jpg",
-        "comment": "nice",
+        "author": "Nova Shevlin",
+        "username": "UniKast Radio",
+        "avatar": "https://i1.sndcdn.com/avatars-phjpYDUEhDPzuYzz-KgGPvA-large.jpg",
+        "comment": "I like the vibe here fam! Keep up the good work",
         "trackTitle": "Threshold",
         "trackUrl": "https://soundcloud.com/project_d2025/threshold",
         "trackThumb": "https://i1.sndcdn.com/artworks-UY8bg5P5oMoPJQlq-sWVghg-t500x500.jpg",
-        "date": "2026-09-14"
+        "date": "2026-09-18"
     },
     {
         "id": 45,
