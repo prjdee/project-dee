@@ -147,7 +147,7 @@ const communityReviews = [
         "id": 14,
         "author": "Cloud Stalkin",
         "username": "Cloud Stalkin",
-        "avatar": "https://i1.sndcdn.com/avatars-F0oqaF1wY0Li828y-hKvazw-large.jpg",
+        "avatar": "https://i1.sndcdn.com/avatars-cyybf9JOwpXE8eCK-TRgqMA-large.jpg",
         "comment": "daaaaaaaam did you rub some funk in your coffee, love this",
         "trackTitle": "The Machine's Pulse",
         "trackUrl": "https://soundcloud.com/project_d2025/machinepulse",
