@@ -224,7 +224,7 @@ const communityReviews = [
         "id": 21,
         "author": "Wilson Gomes",
         "username": "Wilson Gomes",
-        "avatar": "https://i1.sndcdn.com/avatars-XSLvrOObT6zBtz0n-BS6B6w-large.jpg",
+        "avatar": "https://i1.sndcdn.com/avatars-5xyF8d8Mx9IuyKar-zkzxJw-large.jpg",
         "comment": "I love this craze beats, shaking us inside!",
         "trackTitle": "Before The Floor Shakes",
         "trackUrl": "https://soundcloud.com/project_d2025/before-the-floor-shakes",
