@@ -136,7 +136,7 @@ const communityReviews = [
         "id": 13,
         "author": "Twistedreload",
         "username": "Twistedreload",
-        "avatar": "https://i1.sndcdn.com/avatars-zQyC3JGbznKEvqzz-0KNqRQ-large.jpg",
+        "avatar": "https://i1.sndcdn.com/avatars-NNmSQlbcs71RyWyK-bltFag-large.jpg",
         "comment": "tidy",
         "trackTitle": "The Pressure",
         "trackUrl": "https://soundcloud.com/project_d2025/pressure",
