@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "U.G CRATIVE",
-        "username": "U.G CRATIVE",
-        "avatar": "https://i1.sndcdn.com/avatars-wwsihB7j59tT1vSs-AwXOXQ-large.jpg",
-        "comment": "good vibe",
+        "author": "Khaos Creator",
+        "username": "Khaos Creator",
+        "avatar": "https://i1.sndcdn.com/avatars-QYriw83UO1MyzVFI-ECYPyQ-large.jpg",
+        "comment": "booming 💯",
         "trackTitle": "Silentium | Lux Obscura (PjD)",
         "trackUrl": "https://soundcloud.com/project_d2025/luxobscura",
         "trackThumb": "https://i1.sndcdn.com/artworks-D4c3OlZM34IWQzLZ-ga8O9w-t500x500.jpg",
-        "date": "2026-09-17"
+        "date": "2026-09-25"
     },
     {
         "id": 2,
@@ -189,6 +189,17 @@ const communityReviews = [
     },
     {
         "id": 18,
+        "author": "Zawley",
+        "username": "Zawley",
+        "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
+        "comment": "Im a sucker for choirs and strings🔥🔥🔥",
+        "trackTitle": "Silentium | Lux Obscura (PjD)",
+        "trackUrl": "https://soundcloud.com/project_d2025/luxobscura",
+        "trackThumb": "https://i1.sndcdn.com/artworks-D4c3OlZM34IWQzLZ-ga8O9w-t500x500.jpg",
+        "date": "2026-09-25"
+    },
+    {
+        "id": 19,
         "author": "Zingoes Zaur",
         "username": "Zingosaur",
         "avatar": "https://i1.sndcdn.com/avatars-Y5eEi6WyFthRyEPV-fBouMA-large.jpg",
@@ -199,7 +210,7 @@ const communityReviews = [
         "date": "2026-09-19"
     },
     {
-        "id": 19,
+        "id": 20,
         "author": "Robert Flynn",
         "username": "Robert Flynn",
         "avatar": "https://i1.sndcdn.com/avatars-bC041rEHE7JhnGsK-monzgA-large.jpg",
@@ -210,7 +221,7 @@ const communityReviews = [
         "date": "2026-09-02"
     },
     {
-        "id": 20,
+        "id": 21,
         "author": "Hagar Shay",
         "username": "Hagar Shay",
         "avatar": "https://i1.sndcdn.com/avatars-3E18YZepkqYz2Nf2-FU9XLw-large.jpg",
@@ -221,7 +232,7 @@ const communityReviews = [
         "date": "2026-09-18"
     },
     {
-        "id": 21,
+        "id": 22,
         "author": "Wilson Gomes",
         "username": "Wilson Gomes",
         "avatar": "https://i1.sndcdn.com/avatars-5xyF8d8Mx9IuyKar-zkzxJw-large.jpg",
@@ -232,7 +243,7 @@ const communityReviews = [
         "date": "2026-08-31"
     },
     {
-        "id": 22,
+        "id": 23,
         "author": "Zawley",
         "username": "Zawley",
         "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
@@ -243,7 +254,7 @@ const communityReviews = [
         "date": "2026-08-02"
     },
     {
-        "id": 23,
+        "id": 24,
         "author": "Yasin Borry",
         "username": "BYAS",
         "avatar": "https://i1.sndcdn.com/avatars-BzpeLbRvfBK33R9Q-QcpK4w-large.jpg",
@@ -254,7 +265,7 @@ const communityReviews = [
         "date": "2026-08-20"
     },
     {
-        "id": 24,
+        "id": 25,
         "author": "Marcio Reis",
         "username": "Reeis",
         "avatar": "https://i1.sndcdn.com/avatars-mESAMtnB20DGKhO3-B4VEvw-large.jpg",
@@ -265,7 +276,7 @@ const communityReviews = [
         "date": "2026-08-21"
     },
     {
-        "id": 25,
+        "id": 26,
         "author": "Zawley",
         "username": "Zawley",
         "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
@@ -276,7 +287,7 @@ const communityReviews = [
         "date": "2026-08-03"
     },
     {
-        "id": 26,
+        "id": 27,
         "author": "Gerhard Manthau",
         "username": "Mexicomaus - Label:Psychedelic new  Style  Records",
         "avatar": "https://i1.sndcdn.com/avatars-BvxReMtOeW0ywW6I-tK7RfQ-large.jpg",
@@ -287,7 +298,7 @@ const communityReviews = [
         "date": "2026-07-31"
     },
     {
-        "id": 27,
+        "id": 28,
         "author": "Jonas Bergström",
         "username": "GeezyorK",
         "avatar": "https://i1.sndcdn.com/avatars-hiI74ZKD2pRoNRQL-eU1CnA-large.jpg",
@@ -298,7 +309,7 @@ const communityReviews = [
         "date": "2026-07-29"
     },
     {
-        "id": 28,
+        "id": 29,
         "author": "Alvaro Castrillón",
         "username": "Alvaro Castrillon Music",
         "avatar": "https://i1.sndcdn.com/avatars-JLfbrmHLgpDurYia-7zlnTQ-large.jpg",
@@ -309,7 +320,7 @@ const communityReviews = [
         "date": "2026-08-07"
     },
     {
-        "id": 29,
+        "id": 30,
         "author": "K-Netik",
         "username": "K-Netik",
         "avatar": "https://i1.sndcdn.com/avatars-Aysrw1y7GHiwfkF8-XgGTyQ-large.jpg",
@@ -320,7 +331,18 @@ const communityReviews = [
         "date": "2026-08-03"
     },
     {
-        "id": 30,
+        "id": 31,
+        "author": "NIACIN D&B",
+        "username": "NIACIN D&B",
+        "avatar": "https://i1.sndcdn.com/avatars-Wvm55hWMpRQTwHOH-2gO9Fg-large.jpg",
+        "comment": "good track",
+        "trackTitle": "Silentium | Lux Obscura (PjD)",
+        "trackUrl": "https://soundcloud.com/project_d2025/luxobscura",
+        "trackThumb": "https://i1.sndcdn.com/artworks-D4c3OlZM34IWQzLZ-ga8O9w-t500x500.jpg",
+        "date": "2026-09-25"
+    },
+    {
+        "id": 32,
         "author": "Jiri Boruvka",
         "username": "Juroz",
         "avatar": "https://i1.sndcdn.com/avatars-dGKCllsikU9tQqOV-xdknTA-large.jpg",
@@ -331,7 +353,7 @@ const communityReviews = [
         "date": "2026-09-17"
     },
     {
-        "id": 31,
+        "id": 33,
         "author": "I AM®",
         "username": "I AM®",
         "avatar": "https://i1.sndcdn.com/avatars-zNzdyArqeozIe0aU-R9pZxg-large.jpg",
@@ -342,7 +364,7 @@ const communityReviews = [
         "date": "2026-08-31"
     },
     {
-        "id": 32,
+        "id": 34,
         "author": "craig jones",
         "username": "Onizanka 鬼残歌",
         "avatar": "https://i1.sndcdn.com/avatars-4ZiS2TdwOj7y9Fkc-OWBdoA-large.jpg",
@@ -353,7 +375,7 @@ const communityReviews = [
         "date": "2026-09-18"
     },
     {
-        "id": 33,
+        "id": 35,
         "author": "TINT",
         "username": "TINT",
         "avatar": "https://i1.sndcdn.com/avatars-sIeLfvAFjIuQPlV4-05UwxQ-large.jpg",
@@ -364,7 +386,7 @@ const communityReviews = [
         "date": "2026-08-28"
     },
     {
-        "id": 34,
+        "id": 36,
         "author": "Edmmania",
         "username": "Edmmania",
         "avatar": "https://i1.sndcdn.com/avatars-000757534276-6ixoa8-large.jpg",
@@ -375,7 +397,7 @@ const communityReviews = [
         "date": "2026-07-27"
     },
     {
-        "id": 35,
+        "id": 37,
         "author": "SØLIX",
         "username": "SØLIX",
         "avatar": "https://i1.sndcdn.com/avatars-zznbzZQyP3bCCaOT-mHBcVw-large.jpg",
@@ -386,7 +408,7 @@ const communityReviews = [
         "date": "2026-08-17"
     },
     {
-        "id": 36,
+        "id": 38,
         "author": "Kouture Music",
         "username": "Kouture Music",
         "avatar": "https://i1.sndcdn.com/avatars-xdUkjspI5kdSdfzg-zsIuow-large.jpg",
@@ -397,7 +419,7 @@ const communityReviews = [
         "date": "2026-08-13"
     },
     {
-        "id": 37,
+        "id": 39,
         "author": "ShaqiLLiWiLL AKA Black Trash T AKA The Phoeroach",
         "username": "ShaqiLLiWiLL AKA Black Trash T AKA The Phoeroach",
         "avatar": "https://i1.sndcdn.com/avatars-q8SDqb4NaBq6nThB-xxNltw-large.jpg",
@@ -408,7 +430,7 @@ const communityReviews = [
         "date": "2026-07-26"
     },
     {
-        "id": 38,
+        "id": 40,
         "author": "Borislav Đurinec",
         "username": "Van De Bork",
         "avatar": "https://i1.sndcdn.com/avatars-hCoF95LtUb3mqJQe-9gGqHg-large.jpg",
@@ -419,7 +441,7 @@ const communityReviews = [
         "date": "2026-07-22"
     },
     {
-        "id": 39,
+        "id": 41,
         "author": "Mitchel Branston",
         "username": "Umshini Wena",
         "avatar": "https://i1.sndcdn.com/avatars-DMQFrirA29xRyJyz-Ms7cOg-large.jpg",
@@ -430,7 +452,7 @@ const communityReviews = [
         "date": "2026-07-29"
     },
     {
-        "id": 40,
+        "id": 42,
         "author": "Kid Boozie",
         "username": "Kid Boozie",
         "avatar": "https://i1.sndcdn.com/avatars-LrRMp4WHMmRMrSWs-rYjZAA-large.jpg",
@@ -441,7 +463,7 @@ const communityReviews = [
         "date": "2026-08-07"
     },
     {
-        "id": 41,
+        "id": 43,
         "author": "Bass Nomad",
         "username": "Bass Nomad",
         "avatar": "https://i1.sndcdn.com/avatars-JptEYN03uhKJ94kQ-aeZ1OQ-large.jpg",
@@ -452,7 +474,18 @@ const communityReviews = [
         "date": "2026-08-03"
     },
     {
-        "id": 42,
+        "id": 44,
+        "author": "U.G CRATIVE",
+        "username": "U.G CRATIVE",
+        "avatar": "https://i1.sndcdn.com/avatars-wwsihB7j59tT1vSs-AwXOXQ-large.jpg",
+        "comment": "good vibe",
+        "trackTitle": "Silentium | Lux Obscura (PjD)",
+        "trackUrl": "https://soundcloud.com/project_d2025/luxobscura",
+        "trackThumb": "https://i1.sndcdn.com/artworks-D4c3OlZM34IWQzLZ-ga8O9w-t500x500.jpg",
+        "date": "2026-09-17"
+    },
+    {
+        "id": 45,
         "author": "Manuel Marino",
         "username": "Manuel Marino",
         "avatar": "https://i1.sndcdn.com/avatars-Ez2Ut6Y4HpEfAhHn-HjlxBA-large.jpg",
@@ -463,7 +496,7 @@ const communityReviews = [
         "date": "2026-09-17"
     },
     {
-        "id": 43,
+        "id": 46,
         "author": "Iggor Lopes",
         "username": "Space Pirate",
         "avatar": "https://i1.sndcdn.com/avatars-zxabsJ2S6NbdOpX9-9S347w-large.jpg",
@@ -474,7 +507,7 @@ const communityReviews = [
         "date": "2026-08-30"
     },
     {
-        "id": 44,
+        "id": 47,
         "author": "Nova Shevlin",
         "username": "UniKast Radio",
         "avatar": "https://i1.sndcdn.com/avatars-phjpYDUEhDPzuYzz-KgGPvA-large.jpg",
@@ -485,7 +518,7 @@ const communityReviews = [
         "date": "2026-09-18"
     },
     {
-        "id": 45,
+        "id": 48,
         "author": "Ray Hermann Angossio Liwa",
         "username": "Alpha Mystery",
         "avatar": "https://i1.sndcdn.com/avatars-mpnsWdqmAVnNUE9L-zPxFEQ-large.jpg",
@@ -496,7 +529,7 @@ const communityReviews = [
         "date": "2026-08-28"
     },
     {
-        "id": 46,
+        "id": 49,
         "author": "Oscar Richardson",
         "username": "R.I.C.O",
         "avatar": "https://i1.sndcdn.com/avatars-Zz7W8vtwxebY3C5R-iPoCKA-large.jpg",
@@ -507,7 +540,7 @@ const communityReviews = [
         "date": "2026-07-20"
     },
     {
-        "id": 47,
+        "id": 50,
         "author": "Cade Gallo",
         "username": "Cade Gallo",
         "avatar": "https://i1.sndcdn.com/avatars-DIV0xzxQxG1VHzp5-RRPmdg-large.jpg",
@@ -518,7 +551,7 @@ const communityReviews = [
         "date": "2026-08-01"
     },
     {
-        "id": 48,
+        "id": 51,
         "author": "Gerhard Manthau",
         "username": "Mexicomaus - Label:Psychedelic new  Style  Records",
         "avatar": "https://i1.sndcdn.com/avatars-BvxReMtOeW0ywW6I-tK7RfQ-large.jpg",
@@ -529,7 +562,7 @@ const communityReviews = [
         "date": "2026-07-31"
     },
     {
-        "id": 49,
+        "id": 52,
         "author": "Karl Heimgartner",
         "username": "Karl Heinz - Heimgartner",
         "avatar": "https://i1.sndcdn.com/avatars-DqQUSNTg3LCgru8M-0p4gAA-large.jpg",
@@ -540,7 +573,7 @@ const communityReviews = [
         "date": "2026-07-23"
     },
     {
-        "id": 50,
+        "id": 53,
         "author": "SYS.GEN",
         "username": "SYS.GEN",
         "avatar": "https://i1.sndcdn.com/avatars-ox6MHFMQgCAeBDgW-ZFlfyA-large.jpg",
@@ -551,7 +584,7 @@ const communityReviews = [
         "date": "2026-07-22"
     },
     {
-        "id": 51,
+        "id": 54,
         "author": "Record Label",
         "username": "Quintessential Records",
         "avatar": "https://i1.sndcdn.com/avatars-TinHNlPtg5Ge4Z2H-nYh02w-large.jpg",
@@ -562,7 +595,7 @@ const communityReviews = [
         "date": "2026-08-07"
     },
     {
-        "id": 52,
+        "id": 55,
         "author": "Astronaut.Musik",
         "username": "Astronaut.Musik",
         "avatar": "https://i1.sndcdn.com/avatars-okh35V3iurCC8hDp-9YGOqg-large.jpg",
