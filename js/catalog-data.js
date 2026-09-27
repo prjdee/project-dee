@@ -3,7 +3,7 @@ const soundCloudCatalog = [
     {
         "id": null,
         "title": "Silentium | Lux Obscura (PjD)",
-        "sc_url": "https://soundcloud.com/project_d2025/luxobscura",
+        "sc_url": "https://soundcloud.com/theprojectdee/luxobscura",
         "yt_url": null,
         "published": "2026-09-06",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-luxobscura.jpg",
@@ -12,7 +12,7 @@ const soundCloudCatalog = [
     {
         "id": null,
         "title": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
-        "sc_url": "https://soundcloud.com/project_d2025/jpsinks",
+        "sc_url": "https://soundcloud.com/theprojectdee/jpsinks",
         "yt_url": null,
         "published": "2026-08-24",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-jpsinks.jpg",
@@ -21,7 +21,7 @@ const soundCloudCatalog = [
     {
         "id": null,
         "title": "Cats - Project Dee (Original Mix)",
-        "sc_url": "https://soundcloud.com/project_d2025/cats",
+        "sc_url": "https://soundcloud.com/theprojectdee/cats",
         "yt_url": null,
         "published": "2026-08-16",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cats.jpg",
@@ -30,7 +30,7 @@ const soundCloudCatalog = [
     {
         "id": null,
         "title": "Threshold",
-        "sc_url": "https://soundcloud.com/project_d2025/threshold",
+        "sc_url": "https://soundcloud.com/theprojectdee/threshold",
         "yt_url": null,
         "published": "2026-08-04",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-threshold.jpg",
@@ -39,7 +39,7 @@ const soundCloudCatalog = [
     {
         "id": null,
         "title": "Before The Floor Shakes",
-        "sc_url": "https://soundcloud.com/project_d2025/before-the-floor-shakes",
+        "sc_url": "https://soundcloud.com/theprojectdee/before-the-floor-shakes",
         "yt_url": null,
         "published": "2026-07-28",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-01.jpg",
@@ -48,7 +48,7 @@ const soundCloudCatalog = [
     {
         "id": "zmMbdhg6nn0",
         "title": "Catch the Sun",
-        "sc_url": "https://soundcloud.com/project_d2025/thesun",
+        "sc_url": "https://soundcloud.com/theprojectdee/thesun",
         "yt_url": null,
         "published": "2026-07-16",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-02.jpg",
@@ -57,7 +57,7 @@ const soundCloudCatalog = [
     {
         "id": "FVJ_vvxKILo",
         "title": "The Grid",
-        "sc_url": "https://soundcloud.com/project_d2025/grid",
+        "sc_url": "https://soundcloud.com/theprojectdee/grid",
         "yt_url": "https://www.youtube.com/watch?v=FVJ_vvxKILo",
         "published": "2026-06-22",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-03.jpg",
@@ -66,7 +66,7 @@ const soundCloudCatalog = [
     {
         "id": "zmMbdhg6nn0",
         "title": "Come To Dubai (Original Mix)",
-        "sc_url": "https://soundcloud.com/project_d2025/dubai",
+        "sc_url": "https://soundcloud.com/theprojectdee/dubai",
         "yt_url": "https://www.youtube.com/watch?v=zmMbdhg6nn0",
         "published": "2026-06-15",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-04.jpg",
@@ -75,7 +75,7 @@ const soundCloudCatalog = [
     {
         "id": null,
         "title": "Honey and the Tide",
-        "sc_url": "https://soundcloud.com/project_d2025/honeymoon",
+        "sc_url": "https://soundcloud.com/theprojectdee/honeymoon",
         "yt_url": "https://www.youtube.com/watch?v=5qegZ_NBvqI",
         "published": "2026-06-02",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-05.jpg",
@@ -84,7 +84,7 @@ const soundCloudCatalog = [
     {
         "id": "jWlCvzgN_xE",
         "title": "Angel of Light",
-        "sc_url": "https://soundcloud.com/project_d2025/angeloflight",
+        "sc_url": "https://soundcloud.com/theprojectdee/angeloflight",
         "yt_url": "https://www.youtube.com/watch?v=jWlCvzgN_xE",
         "published": "2026-05-24",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-06.jpg",
@@ -93,7 +93,7 @@ const soundCloudCatalog = [
     {
         "id": "NiGySiGy6ik",
         "title": "Silver Light",
-        "sc_url": "https://soundcloud.com/project_d2025/silverlight",
+        "sc_url": "https://soundcloud.com/theprojectdee/silverlight",
         "yt_url": null,
         "published": "2026-05-05",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-07.jpg",
@@ -102,7 +102,7 @@ const soundCloudCatalog = [
     {
         "id": "NiGySiGy6ik",
         "title": "C60",
-        "sc_url": "https://soundcloud.com/project_d2025/c60",
+        "sc_url": "https://soundcloud.com/theprojectdee/c60",
         "yt_url": "https://www.youtube.com/watch?v=NiGySiGy6ik",
         "published": "2026-04-30",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-08.jpg",
@@ -111,7 +111,7 @@ const soundCloudCatalog = [
     {
         "id": null,
         "title": "The Weight of Light",
-        "sc_url": "https://soundcloud.com/project_d2025/weightoflight",
+        "sc_url": "https://soundcloud.com/theprojectdee/weightoflight",
         "yt_url": null,
         "published": "2026-04-23",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-09.jpg",
@@ -120,7 +120,7 @@ const soundCloudCatalog = [
     {
         "id": null,
         "title": "The Flow of Time",
-        "sc_url": "https://soundcloud.com/project_d2025/theflow",
+        "sc_url": "https://soundcloud.com/theprojectdee/theflow",
         "yt_url": null,
         "published": "2026-04-15",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-theflow.jpg",
@@ -129,7 +129,7 @@ const soundCloudCatalog = [
     {
         "id": null,
         "title": "The Pressure",
-        "sc_url": "https://soundcloud.com/project_d2025/pressure",
+        "sc_url": "https://soundcloud.com/theprojectdee/pressure",
         "yt_url": "https://www.youtube.com/watch?v=SVN03CZMGJg",
         "published": "2026-04-09",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-pressure.jpg",
@@ -138,7 +138,7 @@ const soundCloudCatalog = [
     {
         "id": null,
         "title": "The Machine's Pulse",
-        "sc_url": "https://soundcloud.com/project_d2025/machinepulse",
+        "sc_url": "https://soundcloud.com/theprojectdee/machinepulse",
         "yt_url": null,
         "published": "2026-04-06",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-machinepulse.jpg",
@@ -147,7 +147,7 @@ const soundCloudCatalog = [
     {
         "id": null,
         "title": "Do you remember Sài Gòn?",
-        "sc_url": "https://soundcloud.com/project_d2025/doyouremember",
+        "sc_url": "https://soundcloud.com/theprojectdee/doyouremember",
         "yt_url": null,
         "published": "2026-03-04",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-doyouremember.jpg",
@@ -156,7 +156,7 @@ const soundCloudCatalog = [
     {
         "id": null,
         "title": "Strega (Dorno 2026)",
-        "sc_url": "https://soundcloud.com/project_d2025/strega2026",
+        "sc_url": "https://soundcloud.com/theprojectdee/strega2026",
         "yt_url": null,
         "published": "2026-02-26",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-strega2026.jpg",
@@ -165,7 +165,7 @@ const soundCloudCatalog = [
     {
         "id": null,
         "title": "The space in between (EssentialMix)",
-        "sc_url": "https://soundcloud.com/project_d2025/thespacessential",
+        "sc_url": "https://soundcloud.com/theprojectdee/thespacessential",
         "yt_url": null,
         "published": "2026-02-18",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-thespacessential.jpg",
@@ -174,7 +174,7 @@ const soundCloudCatalog = [
     {
         "id": null,
         "title": "The Space Between (Pure Extended Mix)",
-        "sc_url": "https://soundcloud.com/project_d2025/6min",
+        "sc_url": "https://soundcloud.com/theprojectdee/6min",
         "yt_url": "https://www.youtube.com/watch?v=t5J5_J1qHq0",
         "published": "2026-02-16",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-6min.jpg",

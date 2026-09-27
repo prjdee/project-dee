@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Khaos Creator",
-        "username": "Khaos Creator",
-        "avatar": "https://i1.sndcdn.com/avatars-QYriw83UO1MyzVFI-ECYPyQ-large.jpg",
-        "comment": "booming 💯",
+        "author": "KRT Production",
+        "username": "BBAM",
+        "avatar": "https://i1.sndcdn.com/avatars-xgtFE1mQaya1UYVy-YInE5g-large.jpg",
+        "comment": "absolute gold",
         "trackTitle": "Silentium | Lux Obscura (PjD)",
-        "trackUrl": "https://soundcloud.com/project_d2025/luxobscura",
+        "trackUrl": "https://soundcloud.com/theprojectdee/luxobscura",
         "trackThumb": "https://i1.sndcdn.com/artworks-D4c3OlZM34IWQzLZ-ga8O9w-t500x500.jpg",
-        "date": "2026-09-25"
+        "date": "2026-09-27"
     },
     {
         "id": 2,
@@ -18,7 +18,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-Jdh6IbperzqPqfom-K4mzbg-large.jpg",
         "comment": "Buen tema de electronica. los drums muy crigientes",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
-        "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
+        "trackUrl": "https://soundcloud.com/theprojectdee/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
         "date": "2026-09-21"
     },
@@ -29,7 +29,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-QYriw83UO1MyzVFI-ECYPyQ-large.jpg",
         "comment": "Nice mix 🤘",
         "trackTitle": "Cats - Project Dee (Original Mix)",
-        "trackUrl": "https://soundcloud.com/project_d2025/cats",
+        "trackUrl": "https://soundcloud.com/theprojectdee/cats",
         "trackThumb": "https://i1.sndcdn.com/artworks-UYe3tOWaT3u8nSoV-7Bx6pw-t500x500.jpg",
         "date": "2026-09-03"
     },
@@ -40,7 +40,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-QYriw83UO1MyzVFI-ECYPyQ-large.jpg",
         "comment": "smooth af 🙌",
         "trackTitle": "Threshold",
-        "trackUrl": "https://soundcloud.com/project_d2025/threshold",
+        "trackUrl": "https://soundcloud.com/theprojectdee/threshold",
         "trackThumb": "https://i1.sndcdn.com/artworks-UY8bg5P5oMoPJQlq-sWVghg-t500x500.jpg",
         "date": "2026-09-21"
     },
@@ -51,7 +51,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-83S5y8PjqHwrSjRi-nLdn8Q-large.jpg",
         "comment": "Gorgeous track! Very well done. ✨",
         "trackTitle": "Before The Floor Shakes",
-        "trackUrl": "https://soundcloud.com/project_d2025/before-the-floor-shakes",
+        "trackUrl": "https://soundcloud.com/theprojectdee/before-the-floor-shakes",
         "trackThumb": "https://i1.sndcdn.com/artworks-hErGcruPbU3e4bxK-XvIkJQ-t500x500.jpg",
         "date": "2026-09-01"
     },
@@ -62,7 +62,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-66P0PuI0CwgPLqIT-J319OA-large.jpg",
         "comment": "Fire tune ⚡",
         "trackTitle": "Catch the Sun",
-        "trackUrl": "https://soundcloud.com/project_d2025/thesun",
+        "trackUrl": "https://soundcloud.com/theprojectdee/thesun",
         "trackThumb": "https://i1.sndcdn.com/artworks-T4MY6Xr5Ooc77Srq-I9aMJQ-t500x500.jpg",
         "date": "2026-08-02"
     },
@@ -73,7 +73,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-yeRa60qozSyiXkqQ-yhmVZg-large.jpg",
         "comment": "Really good!",
         "trackTitle": "Come To Dubai (Original Mix)",
-        "trackUrl": "https://soundcloud.com/project_d2025/dubai",
+        "trackUrl": "https://soundcloud.com/theprojectdee/dubai",
         "trackThumb": "https://i1.sndcdn.com/artworks-hQHDnrAYWlKiuOql-KQ2Xqw-t500x500.jpg",
         "date": "2026-08-20"
     },
@@ -84,7 +84,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-000140583453-338nvj-large.jpg",
         "comment": "Epic 🔊",
         "trackTitle": "Honey and the Tide",
-        "trackUrl": "https://soundcloud.com/project_d2025/honeymoon",
+        "trackUrl": "https://soundcloud.com/theprojectdee/honeymoon",
         "trackThumb": "https://i1.sndcdn.com/artworks-DSMHn1DxZFl0fYr2-0UoDqQ-t500x500.png",
         "date": "2026-08-21"
     },
@@ -95,7 +95,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-pHOENGdsrBZfCiPm-gGXLXA-large.jpg",
         "comment": "straight art 😎",
         "trackTitle": "Angel of Light",
-        "trackUrl": "https://soundcloud.com/project_d2025/angeloflight",
+        "trackUrl": "https://soundcloud.com/theprojectdee/angeloflight",
         "trackThumb": "https://i1.sndcdn.com/artworks-YMPvhNSJyez7cSuY-yS96oA-t500x500.jpg",
         "date": "2026-07-23"
     },
@@ -106,7 +106,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-U1jLq37JSJaYU933-uuLPPg-large.jpg",
         "comment": "Project Dee 🎧 vibe is super chill",
         "trackTitle": "C60",
-        "trackUrl": "https://soundcloud.com/project_d2025/c60",
+        "trackUrl": "https://soundcloud.com/theprojectdee/c60",
         "trackThumb": "https://i1.sndcdn.com/artworks-03bex0aKQvegzXSx-9ylRug-t500x500.png",
         "date": "2026-04-30"
     },
@@ -117,7 +117,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-YLbKRaOySPW0N4eF-FyoeIw-large.jpg",
         "comment": "clean mix 🚀",
         "trackTitle": "The Weight of Light",
-        "trackUrl": "https://soundcloud.com/project_d2025/weightoflight",
+        "trackUrl": "https://soundcloud.com/theprojectdee/weightoflight",
         "trackThumb": "https://i1.sndcdn.com/artworks-bGWUf9xMzZ0ZAyjb-IM7ncw-t500x500.png",
         "date": "2026-08-03"
     },
@@ -128,7 +128,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-zyhlae8iPBwhabcu-63uPbw-large.jpg",
         "comment": "sounds good",
         "trackTitle": "The Flow of Time",
-        "trackUrl": "https://soundcloud.com/project_d2025/theflow",
+        "trackUrl": "https://soundcloud.com/theprojectdee/theflow",
         "trackThumb": "https://i1.sndcdn.com/artworks-YpySSkPUAzrphpm2-D4EA7g-t500x500.png",
         "date": "2026-08-03"
     },
@@ -139,7 +139,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-NNmSQlbcs71RyWyK-bltFag-large.jpg",
         "comment": "tidy",
         "trackTitle": "The Pressure",
-        "trackUrl": "https://soundcloud.com/project_d2025/pressure",
+        "trackUrl": "https://soundcloud.com/theprojectdee/pressure",
         "trackThumb": "https://i1.sndcdn.com/artworks-wnczJAsT5ItcEj6x-BQ8tOQ-t500x500.png",
         "date": "2026-08-04"
     },
@@ -150,7 +150,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-cyybf9JOwpXE8eCK-TRgqMA-large.jpg",
         "comment": "daaaaaaaam did you rub some funk in your coffee, love this",
         "trackTitle": "The Machine's Pulse",
-        "trackUrl": "https://soundcloud.com/project_d2025/machinepulse",
+        "trackUrl": "https://soundcloud.com/theprojectdee/machinepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-iNEGYSTXBHfAmAdL-cOf3WA-t500x500.jpg",
         "date": "2026-07-29"
     },
@@ -161,7 +161,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-PQfszhAXWwKYplWI-MmHPTw-large.jpg",
         "comment": "more pls 💥",
         "trackTitle": "Do you remember Sài Gòn?",
-        "trackUrl": "https://soundcloud.com/project_d2025/doyouremember",
+        "trackUrl": "https://soundcloud.com/theprojectdee/doyouremember",
         "trackThumb": "https://i1.sndcdn.com/artworks-7H0WLy2pMYcqIP3X-WdSBDQ-t500x500.jpg",
         "date": "2026-08-07"
     },
@@ -172,7 +172,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-izdqpXY3t6TirGdm-HLY9Pw-large.jpg",
         "comment": "nice sound",
         "trackTitle": "The space in between (EssentialMix)",
-        "trackUrl": "https://soundcloud.com/project_d2025/thespacessential",
+        "trackUrl": "https://soundcloud.com/theprojectdee/thespacessential",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7Zbe5oPWFuCUzzz-lYoAVA-t500x500.png",
         "date": "2026-02-19"
     },
@@ -183,20 +183,20 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-t8eFjyERzFXiqzvq-H8LwJA-large.jpg",
         "comment": "heavy tune",
         "trackTitle": "The Space Between (Pure Extended Mix)",
-        "trackUrl": "https://soundcloud.com/project_d2025/6min",
+        "trackUrl": "https://soundcloud.com/theprojectdee/6min",
         "trackThumb": "https://i1.sndcdn.com/artworks-12qiRLMLzWyebxbE-5FUzhQ-t500x500.png",
         "date": "2026-08-03"
     },
     {
         "id": 18,
-        "author": "Zawley",
-        "username": "Zawley",
-        "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
-        "comment": "Im a sucker for choirs and strings🔥🔥🔥",
+        "author": "KRT Production",
+        "username": "KRT Production",
+        "avatar": "https://i1.sndcdn.com/avatars-SXbacvZ3UrAOoI1K-QHyyFQ-large.jpg",
+        "comment": "magical 🔥",
         "trackTitle": "Silentium | Lux Obscura (PjD)",
-        "trackUrl": "https://soundcloud.com/project_d2025/luxobscura",
+        "trackUrl": "https://soundcloud.com/theprojectdee/luxobscura",
         "trackThumb": "https://i1.sndcdn.com/artworks-D4c3OlZM34IWQzLZ-ga8O9w-t500x500.jpg",
-        "date": "2026-09-25"
+        "date": "2026-09-27"
     },
     {
         "id": 19,
@@ -205,7 +205,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-Y5eEi6WyFthRyEPV-fBouMA-large.jpg",
         "comment": "uplifting",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
-        "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
+        "trackUrl": "https://soundcloud.com/theprojectdee/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
         "date": "2026-09-19"
     },
@@ -216,7 +216,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-bC041rEHE7JhnGsK-monzgA-large.jpg",
         "comment": "Tell me NO AI....TELL ME",
         "trackTitle": "Cats - Project Dee (Original Mix)",
-        "trackUrl": "https://soundcloud.com/project_d2025/cats",
+        "trackUrl": "https://soundcloud.com/theprojectdee/cats",
         "trackThumb": "https://i1.sndcdn.com/artworks-UYe3tOWaT3u8nSoV-7Bx6pw-t500x500.jpg",
         "date": "2026-09-02"
     },
@@ -227,7 +227,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-3E18YZepkqYz2Nf2-FU9XLw-large.jpg",
         "comment": "The baseline gives this great momentum",
         "trackTitle": "Threshold",
-        "trackUrl": "https://soundcloud.com/project_d2025/threshold",
+        "trackUrl": "https://soundcloud.com/theprojectdee/threshold",
         "trackThumb": "https://i1.sndcdn.com/artworks-UY8bg5P5oMoPJQlq-sWVghg-t500x500.jpg",
         "date": "2026-09-18"
     },
@@ -238,7 +238,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-5xyF8d8Mx9IuyKar-zkzxJw-large.jpg",
         "comment": "I love this craze beats, shaking us inside!",
         "trackTitle": "Before The Floor Shakes",
-        "trackUrl": "https://soundcloud.com/project_d2025/before-the-floor-shakes",
+        "trackUrl": "https://soundcloud.com/theprojectdee/before-the-floor-shakes",
         "trackThumb": "https://i1.sndcdn.com/artworks-hErGcruPbU3e4bxK-XvIkJQ-t500x500.jpg",
         "date": "2026-08-31"
     },
@@ -249,7 +249,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
         "comment": "Got me fishing pumping over here",
         "trackTitle": "Catch the Sun",
-        "trackUrl": "https://soundcloud.com/project_d2025/thesun",
+        "trackUrl": "https://soundcloud.com/theprojectdee/thesun",
         "trackThumb": "https://i1.sndcdn.com/artworks-T4MY6Xr5Ooc77Srq-I9aMJQ-t500x500.jpg",
         "date": "2026-08-02"
     },
@@ -260,7 +260,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-BzpeLbRvfBK33R9Q-QcpK4w-large.jpg",
         "comment": "Really dope groove and nice male voice sync",
         "trackTitle": "Come To Dubai (Original Mix)",
-        "trackUrl": "https://soundcloud.com/project_d2025/dubai",
+        "trackUrl": "https://soundcloud.com/theprojectdee/dubai",
         "trackThumb": "https://i1.sndcdn.com/artworks-hQHDnrAYWlKiuOql-KQ2Xqw-t500x500.jpg",
         "date": "2026-08-20"
     },
@@ -271,7 +271,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-mESAMtnB20DGKhO3-B4VEvw-large.jpg",
         "comment": "Bom trabalho feito aqui ! Track interessante boa produção",
         "trackTitle": "Honey and the Tide",
-        "trackUrl": "https://soundcloud.com/project_d2025/honeymoon",
+        "trackUrl": "https://soundcloud.com/theprojectdee/honeymoon",
         "trackThumb": "https://i1.sndcdn.com/artworks-DSMHn1DxZFl0fYr2-0UoDqQ-t500x500.png",
         "date": "2026-08-21"
     },
@@ -282,7 +282,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
         "comment": "This song is making me flow through time just right",
         "trackTitle": "The Flow of Time",
-        "trackUrl": "https://soundcloud.com/project_d2025/theflow",
+        "trackUrl": "https://soundcloud.com/theprojectdee/theflow",
         "trackThumb": "https://i1.sndcdn.com/artworks-YpySSkPUAzrphpm2-D4EA7g-t500x500.png",
         "date": "2026-08-03"
     },
@@ -293,7 +293,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-BvxReMtOeW0ywW6I-tK7RfQ-large.jpg",
         "comment": "mega sseion",
         "trackTitle": "The Pressure",
-        "trackUrl": "https://soundcloud.com/project_d2025/pressure",
+        "trackUrl": "https://soundcloud.com/theprojectdee/pressure",
         "trackThumb": "https://i1.sndcdn.com/artworks-wnczJAsT5ItcEj6x-BQ8tOQ-t500x500.png",
         "date": "2026-07-31"
     },
@@ -304,7 +304,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-hiI74ZKD2pRoNRQL-eU1CnA-large.jpg",
         "comment": "Great funky vibes here. Great sounding track",
         "trackTitle": "The Machine's Pulse",
-        "trackUrl": "https://soundcloud.com/project_d2025/machinepulse",
+        "trackUrl": "https://soundcloud.com/theprojectdee/machinepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-iNEGYSTXBHfAmAdL-cOf3WA-t500x500.jpg",
         "date": "2026-07-29"
     },
@@ -315,7 +315,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-JLfbrmHLgpDurYia-7zlnTQ-large.jpg",
         "comment": "respect 💎",
         "trackTitle": "Do you remember Sài Gòn?",
-        "trackUrl": "https://soundcloud.com/project_d2025/doyouremember",
+        "trackUrl": "https://soundcloud.com/theprojectdee/doyouremember",
         "trackThumb": "https://i1.sndcdn.com/artworks-7H0WLy2pMYcqIP3X-WdSBDQ-t500x500.jpg",
         "date": "2026-08-07"
     },
@@ -326,20 +326,20 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-Aysrw1y7GHiwfkF8-XgGTyQ-large.jpg",
         "comment": "Nice 🎤",
         "trackTitle": "The Space Between (Pure Extended Mix)",
-        "trackUrl": "https://soundcloud.com/project_d2025/6min",
+        "trackUrl": "https://soundcloud.com/theprojectdee/6min",
         "trackThumb": "https://i1.sndcdn.com/artworks-12qiRLMLzWyebxbE-5FUzhQ-t500x500.png",
         "date": "2026-08-03"
     },
     {
         "id": 31,
-        "author": "NIACIN D&B",
-        "username": "NIACIN D&B",
-        "avatar": "https://i1.sndcdn.com/avatars-Wvm55hWMpRQTwHOH-2gO9Fg-large.jpg",
-        "comment": "good track",
+        "author": "KRT Production",
+        "username": "NUR",
+        "avatar": "https://i1.sndcdn.com/avatars-Svzz22CMA0wyGVv1-z4sBPQ-large.jpg",
+        "comment": "this is it 😍",
         "trackTitle": "Silentium | Lux Obscura (PjD)",
-        "trackUrl": "https://soundcloud.com/project_d2025/luxobscura",
+        "trackUrl": "https://soundcloud.com/theprojectdee/luxobscura",
         "trackThumb": "https://i1.sndcdn.com/artworks-D4c3OlZM34IWQzLZ-ga8O9w-t500x500.jpg",
-        "date": "2026-09-25"
+        "date": "2026-09-27"
     },
     {
         "id": 32,
@@ -348,7 +348,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-dGKCllsikU9tQqOV-xdknTA-large.jpg",
         "comment": "wild track 👏",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
-        "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
+        "trackUrl": "https://soundcloud.com/theprojectdee/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
         "date": "2026-09-17"
     },
@@ -359,7 +359,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-zNzdyArqeozIe0aU-R9pZxg-large.jpg",
         "comment": "Wow you sure can capture the moment",
         "trackTitle": "Cats - Project Dee (Original Mix)",
-        "trackUrl": "https://soundcloud.com/project_d2025/cats",
+        "trackUrl": "https://soundcloud.com/theprojectdee/cats",
         "trackThumb": "https://i1.sndcdn.com/artworks-UYe3tOWaT3u8nSoV-7Bx6pw-t500x500.jpg",
         "date": "2026-08-31"
     },
@@ -370,7 +370,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-4ZiS2TdwOj7y9Fkc-OWBdoA-large.jpg",
         "comment": "straight gold 🙌",
         "trackTitle": "Threshold",
-        "trackUrl": "https://soundcloud.com/project_d2025/threshold",
+        "trackUrl": "https://soundcloud.com/theprojectdee/threshold",
         "trackThumb": "https://i1.sndcdn.com/artworks-UY8bg5P5oMoPJQlq-sWVghg-t500x500.jpg",
         "date": "2026-09-18"
     },
@@ -381,7 +381,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-sIeLfvAFjIuQPlV4-05UwxQ-large.jpg",
         "comment": "Nice, I like the fast paced beat on this.",
         "trackTitle": "Before The Floor Shakes",
-        "trackUrl": "https://soundcloud.com/project_d2025/before-the-floor-shakes",
+        "trackUrl": "https://soundcloud.com/theprojectdee/before-the-floor-shakes",
         "trackThumb": "https://i1.sndcdn.com/artworks-hErGcruPbU3e4bxK-XvIkJQ-t500x500.jpg",
         "date": "2026-08-28"
     },
@@ -392,7 +392,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-000757534276-6ixoa8-large.jpg",
         "comment": "The energy and production in this track are very groovy",
         "trackTitle": "Catch the Sun",
-        "trackUrl": "https://soundcloud.com/project_d2025/thesun",
+        "trackUrl": "https://soundcloud.com/theprojectdee/thesun",
         "trackThumb": "https://i1.sndcdn.com/artworks-T4MY6Xr5Ooc77Srq-I9aMJQ-t500x500.jpg",
         "date": "2026-07-27"
     },
@@ -403,7 +403,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-zznbzZQyP3bCCaOT-mHBcVw-large.jpg",
         "comment": "Great track , looking forward to putting this in my next mixtape",
         "trackTitle": "Come To Dubai (Original Mix)",
-        "trackUrl": "https://soundcloud.com/project_d2025/dubai",
+        "trackUrl": "https://soundcloud.com/theprojectdee/dubai",
         "trackThumb": "https://i1.sndcdn.com/artworks-hQHDnrAYWlKiuOql-KQ2Xqw-t500x500.jpg",
         "date": "2026-08-17"
     },
@@ -414,7 +414,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-xdUkjspI5kdSdfzg-zsIuow-large.jpg",
         "comment": "i like it man bravo coool work dudeee",
         "trackTitle": "Honey and the Tide",
-        "trackUrl": "https://soundcloud.com/project_d2025/honeymoon",
+        "trackUrl": "https://soundcloud.com/theprojectdee/honeymoon",
         "trackThumb": "https://i1.sndcdn.com/artworks-DSMHn1DxZFl0fYr2-0UoDqQ-t500x500.png",
         "date": "2026-08-13"
     },
@@ -425,7 +425,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-q8SDqb4NaBq6nThB-xxNltw-large.jpg",
         "comment": "this is cold and fire u fd up the climate",
         "trackTitle": "The Flow of Time",
-        "trackUrl": "https://soundcloud.com/project_d2025/theflow",
+        "trackUrl": "https://soundcloud.com/theprojectdee/theflow",
         "trackThumb": "https://i1.sndcdn.com/artworks-YpySSkPUAzrphpm2-D4EA7g-t500x500.png",
         "date": "2026-07-26"
     },
@@ -436,7 +436,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-hCoF95LtUb3mqJQe-9gGqHg-large.jpg",
         "comment": "Wow!",
         "trackTitle": "The Pressure",
-        "trackUrl": "https://soundcloud.com/project_d2025/pressure",
+        "trackUrl": "https://soundcloud.com/theprojectdee/pressure",
         "trackThumb": "https://i1.sndcdn.com/artworks-wnczJAsT5ItcEj6x-BQ8tOQ-t500x500.png",
         "date": "2026-07-22"
     },
@@ -447,7 +447,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-DMQFrirA29xRyJyz-Ms7cOg-large.jpg",
         "comment": "Deep house gold!! love the drops great work mate!",
         "trackTitle": "The Machine's Pulse",
-        "trackUrl": "https://soundcloud.com/project_d2025/machinepulse",
+        "trackUrl": "https://soundcloud.com/theprojectdee/machinepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-iNEGYSTXBHfAmAdL-cOf3WA-t500x500.jpg",
         "date": "2026-07-29"
     },
@@ -458,7 +458,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-LrRMp4WHMmRMrSWs-rYjZAA-large.jpg",
         "comment": "I could definitely see myself coming back to this one..",
         "trackTitle": "Do you remember Sài Gòn?",
-        "trackUrl": "https://soundcloud.com/project_d2025/doyouremember",
+        "trackUrl": "https://soundcloud.com/theprojectdee/doyouremember",
         "trackThumb": "https://i1.sndcdn.com/artworks-7H0WLy2pMYcqIP3X-WdSBDQ-t500x500.jpg",
         "date": "2026-08-07"
     },
@@ -469,20 +469,20 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-JptEYN03uhKJ94kQ-aeZ1OQ-large.jpg",
         "comment": "Wonderfull track, solid production and really great groove.🖤👌",
         "trackTitle": "The Space Between (Pure Extended Mix)",
-        "trackUrl": "https://soundcloud.com/project_d2025/6min",
+        "trackUrl": "https://soundcloud.com/theprojectdee/6min",
         "trackThumb": "https://i1.sndcdn.com/artworks-12qiRLMLzWyebxbE-5FUzhQ-t500x500.png",
         "date": "2026-08-03"
     },
     {
         "id": 44,
-        "author": "U.G CRATIVE",
-        "username": "U.G CRATIVE",
-        "avatar": "https://i1.sndcdn.com/avatars-wwsihB7j59tT1vSs-AwXOXQ-large.jpg",
-        "comment": "good vibe",
+        "author": "Sativadiva",
+        "username": "Sativadiva",
+        "avatar": "https://i1.sndcdn.com/avatars-BNH43bwRizYnaMu7-cENNhg-large.jpg",
+        "comment": "This is so fucking sexy I can’t 😙",
         "trackTitle": "Silentium | Lux Obscura (PjD)",
-        "trackUrl": "https://soundcloud.com/project_d2025/luxobscura",
+        "trackUrl": "https://soundcloud.com/theprojectdee/luxobscura",
         "trackThumb": "https://i1.sndcdn.com/artworks-D4c3OlZM34IWQzLZ-ga8O9w-t500x500.jpg",
-        "date": "2026-09-17"
+        "date": "2026-09-26"
     },
     {
         "id": 45,
@@ -491,7 +491,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-Ez2Ut6Y4HpEfAhHn-HjlxBA-large.jpg",
         "comment": "weird and interesting this cyberpunk song",
         "trackTitle": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
-        "trackUrl": "https://soundcloud.com/project_d2025/jpsinks",
+        "trackUrl": "https://soundcloud.com/theprojectdee/jpsinks",
         "trackThumb": "https://i1.sndcdn.com/artworks-I76i4Ns0IHCncS82-WrwNcQ-t500x500.jpg",
         "date": "2026-09-17"
     },
@@ -502,7 +502,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-zxabsJ2S6NbdOpX9-9S347w-large.jpg",
         "comment": "insane beat",
         "trackTitle": "Cats - Project Dee (Original Mix)",
-        "trackUrl": "https://soundcloud.com/project_d2025/cats",
+        "trackUrl": "https://soundcloud.com/theprojectdee/cats",
         "trackThumb": "https://i1.sndcdn.com/artworks-UYe3tOWaT3u8nSoV-7Bx6pw-t500x500.jpg",
         "date": "2026-08-30"
     },
@@ -513,7 +513,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-phjpYDUEhDPzuYzz-KgGPvA-large.jpg",
         "comment": "I like the vibe here fam! Keep up the good work",
         "trackTitle": "Threshold",
-        "trackUrl": "https://soundcloud.com/project_d2025/threshold",
+        "trackUrl": "https://soundcloud.com/theprojectdee/threshold",
         "trackThumb": "https://i1.sndcdn.com/artworks-UY8bg5P5oMoPJQlq-sWVghg-t500x500.jpg",
         "date": "2026-09-18"
     },
@@ -524,7 +524,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-mpnsWdqmAVnNUE9L-zPxFEQ-large.jpg",
         "comment": "This before the floor shakes is amazing",
         "trackTitle": "Before The Floor Shakes",
-        "trackUrl": "https://soundcloud.com/project_d2025/before-the-floor-shakes",
+        "trackUrl": "https://soundcloud.com/theprojectdee/before-the-floor-shakes",
         "trackThumb": "https://i1.sndcdn.com/artworks-hErGcruPbU3e4bxK-XvIkJQ-t500x500.jpg",
         "date": "2026-08-28"
     },
@@ -535,7 +535,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-Zz7W8vtwxebY3C5R-iPoCKA-large.jpg",
         "comment": "And the other thing I want is a little more than that",
         "trackTitle": "Catch the Sun",
-        "trackUrl": "https://soundcloud.com/project_d2025/thesun",
+        "trackUrl": "https://soundcloud.com/theprojectdee/thesun",
         "trackThumb": "https://i1.sndcdn.com/artworks-T4MY6Xr5Ooc77Srq-I9aMJQ-t500x500.jpg",
         "date": "2026-07-20"
     },
@@ -546,7 +546,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-DIV0xzxQxG1VHzp5-RRPmdg-large.jpg",
         "comment": "Love the track, the vibe is high, its on fire..",
         "trackTitle": "Come To Dubai (Original Mix)",
-        "trackUrl": "https://soundcloud.com/project_d2025/dubai",
+        "trackUrl": "https://soundcloud.com/theprojectdee/dubai",
         "trackThumb": "https://i1.sndcdn.com/artworks-hQHDnrAYWlKiuOql-KQ2Xqw-t500x500.jpg",
         "date": "2026-08-01"
     },
@@ -557,7 +557,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-BvxReMtOeW0ywW6I-tK7RfQ-large.jpg",
         "comment": "tis is amagical vibration",
         "trackTitle": "Honey and the Tide",
-        "trackUrl": "https://soundcloud.com/project_d2025/honeymoon",
+        "trackUrl": "https://soundcloud.com/theprojectdee/honeymoon",
         "trackThumb": "https://i1.sndcdn.com/artworks-DSMHn1DxZFl0fYr2-0UoDqQ-t500x500.png",
         "date": "2026-07-31"
     },
@@ -568,7 +568,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-DqQUSNTg3LCgru8M-0p4gAA-large.jpg",
         "comment": "epic energy 💎",
         "trackTitle": "The Flow of Time",
-        "trackUrl": "https://soundcloud.com/project_d2025/theflow",
+        "trackUrl": "https://soundcloud.com/theprojectdee/theflow",
         "trackThumb": "https://i1.sndcdn.com/artworks-YpySSkPUAzrphpm2-D4EA7g-t500x500.png",
         "date": "2026-07-23"
     },
@@ -579,7 +579,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-ox6MHFMQgCAeBDgW-ZFlfyA-large.jpg",
         "comment": "SMASHING HIT MATE, WHAT A BANGER, THE VOCALS ARE SICK",
         "trackTitle": "The Pressure",
-        "trackUrl": "https://soundcloud.com/project_d2025/pressure",
+        "trackUrl": "https://soundcloud.com/theprojectdee/pressure",
         "trackThumb": "https://i1.sndcdn.com/artworks-wnczJAsT5ItcEj6x-BQ8tOQ-t500x500.png",
         "date": "2026-07-22"
     },
@@ -590,7 +590,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-TinHNlPtg5Ge4Z2H-nYh02w-large.jpg",
         "comment": "I love the way the male and female vocals compliment each other!",
         "trackTitle": "Do you remember Sài Gòn?",
-        "trackUrl": "https://soundcloud.com/project_d2025/doyouremember",
+        "trackUrl": "https://soundcloud.com/theprojectdee/doyouremember",
         "trackThumb": "https://i1.sndcdn.com/artworks-7H0WLy2pMYcqIP3X-WdSBDQ-t500x500.jpg",
         "date": "2026-08-07"
     },
@@ -601,7 +601,7 @@ const communityReviews = [
         "avatar": "https://i1.sndcdn.com/avatars-okh35V3iurCC8hDp-9YGOqg-large.jpg",
         "comment": "boss vibes 😎",
         "trackTitle": "The Space Between (Pure Extended Mix)",
-        "trackUrl": "https://soundcloud.com/project_d2025/6min",
+        "trackUrl": "https://soundcloud.com/theprojectdee/6min",
         "trackThumb": "https://i1.sndcdn.com/artworks-12qiRLMLzWyebxbE-5FUzhQ-t500x500.png",
         "date": "2026-07-24"
     }
