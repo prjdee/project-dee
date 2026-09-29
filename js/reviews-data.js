@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "EgoVerus",
-        "username": "EgoVerus",
-        "avatar": "https://i1.sndcdn.com/avatars-e4XfOwUjWqyfU3rJ-2TIQrA-large.jpg",
-        "comment": "An exceptionally original composition. An interesting blend of styles.",
+        "author": "R I C H B I T O M U S I C",
+        "username": "M U S I C",
+        "avatar": "https://i1.sndcdn.com/avatars-EUCDhY4WEPy7ncx9-P84Gzw-large.jpg",
+        "comment": "Superb",
         "trackTitle": "Silentium | Lux Obscura (PjD)",
         "trackUrl": "https://soundcloud.com/theprojectdee/luxobscura",
         "trackThumb": "https://i1.sndcdn.com/artworks-D4c3OlZM34IWQzLZ-ga8O9w-t500x500.jpg",
-        "date": "2026-09-27"
+        "date": "2026-09-29"
     },
     {
         "id": 2,
@@ -189,14 +189,14 @@ const communityReviews = [
     },
     {
         "id": 18,
-        "author": "ROSSCO",
-        "username": "ROSSCO",
-        "avatar": "https://i1.sndcdn.com/avatars-YLbKRaOySPW0N4eF-FyoeIw-large.jpg",
-        "comment": "certified heat",
+        "author": "Rbh1",
+        "username": "HXsoundZ™",
+        "avatar": "https://i1.sndcdn.com/avatars-SqxHa9oVvM2qjgWu-TuOGyA-large.jpg",
+        "comment": "Heat 😎",
         "trackTitle": "Silentium | Lux Obscura (PjD)",
         "trackUrl": "https://soundcloud.com/theprojectdee/luxobscura",
         "trackThumb": "https://i1.sndcdn.com/artworks-D4c3OlZM34IWQzLZ-ga8O9w-t500x500.jpg",
-        "date": "2026-09-27"
+        "date": "2026-09-28"
     },
     {
         "id": 19,
@@ -332,10 +332,10 @@ const communityReviews = [
     },
     {
         "id": 31,
-        "author": "K-Netik",
-        "username": "K-Netik",
-        "avatar": "https://i1.sndcdn.com/avatars-Aysrw1y7GHiwfkF8-XgGTyQ-large.jpg",
-        "comment": "full send",
+        "author": "EgoVerus",
+        "username": "EgoVerus",
+        "avatar": "https://i1.sndcdn.com/avatars-e4XfOwUjWqyfU3rJ-2TIQrA-large.jpg",
+        "comment": "An exceptionally original composition. An interesting blend of styles.",
         "trackTitle": "Silentium | Lux Obscura (PjD)",
         "trackUrl": "https://soundcloud.com/theprojectdee/luxobscura",
         "trackThumb": "https://i1.sndcdn.com/artworks-D4c3OlZM34IWQzLZ-ga8O9w-t500x500.jpg",
@@ -475,10 +475,10 @@ const communityReviews = [
     },
     {
         "id": 44,
-        "author": "guittim",
-        "username": "guittim",
-        "avatar": "https://i1.sndcdn.com/avatars-PVTR5wN5IYVyXzEY-rjTe2g-large.jpg",
-        "comment": "chrystal clear produced and powerful track, great composition!",
+        "author": "ROSSCO",
+        "username": "ROSSCO",
+        "avatar": "https://i1.sndcdn.com/avatars-YLbKRaOySPW0N4eF-FyoeIw-large.jpg",
+        "comment": "certified heat",
         "trackTitle": "Silentium | Lux Obscura (PjD)",
         "trackUrl": "https://soundcloud.com/theprojectdee/luxobscura",
         "trackThumb": "https://i1.sndcdn.com/artworks-D4c3OlZM34IWQzLZ-ga8O9w-t500x500.jpg",
