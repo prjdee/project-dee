@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Cocoa Spoon",
-        "username": "Cocoa Spoon",
-        "avatar": "https://i1.sndcdn.com/avatars-000609932442-5xw988-large.jpg",
-        "comment": "Awesome bro, well done on this one",
+        "author": "Manuel Marino",
+        "username": "Manuel Marino",
+        "avatar": "https://i1.sndcdn.com/avatars-Ez2Ut6Y4HpEfAhHn-HjlxBA-large.jpg",
+        "comment": "It's really beautiful, it sounds like a sci-fi soundtrack.",
         "trackTitle": "Vertigine",
         "trackUrl": "https://soundcloud.com/theprojectdee/vertigine2035",
         "trackThumb": "https://i1.sndcdn.com/artworks-WIbJNQOCdvsv61Xz-Y8MELg-t500x500.jpg",
-        "date": "2026-10-03"
+        "date": "2026-10-04"
     },
     {
         "id": 2,
@@ -200,10 +200,10 @@ const communityReviews = [
     },
     {
         "id": 19,
-        "author": "KRT Production",
-        "username": "KRT Production",
-        "avatar": "https://i1.sndcdn.com/avatars-SXbacvZ3UrAOoI1K-QHyyFQ-large.jpg",
-        "comment": "LET’S GO",
+        "author": "Cocoa Spoon",
+        "username": "Cocoa Spoon",
+        "avatar": "https://i1.sndcdn.com/avatars-000609932442-5xw988-large.jpg",
+        "comment": "Awesome bro, well done on this one",
         "trackTitle": "Vertigine",
         "trackUrl": "https://soundcloud.com/theprojectdee/vertigine2035",
         "trackThumb": "https://i1.sndcdn.com/artworks-WIbJNQOCdvsv61Xz-Y8MELg-t500x500.jpg",
@@ -354,14 +354,14 @@ const communityReviews = [
     },
     {
         "id": 33,
-        "author": "Zawley",
-        "username": "Zawley",
-        "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
-        "comment": "Duch a fun track, good job",
+        "author": "KRT Production",
+        "username": "KRT Production",
+        "avatar": "https://i1.sndcdn.com/avatars-SXbacvZ3UrAOoI1K-QHyyFQ-large.jpg",
+        "comment": "LET’S GO",
         "trackTitle": "Vertigine",
         "trackUrl": "https://soundcloud.com/theprojectdee/vertigine2035",
         "trackThumb": "https://i1.sndcdn.com/artworks-WIbJNQOCdvsv61Xz-Y8MELg-t500x500.jpg",
-        "date": "2026-10-02"
+        "date": "2026-10-03"
     },
     {
         "id": 34,
@@ -497,10 +497,10 @@ const communityReviews = [
     },
     {
         "id": 46,
-        "author": "ÆLLI",
-        "username": "ÆLLI",
-        "avatar": "https://i1.sndcdn.com/avatars-xyoFvc0kP3rDexiY-zrBefw-large.jpg",
-        "comment": "These melodies are incredible! Very nice",
+        "author": "Zawley",
+        "username": "Zawley",
+        "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
+        "comment": "Duch a fun track, good job",
         "trackTitle": "Vertigine",
         "trackUrl": "https://soundcloud.com/theprojectdee/vertigine2035",
         "trackThumb": "https://i1.sndcdn.com/artworks-WIbJNQOCdvsv61Xz-Y8MELg-t500x500.jpg",
