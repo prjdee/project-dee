@@ -213,7 +213,7 @@ const communityReviews = [
         "id": 20,
         "author": "R I C H B I T O M U S I C",
         "username": "M U S I C",
-        "avatar": "https://i1.sndcdn.com/avatars-EUCDhY4WEPy7ncx9-P84Gzw-large.jpg",
+        "avatar": "https://i1.sndcdn.com/avatars-vGNLc4A6rr6DiKuO-vSujiw-large.jpg",
         "comment": "Superb",
         "trackTitle": "Silentium | Lux Obscura (PjD)",
         "trackUrl": "https://soundcloud.com/theprojectdee/luxobscura",
