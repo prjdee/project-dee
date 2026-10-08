@@ -13,14 +13,14 @@ const communityReviews = [
     },
     {
         "id": 2,
-        "author": "KRT Production",
-        "username": "KRT Production",
-        "avatar": "https://i1.sndcdn.com/avatars-SXbacvZ3UrAOoI1K-QHyyFQ-large.jpg",
-        "comment": "perfection 💥",
+        "author": "Harmonia At Night",
+        "username": "Harmonia At Night",
+        "avatar": "https://i1.sndcdn.com/avatars-000140583453-338nvj-large.jpg",
+        "comment": "wild track",
         "trackTitle": "Zodiac (September Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/zodiac-september-bonus-track",
         "trackThumb": "https://i1.sndcdn.com/artworks-pzSsE3bAlqOAYT6w-GzWxQA-t500x500.jpg",
-        "date": "2026-10-06"
+        "date": "2026-10-07"
     },
     {
         "id": 3,
@@ -200,10 +200,10 @@ const communityReviews = [
     },
     {
         "id": 19,
-        "author": "Resazat Ay",
-        "username": "Resazat",
-        "avatar": "https://i1.sndcdn.com/avatars-fiJ6W3WXEqL2jPsO-ucYcCA-large.jpg",
-        "comment": "this knocks",
+        "author": "KRT Production",
+        "username": "KRT Production",
+        "avatar": "https://i1.sndcdn.com/avatars-SXbacvZ3UrAOoI1K-QHyyFQ-large.jpg",
+        "comment": "perfection 💥",
         "trackTitle": "Zodiac (September Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/zodiac-september-bonus-track",
         "trackThumb": "https://i1.sndcdn.com/artworks-pzSsE3bAlqOAYT6w-GzWxQA-t500x500.jpg",
@@ -354,14 +354,14 @@ const communityReviews = [
     },
     {
         "id": 33,
-        "author": "Robert Grigg",
-        "username": "Robert Grigg",
-        "avatar": "https://i1.sndcdn.com/avatars-G4zBIMLqKy7FVY1N-JrTwqA-large.jpg",
-        "comment": "Nice 🤘",
+        "author": "Resazat Ay",
+        "username": "Resazat",
+        "avatar": "https://i1.sndcdn.com/avatars-fiJ6W3WXEqL2jPsO-ucYcCA-large.jpg",
+        "comment": "this knocks",
         "trackTitle": "Zodiac (September Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/zodiac-september-bonus-track",
         "trackThumb": "https://i1.sndcdn.com/artworks-pzSsE3bAlqOAYT6w-GzWxQA-t500x500.jpg",
-        "date": "2026-10-01"
+        "date": "2026-10-06"
     },
     {
         "id": 34,
@@ -508,10 +508,10 @@ const communityReviews = [
     },
     {
         "id": 47,
-        "author": "Cocoa Spoon",
-        "username": "Cocoa Spoon",
-        "avatar": "https://i1.sndcdn.com/avatars-000609932442-5xw988-large.jpg",
-        "comment": "Did you create all the sounds yourself?",
+        "author": "Robert Grigg",
+        "username": "Robert Grigg",
+        "avatar": "https://i1.sndcdn.com/avatars-G4zBIMLqKy7FVY1N-JrTwqA-large.jpg",
+        "comment": "Nice 🤘",
         "trackTitle": "Zodiac (September Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/zodiac-september-bonus-track",
         "trackThumb": "https://i1.sndcdn.com/artworks-pzSsE3bAlqOAYT6w-GzWxQA-t500x500.jpg",
