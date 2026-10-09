@@ -2,9 +2,9 @@ name: Auto-Sync SoundCloud & YouTube Catalog
 
 on:
   schedule:
-    # Esegue ogni notte alle 03:00 UTC (05:00 ora italiana)
+    # Runs every day at 03:00 UTC (05:00 Italian time)
     - cron: '0 3 * * *'
-  workflow_dispatch: # Permette l'esecuzione manuale da GitHub
+  workflow_dispatch: # Allows manual run from GitHub Actions tab
 
 permissions:
   contents: write
@@ -29,6 +29,9 @@ jobs:
       - name: Sync YouTube Catalog
         run: python scripts/sync_youtube_catalog.py
 
+      - name: Sync SoundCloud Community Reviews
+        run: python scripts/sync_soundcloud_comments.py
+
       - name: Verify Catalog Integrity
         run: python scripts/verify_catalog_integrity.py
 
@@ -36,11 +39,11 @@ jobs:
         run: |
           git config --global user.name "PRJDEE AutoSync Bot"
           git config --global user.email "bot@prjdee.com"
-          git add js/catalog-data.js assets/covers/
+          git add js/catalog-data.js js/reviews-data.js assets/covers/
           if git diff --staged --quiet; then
             echo "No changes detected in SoundCloud or YouTube catalog."
           else
-            echo "New tracks or videos detected! Committing and pushing updates..."
-            git commit -m "Auto-sync SoundCloud & YouTube catalog [daily update]"
+            echo "New tracks or reviews detected! Committing and pushing updates..."
+            git commit -m "Auto-sync SoundCloud & YouTube catalog and fan reviews [daily update]"
             git push
           fi
