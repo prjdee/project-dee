@@ -607,12 +607,17 @@ function initCommunityReviews() {
                 btn.classList.add('active');
                 const filterValue = btn.getAttribute('data-track');
                 const currentLanguage = (typeof activeLang !== 'undefined' ? activeLang : 'it');
+                reviewsLimit = 9; // Reset limit when changing filter
                 renderReviews(filterValue, currentLanguage);
             });
         });
     }
 
+    let reviewsLimit = 9;
+    let currentReviewsFilter = 'ALL';
+
     function renderReviews(filterTrack = 'ALL', lang = activeLang) {
+        currentReviewsFilter = filterTrack;
         const currentLanguage = lang || (typeof activeLang !== 'undefined' ? activeLang : 'it');
         const listenText = (translations[currentLanguage] && translations[currentLanguage].community_listen_track) || "Ascolta Traccia";
 
@@ -622,13 +627,19 @@ function initCommunityReviews() {
             filtered = communityReviews.filter(r => r.trackTitle === decoded);
         }
 
+        const loadMoreContainer = document.getElementById('reviews-load-more-container');
+
         if (filtered.length === 0) {
             reviewsContainer.innerHTML = `<p style="color:#a0a5b5; text-align:center; grid-column: 1/-1; padding: 2rem 0;">Nessuna recensione trovata per questa traccia.</p>`;
+            if (loadMoreContainer) loadMoreContainer.style.display = 'none';
             return;
         }
 
         let html = '';
-        filtered.forEach(rev => {
+        const limitToUse = (filterTrack === 'ALL') ? reviewsLimit : filtered.length;
+        const toRender = filtered.slice(0, limitToUse);
+
+        toRender.forEach(rev => {
             const avatarUrl = rev.avatar || 'https://a-v2.sndcdn.com/assets/images/default/avatar.png';
             const shortTrackName = rev.trackTitle ? rev.trackTitle.split(' - ')[0] : 'Project Dee Track';
             const safeComment = rev.comment.replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -663,6 +674,22 @@ function initCommunityReviews() {
             `;
         });
         reviewsContainer.innerHTML = html;
+
+        if (loadMoreContainer) {
+            if (filterTrack === 'ALL' && filtered.length > reviewsLimit) {
+                loadMoreContainer.style.display = 'block';
+            } else {
+                loadMoreContainer.style.display = 'none';
+            }
+        }
+    }
+
+    const loadMoreBtn = document.getElementById('btn-load-more-reviews');
+    if (loadMoreBtn) {
+        loadMoreBtn.addEventListener('click', () => {
+            reviewsLimit = communityReviews.length;
+            renderReviews(currentReviewsFilter, activeLang);
+        });
     }
 
     // Initial render all
