@@ -2799,9 +2799,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .reviews-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 1.5rem;
+    column-count: 3;
+    column-gap: 1.5rem;
     margin-bottom: 3.5rem;
 }
 
@@ -2816,7 +2815,9 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     backdrop-filter: blur(12px);
     transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    overflow: hidden;
+    overflow: hidden;    break-inside: avoid;
+    margin-bottom: 1.5rem;
+
 }
 
 .review-card::before {
@@ -3174,3 +3175,74 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
+/* Phase 1 Additions */
+.music-section { position: relative; z-index: 1; }
+.music-section::before {
+    content: "";
+    position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(circle at 50% 10%, rgba(0, 85, 255, 0.04), transparent 60%);
+    pointer-events: none; z-index: -1;
+}
+
+.track-card {
+    overflow: hidden;
+}
+.track-card::before {
+    content: '';
+    position: absolute;
+    top: var(--mouse-y, -100px);
+    left: var(--mouse-x, -100px);
+    width: 250px; height: 250px;
+    background: radial-gradient(circle, rgba(0, 243, 255, 0.1) 0%, transparent 70%);
+    transform: translate(-50%, -50%);
+    pointer-events: none; opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 50%; z-index: 0;
+}
+.track-card:hover::before { opacity: 1; }
+.track-info, .track-links { position: relative; z-index: 1; }
+
+.selections-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+.selection-card {
+    background: rgba(14, 14, 22, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+.selection-card::after {
+    content: ''; position: absolute; inset: 0;
+    background: linear-gradient(90deg, rgba(0,85,255,0.1), rgba(0,243,255,0.1));
+    opacity: 0; transition: opacity 0.3s ease; z-index: 0;
+}
+.selection-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(0, 243, 255, 0.3);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4), 0 0 15px rgba(0,243,255,0.1);
+}
+.selection-card:hover::after { opacity: 1; }
+.selection-content { position: relative; z-index: 1; }
+.selection-content h4 { font-family: var(--font-titles); font-size: 1.1rem; margin-bottom: 0.3rem; letter-spacing: 0.05em;}
+.selection-content p { color: #a0a5b5; font-size: 0.85rem; margin: 0; }
+.selection-card > i { position: relative; z-index: 1; font-size: 1.8rem; color: var(--cyber-cyan); opacity: 0.8;}
+
+@media (max-width: 768px) {
+    .selections-grid { grid-template-columns: 1fr; }
+    .reviews-grid { column-count: 1; }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .reviews-grid { column-count: 2; }
+}
