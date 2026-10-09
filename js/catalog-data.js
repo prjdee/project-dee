@@ -2,6 +2,15 @@
 const soundCloudCatalog = [
     {
         "id": null,
+        "title": "Pure Pulse (PjD | Madness Remake)",
+        "sc_url": "https://soundcloud.com/theprojectdee/purepulse",
+        "yt_url": null,
+        "published": "2026-10-08",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-purepulse.jpg",
+        "genre": "Peak Techno"
+    },
+    {
+        "id": null,
         "title": "Vertigine",
         "sc_url": "https://soundcloud.com/theprojectdee/vertigine2035",
         "yt_url": null,
@@ -170,15 +179,6 @@ const soundCloudCatalog = [
         "published": "2026-03-04",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-doyouremember.jpg",
         "genre": "Dance & EDM"
-    },
-    {
-        "id": null,
-        "title": "Strega (Dorno 2026)",
-        "sc_url": "https://soundcloud.com/theprojectdee/strega2026",
-        "yt_url": null,
-        "published": "2026-02-26",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-strega2026.jpg",
-        "genre": "Electronic"
     }
 ];
 

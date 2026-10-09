@@ -125,7 +125,7 @@ const communityReviews = [
         "id": 12,
         "author": "ROSSCO",
         "username": "ROSSCO",
-        "avatar": "https://i1.sndcdn.com/avatars-YLbKRaOySPW0N4eF-FyoeIw-large.jpg",
+        "avatar": "https://i1.sndcdn.com/avatars-wxo4L3Yyx88d1ldh-QfCNnQ-large.jpg",
         "comment": "clean mix 🚀",
         "trackTitle": "The Weight of Light",
         "trackUrl": "https://soundcloud.com/theprojectdee/weightoflight",
