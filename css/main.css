@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
     .btn-primary:hover {
         background-color: var(--cyber-cyan);
         border-color: var(--cyber-cyan);
-        transform: translateY(-2px);
+        transform: translateX(4px);
         box-shadow: 0 8px 24px var(--cyber-cyan-glow);
     }
     
@@ -1110,7 +1110,8 @@ h1, h2, h3, h4, h5, h6 {
     max-height: 360px; /* Shows 3 tracks initially */
     overflow: hidden;
     transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-    padding-right: 0.5rem;
+    padding: 10px 10px 10px 0;
+    margin: -10px -10px -10px 0;
 }
 
 .tracks-list.expanded {
@@ -3155,7 +3156,7 @@ h1, h2, h3, h4, h5, h6 {
 .track-card:hover {
     border-color: rgba(0, 243, 255, 0.45);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 25px rgba(0, 243, 255, 0.2);
-    transform: translateY(-4px) scale(1.01);
+    transform: translateX(6px);
 }
 
 .track-card:hover .track-thumb-img {
