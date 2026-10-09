@@ -3261,21 +3261,17 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(0.85);
-    width: 650px;
-    height: 450px;
-    background-image: url('../assets/totem-animals.jpg');
-    background-size: 110%; /* Zoom in slightly */
-    background-position: center 30%; /* Shift up to hide the gold PjD text */
+    transform: translate(-50%, -50%) scale(0.8);
+    width: 800px;
+    height: 400px;
+    background-image: url('../assets/totem-animals-clean.png');
+    background-size: contain; 
+    background-position: center; 
     background-repeat: no-repeat;
     
-    /* Magic to remove the dark background and keep only the neon glow */
+    /* Pure magic: Black becomes 100% transparent */
     mix-blend-mode: screen;
-    filter: contrast(1.4) brightness(0.8) drop-shadow(0 0 20px rgba(0, 243, 255, 0.4));
-    
-    /* Fade out the edges so it blends perfectly into the black site background */
-    mask-image: radial-gradient(circle at 50% 45%, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 65%);
-    -webkit-mask-image: radial-gradient(circle at 50% 45%, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 65%);
+    filter: brightness(1.2) drop-shadow(0 0 15px rgba(0, 243, 255, 0.3));
     
     opacity: 0;
     transition: all 0.9s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -3290,8 +3286,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-logo-wrapper:hover .totem-aura {
-    opacity: 0.85;
-    transform: translate(-50%, -50%) scale(1.02);
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.05);
 }
 
 .hero-logo-wrapper:hover .hero-logo-container {
