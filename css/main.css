@@ -3255,8 +3255,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .totem-aura {
-    position: fixed; /* Must be fixed to match logo and break out of stacking contexts */
-    top: 40%; /* Match logo top */
+    position: absolute;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.85);
     width: 800px;
@@ -3288,15 +3288,13 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-.hero-logo-wrapper:has(.hero-logo-container:hover) .totem-aura,
-.hero-logo-wrapper:hover .totem-aura {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1.05);
+.hero-logo-container:hover .totem-aura {
+    opacity: 1 !important;
+    transform: translate(-50%, -50%) scale(1.05) !important;
 }
 
 /* Fade out the D logo */
-.hero-logo-wrapper:has(.hero-logo-container:hover) .hero-logo-big,
-.hero-logo-wrapper:hover .hero-logo-big {
+.hero-logo-container:hover .hero-logo-big {
     opacity: 0 !important;
     transform: scale(0.9) !important;
     filter: blur(5px) !important;
