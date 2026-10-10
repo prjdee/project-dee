@@ -2084,7 +2084,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 50%;
     transform: translateX(-50%);
     width: calc(100% - 3rem);
-    max-width: 600px;
+    max-width: 750px;
     background-color: rgba(18, 18, 28, 0.75);
     border: 1px solid rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(24px);
@@ -3197,7 +3197,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     top: var(--mouse-y, -100px);
     left: var(--mouse-x, -100px);
-    width: 250px; height: 250px;
+    width: 250px; height: 315px;
     background: radial-gradient(circle, rgba(0, 243, 255, 0.1) 0%, transparent 70%);
     transform: translate(-50%, -50%);
     pointer-events: none; opacity: 0;
