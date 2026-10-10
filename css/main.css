@@ -3261,7 +3261,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translate(-50%, -50%) scale(0.85);
     width: 800px;
     height: 400px;
-    background-image: url('../assets/totem-animals-true-transparent.png');
+    background-image: url('../assets/totem-animals-transparent.png');
     background-size: contain; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -3271,8 +3271,8 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 0; /* Behind logo which has z-index 1 */
     
     /* Crucial: mix-blend-mode screen will drop the black pixels */
-    mix-blend-mode: screen;
-    filter: brightness(1.2) drop-shadow(0 0 15px rgba(0, 243, 255, 0.3));
+    /* removed mix-blend-mode */
+    filter: brightness(1.3) drop-shadow(0 0 20px rgba(0, 243, 255, 0.4));
 }
 
 
