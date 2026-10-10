@@ -3261,7 +3261,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translate(-50%, -50%) scale(0.85);
     width: 800px;
     height: 400px;
-    background-image: url('../assets/totem-animals-transparent.png');
+    background-image: url('../assets/totem-animals-true-transparent.png');
     background-size: contain; 
     background-position: center; 
     background-repeat: no-repeat;
