@@ -3255,8 +3255,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .totem-aura {
-    position: absolute;
-    top: 50%;
+    position: fixed; /* Must be fixed to match logo and break out of stacking contexts */
+    top: 40%; /* Match logo top */
     left: 50%;
     transform: translate(-50%, -50%) scale(0.85);
     width: 800px;
@@ -3268,15 +3268,16 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0;
     transition: all 0.9s cubic-bezier(0.165, 0.84, 0.44, 1);
     pointer-events: none;
-    z-index: -1; /* Place it behind the logo img */
+    z-index: 0; /* Behind logo which has z-index 1 */
+    
+    /* Crucial: mix-blend-mode screen will drop the black pixels */
+    mix-blend-mode: screen;
+    filter: brightness(1.2) drop-shadow(0 0 15px rgba(0, 243, 255, 0.3));
 }
 
 
 
-.hero-logo-container:hover .totem-aura {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1.05);
-}
+
 
 
 
@@ -3285,4 +3286,10 @@ h1, h2, h3, h4, h5, h6 {
         width: 400px;
         height: 300px;
     }
+}
+
+.hero-logo-wrapper:has(.hero-logo-container:hover) .totem-aura,
+.hero-logo-wrapper:hover .totem-aura {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.05);
 }
