@@ -482,6 +482,11 @@ function initCustomWaveformPlayer() {
         
         if (genreBadge) genreBadge.textContent = trackData.genre || 'Official Release';
 
+        // Trigger Persistent Seamless Bottom Player!
+        if (typeof window.playTrackInBottomPlayer === 'function') {
+            window.playTrackInBottomPlayer(trackData, index);
+        }
+
         // Check if this is a SoundCloud track or YouTube track
         if (trackData.sc_url) {
             // Use Official SoundCloud Player Deck for 100% true audio & volume
