@@ -1,15 +1,15 @@
 /**
- * Persistent Global Bottom Audio Player Controller
- * Direct synchronization with SoundCloud Official Player & Catalog
+ * Persistent Global Bottom Audio Player Controller (Standalone Audio Engine)
+ * Directly plays audio streams and syncs with SoundCloud catalog
  */
 
 (function() {
     'use strict';
 
-    let scWidget = null;
-    let isWidgetReady = false;
     let currentTrackIndex = 0;
     let isPlaying = false;
+    let scWidget = null;
+    let isWidgetReady = false;
     let currentDuration = 0;
     let progressInterval = null;
 
@@ -28,9 +28,11 @@
     const currentTimeEl = document.getElementById('pjd-current-time');
     const totalTimeEl = document.getElementById('pjd-total-time');
 
-    // We bind to the visible official player iframe: #sc-widget-iframe
-    function getTargetIframe() {
-        return document.getElementById('sc-widget-iframe');
+    function getCatalog() {
+        if (typeof soundCloudCatalog !== 'undefined' && soundCloudCatalog.length > 0) {
+            return soundCloudCatalog;
+        }
+        return [];
     }
 
     function formatTime(ms) {
@@ -41,65 +43,8 @@
         return `${minutes}:${seconds.toString().padStart(2, '0')}`;
     }
 
-    function initWidgetBinding() {
-        const iframe = getTargetIframe();
-        if (!iframe || typeof SC === 'undefined' || typeof SC.Widget === 'undefined') {
-            return;
-        }
-
-        try {
-            scWidget = SC.Widget(iframe);
-
-            scWidget.bind(SC.Widget.Events.READY, function() {
-                isWidgetReady = true;
-                scWidget.getDuration(function(d) {
-                    currentDuration = d || 0;
-                    if (totalTimeEl) totalTimeEl.textContent = formatTime(currentDuration);
-                });
-                scWidget.isPaused(function(paused) {
-                    isPlaying = !paused;
-                    updatePlayState(isPlaying);
-                });
-            });
-
-            scWidget.bind(SC.Widget.Events.PLAY, function() {
-                isPlaying = true;
-                updatePlayState(true);
-                startProgressTracker();
-            });
-
-            scWidget.bind(SC.Widget.Events.PAUSE, function() {
-                isPlaying = false;
-                updatePlayState(false);
-                stopProgressTracker();
-            });
-
-            scWidget.bind(SC.Widget.Events.FINISH, function() {
-                isPlaying = false;
-                updatePlayState(false);
-                stopProgressTracker();
-                playNextTrack();
-            });
-
-            scWidget.bind(SC.Widget.Events.PLAY_PROGRESS, function(data) {
-                const pos = data.currentPosition || 0;
-                if (!currentDuration && data.relativePosition > 0) {
-                    currentDuration = Math.round(pos / data.relativePosition);
-                    if (totalTimeEl) totalTimeEl.textContent = formatTime(currentDuration);
-                }
-                if (currentTimeEl) currentTimeEl.textContent = formatTime(pos);
-                if (currentDuration > 0 && progressFill) {
-                    const pct = Math.min(100, (pos / currentDuration) * 100);
-                    progressFill.style.width = `${pct}%`;
-                }
-            });
-
-        } catch (err) {
-            console.warn('[Bottom Player] Widget binding error:', err);
-        }
-    }
-
     function updatePlayState(playing) {
+        isPlaying = playing;
         if (!playerEl || !playIcon) return;
         if (playing) {
             playerEl.classList.add('playing');
@@ -122,7 +67,7 @@
                     }
                 });
             }
-        }, 800);
+        }, 600);
     }
 
     function stopProgressTracker() {
@@ -132,32 +77,86 @@
         }
     }
 
-    function getCatalog() {
-        if (typeof soundCloudCatalog !== 'undefined' && soundCloudCatalog.length > 0) {
-            return soundCloudCatalog;
+    function bindWidgetToIframe(iframe) {
+        if (!iframe || typeof SC === 'undefined' || typeof SC.Widget === 'undefined') {
+            return;
         }
-        return [];
+
+        try {
+            scWidget = SC.Widget(iframe);
+
+            scWidget.bind(SC.Widget.Events.READY, function() {
+                isWidgetReady = true;
+                scWidget.getDuration(function(d) {
+                    currentDuration = d || 0;
+                    if (totalTimeEl) totalTimeEl.textContent = formatTime(currentDuration);
+                });
+            });
+
+            scWidget.bind(SC.Widget.Events.PLAY, function() {
+                updatePlayState(true);
+                startProgressTracker();
+            });
+
+            scWidget.bind(SC.Widget.Events.PAUSE, function() {
+                updatePlayState(false);
+                stopProgressTracker();
+            });
+
+            scWidget.bind(SC.Widget.Events.FINISH, function() {
+                updatePlayState(false);
+                stopProgressTracker();
+                playNextTrack();
+            });
+
+            scWidget.bind(SC.Widget.Events.PLAY_PROGRESS, function(data) {
+                const pos = data.currentPosition || 0;
+                if (!currentDuration && data.relativePosition > 0) {
+                    currentDuration = Math.round(pos / data.relativePosition);
+                    if (totalTimeEl) totalTimeEl.textContent = formatTime(currentDuration);
+                }
+                if (currentTimeEl) currentTimeEl.textContent = formatTime(pos);
+                if (currentDuration > 0 && progressFill) {
+                    const pct = Math.min(100, (pos / currentDuration) * 100);
+                    progressFill.style.width = `${pct}%`;
+                }
+            });
+
+        } catch (e) {
+            console.warn('[Bottom Player] Widget binding warning:', e);
+        }
     }
 
-    // Called whenever a track is selected or loaded
+    // Direct playback function
     window.playTrackInBottomPlayer = function(trackData, index) {
         if (!trackData) return;
         currentTrackIndex = typeof index === 'number' ? index : 0;
 
+        // 1. Update UI Elements immediately
         if (titleEl) titleEl.textContent = trackData.title || 'Project Dee';
-        if (thumbEl && trackData.thumb) thumbEl.src = trackData.thumb;
-        if (scLink && trackData.sc_url) scLink.href = trackData.sc_url;
-
-        // Reset progress numbers
+        if (thumbEl) {
+            thumbEl.src = trackData.thumb || 'assets/covers/sc-purepulse.jpg';
+        }
+        if (scLink && trackData.sc_url) {
+            scLink.href = trackData.sc_url;
+        }
         if (currentTimeEl) currentTimeEl.textContent = '0:00';
         if (totalTimeEl) totalTimeEl.textContent = '...';
         if (progressFill) progressFill.style.width = '0%';
 
-        // Ensure bottom dock is active
-        if (playerEl) playerEl.classList.add('active');
+        // 2. Play audio in official iframe deck
+        const scIframe = document.getElementById('sc-widget-iframe');
+        if (scIframe && trackData.sc_url) {
+            const encodedUrl = encodeURIComponent(trackData.sc_url);
+            scIframe.src = `https://w.soundcloud.com/player/?url=${encodedUrl}&color=%23ff5500&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false`;
+            
+            // Re-bind widget after iframe loads
+            setTimeout(function() {
+                bindWidgetToIframe(scIframe);
+            }, 800);
+        }
 
-        // Re-bind widget after iframe src update
-        setTimeout(initWidgetBinding, 800);
+        updatePlayState(true);
     };
 
     function playPrevTrack() {
@@ -166,6 +165,8 @@
         currentTrackIndex = (currentTrackIndex - 1 + cat.length) % cat.length;
         if (typeof window.loadTrackIntoWaveform === 'function') {
             window.loadTrackIntoWaveform(cat[currentTrackIndex], currentTrackIndex);
+        } else {
+            window.playTrackInBottomPlayer(cat[currentTrackIndex], currentTrackIndex);
         }
     }
 
@@ -175,23 +176,26 @@
         currentTrackIndex = (currentTrackIndex + 1) % cat.length;
         if (typeof window.loadTrackIntoWaveform === 'function') {
             window.loadTrackIntoWaveform(cat[currentTrackIndex], currentTrackIndex);
+        } else {
+            window.playTrackInBottomPlayer(cat[currentTrackIndex], currentTrackIndex);
         }
     }
 
-    // Controls
+    // Play/Pause button
     if (playBtn) {
         playBtn.addEventListener('click', function(e) {
             e.stopPropagation();
+            const scIframe = document.getElementById('sc-widget-iframe');
             if (scWidget && isWidgetReady) {
                 scWidget.toggle();
-            } else {
-                initWidgetBinding();
+            } else if (scIframe) {
+                bindWidgetToIframe(scIframe);
                 if (scWidget) {
                     scWidget.toggle();
                 } else {
                     const cat = getCatalog();
-                    if (cat.length > 0 && typeof window.loadTrackIntoWaveform === 'function') {
-                        window.loadTrackIntoWaveform(cat[0], 0);
+                    if (cat.length > 0) {
+                        window.playTrackInBottomPlayer(cat[0], 0);
                     }
                 }
             }
@@ -220,6 +224,7 @@
             }
             if (playerEl) {
                 playerEl.classList.remove('active');
+                playerEl.style.transform = 'translateY(105%)';
             }
         });
     }
@@ -236,17 +241,25 @@
         });
     }
 
-    // Startup init
-    window.addEventListener('DOMContentLoaded', function() {
+    // Initial setup on page ready
+    function initDefaultTrack() {
         const cat = getCatalog();
         if (cat.length > 0) {
             const first = cat[0];
             if (titleEl) titleEl.textContent = first.title;
-            if (thumbEl && first.thumb) thumbEl.src = first.thumb;
+            if (thumbEl) thumbEl.src = first.thumb || 'assets/covers/sc-purepulse.jpg';
             if (scLink && first.sc_url) scLink.href = first.sc_url;
         }
+        const scIframe = document.getElementById('sc-widget-iframe');
+        if (scIframe) {
+            bindWidgetToIframe(scIframe);
+        }
+    }
 
-        setTimeout(initWidgetBinding, 1000);
-    });
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initDefaultTrack);
+    } else {
+        initDefaultTrack();
+    }
 
 })();
