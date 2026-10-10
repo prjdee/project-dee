@@ -49,6 +49,7 @@
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css?v=2.0">
+    <link rel="stylesheet" href="css/bottom-player.css?v=2.0">
 </head>
 <body>
 
@@ -714,6 +715,69 @@
     <script src="js/catalog-data.js?v=2.0"></script>
     <script src="js/canvas-effect.js?v=2.0"></script>
     <script src="js/global-energy-beams.js?v=2.0"></script>
+        <script src="https://w.soundcloud.com/player/api.js"></script>
+    <script src="js/bottom-player.js?v=2.0"></script>
     <script src="js/main.js?v=2.0"></script>
+
+    <!-- Hidden SoundCloud Audio Engine -->
+    <iframe id="pjd-hidden-sc-iframe" 
+        allow="autoplay" 
+        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/theprojectdee/purepulse&auto_play=false">
+    </iframe>
+
+    <!-- Persistent Global Bottom Audio Player (Dark-Luxury) -->
+    <div id="pjd-bottom-player" class="pjd-bottom-player">
+        <!-- Left: Track info -->
+        <div class="pjd-player-left">
+            <div class="pjd-player-thumb-wrap">
+                <img id="pjd-player-thumb" src="assets/covers/sc_1.jpg" alt="Now Playing" class="pjd-player-thumb">
+            </div>
+            <div class="pjd-player-info">
+                <span id="pjd-player-title" class="pjd-player-title">Pure Pulse (PjD | Madness Remake)</span>
+                <span class="pjd-player-artist">Project Dee <span class="pjd-live-badge">AUDIO</span></span>
+            </div>
+        </div>
+
+        <!-- Center: Controls & Timeline -->
+        <div class="pjd-player-center">
+            <div class="pjd-player-controls">
+                <button id="pjd-prev-btn" class="pjd-ctrl-btn" aria-label="Previous Track" title="Traccia Precedente">
+                    <i class="fa-solid fa-backward-step"></i>
+                </button>
+                <button id="pjd-play-main-btn" class="pjd-play-main-btn" aria-label="Play / Pause" title="Play / Pausa">
+                    <i id="pjd-play-icon" class="fa-solid fa-play"></i>
+                </button>
+                <button id="pjd-next-btn" class="pjd-ctrl-btn" aria-label="Next Track" title="Traccia Successiva">
+                    <i class="fa-solid fa-forward-step"></i>
+                </button>
+            </div>
+            <div class="pjd-timeline-box">
+                <span id="pjd-current-time" class="pjd-time-text">0:00</span>
+                <div id="pjd-progress-bar-wrap" class="pjd-progress-bar-wrap">
+                    <div id="pjd-progress-fill" class="pjd-progress-bar-fill">
+                        <span class="pjd-progress-handle"></span>
+                    </div>
+                </div>
+                <span id="pjd-total-time" class="pjd-time-text">0:00</span>
+            </div>
+        </div>
+
+        <!-- Right: Animated Soundwave, External SC Link & Close -->
+        <div class="pjd-player-right">
+            <div class="pjd-eq-bars" title="Audio Stream Active">
+                <span class="pjd-eq-bar"></span>
+                <span class="pjd-eq-bar"></span>
+                <span class="pjd-eq-bar"></span>
+                <span class="pjd-eq-bar"></span>
+            </div>
+            <a id="pjd-sc-link" href="https://soundcloud.com/theprojectdee/purepulse" target="_blank" class="pjd-action-link" title="Apri su SoundCloud">
+                <i class="fa-brands fa-soundcloud"></i>
+            </a>
+            <button id="pjd-close-player" class="pjd-close-player" aria-label="Chiudi Player" title="Nascondi Player">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+    </div>
+
 </body>
 </html>
