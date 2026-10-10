@@ -3438,3 +3438,36 @@ h1, h2, h3, h4, h5, h6 {
         gap: 1.2rem;
     }
 }
+
+.totem-img-box {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.totem-animal-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.15));
+    transition: filter 0.4s ease, transform 0.4s ease;
+}
+
+.totem-wolf:hover .totem-animal-img {
+    filter: drop-shadow(0 0 18px rgba(0, 243, 255, 0.7));
+    transform: scale(1.08);
+}
+
+.totem-fox:hover .totem-animal-img {
+    filter: drop-shadow(0 0 18px rgba(255, 85, 0, 0.7));
+    transform: scale(1.08);
+}
+
+.totem-eagle:hover .totem-animal-img {
+    filter: drop-shadow(0 0 18px rgba(181, 101, 245, 0.7));
+    transform: scale(1.08);
+}
