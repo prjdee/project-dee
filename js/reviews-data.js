@@ -13,10 +13,10 @@ const communityReviews = [
     },
     {
         "id": 2,
-        "author": "AKA Mudlark ^",
-        "username": "AKA Mudlark ^",
-        "avatar": "https://i1.sndcdn.com/avatars-EMS2dg42vlOz2TVU-dSC55A-large.jpg",
-        "comment": "dope 😎",
+        "author": "Khaos Creator",
+        "username": "Khaos Creator",
+        "avatar": "https://i1.sndcdn.com/avatars-QYriw83UO1MyzVFI-ECYPyQ-large.jpg",
+        "comment": "no skips ✨",
         "trackTitle": "Vertigine",
         "trackUrl": "https://soundcloud.com/theprojectdee/vertigine2035",
         "trackThumb": "https://i1.sndcdn.com/artworks-WIbJNQOCdvsv61Xz-Y8MELg-t500x500.jpg",
@@ -211,10 +211,10 @@ const communityReviews = [
     },
     {
         "id": 20,
-        "author": "Paul Barrett",
-        "username": "PLrM",
-        "avatar": "https://i1.sndcdn.com/avatars-JXZ1DXwMozQr1SdR-jyjyUw-large.jpg",
-        "comment": "This sounds massive. Great job.",
+        "author": "AKA Mudlark ^",
+        "username": "AKA Mudlark ^",
+        "avatar": "https://i1.sndcdn.com/avatars-EMS2dg42vlOz2TVU-dSC55A-large.jpg",
+        "comment": "dope 😎",
         "trackTitle": "Vertigine",
         "trackUrl": "https://soundcloud.com/theprojectdee/vertigine2035",
         "trackThumb": "https://i1.sndcdn.com/artworks-WIbJNQOCdvsv61Xz-Y8MELg-t500x500.jpg",
@@ -279,7 +279,7 @@ const communityReviews = [
         "id": 26,
         "author": "Wilson Gomes",
         "username": "Wilson Gomes",
-        "avatar": "https://i1.sndcdn.com/avatars-DBK1Z9GKW26aOVlW-OzXLog-large.jpg",
+        "avatar": "https://i1.sndcdn.com/avatars-9Ti8upFNtu7WTFsI-D8ZbXA-large.jpg",
         "comment": "I love this craze beats, shaking us inside!",
         "trackTitle": "Before The Floor Shakes",
         "trackUrl": "https://soundcloud.com/theprojectdee/before-the-floor-shakes",
@@ -376,14 +376,14 @@ const communityReviews = [
     },
     {
         "id": 35,
-        "author": "Manuel Marino",
-        "username": "Manuel Marino",
-        "avatar": "https://i1.sndcdn.com/avatars-Ez2Ut6Y4HpEfAhHn-HjlxBA-large.jpg",
-        "comment": "It's really beautiful, it sounds like a sci-fi soundtrack.",
+        "author": "Paul Barrett",
+        "username": "PLrM",
+        "avatar": "https://i1.sndcdn.com/avatars-JXZ1DXwMozQr1SdR-jyjyUw-large.jpg",
+        "comment": "This sounds massive. Great job.",
         "trackTitle": "Vertigine",
         "trackUrl": "https://soundcloud.com/theprojectdee/vertigine2035",
         "trackThumb": "https://i1.sndcdn.com/artworks-WIbJNQOCdvsv61Xz-Y8MELg-t500x500.jpg",
-        "date": "2026-10-04"
+        "date": "2026-10-09"
     },
     {
         "id": 36,
@@ -541,14 +541,14 @@ const communityReviews = [
     },
     {
         "id": 50,
-        "author": "Cocoa Spoon",
-        "username": "Cocoa Spoon",
-        "avatar": "https://i1.sndcdn.com/avatars-000609932442-5xw988-large.jpg",
-        "comment": "Awesome bro, well done on this one",
+        "author": "Manuel Marino",
+        "username": "Manuel Marino",
+        "avatar": "https://i1.sndcdn.com/avatars-Ez2Ut6Y4HpEfAhHn-HjlxBA-large.jpg",
+        "comment": "It's really beautiful, it sounds like a sci-fi soundtrack.",
         "trackTitle": "Vertigine",
         "trackUrl": "https://soundcloud.com/theprojectdee/vertigine2035",
         "trackThumb": "https://i1.sndcdn.com/artworks-WIbJNQOCdvsv61Xz-Y8MELg-t500x500.jpg",
-        "date": "2026-10-03"
+        "date": "2026-10-04"
     },
     {
         "id": 51,
