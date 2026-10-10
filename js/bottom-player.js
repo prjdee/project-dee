@@ -1,6 +1,6 @@
 /**
  * Persistent Global Bottom Audio Player Controller
- * Seamlessly interfaces with SoundCloud Widget API and site playlist catalog
+ * Direct synchronization with SoundCloud Official Player & Catalog
  */
 
 (function() {
@@ -15,7 +15,6 @@
 
     // Elements
     const playerEl = document.getElementById('pjd-bottom-player');
-    const iframeEl = document.getElementById('pjd-hidden-sc-iframe');
     const thumbEl = document.getElementById('pjd-player-thumb');
     const titleEl = document.getElementById('pjd-player-title');
     const playBtn = document.getElementById('pjd-play-main-btn');
@@ -29,6 +28,11 @@
     const currentTimeEl = document.getElementById('pjd-current-time');
     const totalTimeEl = document.getElementById('pjd-total-time');
 
+    // We bind to the visible official player iframe: #sc-widget-iframe
+    function getTargetIframe() {
+        return document.getElementById('sc-widget-iframe');
+    }
+
     function formatTime(ms) {
         if (!ms || isNaN(ms)) return '0:00';
         const totalSeconds = Math.floor(ms / 1000);
@@ -37,19 +41,24 @@
         return `${minutes}:${seconds.toString().padStart(2, '0')}`;
     }
 
-    function initSCWidget() {
-        if (!iframeEl || typeof SC === 'undefined' || typeof SC.Widget === 'undefined') {
+    function initWidgetBinding() {
+        const iframe = getTargetIframe();
+        if (!iframe || typeof SC === 'undefined' || typeof SC.Widget === 'undefined') {
             return;
         }
 
         try {
-            scWidget = SC.Widget(iframeEl);
+            scWidget = SC.Widget(iframe);
 
             scWidget.bind(SC.Widget.Events.READY, function() {
                 isWidgetReady = true;
-                scWidget.getDuration(function(duration) {
-                    currentDuration = duration || 0;
+                scWidget.getDuration(function(d) {
+                    currentDuration = d || 0;
                     if (totalTimeEl) totalTimeEl.textContent = formatTime(currentDuration);
+                });
+                scWidget.isPaused(function(paused) {
+                    isPlaying = !paused;
+                    updatePlayState(isPlaying);
                 });
             });
 
@@ -69,27 +78,24 @@
                 isPlaying = false;
                 updatePlayState(false);
                 stopProgressTracker();
-                // Auto play next track in catalog!
                 playNextTrack();
             });
 
             scWidget.bind(SC.Widget.Events.PLAY_PROGRESS, function(data) {
-                if (!currentDuration && data.currentPosition) {
-                    scWidget.getDuration(function(d) {
-                        currentDuration = d;
-                        if (totalTimeEl) totalTimeEl.textContent = formatTime(d);
-                    });
+                const pos = data.currentPosition || 0;
+                if (!currentDuration && data.relativePosition > 0) {
+                    currentDuration = Math.round(pos / data.relativePosition);
+                    if (totalTimeEl) totalTimeEl.textContent = formatTime(currentDuration);
                 }
-                const currentPos = data.currentPosition || 0;
-                if (currentTimeEl) currentTimeEl.textContent = formatTime(currentPos);
+                if (currentTimeEl) currentTimeEl.textContent = formatTime(pos);
                 if (currentDuration > 0 && progressFill) {
-                    const percent = Math.min(100, (currentPos / currentDuration) * 100);
-                    progressFill.style.width = `${percent}%`;
+                    const pct = Math.min(100, (pos / currentDuration) * 100);
+                    progressFill.style.width = `${pct}%`;
                 }
             });
 
-        } catch (e) {
-            console.warn('[Bottom Player] SoundCloud Widget Init Notice:', e);
+        } catch (err) {
+            console.warn('[Bottom Player] Widget binding error:', err);
         }
     }
 
@@ -111,12 +117,12 @@
                 scWidget.getPosition(function(pos) {
                     if (currentTimeEl) currentTimeEl.textContent = formatTime(pos);
                     if (currentDuration > 0 && progressFill) {
-                        const percent = Math.min(100, (pos / currentDuration) * 100);
-                        progressFill.style.width = `${percent}%`;
+                        const pct = Math.min(100, (pos / currentDuration) * 100);
+                        progressFill.style.width = `${pct}%`;
                     }
                 });
             }
-        }, 1000);
+        }, 800);
     }
 
     function stopProgressTracker() {
@@ -133,74 +139,60 @@
         return [];
     }
 
-    // Public method to play any track from anywhere on the site
+    // Called whenever a track is selected or loaded
     window.playTrackInBottomPlayer = function(trackData, index) {
-        if (!trackData || !playerEl) return;
-
+        if (!trackData) return;
         currentTrackIndex = typeof index === 'number' ? index : 0;
-        
-        // Show the floating player
-        playerEl.classList.add('active');
 
-        // Update Meta UI
-        if (titleEl) titleEl.textContent = trackData.title || 'Project Dee Track';
+        if (titleEl) titleEl.textContent = trackData.title || 'Project Dee';
         if (thumbEl && trackData.thumb) thumbEl.src = trackData.thumb;
         if (scLink && trackData.sc_url) scLink.href = trackData.sc_url;
 
-        // Reset progress UI
+        // Reset progress numbers
         if (currentTimeEl) currentTimeEl.textContent = '0:00';
         if (totalTimeEl) totalTimeEl.textContent = '...';
         if (progressFill) progressFill.style.width = '0%';
 
-        // Load audio stream via widget
-        if (trackData.sc_url) {
-            const scUrl = trackData.sc_url;
-            if (scWidget && isWidgetReady) {
-                scWidget.load(scUrl, {
-                    auto_play: true,
-                    show_artwork: false,
-                    callback: function() {
-                        scWidget.play();
-                        scWidget.getDuration(function(d) {
-                            currentDuration = d;
-                            if (totalTimeEl) totalTimeEl.textContent = formatTime(d);
-                        });
-                    }
-                });
-            } else if (iframeEl) {
-                // If widget not initialized yet, re-target iframe src directly
-                const encoded = encodeURIComponent(scUrl);
-                iframeEl.src = `https://w.soundcloud.com/player/?url=${encoded}&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false`;
-                setTimeout(initSCWidget, 1000);
-            }
-        }
+        // Ensure bottom dock is active
+        if (playerEl) playerEl.classList.add('active');
+
+        // Re-bind widget after iframe src update
+        setTimeout(initWidgetBinding, 800);
     };
 
     function playPrevTrack() {
         const cat = getCatalog();
         if (cat.length === 0) return;
         currentTrackIndex = (currentTrackIndex - 1 + cat.length) % cat.length;
-        window.playTrackInBottomPlayer(cat[currentTrackIndex], currentTrackIndex);
+        if (typeof window.loadTrackIntoWaveform === 'function') {
+            window.loadTrackIntoWaveform(cat[currentTrackIndex], currentTrackIndex);
+        }
     }
 
     function playNextTrack() {
         const cat = getCatalog();
         if (cat.length === 0) return;
         currentTrackIndex = (currentTrackIndex + 1) % cat.length;
-        window.playTrackInBottomPlayer(cat[currentTrackIndex], currentTrackIndex);
+        if (typeof window.loadTrackIntoWaveform === 'function') {
+            window.loadTrackIntoWaveform(cat[currentTrackIndex], currentTrackIndex);
+        }
     }
 
-    // Event Listeners
+    // Controls
     if (playBtn) {
         playBtn.addEventListener('click', function(e) {
             e.stopPropagation();
             if (scWidget && isWidgetReady) {
                 scWidget.toggle();
             } else {
-                // If first click without active track, load first track
-                const cat = getCatalog();
-                if (cat.length > 0) {
-                    window.playTrackInBottomPlayer(cat[0], 0);
+                initWidgetBinding();
+                if (scWidget) {
+                    scWidget.toggle();
+                } else {
+                    const cat = getCatalog();
+                    if (cat.length > 0 && typeof window.loadTrackIntoWaveform === 'function') {
+                        window.loadTrackIntoWaveform(cat[0], 0);
+                    }
                 }
             }
         });
@@ -232,7 +224,6 @@
         });
     }
 
-    // Seeking on timeline
     if (progressBarWrap) {
         progressBarWrap.addEventListener('click', function(e) {
             if (!currentDuration || !scWidget || !isWidgetReady) return;
@@ -245,20 +236,17 @@
         });
     }
 
-    // Initialize when DOM and SC API script are ready
+    // Startup init
     window.addEventListener('DOMContentLoaded', function() {
-        // Wait briefly for SoundCloud Widget script to initialize
-        if (typeof SC !== 'undefined' && typeof SC.Widget !== 'undefined') {
-            initSCWidget();
-        } else {
-            const checkScInterval = setInterval(function() {
-                if (typeof SC !== 'undefined' && typeof SC.Widget !== 'undefined') {
-                    clearInterval(checkScInterval);
-                    initSCWidget();
-                }
-            }, 300);
-            setTimeout(function() { clearInterval(checkScInterval); }, 5000);
+        const cat = getCatalog();
+        if (cat.length > 0) {
+            const first = cat[0];
+            if (titleEl) titleEl.textContent = first.title;
+            if (thumbEl && first.thumb) thumbEl.src = first.thumb;
+            if (scLink && first.sc_url) scLink.href = first.sc_url;
         }
+
+        setTimeout(initWidgetBinding, 1000);
     });
 
 })();
