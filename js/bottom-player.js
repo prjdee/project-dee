@@ -13,20 +13,23 @@
     let currentDuration = 0;
     let progressTimer = null;
 
-    // Elements
-    const playerEl = document.getElementById('pjd-bottom-player');
-    const thumbEl = document.getElementById('pjd-player-thumb');
-    const titleEl = document.getElementById('pjd-player-title');
-    const playBtn = document.getElementById('pjd-play-main-btn');
-    const playIcon = document.getElementById('pjd-play-icon');
-    const prevBtn = document.getElementById('pjd-prev-btn');
-    const nextBtn = document.getElementById('pjd-next-btn');
-    const scLink = document.getElementById('pjd-sc-link');
-    const closeBtn = document.getElementById('pjd-close-player');
-    const progressBarWrap = document.getElementById('pjd-progress-bar-wrap');
-    const progressFill = document.getElementById('pjd-progress-fill');
-    const currentTimeEl = document.getElementById('pjd-current-time');
-    const totalTimeEl = document.getElementById('pjd-total-time');
+    // Helper to get elements on demand
+    const el = {
+        get player() { return document.getElementById('pjd-bottom-player'); },
+        get thumb() { return document.getElementById('pjd-player-thumb'); },
+        get title() { return document.getElementById('pjd-player-title'); },
+        get playBtn() { return document.getElementById('pjd-play-main-btn'); },
+        get playIcon() { return document.getElementById('pjd-play-icon'); },
+        get prevBtn() { return document.getElementById('pjd-prev-btn'); },
+        get nextBtn() { return document.getElementById('pjd-next-btn'); },
+        get scLink() { return document.getElementById('pjd-sc-link'); },
+        get closeBtn() { return document.getElementById('pjd-close-player'); },
+        get progressBarWrap() { return document.getElementById('pjd-progress-bar-wrap'); },
+        get progressFill() { return document.getElementById('pjd-progress-fill'); },
+        get currentTime() { return document.getElementById('pjd-current-time'); },
+        get totalTime() { return document.getElementById('pjd-total-time'); },
+        get scIframe() { return document.getElementById('sc-widget-iframe'); }
+    };
 
     function getCatalog() {
         if (typeof soundCloudCatalog !== 'undefined' && soundCloudCatalog.length > 0) {
@@ -45,13 +48,15 @@
 
     function updatePlayUI(playing) {
         isPlaying = playing;
-        if (!playerEl || !playIcon) return;
+        const player = el.player;
+        const icon = el.playIcon;
+        if (!player || !icon) return;
         if (playing) {
-            playerEl.classList.add('playing');
-            playIcon.className = 'fa-solid fa-pause';
+            player.classList.add('playing');
+            icon.className = 'fa-solid fa-pause';
         } else {
-            playerEl.classList.remove('playing');
-            playIcon.className = 'fa-solid fa-play';
+            player.classList.remove('playing');
+            icon.className = 'fa-solid fa-play';
         }
     }
 
@@ -60,10 +65,10 @@
         progressTimer = setInterval(function() {
             if (scWidget && isWidgetReady && isPlaying) {
                 scWidget.getPosition(function(pos) {
-                    if (currentTimeEl) currentTimeEl.textContent = formatTime(pos);
-                    if (currentDuration > 0 && progressFill) {
+                    if (el.currentTime) el.currentTime.textContent = formatTime(pos);
+                    if (currentDuration > 0 && el.progressFill) {
                         const pct = Math.min(100, (pos / currentDuration) * 100);
-                        progressFill.style.width = `${pct}%`;
+                        el.progressFill.style.width = `${pct}%`;
                     }
                 });
             }
@@ -77,12 +82,8 @@
         }
     }
 
-    function getScIframe() {
-        return document.getElementById('sc-widget-iframe');
-    }
-
     function bindWidget() {
-        const iframe = getScIframe();
+        const iframe = el.scIframe;
         if (!iframe || typeof SC === 'undefined' || typeof SC.Widget === 'undefined') {
             return;
         }
@@ -94,7 +95,7 @@
                 isWidgetReady = true;
                 scWidget.getDuration(function(d) {
                     currentDuration = d || 0;
-                    if (totalTimeEl) totalTimeEl.textContent = formatTime(currentDuration);
+                    if (el.totalTime) el.totalTime.textContent = formatTime(currentDuration);
                 });
                 scWidget.isPaused(function(paused) {
                     updatePlayUI(!paused);
@@ -121,12 +122,12 @@
                 const pos = data.currentPosition || 0;
                 if (!currentDuration && data.relativePosition > 0) {
                     currentDuration = Math.round(pos / data.relativePosition);
-                    if (totalTimeEl) totalTimeEl.textContent = formatTime(currentDuration);
+                    if (el.totalTime) el.totalTime.textContent = formatTime(currentDuration);
                 }
-                if (currentTimeEl) currentTimeEl.textContent = formatTime(pos);
-                if (currentDuration > 0 && progressFill) {
+                if (el.currentTime) el.currentTime.textContent = formatTime(pos);
+                if (currentDuration > 0 && el.progressFill) {
                     const pct = Math.min(100, (pos / currentDuration) * 100);
-                    progressFill.style.width = `${pct}%`;
+                    el.progressFill.style.width = `${pct}%`;
                 }
             });
 
@@ -141,15 +142,15 @@
         currentTrackIndex = typeof index === 'number' ? index : 0;
 
         // 1. Update Bottom Bar Info
-        if (titleEl) titleEl.textContent = trackData.title || 'Project Dee';
-        if (thumbEl) thumbEl.src = trackData.thumb || 'https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-purepulse.jpg';
-        if (scLink && trackData.sc_url) scLink.href = trackData.sc_url;
-        if (currentTimeEl) currentTimeEl.textContent = '0:00';
-        if (totalTimeEl) totalTimeEl.textContent = '...';
-        if (progressFill) progressFill.style.width = '0%';
+        if (el.title) el.title.textContent = trackData.title || 'Project Dee';
+        if (el.thumb) el.thumb.src = trackData.thumb || 'https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-purepulse.jpg';
+        if (el.scLink && trackData.sc_url) el.scLink.href = trackData.sc_url;
+        if (el.currentTime) el.currentTime.textContent = '0:00';
+        if (el.totalTime) el.totalTime.textContent = '...';
+        if (el.progressFill) el.progressFill.style.width = '0%';
 
         // 2. Load audio into official player iframe
-        const iframe = getScIframe();
+        const iframe = el.scIframe;
         if (iframe && trackData.sc_url) {
             const encodedUrl = encodeURIComponent(trackData.sc_url);
             iframe.src = `https://w.soundcloud.com/player/?url=${encodedUrl}&color=%23ff5500&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false`;
@@ -175,11 +176,9 @@
         window.playTrackInBottomPlayer(cat[currentTrackIndex], currentTrackIndex);
     }
 
-    // Play/Pause Action
     function togglePlayback() {
-        const iframe = getScIframe();
+        const iframe = el.scIframe;
         
-        // If widget is bound, try native toggle
         if (scWidget && isWidgetReady) {
             try {
                 scWidget.toggle();
@@ -189,7 +188,6 @@
             }
         }
 
-        // Fallback: If not playing yet or widget unready, load track or re-bind
         const cat = getCatalog();
         if (!isPlaying) {
             if (cat.length > 0) {
@@ -197,7 +195,6 @@
             }
         } else {
             if (iframe) {
-                // To pause safely if widget fails: stop audio reload
                 bindWidget();
                 if (scWidget) scWidget.pause();
             }
@@ -205,58 +202,59 @@
         }
     }
 
-    // Attach Click Events Directly
-    if (playBtn) {
-        playBtn.onclick = function(e) {
-            e.preventDefault();
-            e.stopPropagation();
-            togglePlayback();
-        };
+    // Attach Click Events
+    function attachPlayerEvents() {
+        if (el.playBtn) {
+            el.playBtn.onclick = function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                togglePlayback();
+            };
+        }
+
+        if (el.prevBtn) {
+            el.prevBtn.onclick = function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                playPrev();
+            };
+        }
+
+        if (el.nextBtn) {
+            el.nextBtn.onclick = function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                playNext();
+            };
+        }
+
+        if (el.closeBtn) {
+            el.closeBtn.onclick = function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                if (scWidget && isWidgetReady) {
+                    scWidget.pause();
+                }
+                updatePlayUI(false);
+                if (el.player) {
+                    el.player.style.transform = 'translateY(105%)';
+                }
+            };
+        }
+
+        if (el.progressBarWrap) {
+            el.progressBarWrap.onclick = function(e) {
+                if (!currentDuration || !scWidget || !isWidgetReady) return;
+                const rect = el.progressBarWrap.getBoundingClientRect();
+                const clickX = e.clientX - rect.left;
+                const ratio = Math.max(0, Math.min(1, clickX / rect.width));
+                const seekMs = currentDuration * ratio;
+                scWidget.seekTo(seekMs);
+                if (el.progressFill) el.progressFill.style.width = `${ratio * 100}%`;
+            };
+        }
     }
 
-    if (prevBtn) {
-        prevBtn.onclick = function(e) {
-            e.preventDefault();
-            e.stopPropagation();
-            playPrev();
-        };
-    }
-
-    if (nextBtn) {
-        nextBtn.onclick = function(e) {
-            e.preventDefault();
-            e.stopPropagation();
-            playNext();
-        };
-    }
-
-    if (closeBtn) {
-        closeBtn.onclick = function(e) {
-            e.preventDefault();
-            e.stopPropagation();
-            if (scWidget && isWidgetReady) {
-                scWidget.pause();
-            }
-            updatePlayUI(false);
-            if (playerEl) {
-                playerEl.style.transform = 'translateY(105%)';
-            }
-        };
-    }
-
-    if (progressBarWrap) {
-        progressBarWrap.onclick = function(e) {
-            if (!currentDuration || !scWidget || !isWidgetReady) return;
-            const rect = progressBarWrap.getBoundingClientRect();
-            const clickX = e.clientX - rect.left;
-            const ratio = Math.max(0, Math.min(1, clickX / rect.width));
-            const seekMs = currentDuration * ratio;
-            scWidget.seekTo(seekMs);
-            if (progressFill) progressFill.style.width = `${ratio * 100}%`;
-        };
-    }
-
-    // Make track cards in the catalog trigger the bottom player on click
     function attachTrackCardListeners() {
         const cards = document.querySelectorAll('.track-card');
         const cat = getCatalog();
@@ -274,11 +272,12 @@
         const cat = getCatalog();
         if (cat.length > 0) {
             const first = cat[0];
-            if (titleEl) titleEl.textContent = first.title;
-            if (thumbEl) thumbEl.src = first.thumb || 'https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-purepulse.jpg';
-            if (scLink && first.sc_url) scLink.href = first.sc_url;
+            if (el.title) el.title.textContent = first.title;
+            if (el.thumb) el.thumb.src = first.thumb || 'https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-purepulse.jpg';
+            if (el.scLink && first.sc_url) el.scLink.href = first.sc_url;
         }
         
+        attachPlayerEvents();
         bindWidget();
         setTimeout(bindWidget, 1200);
         setTimeout(attachTrackCardListeners, 800);
