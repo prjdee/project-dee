@@ -3293,3 +3293,16 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1.05);
 }
+
+/* Fade out the D logo */
+.hero-logo-wrapper:has(.hero-logo-container:hover) .hero-logo-big,
+.hero-logo-wrapper:hover .hero-logo-big {
+    opacity: 0 !important;
+    transform: scale(0.9) !important;
+    filter: blur(5px) !important;
+}
+
+/* Ensure transition is smooth on the big logo */
+.hero-logo-big {
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
+}
