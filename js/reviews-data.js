@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Manuel Varella",
-        "username": "Manuel Varella Dj",
-        "avatar": "https://i1.sndcdn.com/avatars-TUkeLAOeMS0bhLBl-yMoxxg-large.jpg",
-        "comment": "That kick hits HARD! 💣keep on moving",
+        "author": "Astronaut.Musik",
+        "username": "Astronaut.Musik",
+        "avatar": "https://i1.sndcdn.com/avatars-okh35V3iurCC8hDp-9YGOqg-large.jpg",
+        "comment": "a whole mood",
         "trackTitle": "Pure Pulse (PjD | Madness Remake)",
         "trackUrl": "https://soundcloud.com/theprojectdee/purepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-tAP1ujy4i4tFQwvS-TNnCmA-t500x500.jpg",
-        "date": "2026-10-09"
+        "date": "2026-10-11"
     },
     {
         "id": 2,
@@ -35,14 +35,14 @@ const communityReviews = [
     },
     {
         "id": 4,
-        "author": "Tannova",
-        "username": "Tannova",
-        "avatar": "https://i1.sndcdn.com/avatars-FqOzJjgVNRqQF7s0-zOLqOA-large.jpg",
-        "comment": "nice work man great tune wow love it",
+        "author": "Jonas Bergström",
+        "username": "GeezyorK",
+        "avatar": "https://i1.sndcdn.com/avatars-hiI74ZKD2pRoNRQL-eU1CnA-large.jpg",
+        "comment": "Massive sounding production here. Mighty",
         "trackTitle": "Silentium | Lux Obscura (PjD)",
         "trackUrl": "https://soundcloud.com/theprojectdee/luxobscura",
         "trackThumb": "https://i1.sndcdn.com/artworks-D4c3OlZM34IWQzLZ-ga8O9w-t500x500.jpg",
-        "date": "2026-10-01"
+        "date": "2026-10-11"
     },
     {
         "id": 5,
@@ -200,14 +200,14 @@ const communityReviews = [
     },
     {
         "id": 19,
-        "author": "Nota.Cvlt",
-        "username": "Nota.Cvlt",
-        "avatar": "https://i1.sndcdn.com/avatars-HGwkKQRE4x4UTuys-5TMNPA-large.jpg",
-        "comment": "This is such a good song. Caught me off guard how hard it goes",
+        "author": "Jerry Gildbrandsen",
+        "username": "Techneck Records",
+        "avatar": "https://i1.sndcdn.com/avatars-CxlSqh8Ooz3Z051W-rjE8GQ-large.jpg",
+        "comment": "perfection",
         "trackTitle": "Pure Pulse (PjD | Madness Remake)",
         "trackUrl": "https://soundcloud.com/theprojectdee/purepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-tAP1ujy4i4tFQwvS-TNnCmA-t500x500.jpg",
-        "date": "2026-10-09"
+        "date": "2026-10-10"
     },
     {
         "id": 20,
@@ -233,14 +233,14 @@ const communityReviews = [
     },
     {
         "id": 22,
-        "author": "R I C H B I T O M U S I C",
-        "username": "M U S I C",
-        "avatar": "https://i1.sndcdn.com/avatars-vGNLc4A6rr6DiKuO-vSujiw-large.jpg",
-        "comment": "Superb",
+        "author": "Music that tells stories, and brings emotions",
+        "username": "Piamime",
+        "avatar": "https://i1.sndcdn.com/avatars-ynIymyHSprMMcwTh-xL3cPw-large.jpg",
+        "comment": "dis hard 🔉",
         "trackTitle": "Silentium | Lux Obscura (PjD)",
         "trackUrl": "https://soundcloud.com/theprojectdee/luxobscura",
         "trackThumb": "https://i1.sndcdn.com/artworks-D4c3OlZM34IWQzLZ-ga8O9w-t500x500.jpg",
-        "date": "2026-09-29"
+        "date": "2026-10-11"
     },
     {
         "id": 23,
@@ -365,14 +365,14 @@ const communityReviews = [
     },
     {
         "id": 34,
-        "author": "Vorales",
-        "username": "VORALES",
-        "avatar": "https://i1.sndcdn.com/avatars-FYW6lXbRmiMWiMEI-r8vYPg-large.jpg",
-        "comment": "melodia incrivel dessa sonoridade bro",
+        "author": "Harmonia At Night",
+        "username": "Harmonia At Night",
+        "avatar": "https://i1.sndcdn.com/avatars-000140583453-338nvj-large.jpg",
+        "comment": "I fw this 🎵",
         "trackTitle": "Pure Pulse (PjD | Madness Remake)",
         "trackUrl": "https://soundcloud.com/theprojectdee/purepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-tAP1ujy4i4tFQwvS-TNnCmA-t500x500.jpg",
-        "date": "2026-10-09"
+        "date": "2026-10-10"
     },
     {
         "id": 35,
@@ -398,14 +398,14 @@ const communityReviews = [
     },
     {
         "id": 37,
-        "author": "Rbh1",
-        "username": "HXsoundZ™",
-        "avatar": "https://i1.sndcdn.com/avatars-SqxHa9oVvM2qjgWu-TuOGyA-large.jpg",
-        "comment": "Heat 😎",
+        "author": "Tom",
+        "username": "dalaitom",
+        "avatar": "https://i1.sndcdn.com/avatars-O5ygjaJLCkNBoxoZ-zKdSeg-large.jpg",
+        "comment": "cool",
         "trackTitle": "Silentium | Lux Obscura (PjD)",
         "trackUrl": "https://soundcloud.com/theprojectdee/luxobscura",
         "trackThumb": "https://i1.sndcdn.com/artworks-D4c3OlZM34IWQzLZ-ga8O9w-t500x500.jpg",
-        "date": "2026-09-28"
+        "date": "2026-10-11"
     },
     {
         "id": 38,
@@ -530,10 +530,10 @@ const communityReviews = [
     },
     {
         "id": 49,
-        "author": "Rbh1",
-        "username": "HXsoundZ™",
-        "avatar": "https://i1.sndcdn.com/avatars-SqxHa9oVvM2qjgWu-TuOGyA-large.jpg",
-        "comment": "this bangs",
+        "author": "Manuel Varella",
+        "username": "Manuel Varella Dj",
+        "avatar": "https://i1.sndcdn.com/avatars-TUkeLAOeMS0bhLBl-yMoxxg-large.jpg",
+        "comment": "That kick hits HARD! 💣keep on moving",
         "trackTitle": "Pure Pulse (PjD | Madness Remake)",
         "trackUrl": "https://soundcloud.com/theprojectdee/purepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-tAP1ujy4i4tFQwvS-TNnCmA-t500x500.jpg",
@@ -563,14 +563,14 @@ const communityReviews = [
     },
     {
         "id": 52,
-        "author": "EgoVerus",
-        "username": "EgoVerus",
-        "avatar": "https://i1.sndcdn.com/avatars-e4XfOwUjWqyfU3rJ-2TIQrA-large.jpg",
-        "comment": "An exceptionally original composition. An interesting blend of styles.",
+        "author": "Feeras",
+        "username": "Feeras",
+        "avatar": "https://i1.sndcdn.com/avatars-FqGZqghu2h8z8Xfy-O8l5zA-large.jpg",
+        "comment": "Great energy on this one, the groove really pulls you in from the first bar!",
         "trackTitle": "Silentium | Lux Obscura (PjD)",
         "trackUrl": "https://soundcloud.com/theprojectdee/luxobscura",
         "trackThumb": "https://i1.sndcdn.com/artworks-D4c3OlZM34IWQzLZ-ga8O9w-t500x500.jpg",
-        "date": "2026-09-27"
+        "date": "2026-10-10"
     },
     {
         "id": 53,
