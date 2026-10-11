@@ -1194,17 +1194,17 @@ function initSpotlightModal() {
     setTimeout(() => {
         modal.classList.add('active');
         
-        // Start 3-second visual progress bar animation
+        // Start 2-second visual progress bar animation
         if (timerBar) {
             setTimeout(() => {
                 timerBar.style.width = '100%';
             }, 50);
         }
 
-        // Start 3-second auto-close timer
+        // Start 2-second auto-close timer
         autoCloseTimer = setTimeout(() => {
             closeModal();
-        }, 3050);
+        }, 2050);
     }, 1200);
 
     if (closeBtn) {
