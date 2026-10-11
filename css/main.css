@@ -2651,7 +2651,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 0%;
     background: linear-gradient(90deg, var(--cyber-cyan), var(--sc-orange));
     box-shadow: 0 0 10px var(--cyber-cyan-glow);
-    transition: width 3s linear;
+    transition: width 2s linear;
 }
 
 /* SoundCloud Radio Station Buttons */
