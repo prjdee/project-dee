@@ -1,4 +1,4 @@
-name: Auto-Sync SoundCloud & YouTube Catalog
+name: Auto-Sync SoundCloud & YouTube Catalog & EDM News
 
 on:
   schedule:
@@ -32,6 +32,9 @@ jobs:
       - name: Sync SoundCloud Community Reviews
         run: python scripts/sync_soundcloud_comments.py
 
+      - name: Sync Top Electronic Music News (DJ Mag, We Rave You, Attack Mag, Dancing Astronaut)
+        run: python scripts/fetch_edm_news.py
+
       - name: Verify Catalog Integrity
         run: python scripts/verify_catalog_integrity.py
 
@@ -39,11 +42,11 @@ jobs:
         run: |
           git config --global user.name "PRJDEE AutoSync Bot"
           git config --global user.email "bot@prjdee.com"
-          git add js/catalog-data.js js/reviews-data.js assets/covers/
+          git add js/catalog-data.js js/reviews-data.js js/news-data.js data/news.json assets/covers/
           if git diff --staged --quiet; then
-            echo "No changes detected in SoundCloud or YouTube catalog."
+            echo "No changes detected in catalog, reviews or news."
           else
-            echo "New tracks or reviews detected! Committing and pushing updates..."
-            git commit -m "Auto-sync SoundCloud & YouTube catalog and fan reviews [daily update]"
+            echo "New updates detected! Committing and pushing..."
+            git commit -m "Auto-sync catalog, reviews, and fresh EDM news [daily update]"
             git push
           fi
