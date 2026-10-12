@@ -2,25 +2,25 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Astronaut.Musik",
-        "username": "Astronaut.Musik",
-        "avatar": "https://i1.sndcdn.com/avatars-okh35V3iurCC8hDp-9YGOqg-large.jpg",
-        "comment": "a whole mood",
+        "author": "Zandory",
+        "username": "Zandory",
+        "avatar": "https://i1.sndcdn.com/avatars-bhE0lydhGqiOAmhr-x0NBKQ-large.jpg",
+        "comment": "Kicking and hitting",
         "trackTitle": "Pure Pulse (PjD | Madness Remake)",
         "trackUrl": "https://soundcloud.com/theprojectdee/purepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-tAP1ujy4i4tFQwvS-TNnCmA-t500x500.jpg",
-        "date": "2026-10-11"
+        "date": "2026-10-12"
     },
     {
         "id": 2,
-        "author": "Khaos Creator",
-        "username": "Khaos Creator",
-        "avatar": "https://i1.sndcdn.com/avatars-QYriw83UO1MyzVFI-ECYPyQ-large.jpg",
-        "comment": "no skips ✨",
+        "author": "Kakarottomax",
+        "username": "Kakarottomax",
+        "avatar": "https://i1.sndcdn.com/avatars-M2kfvS4HNTMvwi58-W3TYaw-large.jpg",
+        "comment": "Cool one , great stuff, Amazing",
         "trackTitle": "Vertigine",
         "trackUrl": "https://soundcloud.com/theprojectdee/vertigine2035",
         "trackThumb": "https://i1.sndcdn.com/artworks-WIbJNQOCdvsv61Xz-Y8MELg-t500x500.jpg",
-        "date": "2026-10-09"
+        "date": "2026-10-12"
     },
     {
         "id": 3,
@@ -200,25 +200,25 @@ const communityReviews = [
     },
     {
         "id": 19,
-        "author": "Jerry Gildbrandsen",
-        "username": "Techneck Records",
-        "avatar": "https://i1.sndcdn.com/avatars-CxlSqh8Ooz3Z051W-rjE8GQ-large.jpg",
-        "comment": "perfection",
+        "author": "Astronaut.Musik",
+        "username": "Astronaut.Musik",
+        "avatar": "https://i1.sndcdn.com/avatars-okh35V3iurCC8hDp-9YGOqg-large.jpg",
+        "comment": "a whole mood",
         "trackTitle": "Pure Pulse (PjD | Madness Remake)",
         "trackUrl": "https://soundcloud.com/theprojectdee/purepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-tAP1ujy4i4tFQwvS-TNnCmA-t500x500.jpg",
-        "date": "2026-10-10"
+        "date": "2026-10-11"
     },
     {
         "id": 20,
-        "author": "AKA Mudlark ^",
-        "username": "AKA Mudlark ^",
-        "avatar": "https://i1.sndcdn.com/avatars-EMS2dg42vlOz2TVU-dSC55A-large.jpg",
-        "comment": "dope 😎",
+        "author": "Resazat Ay",
+        "username": "Resazat",
+        "avatar": "https://i1.sndcdn.com/avatars-fiJ6W3WXEqL2jPsO-ucYcCA-large.jpg",
+        "comment": "Nice 😎",
         "trackTitle": "Vertigine",
         "trackUrl": "https://soundcloud.com/theprojectdee/vertigine2035",
         "trackThumb": "https://i1.sndcdn.com/artworks-WIbJNQOCdvsv61Xz-Y8MELg-t500x500.jpg",
-        "date": "2026-10-09"
+        "date": "2026-10-12"
     },
     {
         "id": 21,
@@ -365,10 +365,10 @@ const communityReviews = [
     },
     {
         "id": 34,
-        "author": "Harmonia At Night",
-        "username": "Harmonia At Night",
-        "avatar": "https://i1.sndcdn.com/avatars-000140583453-338nvj-large.jpg",
-        "comment": "I fw this 🎵",
+        "author": "Jerry Gildbrandsen",
+        "username": "Techneck Records",
+        "avatar": "https://i1.sndcdn.com/avatars-CxlSqh8Ooz3Z051W-rjE8GQ-large.jpg",
+        "comment": "perfection",
         "trackTitle": "Pure Pulse (PjD | Madness Remake)",
         "trackUrl": "https://soundcloud.com/theprojectdee/purepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-tAP1ujy4i4tFQwvS-TNnCmA-t500x500.jpg",
@@ -376,14 +376,14 @@ const communityReviews = [
     },
     {
         "id": 35,
-        "author": "Paul Barrett",
-        "username": "PLrM",
-        "avatar": "https://i1.sndcdn.com/avatars-JXZ1DXwMozQr1SdR-jyjyUw-large.jpg",
-        "comment": "This sounds massive. Great job.",
+        "author": "Twistedreload",
+        "username": "Twistedreload",
+        "avatar": "https://i1.sndcdn.com/avatars-NNmSQlbcs71RyWyK-bltFag-large.jpg",
+        "comment": "pretty cool 🤩",
         "trackTitle": "Vertigine",
         "trackUrl": "https://soundcloud.com/theprojectdee/vertigine2035",
         "trackThumb": "https://i1.sndcdn.com/artworks-WIbJNQOCdvsv61Xz-Y8MELg-t500x500.jpg",
-        "date": "2026-10-09"
+        "date": "2026-10-11"
     },
     {
         "id": 36,
@@ -530,25 +530,25 @@ const communityReviews = [
     },
     {
         "id": 49,
-        "author": "Manuel Varella",
-        "username": "Manuel Varella Dj",
-        "avatar": "https://i1.sndcdn.com/avatars-TUkeLAOeMS0bhLBl-yMoxxg-large.jpg",
-        "comment": "That kick hits HARD! 💣keep on moving",
+        "author": "Harmonia At Night",
+        "username": "Harmonia At Night",
+        "avatar": "https://i1.sndcdn.com/avatars-000140583453-338nvj-large.jpg",
+        "comment": "I fw this 🎵",
         "trackTitle": "Pure Pulse (PjD | Madness Remake)",
         "trackUrl": "https://soundcloud.com/theprojectdee/purepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-tAP1ujy4i4tFQwvS-TNnCmA-t500x500.jpg",
-        "date": "2026-10-09"
+        "date": "2026-10-10"
     },
     {
         "id": 50,
-        "author": "Manuel Marino",
-        "username": "Manuel Marino",
-        "avatar": "https://i1.sndcdn.com/avatars-Ez2Ut6Y4HpEfAhHn-HjlxBA-large.jpg",
-        "comment": "It's really beautiful, it sounds like a sci-fi soundtrack.",
+        "author": "Khaos Creator",
+        "username": "Khaos Creator",
+        "avatar": "https://i1.sndcdn.com/avatars-QYriw83UO1MyzVFI-ECYPyQ-large.jpg",
+        "comment": "no skips ✨",
         "trackTitle": "Vertigine",
         "trackUrl": "https://soundcloud.com/theprojectdee/vertigine2035",
         "trackThumb": "https://i1.sndcdn.com/artworks-WIbJNQOCdvsv61Xz-Y8MELg-t500x500.jpg",
-        "date": "2026-10-04"
+        "date": "2026-10-09"
     },
     {
         "id": 51,
