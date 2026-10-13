@@ -2,10 +2,10 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Zandory",
-        "username": "Zandory",
-        "avatar": "https://i1.sndcdn.com/avatars-bhE0lydhGqiOAmhr-x0NBKQ-large.jpg",
-        "comment": "Kicking and hitting",
+        "author": "W K",
+        "username": "KAMYCZKOVA",
+        "avatar": "https://i1.sndcdn.com/avatars-QoymyGXI7ueBNgZx-eMyAmg-large.jpg",
+        "comment": "got me moving",
         "trackTitle": "Pure Pulse (PjD | Madness Remake)",
         "trackUrl": "https://soundcloud.com/theprojectdee/purepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-tAP1ujy4i4tFQwvS-TNnCmA-t500x500.jpg",
@@ -68,14 +68,14 @@ const communityReviews = [
     },
     {
         "id": 7,
-        "author": "Yavesprimo",
-        "username": "Yavesprimo",
-        "avatar": "https://i1.sndcdn.com/avatars-VyFRXcN45wBz4m21-7dcq9g-large.jpg",
-        "comment": "sexy",
+        "author": "Roman Zegbaum",
+        "username": "ElektRoman The Biomind",
+        "avatar": "https://i1.sndcdn.com/avatars-raSDgdFICcT3B07H-vhyMLA-large.jpg",
+        "comment": "The vocals really took me by surprise, but this track has wodnerful synthesizer elements",
         "trackTitle": "Threshold",
         "trackUrl": "https://soundcloud.com/theprojectdee/threshold",
         "trackThumb": "https://i1.sndcdn.com/artworks-UY8bg5P5oMoPJQlq-sWVghg-t500x500.jpg",
-        "date": "2026-09-30"
+        "date": "2026-10-12"
     },
     {
         "id": 8,
@@ -200,14 +200,14 @@ const communityReviews = [
     },
     {
         "id": 19,
-        "author": "Astronaut.Musik",
-        "username": "Astronaut.Musik",
-        "avatar": "https://i1.sndcdn.com/avatars-okh35V3iurCC8hDp-9YGOqg-large.jpg",
-        "comment": "a whole mood",
+        "author": "Arthur Weprich",
+        "username": "ALIMA",
+        "avatar": "https://i1.sndcdn.com/avatars-ryy5lriEoI1c34MS-BrilOA-large.jpg",
+        "comment": "Nice tune mate. Keep up the good work 👍🏻",
         "trackTitle": "Pure Pulse (PjD | Madness Remake)",
         "trackUrl": "https://soundcloud.com/theprojectdee/purepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-tAP1ujy4i4tFQwvS-TNnCmA-t500x500.jpg",
-        "date": "2026-10-11"
+        "date": "2026-10-12"
     },
     {
         "id": 20,
@@ -266,14 +266,14 @@ const communityReviews = [
     },
     {
         "id": 25,
-        "author": "Khaos Creator",
-        "username": "Khaos Creator",
-        "avatar": "https://i1.sndcdn.com/avatars-QYriw83UO1MyzVFI-ECYPyQ-large.jpg",
-        "comment": "smooth af 🙌",
+        "author": "Yavesprimo",
+        "username": "Yavesprimo",
+        "avatar": "https://i1.sndcdn.com/avatars-VyFRXcN45wBz4m21-7dcq9g-large.jpg",
+        "comment": "sexy",
         "trackTitle": "Threshold",
         "trackUrl": "https://soundcloud.com/theprojectdee/threshold",
         "trackThumb": "https://i1.sndcdn.com/artworks-UY8bg5P5oMoPJQlq-sWVghg-t500x500.jpg",
-        "date": "2026-09-21"
+        "date": "2026-09-30"
     },
     {
         "id": 26,
@@ -365,14 +365,14 @@ const communityReviews = [
     },
     {
         "id": 34,
-        "author": "Jerry Gildbrandsen",
-        "username": "Techneck Records",
-        "avatar": "https://i1.sndcdn.com/avatars-CxlSqh8Ooz3Z051W-rjE8GQ-large.jpg",
-        "comment": "perfection",
+        "author": "Zandory",
+        "username": "Zandory",
+        "avatar": "https://i1.sndcdn.com/avatars-bhE0lydhGqiOAmhr-x0NBKQ-large.jpg",
+        "comment": "Kicking and hitting",
         "trackTitle": "Pure Pulse (PjD | Madness Remake)",
         "trackUrl": "https://soundcloud.com/theprojectdee/purepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-tAP1ujy4i4tFQwvS-TNnCmA-t500x500.jpg",
-        "date": "2026-10-10"
+        "date": "2026-10-12"
     },
     {
         "id": 35,
@@ -431,14 +431,14 @@ const communityReviews = [
     },
     {
         "id": 40,
-        "author": "Hagar Shay",
-        "username": "Hagar Shay",
-        "avatar": "https://i1.sndcdn.com/avatars-3E18YZepkqYz2Nf2-FU9XLw-large.jpg",
-        "comment": "The baseline gives this great momentum",
+        "author": "Khaos Creator",
+        "username": "Khaos Creator",
+        "avatar": "https://i1.sndcdn.com/avatars-QYriw83UO1MyzVFI-ECYPyQ-large.jpg",
+        "comment": "smooth af 🙌",
         "trackTitle": "Threshold",
         "trackUrl": "https://soundcloud.com/theprojectdee/threshold",
         "trackThumb": "https://i1.sndcdn.com/artworks-UY8bg5P5oMoPJQlq-sWVghg-t500x500.jpg",
-        "date": "2026-09-18"
+        "date": "2026-09-21"
     },
     {
         "id": 41,
@@ -530,14 +530,14 @@ const communityReviews = [
     },
     {
         "id": 49,
-        "author": "Harmonia At Night",
-        "username": "Harmonia At Night",
-        "avatar": "https://i1.sndcdn.com/avatars-000140583453-338nvj-large.jpg",
-        "comment": "I fw this 🎵",
+        "author": "Astronaut.Musik",
+        "username": "Astronaut.Musik",
+        "avatar": "https://i1.sndcdn.com/avatars-okh35V3iurCC8hDp-9YGOqg-large.jpg",
+        "comment": "a whole mood",
         "trackTitle": "Pure Pulse (PjD | Madness Remake)",
         "trackUrl": "https://soundcloud.com/theprojectdee/purepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-tAP1ujy4i4tFQwvS-TNnCmA-t500x500.jpg",
-        "date": "2026-10-10"
+        "date": "2026-10-11"
     },
     {
         "id": 50,
@@ -596,10 +596,10 @@ const communityReviews = [
     },
     {
         "id": 55,
-        "author": "craig jones",
-        "username": "Onizanka 鬼残歌",
-        "avatar": "https://i1.sndcdn.com/avatars-4ZiS2TdwOj7y9Fkc-OWBdoA-large.jpg",
-        "comment": "straight gold 🙌",
+        "author": "Hagar Shay",
+        "username": "Hagar Shay",
+        "avatar": "https://i1.sndcdn.com/avatars-3E18YZepkqYz2Nf2-FU9XLw-large.jpg",
+        "comment": "The baseline gives this great momentum",
         "trackTitle": "Threshold",
         "trackUrl": "https://soundcloud.com/theprojectdee/threshold",
         "trackThumb": "https://i1.sndcdn.com/artworks-UY8bg5P5oMoPJQlq-sWVghg-t500x500.jpg",
