@@ -38,13 +38,16 @@ jobs:
       - name: Verify Catalog Integrity
         run: python scripts/verify_catalog_integrity.py
 
+      - name: Update Cache Busters if data changed
+        run: python scripts/update_cache_buster.py
+
       - name: Commit and Push if changes detected
         run: |
           git config --global user.name "PRJDEE AutoSync Bot"
           git config --global user.email "bot@prjdee.com"
-          git add js/catalog-data.js js/reviews-data.js js/news-data.js data/news.json assets/covers/
+          git add index.html js/catalog-data.js js/reviews-data.js js/news-data.js data/news.json assets/covers/
           if git diff --staged --quiet; then
-            echo "No changes detected in catalog, reviews or news."
+            echo "No changes detected in catalog, reviews, news, or index."
           else
             echo "New updates detected! Committing and pushing..."
             git commit -m "Auto-sync catalog, reviews, and fresh EDM news [daily update]"
