@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "W K",
-        "username": "KAMYCZKOVA",
-        "avatar": "https://i1.sndcdn.com/avatars-QoymyGXI7ueBNgZx-eMyAmg-large.jpg",
-        "comment": "got me moving",
+        "author": "Bardlix",
+        "username": "Bardlix",
+        "avatar": "https://i1.sndcdn.com/avatars-wsoKTfIW02QkDWdv-dvJqLQ-large.jpg",
+        "comment": "Awsome vibe, good transitions, favorite of the day",
         "trackTitle": "Pure Pulse (PjD | Madness Remake)",
         "trackUrl": "https://soundcloud.com/theprojectdee/purepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-tAP1ujy4i4tFQwvS-TNnCmA-t500x500.jpg",
-        "date": "2026-10-12"
+        "date": "2026-10-14"
     },
     {
         "id": 2,
@@ -79,14 +79,14 @@ const communityReviews = [
     },
     {
         "id": 8,
-        "author": "Angel Pendragon",
-        "username": "AdonaiAm ☀️",
-        "avatar": "https://i1.sndcdn.com/avatars-83S5y8PjqHwrSjRi-nLdn8Q-large.jpg",
-        "comment": "Gorgeous track! Very well done. ✨",
+        "author": "Hagar Shay",
+        "username": "Hagar Shay",
+        "avatar": "https://i1.sndcdn.com/avatars-3E18YZepkqYz2Nf2-FU9XLw-large.jpg",
+        "comment": "This track feels naturally dynamic",
         "trackTitle": "Before The Floor Shakes",
         "trackUrl": "https://soundcloud.com/theprojectdee/before-the-floor-shakes",
         "trackThumb": "https://i1.sndcdn.com/artworks-hErGcruPbU3e4bxK-XvIkJQ-t500x500.jpg",
-        "date": "2026-09-01"
+        "date": "2026-10-14"
     },
     {
         "id": 9,
@@ -200,10 +200,10 @@ const communityReviews = [
     },
     {
         "id": 19,
-        "author": "Arthur Weprich",
-        "username": "ALIMA",
-        "avatar": "https://i1.sndcdn.com/avatars-ryy5lriEoI1c34MS-BrilOA-large.jpg",
-        "comment": "Nice tune mate. Keep up the good work 👍🏻",
+        "author": "W K",
+        "username": "KAMYCZKOVA",
+        "avatar": "https://i1.sndcdn.com/avatars-QoymyGXI7ueBNgZx-eMyAmg-large.jpg",
+        "comment": "got me moving",
         "trackTitle": "Pure Pulse (PjD | Madness Remake)",
         "trackUrl": "https://soundcloud.com/theprojectdee/purepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-tAP1ujy4i4tFQwvS-TNnCmA-t500x500.jpg",
@@ -277,14 +277,14 @@ const communityReviews = [
     },
     {
         "id": 26,
-        "author": "Wilson Gomes",
-        "username": "Wilson Gomes",
-        "avatar": "https://i1.sndcdn.com/avatars-9Ti8upFNtu7WTFsI-D8ZbXA-large.jpg",
-        "comment": "I love this craze beats, shaking us inside!",
+        "author": "Sativadiva",
+        "username": "Sativadiva",
+        "avatar": "https://i1.sndcdn.com/avatars-BNH43bwRizYnaMu7-cENNhg-large.jpg",
+        "comment": "Jesus Christ this is sexy I love this",
         "trackTitle": "Before The Floor Shakes",
         "trackUrl": "https://soundcloud.com/theprojectdee/before-the-floor-shakes",
         "trackThumb": "https://i1.sndcdn.com/artworks-hErGcruPbU3e4bxK-XvIkJQ-t500x500.jpg",
-        "date": "2026-08-31"
+        "date": "2026-10-14"
     },
     {
         "id": 27,
@@ -365,10 +365,10 @@ const communityReviews = [
     },
     {
         "id": 34,
-        "author": "Zandory",
-        "username": "Zandory",
-        "avatar": "https://i1.sndcdn.com/avatars-bhE0lydhGqiOAmhr-x0NBKQ-large.jpg",
-        "comment": "Kicking and hitting",
+        "author": "Arthur Weprich",
+        "username": "ALIMA",
+        "avatar": "https://i1.sndcdn.com/avatars-ryy5lriEoI1c34MS-BrilOA-large.jpg",
+        "comment": "Nice tune mate. Keep up the good work 👍🏻",
         "trackTitle": "Pure Pulse (PjD | Madness Remake)",
         "trackUrl": "https://soundcloud.com/theprojectdee/purepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-tAP1ujy4i4tFQwvS-TNnCmA-t500x500.jpg",
@@ -442,14 +442,14 @@ const communityReviews = [
     },
     {
         "id": 41,
-        "author": "TINT",
-        "username": "TINT",
-        "avatar": "https://i1.sndcdn.com/avatars-sIeLfvAFjIuQPlV4-05UwxQ-large.jpg",
-        "comment": "Nice, I like the fast paced beat on this.",
+        "author": "Rbh1",
+        "username": "HXsoundZ™",
+        "avatar": "https://i1.sndcdn.com/avatars-SqxHa9oVvM2qjgWu-TuOGyA-large.jpg",
+        "comment": "flawless work 🚀",
         "trackTitle": "Before The Floor Shakes",
         "trackUrl": "https://soundcloud.com/theprojectdee/before-the-floor-shakes",
         "trackThumb": "https://i1.sndcdn.com/artworks-hErGcruPbU3e4bxK-XvIkJQ-t500x500.jpg",
-        "date": "2026-08-28"
+        "date": "2026-10-14"
     },
     {
         "id": 42,
@@ -530,14 +530,14 @@ const communityReviews = [
     },
     {
         "id": 49,
-        "author": "Astronaut.Musik",
-        "username": "Astronaut.Musik",
-        "avatar": "https://i1.sndcdn.com/avatars-okh35V3iurCC8hDp-9YGOqg-large.jpg",
-        "comment": "a whole mood",
+        "author": "Zandory",
+        "username": "Zandory",
+        "avatar": "https://i1.sndcdn.com/avatars-bhE0lydhGqiOAmhr-x0NBKQ-large.jpg",
+        "comment": "Kicking and hitting",
         "trackTitle": "Pure Pulse (PjD | Madness Remake)",
         "trackUrl": "https://soundcloud.com/theprojectdee/purepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-tAP1ujy4i4tFQwvS-TNnCmA-t500x500.jpg",
-        "date": "2026-10-11"
+        "date": "2026-10-12"
     },
     {
         "id": 50,
@@ -607,14 +607,14 @@ const communityReviews = [
     },
     {
         "id": 56,
-        "author": "Ray Hermann Angossio Liwa",
-        "username": "Alpha Mystery",
-        "avatar": "https://i1.sndcdn.com/avatars-mpnsWdqmAVnNUE9L-zPxFEQ-large.jpg",
-        "comment": "This before the floor shakes is amazing",
+        "author": "Angel Pendragon",
+        "username": "AdonaiAm ☀️",
+        "avatar": "https://i1.sndcdn.com/avatars-83S5y8PjqHwrSjRi-nLdn8Q-large.jpg",
+        "comment": "Gorgeous track! Very well done. ✨",
         "trackTitle": "Before The Floor Shakes",
         "trackUrl": "https://soundcloud.com/theprojectdee/before-the-floor-shakes",
         "trackThumb": "https://i1.sndcdn.com/artworks-hErGcruPbU3e4bxK-XvIkJQ-t500x500.jpg",
-        "date": "2026-08-28"
+        "date": "2026-09-01"
     },
     {
         "id": 57,
