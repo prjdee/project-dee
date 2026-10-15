@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Bardlix",
-        "username": "Bardlix",
-        "avatar": "https://i1.sndcdn.com/avatars-wsoKTfIW02QkDWdv-dvJqLQ-large.jpg",
-        "comment": "Awsome vibe, good transitions, favorite of the day",
+        "author": "KRT Production",
+        "username": "BBAM",
+        "avatar": "https://i1.sndcdn.com/avatars-xgtFE1mQaya1UYVy-YInE5g-large.jpg",
+        "comment": "Quality",
         "trackTitle": "Pure Pulse (PjD | Madness Remake)",
         "trackUrl": "https://soundcloud.com/theprojectdee/purepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-tAP1ujy4i4tFQwvS-TNnCmA-t500x500.jpg",
-        "date": "2026-10-14"
+        "date": "2026-10-15"
     },
     {
         "id": 2,
@@ -70,7 +70,7 @@ const communityReviews = [
         "id": 7,
         "author": "Roman Zegbaum",
         "username": "ElektRoman The Biomind",
-        "avatar": "https://i1.sndcdn.com/avatars-raSDgdFICcT3B07H-vhyMLA-large.jpg",
+        "avatar": "https://i1.sndcdn.com/avatars-XWMg9wT11vnbqrUF-hp2HxA-large.jpg",
         "comment": "The vocals really took me by surprise, but this track has wodnerful synthesizer elements",
         "trackTitle": "Threshold",
         "trackUrl": "https://soundcloud.com/theprojectdee/threshold",
@@ -200,14 +200,14 @@ const communityReviews = [
     },
     {
         "id": 19,
-        "author": "W K",
-        "username": "KAMYCZKOVA",
-        "avatar": "https://i1.sndcdn.com/avatars-QoymyGXI7ueBNgZx-eMyAmg-large.jpg",
-        "comment": "got me moving",
+        "author": "Roger Benini",
+        "username": "🅺🅾🅻🅻🅴🅺🆃🅸🆅🅴 🆂🅲🅷🅰🅻🅻🆂🅲🅷🆄🆃🆉",
+        "avatar": "https://i1.sndcdn.com/avatars-0xucdfRucpYFjqJn-d1iYkw-large.jpg",
+        "comment": "on point",
         "trackTitle": "Pure Pulse (PjD | Madness Remake)",
         "trackUrl": "https://soundcloud.com/theprojectdee/purepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-tAP1ujy4i4tFQwvS-TNnCmA-t500x500.jpg",
-        "date": "2026-10-12"
+        "date": "2026-10-14"
     },
     {
         "id": 20,
@@ -365,14 +365,14 @@ const communityReviews = [
     },
     {
         "id": 34,
-        "author": "Arthur Weprich",
-        "username": "ALIMA",
-        "avatar": "https://i1.sndcdn.com/avatars-ryy5lriEoI1c34MS-BrilOA-large.jpg",
-        "comment": "Nice tune mate. Keep up the good work 👍🏻",
+        "author": "Bardlix",
+        "username": "Bardlix",
+        "avatar": "https://i1.sndcdn.com/avatars-wsoKTfIW02QkDWdv-dvJqLQ-large.jpg",
+        "comment": "Awsome vibe, good transitions, favorite of the day",
         "trackTitle": "Pure Pulse (PjD | Madness Remake)",
         "trackUrl": "https://soundcloud.com/theprojectdee/purepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-tAP1ujy4i4tFQwvS-TNnCmA-t500x500.jpg",
-        "date": "2026-10-12"
+        "date": "2026-10-14"
     },
     {
         "id": 35,
@@ -530,10 +530,10 @@ const communityReviews = [
     },
     {
         "id": 49,
-        "author": "Zandory",
-        "username": "Zandory",
-        "avatar": "https://i1.sndcdn.com/avatars-bhE0lydhGqiOAmhr-x0NBKQ-large.jpg",
-        "comment": "Kicking and hitting",
+        "author": "W K",
+        "username": "KAMYCZKOVA",
+        "avatar": "https://i1.sndcdn.com/avatars-QoymyGXI7ueBNgZx-eMyAmg-large.jpg",
+        "comment": "got me moving",
         "trackTitle": "Pure Pulse (PjD | Madness Remake)",
         "trackUrl": "https://soundcloud.com/theprojectdee/purepulse",
         "trackThumb": "https://i1.sndcdn.com/artworks-tAP1ujy4i4tFQwvS-TNnCmA-t500x500.jpg",

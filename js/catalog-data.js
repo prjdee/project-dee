@@ -2,6 +2,15 @@
 const soundCloudCatalog = [
     {
         "id": null,
+        "title": "Spooky | Happy Halloween 2026",
+        "sc_url": "https://soundcloud.com/theprojectdee/spooky",
+        "yt_url": null,
+        "published": "2026-10-06",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-spooky.jpg",
+        "genre": "Electronic"
+    },
+    {
+        "id": null,
         "title": "Pure Pulse (PjD | Madness Remake)",
         "sc_url": "https://soundcloud.com/theprojectdee/purepulse",
         "yt_url": null,
@@ -170,19 +179,18 @@ const soundCloudCatalog = [
         "published": "2026-04-06",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-machinepulse.jpg",
         "genre": "Electronic"
-    },
-    {
-        "id": null,
-        "title": "Do you remember Sài Gòn?",
-        "sc_url": "https://soundcloud.com/theprojectdee/doyouremember",
-        "yt_url": null,
-        "published": "2026-03-04",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-doyouremember.jpg",
-        "genre": "Dance & EDM"
     }
 ];
 
 const youtubeCatalog = [
+    {
+        "id": "QnPLIwVnV5E",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
+        "thumb": "https://img.youtube.com/vi/QnPLIwVnV5E/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
     {
         "id": "fceglTwTINg",
         "title": "",
@@ -333,14 +341,6 @@ const youtubeCatalog = [
         "full_title": "",
         "published": "2026-01-01",
         "thumb": "https://img.youtube.com/vi/v6lS0co4GDs/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "TA9p8fcwROA",
-        "title": "",
-        "full_title": "",
-        "published": "2026-01-01",
-        "thumb": "https://img.youtube.com/vi/TA9p8fcwROA/hqdefault.jpg",
         "genre": "RELEASE"
     }
 ];
