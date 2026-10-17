@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Axel Fadel",
-        "username": "PARIS LOOKY",
-        "avatar": "https://i1.sndcdn.com/avatars-000657015617-46sq2b-large.jpg",
-        "comment": "i don't ususally comment but this is fire",
+        "author": "KRT Production",
+        "username": "KRT Production",
+        "avatar": "https://i1.sndcdn.com/avatars-SXbacvZ3UrAOoI1K-QHyyFQ-large.jpg",
+        "comment": "raw energy",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
-        "date": "2026-10-15"
+        "date": "2026-10-17"
     },
     {
         "id": 2,
@@ -211,14 +211,14 @@ const communityReviews = [
     },
     {
         "id": 20,
-        "author": "FREE DOWNLOADS",
-        "username": "Bunshin Records",
-        "avatar": "https://i1.sndcdn.com/avatars-EdJGQJfh39mniFyH-lvL8nQ-large.jpg",
-        "comment": "Pure love for that bounce in the sound ;)",
+        "author": "KRT Production",
+        "username": "NUR",
+        "avatar": "https://i1.sndcdn.com/avatars-Svzz22CMA0wyGVv1-z4sBPQ-large.jpg",
+        "comment": "insane beat 😎",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
-        "date": "2026-10-15"
+        "date": "2026-10-17"
     },
     {
         "id": 21,
@@ -387,14 +387,14 @@ const communityReviews = [
     },
     {
         "id": 36,
-        "author": "Adam Chambers",
-        "username": "ADVM BOMB",
-        "avatar": "https://i1.sndcdn.com/avatars-4YGDzg1pnasWh58f-hzIvjg-large.jpg",
-        "comment": "This just puts me in the spooky mood",
+        "author": "Frank Visosky",
+        "username": "Frank Zozky",
+        "avatar": "https://i1.sndcdn.com/avatars-Agni3c6GuJMSLrvl-RBNlfg-large.jpg",
+        "comment": "LET’S GO 🔉",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
-        "date": "2026-10-15"
+        "date": "2026-10-17"
     },
     {
         "id": 37,
@@ -563,14 +563,14 @@ const communityReviews = [
     },
     {
         "id": 52,
-        "author": "Twistedreload",
-        "username": "Twistedreload",
-        "avatar": "https://i1.sndcdn.com/avatars-NNmSQlbcs71RyWyK-bltFag-large.jpg",
-        "comment": "wild track 🙌",
+        "author": "Armijo Productions",
+        "username": "Armijo Productions",
+        "avatar": "https://i1.sndcdn.com/avatars-pGI8vD0WX8GNdsG3-DL1WJg-large.jpg",
+        "comment": "big 🤩",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
-        "date": "2026-10-15"
+        "date": "2026-10-16"
     },
     {
         "id": 53,
