@@ -20,12 +20,40 @@ BLACKLIST_AUTHORS = [
     "mathew turns",
     "project dee",
     "project_d2025",
-    "prjdee"
+    "prjdee",
+    "digital bloom",
+    "digital-bloom",
+    "digital-bloom-435854876"
+]
+
+BANNED_CONTENT = [
+    "http",
+    "bit.ly",
+    "repostexchange",
+    "download",
+    "free followers",
+    "slop",
+    "ai slop",
+    "digital bloom",
+    "digital-bloom",
+    "puzza",
+    "fake music",
+    "pure ai",
+    "ai generated",
+    "ai junk",
+    "ai garbage",
+    "just ai",
+    "scam",
+    "bot account"
 ]
 
 def is_blacklisted(author, username, full_name):
     combined = f"{author} {username} {full_name}".lower()
     return any(b in combined for b in BLACKLIST_AUTHORS)
+
+def is_banned_content(body):
+    lower = (body or "").lower()
+    return any(kw in lower for kw in BANNED_CONTENT)
 
 def get_dynamic_client_id():
     try:
@@ -97,12 +125,13 @@ def sync_comments():
 
                     display_name = full_name if full_name and len(full_name) > 2 else username
 
-                    # Blacklist check
+                    # Blacklist author check
                     if is_blacklisted(display_name, username, full_name):
+                        print(f"Skipping blacklisted author: {display_name} ({username})")
                         continue
 
-                    # Filter out spam / short text
-                    if len(body) >= 4 and not any(kw in body.lower() for kw in ["http", "bit.ly", "repostexchange", "download", "free followers"]):
+                    # Filter out spam / banned phrases / banal trolls / too short
+                    if len(body) >= 4 and not is_banned_content(body):
                         track_reviews.append({
                             "id": review_id,
                             "author": display_name,
@@ -115,6 +144,8 @@ def sync_comments():
                             "date": date_str
                         })
                         review_id += 1
+                    elif is_banned_content(body):
+                        print(f"Filtered out banal/banned comment from {display_name}: {body[:40]}")
                 if track_reviews:
                     track_reviews_map[track_title] = track_reviews
 
