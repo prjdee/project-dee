@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Resazat Ay",
-        "username": "Resazat",
-        "avatar": "https://i1.sndcdn.com/avatars-fiJ6W3WXEqL2jPsO-ucYcCA-large.jpg",
-        "comment": "this a jam",
+        "author": "Frank D",
+        "username": "Frank D",
+        "avatar": "https://i1.sndcdn.com/avatars-9gSzRJGuOtMBWD4n-av6BZQ-large.jpg",
+        "comment": "too good 🎶",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
-        "date": "2026-10-18"
+        "date": "2026-10-19"
     },
     {
         "id": 2,
@@ -222,14 +222,14 @@ const communityReviews = [
     },
     {
         "id": 21,
-        "author": "Oleg Brnic",
-        "username": "Ogi feel the Beat",
-        "avatar": "https://i1.sndcdn.com/avatars-vPmpRc7qi6eBnfZ9-ROAA4g-large.jpg",
-        "comment": "supernice, keep them comming man",
+        "author": "Tech house/ House",
+        "username": "Ramsés Ramírez",
+        "avatar": "https://i1.sndcdn.com/avatars-0qt3NjOugaBwzy2i-opBjTw-large.jpg",
+        "comment": "This is a very enjoyable listen. The rhythm feels consistent, the energy is well maintained and the overall production sounds good.",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
-        "date": "2026-10-18"
+        "date": "2026-10-19"
     },
     {
         "id": 22,
@@ -398,10 +398,10 @@ const communityReviews = [
     },
     {
         "id": 37,
-        "author": "Sativadiva",
-        "username": "Sativadiva",
-        "avatar": "https://i1.sndcdn.com/avatars-BNH43bwRizYnaMu7-cENNhg-large.jpg",
-        "comment": "Love this such a cool beat almost reminds me of like a spooky kalimba",
+        "author": "Resazat Ay",
+        "username": "Resazat",
+        "avatar": "https://i1.sndcdn.com/avatars-fiJ6W3WXEqL2jPsO-ucYcCA-large.jpg",
+        "comment": "this a jam",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
@@ -574,10 +574,10 @@ const communityReviews = [
     },
     {
         "id": 53,
-        "author": "I AM®",
-        "username": "I AM®",
-        "avatar": "https://i1.sndcdn.com/avatars-zNzdyArqeozIe0aU-R9pZxg-large.jpg",
-        "comment": "Great use of all the elements for sure",
+        "author": "Oleg Brnic",
+        "username": "Ogi feel the Beat",
+        "avatar": "https://i1.sndcdn.com/avatars-vPmpRc7qi6eBnfZ9-ROAA4g-large.jpg",
+        "comment": "supernice, keep them comming man",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
