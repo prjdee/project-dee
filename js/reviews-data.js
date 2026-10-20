@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Frank D",
-        "username": "Frank D",
-        "avatar": "https://i1.sndcdn.com/avatars-9gSzRJGuOtMBWD4n-av6BZQ-large.jpg",
-        "comment": "too good 🎶",
+        "author": "KRT Production",
+        "username": "BBAM",
+        "avatar": "https://i1.sndcdn.com/avatars-xgtFE1mQaya1UYVy-YInE5g-large.jpg",
+        "comment": "perfection",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
-        "date": "2026-10-19"
+        "date": "2026-10-20"
     },
     {
         "id": 2,
@@ -167,14 +167,14 @@ const communityReviews = [
     },
     {
         "id": 16,
-        "author": "Luovodifaberge",
-        "username": "Luovodifaberge",
-        "avatar": "https://i1.sndcdn.com/avatars-zyhlae8iPBwhabcu-63uPbw-large.jpg",
-        "comment": "sounds good",
+        "author": "Khaos Creator",
+        "username": "Khaos Creator",
+        "avatar": "https://i1.sndcdn.com/avatars-QYriw83UO1MyzVFI-ECYPyQ-large.jpg",
+        "comment": "WOW. 😍",
         "trackTitle": "The Flow of Time",
         "trackUrl": "https://soundcloud.com/theprojectdee/theflow",
         "trackThumb": "https://i1.sndcdn.com/artworks-YpySSkPUAzrphpm2-D4EA7g-t500x500.png",
-        "date": "2026-08-03"
+        "date": "2026-10-19"
     },
     {
         "id": 17,
@@ -222,10 +222,10 @@ const communityReviews = [
     },
     {
         "id": 21,
-        "author": "Tech house/ House",
-        "username": "Ramsés Ramírez",
-        "avatar": "https://i1.sndcdn.com/avatars-0qt3NjOugaBwzy2i-opBjTw-large.jpg",
-        "comment": "This is a very enjoyable listen. The rhythm feels consistent, the energy is well maintained and the overall production sounds good.",
+        "author": "Frank D",
+        "username": "Frank D",
+        "avatar": "https://i1.sndcdn.com/avatars-9gSzRJGuOtMBWD4n-av6BZQ-large.jpg",
+        "comment": "too good 🎶",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
@@ -354,10 +354,10 @@ const communityReviews = [
     },
     {
         "id": 33,
-        "author": "Zawley",
-        "username": "Zawley",
-        "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
-        "comment": "This song is making me flow through time just right",
+        "author": "Luovodifaberge",
+        "username": "Luovodifaberge",
+        "avatar": "https://i1.sndcdn.com/avatars-zyhlae8iPBwhabcu-63uPbw-large.jpg",
+        "comment": "sounds good",
         "trackTitle": "The Flow of Time",
         "trackUrl": "https://soundcloud.com/theprojectdee/theflow",
         "trackThumb": "https://i1.sndcdn.com/artworks-YpySSkPUAzrphpm2-D4EA7g-t500x500.png",
@@ -398,14 +398,14 @@ const communityReviews = [
     },
     {
         "id": 37,
-        "author": "Resazat Ay",
-        "username": "Resazat",
-        "avatar": "https://i1.sndcdn.com/avatars-fiJ6W3WXEqL2jPsO-ucYcCA-large.jpg",
-        "comment": "this a jam",
+        "author": "Tech house/ House",
+        "username": "Ramsés Ramírez",
+        "avatar": "https://i1.sndcdn.com/avatars-0qt3NjOugaBwzy2i-opBjTw-large.jpg",
+        "comment": "This is a very enjoyable listen. The rhythm feels consistent, the energy is well maintained and the overall production sounds good.",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
-        "date": "2026-10-18"
+        "date": "2026-10-19"
     },
     {
         "id": 38,
@@ -530,14 +530,14 @@ const communityReviews = [
     },
     {
         "id": 49,
-        "author": "ShaqiLLiWiLL AKA Black Trash T AKA The Phoeroach",
-        "username": "ShaqiLLiWiLL AKA Black Trash T AKA The Phoeroach",
-        "avatar": "https://i1.sndcdn.com/avatars-q8SDqb4NaBq6nThB-xxNltw-large.jpg",
-        "comment": "this is cold and fire u fd up the climate",
+        "author": "Zawley",
+        "username": "Zawley",
+        "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
+        "comment": "This song is making me flow through time just right",
         "trackTitle": "The Flow of Time",
         "trackUrl": "https://soundcloud.com/theprojectdee/theflow",
         "trackThumb": "https://i1.sndcdn.com/artworks-YpySSkPUAzrphpm2-D4EA7g-t500x500.png",
-        "date": "2026-07-26"
+        "date": "2026-08-03"
     },
     {
         "id": 50,
@@ -574,10 +574,10 @@ const communityReviews = [
     },
     {
         "id": 53,
-        "author": "Oleg Brnic",
-        "username": "Ogi feel the Beat",
-        "avatar": "https://i1.sndcdn.com/avatars-vPmpRc7qi6eBnfZ9-ROAA4g-large.jpg",
-        "comment": "supernice, keep them comming man",
+        "author": "Resazat Ay",
+        "username": "Resazat",
+        "avatar": "https://i1.sndcdn.com/avatars-fiJ6W3WXEqL2jPsO-ucYcCA-large.jpg",
+        "comment": "this a jam",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
@@ -706,14 +706,14 @@ const communityReviews = [
     },
     {
         "id": 65,
-        "author": "Karl Heimgartner",
-        "username": "Karl Heinz - Heimgartner",
-        "avatar": "https://i1.sndcdn.com/avatars-DqQUSNTg3LCgru8M-0p4gAA-large.jpg",
-        "comment": "epic energy 💎",
+        "author": "ShaqiLLiWiLL AKA Black Trash T AKA The Phoeroach",
+        "username": "ShaqiLLiWiLL AKA Black Trash T AKA The Phoeroach",
+        "avatar": "https://i1.sndcdn.com/avatars-q8SDqb4NaBq6nThB-xxNltw-large.jpg",
+        "comment": "this is cold and fire u fd up the climate",
         "trackTitle": "The Flow of Time",
         "trackUrl": "https://soundcloud.com/theprojectdee/theflow",
         "trackThumb": "https://i1.sndcdn.com/artworks-YpySSkPUAzrphpm2-D4EA7g-t500x500.png",
-        "date": "2026-07-23"
+        "date": "2026-07-26"
     },
     {
         "id": 66,
