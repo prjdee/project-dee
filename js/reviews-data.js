@@ -2,10 +2,10 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "KRT Production",
-        "username": "BBAM",
-        "avatar": "https://i1.sndcdn.com/avatars-xgtFE1mQaya1UYVy-YInE5g-large.jpg",
-        "comment": "perfection",
+        "author": "Michael Meyer",
+        "username": "DJ Mandala",
+        "avatar": "https://i1.sndcdn.com/avatars-t8eFjyERzFXiqzvq-H8LwJA-large.jpg",
+        "comment": "This is realya nice Helloween Song.",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
@@ -167,14 +167,14 @@ const communityReviews = [
     },
     {
         "id": 16,
-        "author": "Khaos Creator",
-        "username": "Khaos Creator",
-        "avatar": "https://i1.sndcdn.com/avatars-QYriw83UO1MyzVFI-ECYPyQ-large.jpg",
-        "comment": "WOW. 😍",
+        "author": "Uttam Ahedi",
+        "username": "Uttam Ahedi",
+        "avatar": "https://i1.sndcdn.com/avatars-000294097723-6vdd3o-large.jpg",
+        "comment": "stunning",
         "trackTitle": "The Flow of Time",
         "trackUrl": "https://soundcloud.com/theprojectdee/theflow",
         "trackThumb": "https://i1.sndcdn.com/artworks-YpySSkPUAzrphpm2-D4EA7g-t500x500.png",
-        "date": "2026-10-19"
+        "date": "2026-10-21"
     },
     {
         "id": 17,
@@ -222,14 +222,14 @@ const communityReviews = [
     },
     {
         "id": 21,
-        "author": "Frank D",
-        "username": "Frank D",
-        "avatar": "https://i1.sndcdn.com/avatars-9gSzRJGuOtMBWD4n-av6BZQ-large.jpg",
-        "comment": "too good 🎶",
+        "author": "KRT Production",
+        "username": "BBAM",
+        "avatar": "https://i1.sndcdn.com/avatars-xgtFE1mQaya1UYVy-YInE5g-large.jpg",
+        "comment": "perfection",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
-        "date": "2026-10-19"
+        "date": "2026-10-20"
     },
     {
         "id": 22,
@@ -354,14 +354,14 @@ const communityReviews = [
     },
     {
         "id": 33,
-        "author": "Luovodifaberge",
-        "username": "Luovodifaberge",
-        "avatar": "https://i1.sndcdn.com/avatars-zyhlae8iPBwhabcu-63uPbw-large.jpg",
-        "comment": "sounds good",
+        "author": "Khaos Creator",
+        "username": "Khaos Creator",
+        "avatar": "https://i1.sndcdn.com/avatars-QYriw83UO1MyzVFI-ECYPyQ-large.jpg",
+        "comment": "WOW. 😍",
         "trackTitle": "The Flow of Time",
         "trackUrl": "https://soundcloud.com/theprojectdee/theflow",
         "trackThumb": "https://i1.sndcdn.com/artworks-YpySSkPUAzrphpm2-D4EA7g-t500x500.png",
-        "date": "2026-08-03"
+        "date": "2026-10-19"
     },
     {
         "id": 34,
@@ -398,10 +398,10 @@ const communityReviews = [
     },
     {
         "id": 37,
-        "author": "Tech house/ House",
-        "username": "Ramsés Ramírez",
-        "avatar": "https://i1.sndcdn.com/avatars-0qt3NjOugaBwzy2i-opBjTw-large.jpg",
-        "comment": "This is a very enjoyable listen. The rhythm feels consistent, the energy is well maintained and the overall production sounds good.",
+        "author": "Frank D",
+        "username": "Frank D",
+        "avatar": "https://i1.sndcdn.com/avatars-9gSzRJGuOtMBWD4n-av6BZQ-large.jpg",
+        "comment": "too good 🎶",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
@@ -530,10 +530,10 @@ const communityReviews = [
     },
     {
         "id": 49,
-        "author": "Zawley",
-        "username": "Zawley",
-        "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
-        "comment": "This song is making me flow through time just right",
+        "author": "Luovodifaberge",
+        "username": "Luovodifaberge",
+        "avatar": "https://i1.sndcdn.com/avatars-zyhlae8iPBwhabcu-63uPbw-large.jpg",
+        "comment": "sounds good",
         "trackTitle": "The Flow of Time",
         "trackUrl": "https://soundcloud.com/theprojectdee/theflow",
         "trackThumb": "https://i1.sndcdn.com/artworks-YpySSkPUAzrphpm2-D4EA7g-t500x500.png",
@@ -574,14 +574,14 @@ const communityReviews = [
     },
     {
         "id": 53,
-        "author": "Resazat Ay",
-        "username": "Resazat",
-        "avatar": "https://i1.sndcdn.com/avatars-fiJ6W3WXEqL2jPsO-ucYcCA-large.jpg",
-        "comment": "this a jam",
+        "author": "Tech house/ House",
+        "username": "Ramsés Ramírez",
+        "avatar": "https://i1.sndcdn.com/avatars-0qt3NjOugaBwzy2i-opBjTw-large.jpg",
+        "comment": "This is a very enjoyable listen. The rhythm feels consistent, the energy is well maintained and the overall production sounds good.",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
-        "date": "2026-10-18"
+        "date": "2026-10-19"
     },
     {
         "id": 54,
@@ -706,14 +706,14 @@ const communityReviews = [
     },
     {
         "id": 65,
-        "author": "ShaqiLLiWiLL AKA Black Trash T AKA The Phoeroach",
-        "username": "ShaqiLLiWiLL AKA Black Trash T AKA The Phoeroach",
-        "avatar": "https://i1.sndcdn.com/avatars-q8SDqb4NaBq6nThB-xxNltw-large.jpg",
-        "comment": "this is cold and fire u fd up the climate",
+        "author": "Zawley",
+        "username": "Zawley",
+        "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
+        "comment": "This song is making me flow through time just right",
         "trackTitle": "The Flow of Time",
         "trackUrl": "https://soundcloud.com/theprojectdee/theflow",
         "trackThumb": "https://i1.sndcdn.com/artworks-YpySSkPUAzrphpm2-D4EA7g-t500x500.png",
-        "date": "2026-07-26"
+        "date": "2026-08-03"
     },
     {
         "id": 66,
