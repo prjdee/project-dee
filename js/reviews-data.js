@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Michael Meyer",
-        "username": "DJ Mandala",
-        "avatar": "https://i1.sndcdn.com/avatars-t8eFjyERzFXiqzvq-H8LwJA-large.jpg",
-        "comment": "This is realya nice Helloween Song.",
+        "author": "Lorenzo Zucchi Sartori",
+        "username": "Lozart",
+        "avatar": "https://i1.sndcdn.com/avatars-fTydIXnnrtv6Kqlk-RwzI9Q-large.jpg",
+        "comment": "Addictive bassline, great job, keep going",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
-        "date": "2026-10-20"
+        "date": "2026-10-22"
     },
     {
         "id": 2,
@@ -222,14 +222,14 @@ const communityReviews = [
     },
     {
         "id": 21,
-        "author": "KRT Production",
-        "username": "BBAM",
-        "avatar": "https://i1.sndcdn.com/avatars-xgtFE1mQaya1UYVy-YInE5g-large.jpg",
-        "comment": "perfection",
+        "author": "giulianorodrigues.com",
+        "username": "Giuliano Rodrigues",
+        "avatar": "https://i1.sndcdn.com/avatars-gIgcfcLHJ2Qgvr6C-MQwoBw-large.jpg",
+        "comment": "nice vocals here on this part :) \\o/ kp it up",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
-        "date": "2026-10-20"
+        "date": "2026-10-22"
     },
     {
         "id": 22,
@@ -398,14 +398,14 @@ const communityReviews = [
     },
     {
         "id": 37,
-        "author": "Frank D",
-        "username": "Frank D",
-        "avatar": "https://i1.sndcdn.com/avatars-9gSzRJGuOtMBWD4n-av6BZQ-large.jpg",
-        "comment": "too good 🎶",
+        "author": "Michael Meyer",
+        "username": "DJ Mandala",
+        "avatar": "https://i1.sndcdn.com/avatars-t8eFjyERzFXiqzvq-H8LwJA-large.jpg",
+        "comment": "This is realya nice Helloween Song.",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
-        "date": "2026-10-19"
+        "date": "2026-10-20"
     },
     {
         "id": 38,
@@ -574,14 +574,14 @@ const communityReviews = [
     },
     {
         "id": 53,
-        "author": "Tech house/ House",
-        "username": "Ramsés Ramírez",
-        "avatar": "https://i1.sndcdn.com/avatars-0qt3NjOugaBwzy2i-opBjTw-large.jpg",
-        "comment": "This is a very enjoyable listen. The rhythm feels consistent, the energy is well maintained and the overall production sounds good.",
+        "author": "KRT Production",
+        "username": "BBAM",
+        "avatar": "https://i1.sndcdn.com/avatars-xgtFE1mQaya1UYVy-YInE5g-large.jpg",
+        "comment": "perfection",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
-        "date": "2026-10-19"
+        "date": "2026-10-20"
     },
     {
         "id": 54,
@@ -686,7 +686,7 @@ const communityReviews = [
         "id": 63,
         "author": "Cade Gallo",
         "username": "Cade Gallo",
-        "avatar": "https://i1.sndcdn.com/avatars-82nzTFYyxyZeodYS-QbZXHA-large.jpg",
+        "avatar": "https://i1.sndcdn.com/avatars-KoALhJyWK5Lho5jR-g1L2rQ-large.jpg",
         "comment": "Love the track, the vibe is high, its on fire..",
         "trackTitle": "Come To Dubai (Original Mix)",
         "trackUrl": "https://soundcloud.com/theprojectdee/dubai",
