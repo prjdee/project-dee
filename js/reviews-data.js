@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Lorenzo Zucchi Sartori",
-        "username": "Lozart",
-        "avatar": "https://i1.sndcdn.com/avatars-fTydIXnnrtv6Kqlk-RwzI9Q-large.jpg",
-        "comment": "Addictive bassline, great job, keep going",
+        "author": "Cocoa Spoon",
+        "username": "Cocoa Spoon",
+        "avatar": "https://i1.sndcdn.com/avatars-qYCcEBHsz5UIavyh-7xsNsQ-large.jpg",
+        "comment": "that melody.. so simple but so good",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
-        "date": "2026-10-22"
+        "date": "2026-10-23"
     },
     {
         "id": 2,
@@ -222,10 +222,10 @@ const communityReviews = [
     },
     {
         "id": 21,
-        "author": "giulianorodrigues.com",
-        "username": "Giuliano Rodrigues",
-        "avatar": "https://i1.sndcdn.com/avatars-gIgcfcLHJ2Qgvr6C-MQwoBw-large.jpg",
-        "comment": "nice vocals here on this part :) \\o/ kp it up",
+        "author": "Lorenzo Zucchi Sartori",
+        "username": "Lozart",
+        "avatar": "https://i1.sndcdn.com/avatars-fTydIXnnrtv6Kqlk-RwzI9Q-large.jpg",
+        "comment": "Addictive bassline, great job, keep going",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
@@ -398,14 +398,14 @@ const communityReviews = [
     },
     {
         "id": 37,
-        "author": "Michael Meyer",
-        "username": "DJ Mandala",
-        "avatar": "https://i1.sndcdn.com/avatars-t8eFjyERzFXiqzvq-H8LwJA-large.jpg",
-        "comment": "This is realya nice Helloween Song.",
+        "author": "giulianorodrigues.com",
+        "username": "Giuliano Rodrigues",
+        "avatar": "https://i1.sndcdn.com/avatars-gIgcfcLHJ2Qgvr6C-MQwoBw-large.jpg",
+        "comment": "nice vocals here on this part :) \\o/ kp it up",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
-        "date": "2026-10-20"
+        "date": "2026-10-22"
     },
     {
         "id": 38,
@@ -574,10 +574,10 @@ const communityReviews = [
     },
     {
         "id": 53,
-        "author": "KRT Production",
-        "username": "BBAM",
-        "avatar": "https://i1.sndcdn.com/avatars-xgtFE1mQaya1UYVy-YInE5g-large.jpg",
-        "comment": "perfection",
+        "author": "Michael Meyer",
+        "username": "DJ Mandala",
+        "avatar": "https://i1.sndcdn.com/avatars-t8eFjyERzFXiqzvq-H8LwJA-large.jpg",
+        "comment": "This is realya nice Helloween Song.",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
