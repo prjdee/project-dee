@@ -92,7 +92,7 @@ const communityReviews = [
         "id": 9,
         "author": "Hagar Shay",
         "username": "Hagar Shay",
-        "avatar": "https://i1.sndcdn.com/avatars-3E18YZepkqYz2Nf2-FU9XLw-large.jpg",
+        "avatar": "https://i1.sndcdn.com/avatars-Ols2Gm2gVRNTvURz-SaIilA-large.jpg",
         "comment": "This track feels naturally dynamic",
         "trackTitle": "Before The Floor Shakes",
         "trackUrl": "https://soundcloud.com/theprojectdee/before-the-floor-shakes",
@@ -178,14 +178,14 @@ const communityReviews = [
     },
     {
         "id": 17,
-        "author": "Twistedreload",
-        "username": "Twistedreload",
-        "avatar": "https://i1.sndcdn.com/avatars-NNmSQlbcs71RyWyK-bltFag-large.jpg",
-        "comment": "tidy",
+        "author": "Daniel Franke",
+        "username": "Sermocinor",
+        "avatar": "https://i1.sndcdn.com/avatars-UPUzqrLRwVhYms4r-h0CAOw-large.jpg",
+        "comment": "Nice mix",
         "trackTitle": "The Pressure",
         "trackUrl": "https://soundcloud.com/theprojectdee/pressure",
         "trackThumb": "https://i1.sndcdn.com/artworks-wnczJAsT5ItcEj6x-BQ8tOQ-t500x500.png",
-        "date": "2026-08-04"
+        "date": "2026-10-24"
     },
     {
         "id": 18,
@@ -365,14 +365,14 @@ const communityReviews = [
     },
     {
         "id": 34,
-        "author": "Gerhard Manthau",
-        "username": "Mexicomaus - Label:Psychedelic new  Style  Records",
-        "avatar": "https://i1.sndcdn.com/avatars-BvxReMtOeW0ywW6I-tK7RfQ-large.jpg",
-        "comment": "mega sseion",
+        "author": "GROSSI",
+        "username": "GROSSI",
+        "avatar": "https://i1.sndcdn.com/avatars-v6gU1FUJxoxu2zTh-KwvZyA-large.jpg",
+        "comment": "I can feel the pressure my brooooo nice haha",
         "trackTitle": "The Pressure",
         "trackUrl": "https://soundcloud.com/theprojectdee/pressure",
         "trackThumb": "https://i1.sndcdn.com/artworks-wnczJAsT5ItcEj6x-BQ8tOQ-t500x500.png",
-        "date": "2026-07-31"
+        "date": "2026-10-24"
     },
     {
         "id": 35,
@@ -541,14 +541,14 @@ const communityReviews = [
     },
     {
         "id": 50,
-        "author": "Borislav Đurinec",
-        "username": "Van De Bork",
-        "avatar": "https://i1.sndcdn.com/avatars-hCoF95LtUb3mqJQe-9gGqHg-large.jpg",
-        "comment": "Wow!",
+        "author": "DJ TONIX",
+        "username": "DJ TONIX",
+        "avatar": "https://i1.sndcdn.com/avatars-vV4uxOXtXKTF2I7X-J5YigA-large.jpg",
+        "comment": "I like how this track balances its energy with the atmosphere. Nothing feels unnecessarily complicated, but there is still enough going on to keep the listening experience interesting. Really well put together!",
         "trackTitle": "The Pressure",
         "trackUrl": "https://soundcloud.com/theprojectdee/pressure",
         "trackThumb": "https://i1.sndcdn.com/artworks-wnczJAsT5ItcEj6x-BQ8tOQ-t500x500.png",
-        "date": "2026-07-22"
+        "date": "2026-10-24"
     },
     {
         "id": 51,
@@ -653,7 +653,7 @@ const communityReviews = [
         "id": 60,
         "author": "Hagar Shay",
         "username": "Hagar Shay",
-        "avatar": "https://i1.sndcdn.com/avatars-3E18YZepkqYz2Nf2-FU9XLw-large.jpg",
+        "avatar": "https://i1.sndcdn.com/avatars-Ols2Gm2gVRNTvURz-SaIilA-large.jpg",
         "comment": "The baseline gives this great momentum",
         "trackTitle": "Threshold",
         "trackUrl": "https://soundcloud.com/theprojectdee/threshold",
@@ -717,14 +717,14 @@ const communityReviews = [
     },
     {
         "id": 66,
-        "author": "SYS.GEN",
-        "username": "SYS.GEN",
-        "avatar": "https://i1.sndcdn.com/avatars-ox6MHFMQgCAeBDgW-ZFlfyA-large.jpg",
-        "comment": "SMASHING HIT MATE, WHAT A BANGER, THE VOCALS ARE SICK",
+        "author": "Twistedreload",
+        "username": "Twistedreload",
+        "avatar": "https://i1.sndcdn.com/avatars-NNmSQlbcs71RyWyK-bltFag-large.jpg",
+        "comment": "tidy",
         "trackTitle": "The Pressure",
         "trackUrl": "https://soundcloud.com/theprojectdee/pressure",
         "trackThumb": "https://i1.sndcdn.com/artworks-wnczJAsT5ItcEj6x-BQ8tOQ-t500x500.png",
-        "date": "2026-07-22"
+        "date": "2026-08-04"
     },
     {
         "id": 67,
