@@ -965,12 +965,17 @@ function initCookieBanner() {
     // Accept Action
     acceptBtn.addEventListener('click', () => {
         localStorage.setItem('prjdee_cookie_consent', 'accepted');
+        window['ga-disable-G-6BWEKHGEG5'] = false;
+        if (typeof gtag === 'function') {
+            gtag('config', 'G-6BWEKHGEG5');
+        }
         banner.classList.remove('show');
     });
 
     // Reject Action
     rejectBtn.addEventListener('click', () => {
         localStorage.setItem('prjdee_cookie_consent', 'rejected');
+        window['ga-disable-G-6BWEKHGEG5'] = true;
         banner.classList.remove('show');
     });
 
