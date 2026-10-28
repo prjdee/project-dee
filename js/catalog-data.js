@@ -2,6 +2,15 @@
 const soundCloudCatalog = [
     {
         "id": null,
+        "title": "Drifting the city | 2026 remake",
+        "sc_url": "https://soundcloud.com/theprojectdee/drifting26",
+        "yt_url": null,
+        "published": "2026-10-27",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-drifting26.jpg",
+        "genre": "Electronic"
+    },
+    {
+        "id": null,
         "title": "Spooky | Happy Halloween 2026",
         "sc_url": "https://soundcloud.com/theprojectdee/spooky",
         "yt_url": null,
@@ -169,15 +178,6 @@ const soundCloudCatalog = [
         "yt_url": "https://www.youtube.com/watch?v=SVN03CZMGJg",
         "published": "2026-04-09",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-pressure.jpg",
-        "genre": "Electronic"
-    },
-    {
-        "id": null,
-        "title": "The Machine's Pulse",
-        "sc_url": "https://soundcloud.com/theprojectdee/machinepulse",
-        "yt_url": null,
-        "published": "2026-04-06",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-machinepulse.jpg",
         "genre": "Electronic"
     }
 ];
