@@ -2,10 +2,10 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Jonas Bergström",
-        "username": "GeezyorK",
-        "avatar": "https://i1.sndcdn.com/avatars-hiI74ZKD2pRoNRQL-eU1CnA-large.jpg",
-        "comment": "This is top notch production. I really like it.",
+        "author": "Wade Larwin",
+        "username": "Wade Larwin",
+        "avatar": "https://i1.sndcdn.com/avatars-t8cpAU4BJAzNu3V5-YAbJOw-large.jpg",
+        "comment": "Sounds great. VO was top notch",
         "trackTitle": "Drifting the city | 2026 remake",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
         "trackThumb": "https://i1.sndcdn.com/artworks-TbNqbJGuvyH9oYZ0-VAW9hg-t500x500.jpg",
@@ -13,14 +13,14 @@ const communityReviews = [
     },
     {
         "id": 2,
-        "author": "Cocoa Spoon",
-        "username": "Cocoa Spoon",
-        "avatar": "https://i1.sndcdn.com/avatars-qYCcEBHsz5UIavyh-7xsNsQ-large.jpg",
-        "comment": "that melody.. so simple but so good",
+        "author": "Tannova",
+        "username": "Tannova",
+        "avatar": "https://i1.sndcdn.com/avatars-FqOzJjgVNRqQF7s0-zOLqOA-large.jpg",
+        "comment": "This is such a great track well done my friend!",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
-        "date": "2026-10-23"
+        "date": "2026-10-28"
     },
     {
         "id": 3,
@@ -222,25 +222,25 @@ const communityReviews = [
     },
     {
         "id": 21,
-        "author": "Daniel Franke",
-        "username": "Sermocinor",
-        "avatar": "https://i1.sndcdn.com/avatars-UPUzqrLRwVhYms4r-h0CAOw-large.jpg",
-        "comment": "always nice mixes! I like it very much",
+        "author": "Réne",
+        "username": "Réne",
+        "avatar": "https://i1.sndcdn.com/avatars-m93kLxAtz8HEuAdx-Oy5ziQ-large.jpg",
+        "comment": "Great deep vocal. Contrasts well with female vocal.",
         "trackTitle": "Drifting the city | 2026 remake",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
         "trackThumb": "https://i1.sndcdn.com/artworks-TbNqbJGuvyH9oYZ0-VAW9hg-t500x500.jpg",
-        "date": "2026-10-27"
+        "date": "2026-10-28"
     },
     {
         "id": 22,
-        "author": "Lorenzo Zucchi Sartori",
-        "username": "Lozart",
-        "avatar": "https://i1.sndcdn.com/avatars-fTydIXnnrtv6Kqlk-RwzI9Q-large.jpg",
-        "comment": "Addictive bassline, great job, keep going",
+        "author": "Cocoa Spoon",
+        "username": "Cocoa Spoon",
+        "avatar": "https://i1.sndcdn.com/avatars-qYCcEBHsz5UIavyh-7xsNsQ-large.jpg",
+        "comment": "that melody.. so simple but so good",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
-        "date": "2026-10-22"
+        "date": "2026-10-23"
     },
     {
         "id": 23,
@@ -409,21 +409,21 @@ const communityReviews = [
     },
     {
         "id": 38,
-        "author": "JC.B featuring { *[] }",
-        "username": "JC.B featuring { *[] }",
-        "avatar": "https://i1.sndcdn.com/avatars-C7Vo6LeFFf88MNVr-iVOydg-large.jpg",
-        "comment": "Great song. I like the sound, melody ... and the vocals.",
+        "author": "Saint Anthony",
+        "username": "Saint Anthony",
+        "avatar": "https://i1.sndcdn.com/avatars-vBeylMUzpLYjqzNU-zhlGWA-large.jpg",
+        "comment": "I really like this track!!! Sending this to some friends",
         "trackTitle": "Drifting the city | 2026 remake",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
         "trackThumb": "https://i1.sndcdn.com/artworks-TbNqbJGuvyH9oYZ0-VAW9hg-t500x500.jpg",
-        "date": "2026-10-27"
+        "date": "2026-10-28"
     },
     {
         "id": 39,
-        "author": "giulianorodrigues.com",
-        "username": "Giuliano Rodrigues",
-        "avatar": "https://i1.sndcdn.com/avatars-gIgcfcLHJ2Qgvr6C-MQwoBw-large.jpg",
-        "comment": "nice vocals here on this part :) \\o/ kp it up",
+        "author": "Lorenzo Zucchi Sartori",
+        "username": "Lozart",
+        "avatar": "https://i1.sndcdn.com/avatars-fTydIXnnrtv6Kqlk-RwzI9Q-large.jpg",
+        "comment": "Addictive bassline, great job, keep going",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
@@ -596,25 +596,25 @@ const communityReviews = [
     },
     {
         "id": 55,
-        "author": "Harmonia At Night",
-        "username": "Harmonia At Night",
-        "avatar": "https://i1.sndcdn.com/avatars-000140583453-338nvj-large.jpg",
-        "comment": "banger 😎",
+        "author": "No.1 Famous",
+        "username": "No.1 Famous",
+        "avatar": "https://i1.sndcdn.com/avatars-jafuyFWaozAL5b4X-khX3Eg-large.jpg",
+        "comment": "what is this supposed to be a remake of?",
         "trackTitle": "Drifting the city | 2026 remake",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
         "trackThumb": "https://i1.sndcdn.com/artworks-TbNqbJGuvyH9oYZ0-VAW9hg-t500x500.jpg",
-        "date": "2026-10-27"
+        "date": "2026-10-28"
     },
     {
         "id": 56,
-        "author": "Michael Meyer",
-        "username": "DJ Mandala",
-        "avatar": "https://i1.sndcdn.com/avatars-t8eFjyERzFXiqzvq-H8LwJA-large.jpg",
-        "comment": "This is realya nice Helloween Song.",
+        "author": "giulianorodrigues.com",
+        "username": "Giuliano Rodrigues",
+        "avatar": "https://i1.sndcdn.com/avatars-gIgcfcLHJ2Qgvr6C-MQwoBw-large.jpg",
+        "comment": "nice vocals here on this part :) \\o/ kp it up",
         "trackTitle": "Spooky | Happy Halloween 2026",
         "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
         "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
-        "date": "2026-10-20"
+        "date": "2026-10-22"
     },
     {
         "id": 57,
@@ -719,7 +719,7 @@ const communityReviews = [
         "id": 66,
         "author": "Cade Gallo",
         "username": "Cade Gallo",
-        "avatar": "https://i1.sndcdn.com/avatars-KoALhJyWK5Lho5jR-g1L2rQ-large.jpg",
+        "avatar": "https://i1.sndcdn.com/avatars-gQK3WeN67zYs1LW3-c5yS1Q-large.jpg",
         "comment": "Love the track, the vibe is high, its on fire..",
         "trackTitle": "Come To Dubai (Original Mix)",
         "trackUrl": "https://soundcloud.com/theprojectdee/dubai",
