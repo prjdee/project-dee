@@ -134,9 +134,9 @@ const communityReviews = [
     },
     {
         "id": 13,
-        "author": "DKTG",
-        "username": "DKTG",
-        "avatar": "https://i1.sndcdn.com/avatars-yeRa60qozSyiXkqQ-yhmVZg-large.jpg",
+        "author": "I Rebuke",
+        "username": "I Rebuke",
+        "avatar": "https://i1.sndcdn.com/avatars-6VoiBccFqDqKTp1O-7P3rug-large.jpg",
         "comment": "Really good!",
         "trackTitle": "Come To Dubai (Original Mix)",
         "trackUrl": "https://soundcloud.com/theprojectdee/dubai",
