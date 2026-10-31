@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Wade Larwin",
-        "username": "Wade Larwin",
-        "avatar": "https://i1.sndcdn.com/avatars-t8cpAU4BJAzNu3V5-YAbJOw-large.jpg",
-        "comment": "Sounds great. VO was top notch",
+        "author": "KRT Production",
+        "username": "KRT Production",
+        "avatar": "https://i1.sndcdn.com/avatars-SXbacvZ3UrAOoI1K-QHyyFQ-large.jpg",
+        "comment": "sick 👊",
         "trackTitle": "Drifting the city | 2026 remake",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
         "trackThumb": "https://i1.sndcdn.com/artworks-TbNqbJGuvyH9oYZ0-VAW9hg-t500x500.jpg",
-        "date": "2026-10-28"
+        "date": "2026-10-31"
     },
     {
         "id": 2,
@@ -136,7 +136,7 @@ const communityReviews = [
         "id": 13,
         "author": "I Rebuke",
         "username": "I Rebuke",
-        "avatar": "https://i1.sndcdn.com/avatars-6VoiBccFqDqKTp1O-7P3rug-large.jpg",
+        "avatar": "https://i1.sndcdn.com/avatars-KHq1jGs3zkiyeif6-yJaAJQ-large.jpg",
         "comment": "Really good!",
         "trackTitle": "Come To Dubai (Original Mix)",
         "trackUrl": "https://soundcloud.com/theprojectdee/dubai",
@@ -222,14 +222,14 @@ const communityReviews = [
     },
     {
         "id": 21,
-        "author": "Réne",
-        "username": "Réne",
-        "avatar": "https://i1.sndcdn.com/avatars-m93kLxAtz8HEuAdx-Oy5ziQ-large.jpg",
-        "comment": "Great deep vocal. Contrasts well with female vocal.",
+        "author": "Cocoa Spoon",
+        "username": "Cocoa Spoon",
+        "avatar": "https://i1.sndcdn.com/avatars-qYCcEBHsz5UIavyh-7xsNsQ-large.jpg",
+        "comment": "great work, do you take requests or collabs?",
         "trackTitle": "Drifting the city | 2026 remake",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
         "trackThumb": "https://i1.sndcdn.com/artworks-TbNqbJGuvyH9oYZ0-VAW9hg-t500x500.jpg",
-        "date": "2026-10-28"
+        "date": "2026-10-30"
     },
     {
         "id": 22,
@@ -409,14 +409,14 @@ const communityReviews = [
     },
     {
         "id": 38,
-        "author": "Saint Anthony",
-        "username": "Saint Anthony",
-        "avatar": "https://i1.sndcdn.com/avatars-vBeylMUzpLYjqzNU-zhlGWA-large.jpg",
-        "comment": "I really like this track!!! Sending this to some friends",
+        "author": "Integrity Creativity",
+        "username": "AFRICARE PRODUCTIONS",
+        "avatar": "https://i1.sndcdn.com/avatars-zzSGrxsrE7ozM2Wz-7EzBcg-large.jpg",
+        "comment": "A truly marketable  track; brilliantly produced with passion that makes you groove!",
         "trackTitle": "Drifting the city | 2026 remake",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
         "trackThumb": "https://i1.sndcdn.com/artworks-TbNqbJGuvyH9oYZ0-VAW9hg-t500x500.jpg",
-        "date": "2026-10-28"
+        "date": "2026-10-30"
     },
     {
         "id": 39,
@@ -596,14 +596,14 @@ const communityReviews = [
     },
     {
         "id": 55,
-        "author": "No.1 Famous",
-        "username": "No.1 Famous",
-        "avatar": "https://i1.sndcdn.com/avatars-jafuyFWaozAL5b4X-khX3Eg-large.jpg",
-        "comment": "what is this supposed to be a remake of?",
+        "author": "BRET HARTWLR",
+        "username": "BRET HARTWLR REDDREADZUZISEXPISTOLUV",
+        "avatar": "https://i1.sndcdn.com/avatars-BztMaVTwF2MEJxuv-KzBHgg-large.jpg",
+        "comment": "smooth groove",
         "trackTitle": "Drifting the city | 2026 remake",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
         "trackThumb": "https://i1.sndcdn.com/artworks-TbNqbJGuvyH9oYZ0-VAW9hg-t500x500.jpg",
-        "date": "2026-10-28"
+        "date": "2026-10-30"
     },
     {
         "id": 56,
