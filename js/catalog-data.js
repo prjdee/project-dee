@@ -2,6 +2,15 @@
 const soundCloudCatalog = [
     {
         "id": null,
+        "title": "November Shift | Project Dee",
+        "sc_url": "https://soundcloud.com/theprojectdee/novembershift",
+        "yt_url": null,
+        "published": "2026-08-30",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-novembershift.jpg",
+        "genre": "Electronic"
+    },
+    {
+        "id": null,
         "title": "Drifting the city | 2026 remake",
         "sc_url": "https://soundcloud.com/theprojectdee/drifting26",
         "yt_url": null,
@@ -170,19 +179,18 @@ const soundCloudCatalog = [
         "published": "2026-04-15",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-theflow.jpg",
         "genre": "Electronic"
-    },
-    {
-        "id": null,
-        "title": "The Pressure",
-        "sc_url": "https://soundcloud.com/theprojectdee/pressure",
-        "yt_url": "https://www.youtube.com/watch?v=SVN03CZMGJg",
-        "published": "2026-04-09",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-pressure.jpg",
-        "genre": "Electronic"
     }
 ];
 
 const youtubeCatalog = [
+    {
+        "id": "IZNAlgtPlyw",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
+        "thumb": "https://img.youtube.com/vi/IZNAlgtPlyw/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
     {
         "id": "QnPLIwVnV5E",
         "title": "",
@@ -333,14 +341,6 @@ const youtubeCatalog = [
         "full_title": "",
         "published": "2026-01-01",
         "thumb": "https://img.youtube.com/vi/pJOpwextQJw/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "v6lS0co4GDs",
-        "title": "",
-        "full_title": "",
-        "published": "2026-01-01",
-        "thumb": "https://img.youtube.com/vi/v6lS0co4GDs/hqdefault.jpg",
         "genre": "RELEASE"
     }
 ];
