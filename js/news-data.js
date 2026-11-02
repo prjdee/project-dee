@@ -1,6 +1,28 @@
 const newsData = [
   {
     "id": 1,
+    "category": "RELEASE",
+    "date": "Sun, 01 Nov 2026",
+    "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=800&auto=format&fit=crop",
+    "link": "https://djmag.com/news/juan-atkins-detroit-techno-pioneer-has-died",
+    "title_it": "Juan Atkins, Detroit techno pioneer, has died",
+    "summary_it": "The visionary artist who helped shape the sound of Motor City was reportedly found unresponsive in a hotel room in Mexico City on Saturday (31st)",
+    "content_it": "The visionary artist who helped shape the sound of Motor City was reportedly found unresponsive in a hotel room in Mexico City on Saturday (31st)",
+    "title_en": "Juan Atkins, Detroit techno pioneer, has died",
+    "summary_en": "The visionary artist who helped shape the sound of Motor City was reportedly found unresponsive in a hotel room in Mexico City on Saturday (31st)",
+    "content_en": "The visionary artist who helped shape the sound of Motor City was reportedly found unresponsive in a hotel room in Mexico City on Saturday (31st)",
+    "title_es": "Juan Atkins, Detroit techno pioneer, has died",
+    "summary_es": "The visionary artist who helped shape the sound of Motor City was reportedly found unresponsive in a hotel room in Mexico City on Saturday (31st)",
+    "content_es": "The visionary artist who helped shape the sound of Motor City was reportedly found unresponsive in a hotel room in Mexico City on Saturday (31st)",
+    "title_fr": "Juan Atkins, Detroit techno pioneer, has died",
+    "summary_fr": "The visionary artist who helped shape the sound of Motor City was reportedly found unresponsive in a hotel room in Mexico City on Saturday (31st)",
+    "content_fr": "The visionary artist who helped shape the sound of Motor City was reportedly found unresponsive in a hotel room in Mexico City on Saturday (31st)",
+    "title_de": "Juan Atkins, Detroit techno pioneer, has died",
+    "summary_de": "The visionary artist who helped shape the sound of Motor City was reportedly found unresponsive in a hotel room in Mexico City on Saturday (31st)",
+    "content_de": "The visionary artist who helped shape the sound of Motor City was reportedly found unresponsive in a hotel room in Mexico City on Saturday (31st)"
+  },
+  {
+    "id": 2,
     "category": "TRENDS",
     "date": "Fri, 30 Oct 2026",
     "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=800&auto=format&fit=crop",
@@ -22,7 +44,7 @@ const newsData = [
     "content_de": "A fixture of the US house scene for four decades, Fisher was behind anthems including ‘The Freaks Come Out’ and ‘(You Got Me) Burnin’ Up’"
   },
   {
-    "id": 2,
+    "id": 3,
     "category": "CULTURE",
     "date": "Fri, 30 Oct 2026",
     "image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=800&auto=format&fit=crop",
@@ -42,28 +64,6 @@ const newsData = [
     "title_de": "New book, How Music Can Save The World, explores how music can drive social change",
     "summary_de": "Written by author and speaker Shain Shapiro, the book tells stories of music’s power from across the world",
     "content_de": "Written by author and speaker Shain Shapiro, the book tells stories of music’s power from across the world"
-  },
-  {
-    "id": 3,
-    "category": "RELEASE",
-    "date": "Fri, 30 Oct 2026",
-    "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=800&auto=format&fit=crop",
-    "link": "https://djmag.com/news/watch-robyn-cover-tinashes-popstar-bbc-live-lounge",
-    "title_it": "Watch Robyn cover Tinashe’s ‘Popstar’ in the BBC Live Lounge",
-    "summary_it": "Her version also featured Teddybears’ 2000 single ‘Punkrocker’",
-    "content_it": "Her version also featured Teddybears’ 2000 single ‘Punkrocker’",
-    "title_en": "Watch Robyn cover Tinashe’s ‘Popstar’ in the BBC Live Lounge",
-    "summary_en": "Her version also featured Teddybears’ 2000 single ‘Punkrocker’",
-    "content_en": "Her version also featured Teddybears’ 2000 single ‘Punkrocker’",
-    "title_es": "Watch Robyn cover Tinashe’s ‘Popstar’ in the BBC Live Lounge",
-    "summary_es": "Her version also featured Teddybears’ 2000 single ‘Punkrocker’",
-    "content_es": "Her version also featured Teddybears’ 2000 single ‘Punkrocker’",
-    "title_fr": "Watch Robyn cover Tinashe’s ‘Popstar’ in the BBC Live Lounge",
-    "summary_fr": "Her version also featured Teddybears’ 2000 single ‘Punkrocker’",
-    "content_fr": "Her version also featured Teddybears’ 2000 single ‘Punkrocker’",
-    "title_de": "Watch Robyn cover Tinashe’s ‘Popstar’ in the BBC Live Lounge",
-    "summary_de": "Her version also featured Teddybears’ 2000 single ‘Punkrocker’",
-    "content_de": "Her version also featured Teddybears’ 2000 single ‘Punkrocker’"
   },
   {
     "id": 4,
