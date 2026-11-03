@@ -2,25 +2,25 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Roberto Martin Brito",
-        "username": "R O B E R M A R T I N",
-        "avatar": "https://i1.sndcdn.com/avatars-Zv9MD8t2mVr6faIW-NaGDGA-large.jpg",
-        "comment": "Awesome track !!!! pure live!!! love how it spread good vibes, congrats!!!",
+        "author": "ROSSCO",
+        "username": "ROSSCO",
+        "avatar": "https://i1.sndcdn.com/avatars-wxo4L3Yyx88d1ldh-QfCNnQ-large.jpg",
+        "comment": "epic energy",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-02"
+        "date": "2026-11-03"
     },
     {
         "id": 2,
         "author": "KRT Production",
-        "username": "BBAM",
-        "avatar": "https://i1.sndcdn.com/avatars-xgtFE1mQaya1UYVy-YInE5g-large.jpg",
-        "comment": "respect 💎",
+        "username": "NUR",
+        "avatar": "https://i1.sndcdn.com/avatars-Svzz22CMA0wyGVv1-z4sBPQ-large.jpg",
+        "comment": "certified heat",
         "trackTitle": "Drifting the city | 2026 remake",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
         "trackThumb": "https://i1.sndcdn.com/artworks-TbNqbJGuvyH9oYZ0-VAW9hg-t500x500.jpg",
-        "date": "2026-11-02"
+        "date": "2026-11-03"
     },
     {
         "id": 3,
@@ -233,21 +233,21 @@ const communityReviews = [
     },
     {
         "id": 22,
-        "author": "JC.B featuring { *[] }",
-        "username": "JC.B featuring { *[] }",
-        "avatar": "https://i1.sndcdn.com/avatars-C7Vo6LeFFf88MNVr-iVOydg-large.jpg",
-        "comment": "Beautiful piece of electronic music",
+        "author": "Ed Viber",
+        "username": "Ed Viber",
+        "avatar": "https://i1.sndcdn.com/avatars-zvF5emrzCl0JX7FF-RTqQwQ-large.jpg",
+        "comment": "so lit 💥",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-02"
+        "date": "2026-11-03"
     },
     {
         "id": 23,
-        "author": "ROSSCO",
-        "username": "ROSSCO",
-        "avatar": "https://i1.sndcdn.com/avatars-wxo4L3Yyx88d1ldh-QfCNnQ-large.jpg",
-        "comment": "unreal flow",
+        "author": "DJ  BASS NEW  RIPOST",
+        "username": "dj bass new ripost | Vixa Weteran",
+        "avatar": "https://i1.sndcdn.com/avatars-PLv7WorTxz7E3GyY-8mCnpg-large.jpg",
+        "comment": "dreamy 👌",
         "trackTitle": "Drifting the city | 2026 remake",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
         "trackThumb": "https://i1.sndcdn.com/artworks-TbNqbJGuvyH9oYZ0-VAW9hg-t500x500.jpg",
@@ -431,25 +431,25 @@ const communityReviews = [
     },
     {
         "id": 40,
-        "author": "Gavin Dwyer",
-        "username": "Outrageous!!!",
-        "avatar": "https://i1.sndcdn.com/avatars-nPnan6UZ3J3eCHbD-VaPZng-large.jpg",
-        "comment": "Nice sound ⚡",
+        "author": "Roberto Martin Brito",
+        "username": "R O B E R M A R T I N",
+        "avatar": "https://i1.sndcdn.com/avatars-Zv9MD8t2mVr6faIW-NaGDGA-large.jpg",
+        "comment": "Awesome track !!!! pure live!!! love how it spread good vibes, congrats!!!",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-01"
+        "date": "2026-11-02"
     },
     {
         "id": 41,
-        "author": "Michael Meyer",
-        "username": "DJ Mandala",
-        "avatar": "https://i1.sndcdn.com/avatars-t8eFjyERzFXiqzvq-H8LwJA-large.jpg",
-        "comment": "vibes for days",
+        "author": "KRT Production",
+        "username": "BBAM",
+        "avatar": "https://i1.sndcdn.com/avatars-xgtFE1mQaya1UYVy-YInE5g-large.jpg",
+        "comment": "respect 💎",
         "trackTitle": "Drifting the city | 2026 remake",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
         "trackThumb": "https://i1.sndcdn.com/artworks-TbNqbJGuvyH9oYZ0-VAW9hg-t500x500.jpg",
-        "date": "2026-10-31"
+        "date": "2026-11-02"
     },
     {
         "id": 42,
@@ -629,25 +629,25 @@ const communityReviews = [
     },
     {
         "id": 58,
-        "author": "Cocoa Spoon",
-        "username": "Cocoa Spoon",
-        "avatar": "https://i1.sndcdn.com/avatars-qYCcEBHsz5UIavyh-7xsNsQ-large.jpg",
-        "comment": "this would sound amazing on a big system",
+        "author": "JC.B featuring { *[] }",
+        "username": "JC.B featuring { *[] }",
+        "avatar": "https://i1.sndcdn.com/avatars-C7Vo6LeFFf88MNVr-iVOydg-large.jpg",
+        "comment": "Beautiful piece of electronic music",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-01"
+        "date": "2026-11-02"
     },
     {
         "id": 59,
-        "author": "KRT Production",
-        "username": "KRT Production",
-        "avatar": "https://i1.sndcdn.com/avatars-SXbacvZ3UrAOoI1K-QHyyFQ-large.jpg",
-        "comment": "sick 👊",
+        "author": "ROSSCO",
+        "username": "ROSSCO",
+        "avatar": "https://i1.sndcdn.com/avatars-wxo4L3Yyx88d1ldh-QfCNnQ-large.jpg",
+        "comment": "unreal flow",
         "trackTitle": "Drifting the city | 2026 remake",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
         "trackThumb": "https://i1.sndcdn.com/artworks-TbNqbJGuvyH9oYZ0-VAW9hg-t500x500.jpg",
-        "date": "2026-10-31"
+        "date": "2026-11-02"
     },
     {
         "id": 60,
