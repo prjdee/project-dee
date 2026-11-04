@@ -2,25 +2,25 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "ROSSCO",
-        "username": "ROSSCO",
-        "avatar": "https://i1.sndcdn.com/avatars-wxo4L3Yyx88d1ldh-QfCNnQ-large.jpg",
-        "comment": "epic energy",
-        "trackTitle": "November Shift | Project Dee",
-        "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
-        "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-03"
-    },
-    {
-        "id": 2,
         "author": "KRT Production",
         "username": "NUR",
         "avatar": "https://i1.sndcdn.com/avatars-Svzz22CMA0wyGVv1-z4sBPQ-large.jpg",
-        "comment": "certified heat",
+        "comment": "clean mix",
+        "trackTitle": "November Shift | Project Dee",
+        "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
+        "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
+        "date": "2026-11-04"
+    },
+    {
+        "id": 2,
+        "author": "Andrea D'Argenio",
+        "username": "Andarnio dj",
+        "avatar": "https://i1.sndcdn.com/avatars-gENqOW6fmu93y4vr-Tq215w-large.jpg",
+        "comment": "dis hard 🙌",
         "trackTitle": "Drifting the city | 2026 remake",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
         "trackThumb": "https://i1.sndcdn.com/artworks-TbNqbJGuvyH9oYZ0-VAW9hg-t500x500.jpg",
-        "date": "2026-11-03"
+        "date": "2026-11-04"
     },
     {
         "id": 3,
@@ -233,10 +233,10 @@ const communityReviews = [
     },
     {
         "id": 22,
-        "author": "Ed Viber",
-        "username": "Ed Viber",
-        "avatar": "https://i1.sndcdn.com/avatars-zvF5emrzCl0JX7FF-RTqQwQ-large.jpg",
-        "comment": "so lit 💥",
+        "author": "Franco Toscano",
+        "username": "Franco_Toscano",
+        "avatar": "https://i1.sndcdn.com/avatars-5wEzseEgEdWzKc2U-gGgXWA-large.jpg",
+        "comment": "chef’s kiss ❤️",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
@@ -244,14 +244,14 @@ const communityReviews = [
     },
     {
         "id": 23,
-        "author": "DJ  BASS NEW  RIPOST",
-        "username": "dj bass new ripost | Vixa Weteran",
-        "avatar": "https://i1.sndcdn.com/avatars-PLv7WorTxz7E3GyY-8mCnpg-large.jpg",
-        "comment": "dreamy 👌",
+        "author": "Gabriel  patric smyth",
+        "username": "Gabriel Patric",
+        "avatar": "https://i1.sndcdn.com/avatars-RmKgsfwlhmEGbOAQ-asNjMg-large.jpg",
+        "comment": "the atmosphere is Beautiful, nice vocals working long side the beat",
         "trackTitle": "Drifting the city | 2026 remake",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
         "trackThumb": "https://i1.sndcdn.com/artworks-TbNqbJGuvyH9oYZ0-VAW9hg-t500x500.jpg",
-        "date": "2026-11-02"
+        "date": "2026-11-03"
     },
     {
         "id": 24,
@@ -431,25 +431,25 @@ const communityReviews = [
     },
     {
         "id": 40,
-        "author": "Roberto Martin Brito",
-        "username": "R O B E R M A R T I N",
-        "avatar": "https://i1.sndcdn.com/avatars-Zv9MD8t2mVr6faIW-NaGDGA-large.jpg",
-        "comment": "Awesome track !!!! pure live!!! love how it spread good vibes, congrats!!!",
+        "author": "ROSSCO",
+        "username": "ROSSCO",
+        "avatar": "https://i1.sndcdn.com/avatars-wxo4L3Yyx88d1ldh-QfCNnQ-large.jpg",
+        "comment": "epic energy",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-02"
+        "date": "2026-11-03"
     },
     {
         "id": 41,
-        "author": "KRT Production",
-        "username": "BBAM",
-        "avatar": "https://i1.sndcdn.com/avatars-xgtFE1mQaya1UYVy-YInE5g-large.jpg",
-        "comment": "respect 💎",
+        "author": "Luovodifaberge",
+        "username": "Luovodifaberge",
+        "avatar": "https://i1.sndcdn.com/avatars-zyhlae8iPBwhabcu-63uPbw-large.jpg",
+        "comment": "cool track",
         "trackTitle": "Drifting the city | 2026 remake",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
         "trackThumb": "https://i1.sndcdn.com/artworks-TbNqbJGuvyH9oYZ0-VAW9hg-t500x500.jpg",
-        "date": "2026-11-02"
+        "date": "2026-11-03"
     },
     {
         "id": 42,
@@ -629,25 +629,25 @@ const communityReviews = [
     },
     {
         "id": 58,
-        "author": "JC.B featuring { *[] }",
-        "username": "JC.B featuring { *[] }",
-        "avatar": "https://i1.sndcdn.com/avatars-C7Vo6LeFFf88MNVr-iVOydg-large.jpg",
-        "comment": "Beautiful piece of electronic music",
+        "author": "Ed Viber",
+        "username": "Ed Viber",
+        "avatar": "https://i1.sndcdn.com/avatars-zvF5emrzCl0JX7FF-RTqQwQ-large.jpg",
+        "comment": "so lit 💥",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-02"
+        "date": "2026-11-03"
     },
     {
         "id": 59,
-        "author": "ROSSCO",
-        "username": "ROSSCO",
-        "avatar": "https://i1.sndcdn.com/avatars-wxo4L3Yyx88d1ldh-QfCNnQ-large.jpg",
-        "comment": "unreal flow",
+        "author": "KRT Production",
+        "username": "NUR",
+        "avatar": "https://i1.sndcdn.com/avatars-Svzz22CMA0wyGVv1-z4sBPQ-large.jpg",
+        "comment": "certified heat",
         "trackTitle": "Drifting the city | 2026 remake",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
         "trackThumb": "https://i1.sndcdn.com/artworks-TbNqbJGuvyH9oYZ0-VAW9hg-t500x500.jpg",
-        "date": "2026-11-02"
+        "date": "2026-11-03"
     },
     {
         "id": 60,
