@@ -20,38 +20,11 @@ const soundCloudCatalog = [
     },
     {
         "id": null,
-        "title": "Spooky | Happy Halloween 2026",
-        "sc_url": "https://soundcloud.com/theprojectdee/spooky",
-        "yt_url": null,
-        "published": "2026-10-06",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-spooky.jpg",
-        "genre": "Electronic"
-    },
-    {
-        "id": null,
-        "title": "Pure Pulse (PjD | Madness Remake)",
-        "sc_url": "https://soundcloud.com/theprojectdee/purepulse",
-        "yt_url": null,
-        "published": "2026-10-08",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-purepulse.jpg",
-        "genre": "Peak Techno"
-    },
-    {
-        "id": null,
         "title": "Vertigine",
         "sc_url": "https://soundcloud.com/theprojectdee/vertigine2035",
         "yt_url": null,
         "published": "2026-09-13",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-vertigine2035.jpg",
-        "genre": "Electronic"
-    },
-    {
-        "id": null,
-        "title": "Zodiac (September Bonus Track)",
-        "sc_url": "https://soundcloud.com/theprojectdee/zodiac-september-bonus-track",
-        "yt_url": null,
-        "published": "2026-09-30",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-zodiac-september-bonus-track.jpg",
         "genre": "Electronic"
     },
     {
@@ -179,10 +152,45 @@ const soundCloudCatalog = [
         "published": "2026-04-15",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-theflow.jpg",
         "genre": "Electronic"
+    },
+    {
+        "id": null,
+        "title": "The Pressure",
+        "sc_url": "https://soundcloud.com/theprojectdee/pressure",
+        "yt_url": "https://www.youtube.com/watch?v=SVN03CZMGJg",
+        "published": "2026-04-09",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-pressure.jpg",
+        "genre": "Electronic"
+    },
+    {
+        "id": null,
+        "title": "The Machine's Pulse",
+        "sc_url": "https://soundcloud.com/theprojectdee/machinepulse",
+        "yt_url": null,
+        "published": "2026-04-06",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-machinepulse.jpg",
+        "genre": "Electronic"
+    },
+    {
+        "id": null,
+        "title": "Do you remember Sài Gòn?",
+        "sc_url": "https://soundcloud.com/theprojectdee/doyouremember",
+        "yt_url": null,
+        "published": "2026-03-04",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-doyouremember.jpg",
+        "genre": "Dance & EDM"
     }
 ];
 
 const youtubeCatalog = [
+    {
+        "id": "FSbLxn0IZ20",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
+        "thumb": "https://img.youtube.com/vi/FSbLxn0IZ20/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
     {
         "id": "IZNAlgtPlyw",
         "title": "",
@@ -333,14 +341,6 @@ const youtubeCatalog = [
         "full_title": "",
         "published": "2026-01-01",
         "thumb": "https://img.youtube.com/vi/3pgLo0GyYzc/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "pJOpwextQJw",
-        "title": "",
-        "full_title": "",
-        "published": "2026-01-01",
-        "thumb": "https://img.youtube.com/vi/pJOpwextQJw/hqdefault.jpg",
         "genre": "RELEASE"
     }
 ];
