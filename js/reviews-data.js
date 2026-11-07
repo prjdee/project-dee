@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Klangtier",
-        "username": "Klangtier",
-        "avatar": "https://i1.sndcdn.com/avatars-iOSIgtGYIUEPyVDx-zgASqw-large.jpg",
-        "comment": "november shift right on time haha, cheers",
+        "author": "K N Z D 3 N",
+        "username": "KNZD3N",
+        "avatar": "https://i1.sndcdn.com/avatars-QMHtJQ3ap4NvOJJR-Wb0vzg-large.jpg",
+        "comment": "Beauty chords.  Vocals are smoith on top 👽🌊👽🌊",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-06"
+        "date": "2026-11-07"
     },
     {
         "id": 2,
@@ -24,6 +24,17 @@ const communityReviews = [
     },
     {
         "id": 3,
+        "author": "Tannova",
+        "username": "Tannova",
+        "avatar": "https://i1.sndcdn.com/avatars-FqOzJjgVNRqQF7s0-zOLqOA-large.jpg",
+        "comment": "This is such a great track well done my friend!",
+        "trackTitle": "Spooky | Happy Halloween 2026",
+        "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
+        "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
+        "date": "2026-10-28"
+    },
+    {
+        "id": 4,
         "author": "Jorge Angel Aguirre",
         "username": "LevelzUp",
         "avatar": "https://i1.sndcdn.com/avatars-N7vfAaflWv643duF-KmfeQQ-large.jpg",
@@ -34,7 +45,7 @@ const communityReviews = [
         "date": "2026-10-19"
     },
     {
-        "id": 4,
+        "id": 5,
         "author": "Luovodifaberge",
         "username": "Luovodifaberge",
         "avatar": "https://i1.sndcdn.com/avatars-zyhlae8iPBwhabcu-63uPbw-large.jpg",
@@ -45,7 +56,7 @@ const communityReviews = [
         "date": "2026-10-15"
     },
     {
-        "id": 5,
+        "id": 6,
         "author": "esk4pe",
         "username": "esk4pe",
         "avatar": "https://i1.sndcdn.com/avatars-ud0RsYUirRnqqVqF-xO0Crg-large.jpg",
@@ -56,7 +67,7 @@ const communityReviews = [
         "date": "2026-09-30"
     },
     {
-        "id": 6,
+        "id": 7,
         "author": "Khaos Creator",
         "username": "Khaos Creator",
         "avatar": "https://i1.sndcdn.com/avatars-QYriw83UO1MyzVFI-ECYPyQ-large.jpg",
@@ -67,7 +78,7 @@ const communityReviews = [
         "date": "2026-09-03"
     },
     {
-        "id": 7,
+        "id": 8,
         "author": "Roman Zegbaum",
         "username": "ElektRoman The Biomind",
         "avatar": "https://i1.sndcdn.com/avatars-XWMg9wT11vnbqrUF-hp2HxA-large.jpg",
@@ -78,7 +89,7 @@ const communityReviews = [
         "date": "2026-10-12"
     },
     {
-        "id": 8,
+        "id": 9,
         "author": "Hagar Shay",
         "username": "Hagar Shay",
         "avatar": "https://i1.sndcdn.com/avatars-Ols2Gm2gVRNTvURz-SaIilA-large.jpg",
@@ -89,7 +100,7 @@ const communityReviews = [
         "date": "2026-10-14"
     },
     {
-        "id": 9,
+        "id": 10,
         "author": "Make love, not war",
         "username": "Caedmon Rigby",
         "avatar": "https://i1.sndcdn.com/avatars-66P0PuI0CwgPLqIT-J319OA-large.jpg",
@@ -100,7 +111,7 @@ const communityReviews = [
         "date": "2026-08-02"
     },
     {
-        "id": 10,
+        "id": 11,
         "author": "1983",
         "username": "1983",
         "avatar": "https://i1.sndcdn.com/avatars-RHZ9Fob2y8QD5I7W-1idRyA-large.jpg",
@@ -111,7 +122,7 @@ const communityReviews = [
         "date": "2026-10-18"
     },
     {
-        "id": 11,
+        "id": 12,
         "author": "I Rebuke",
         "username": "I Rebuke",
         "avatar": "https://i1.sndcdn.com/avatars-KHq1jGs3zkiyeif6-yJaAJQ-large.jpg",
@@ -122,7 +133,7 @@ const communityReviews = [
         "date": "2026-08-20"
     },
     {
-        "id": 12,
+        "id": 13,
         "author": "Harmonia At Night",
         "username": "Harmonia At Night",
         "avatar": "https://i1.sndcdn.com/avatars-000140583453-338nvj-large.jpg",
@@ -133,7 +144,7 @@ const communityReviews = [
         "date": "2026-08-21"
     },
     {
-        "id": 13,
+        "id": 14,
         "author": "Jungle - Drum and Bass",
         "username": "Rokschoon",
         "avatar": "https://i1.sndcdn.com/avatars-pHOENGdsrBZfCiPm-gGXLXA-large.jpg",
@@ -144,7 +155,7 @@ const communityReviews = [
         "date": "2026-07-23"
     },
     {
-        "id": 14,
+        "id": 15,
         "author": "ROSSCO",
         "username": "ROSSCO",
         "avatar": "https://i1.sndcdn.com/avatars-wxo4L3Yyx88d1ldh-QfCNnQ-large.jpg",
@@ -155,7 +166,7 @@ const communityReviews = [
         "date": "2026-08-03"
     },
     {
-        "id": 15,
+        "id": 16,
         "author": "Uttam Ahedi",
         "username": "Uttam Ahedi",
         "avatar": "https://i1.sndcdn.com/avatars-000294097723-6vdd3o-large.jpg",
@@ -166,7 +177,7 @@ const communityReviews = [
         "date": "2026-10-21"
     },
     {
-        "id": 16,
+        "id": 17,
         "author": "Daniel Franke",
         "username": "Sermocinor",
         "avatar": "https://i1.sndcdn.com/avatars-UPUzqrLRwVhYms4r-h0CAOw-large.jpg",
@@ -177,7 +188,7 @@ const communityReviews = [
         "date": "2026-10-24"
     },
     {
-        "id": 17,
+        "id": 18,
         "author": "Cloud Stalkin",
         "username": "Cloud Stalkin",
         "avatar": "https://i1.sndcdn.com/avatars-cyybf9JOwpXE8eCK-TRgqMA-large.jpg",
@@ -188,7 +199,7 @@ const communityReviews = [
         "date": "2026-07-29"
     },
     {
-        "id": 18,
+        "id": 19,
         "author": "Mariilyz",
         "username": "Mariilyz",
         "avatar": "https://i1.sndcdn.com/avatars-FxFHSQkByv1a6bZf-U19fAg-large.jpg",
@@ -199,18 +210,18 @@ const communityReviews = [
         "date": "2026-08-07"
     },
     {
-        "id": 19,
-        "author": "Sativadiva",
-        "username": "Sativadiva",
-        "avatar": "https://i1.sndcdn.com/avatars-43V1zyEkQzeATG3p-N1gktg-large.jpg",
-        "comment": "absolute gold",
+        "id": 20,
+        "author": "Oscar Garcia",
+        "username": "Oscar J Garcia",
+        "avatar": "https://i1.sndcdn.com/avatars-6aKqoQWX6BpTGGOt-ulO1OQ-large.jpg",
+        "comment": "good track, nice melodic voices, relaxed vibe",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
         "date": "2026-11-06"
     },
     {
-        "id": 20,
+        "id": 21,
         "author": "Ed Viber",
         "username": "Ed Viber",
         "avatar": "https://i1.sndcdn.com/avatars-zvF5emrzCl0JX7FF-RTqQwQ-large.jpg",
@@ -221,7 +232,18 @@ const communityReviews = [
         "date": "2026-11-06"
     },
     {
-        "id": 21,
+        "id": 22,
+        "author": "Cocoa Spoon",
+        "username": "Cocoa Spoon",
+        "avatar": "https://i1.sndcdn.com/avatars-qYCcEBHsz5UIavyh-7xsNsQ-large.jpg",
+        "comment": "that melody.. so simple but so good",
+        "trackTitle": "Spooky | Happy Halloween 2026",
+        "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
+        "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
+        "date": "2026-10-23"
+    },
+    {
+        "id": 23,
         "author": "Kakarottomax",
         "username": "Kakarottomax",
         "avatar": "https://i1.sndcdn.com/avatars-M2kfvS4HNTMvwi58-W3TYaw-large.jpg",
@@ -232,7 +254,7 @@ const communityReviews = [
         "date": "2026-10-12"
     },
     {
-        "id": 22,
+        "id": 24,
         "author": "Jonas Bergström",
         "username": "GeezyorK",
         "avatar": "https://i1.sndcdn.com/avatars-hiI74ZKD2pRoNRQL-eU1CnA-large.jpg",
@@ -243,7 +265,7 @@ const communityReviews = [
         "date": "2026-10-11"
     },
     {
-        "id": 23,
+        "id": 25,
         "author": "AKA OlynCTrance",
         "username": "Olyn.cs",
         "avatar": "https://i1.sndcdn.com/avatars-Jdh6IbperzqPqfom-K4mzbg-large.jpg",
@@ -254,7 +276,7 @@ const communityReviews = [
         "date": "2026-09-21"
     },
     {
-        "id": 24,
+        "id": 26,
         "author": "Robert Flynn",
         "username": "Robert Flynn",
         "avatar": "https://i1.sndcdn.com/avatars-bC041rEHE7JhnGsK-monzgA-large.jpg",
@@ -265,7 +287,7 @@ const communityReviews = [
         "date": "2026-09-02"
     },
     {
-        "id": 25,
+        "id": 27,
         "author": "Yavesprimo",
         "username": "Yavesprimo",
         "avatar": "https://i1.sndcdn.com/avatars-VyFRXcN45wBz4m21-7dcq9g-large.jpg",
@@ -276,7 +298,7 @@ const communityReviews = [
         "date": "2026-09-30"
     },
     {
-        "id": 26,
+        "id": 28,
         "author": "Sativadiva",
         "username": "Sativadiva",
         "avatar": "https://i1.sndcdn.com/avatars-43V1zyEkQzeATG3p-N1gktg-large.jpg",
@@ -287,7 +309,7 @@ const communityReviews = [
         "date": "2026-10-14"
     },
     {
-        "id": 27,
+        "id": 29,
         "author": "Zawley",
         "username": "Zawley",
         "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
@@ -298,7 +320,7 @@ const communityReviews = [
         "date": "2026-08-02"
     },
     {
-        "id": 28,
+        "id": 30,
         "author": "Yasin Borry",
         "username": "BYAS",
         "avatar": "https://i1.sndcdn.com/avatars-BzpeLbRvfBK33R9Q-QcpK4w-large.jpg",
@@ -309,7 +331,7 @@ const communityReviews = [
         "date": "2026-08-20"
     },
     {
-        "id": 29,
+        "id": 31,
         "author": "Marcio Reis",
         "username": "Reeis",
         "avatar": "https://i1.sndcdn.com/avatars-mESAMtnB20DGKhO3-B4VEvw-large.jpg",
@@ -320,7 +342,7 @@ const communityReviews = [
         "date": "2026-08-21"
     },
     {
-        "id": 30,
+        "id": 32,
         "author": "Khaos Creator",
         "username": "Khaos Creator",
         "avatar": "https://i1.sndcdn.com/avatars-QYriw83UO1MyzVFI-ECYPyQ-large.jpg",
@@ -331,7 +353,7 @@ const communityReviews = [
         "date": "2026-10-19"
     },
     {
-        "id": 31,
+        "id": 33,
         "author": "GROSSI",
         "username": "GROSSI",
         "avatar": "https://i1.sndcdn.com/avatars-v6gU1FUJxoxu2zTh-KwvZyA-large.jpg",
@@ -342,7 +364,7 @@ const communityReviews = [
         "date": "2026-10-24"
     },
     {
-        "id": 32,
+        "id": 34,
         "author": "Jonas Bergström",
         "username": "GeezyorK",
         "avatar": "https://i1.sndcdn.com/avatars-hiI74ZKD2pRoNRQL-eU1CnA-large.jpg",
@@ -353,7 +375,7 @@ const communityReviews = [
         "date": "2026-07-29"
     },
     {
-        "id": 33,
+        "id": 35,
         "author": "Alvaro Castrillón",
         "username": "Alvaro Castrillon Music",
         "avatar": "https://i1.sndcdn.com/avatars-JLfbrmHLgpDurYia-7zlnTQ-large.jpg",
@@ -364,18 +386,18 @@ const communityReviews = [
         "date": "2026-08-07"
     },
     {
-        "id": 34,
-        "author": "Technocracy Official",
-        "username": "Technocracy Official",
-        "avatar": "https://i1.sndcdn.com/avatars-CJV1fUvmZq0Iu5lR-aTdW1Q-large.jpg",
-        "comment": "very good emotional track, this is the second day of repost 😊",
+        "id": 36,
+        "author": "JARR Head",
+        "username": "JARR Head",
+        "avatar": "https://i1.sndcdn.com/avatars-zZKB6hnh5IXqypAz-Ga7Bww-large.jpg",
+        "comment": "Great work - looking forward to your next release!",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
         "date": "2026-11-06"
     },
     {
-        "id": 35,
+        "id": 37,
         "author": "DJ TONIX",
         "username": "DJ TONIX",
         "avatar": "https://i1.sndcdn.com/avatars-vV4uxOXtXKTF2I7X-J5YigA-large.jpg",
@@ -386,7 +408,18 @@ const communityReviews = [
         "date": "2026-11-05"
     },
     {
-        "id": 36,
+        "id": 38,
+        "author": "Lorenzo Zucchi Sartori",
+        "username": "Lozart",
+        "avatar": "https://i1.sndcdn.com/avatars-fTydIXnnrtv6Kqlk-RwzI9Q-large.jpg",
+        "comment": "Addictive bassline, great job, keep going",
+        "trackTitle": "Spooky | Happy Halloween 2026",
+        "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
+        "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
+        "date": "2026-10-22"
+    },
+    {
+        "id": 39,
         "author": "Resazat Ay",
         "username": "Resazat",
         "avatar": "https://i1.sndcdn.com/avatars-fiJ6W3WXEqL2jPsO-ucYcCA-large.jpg",
@@ -397,7 +430,7 @@ const communityReviews = [
         "date": "2026-10-12"
     },
     {
-        "id": 37,
+        "id": 40,
         "author": "Music that tells stories, and brings emotions",
         "username": "Piamime",
         "avatar": "https://i1.sndcdn.com/avatars-ynIymyHSprMMcwTh-xL3cPw-large.jpg",
@@ -408,7 +441,7 @@ const communityReviews = [
         "date": "2026-10-11"
     },
     {
-        "id": 38,
+        "id": 41,
         "author": "Zingoes Zaur",
         "username": "Zingosaur",
         "avatar": "https://i1.sndcdn.com/avatars-Y5eEi6WyFthRyEPV-fBouMA-large.jpg",
@@ -419,7 +452,7 @@ const communityReviews = [
         "date": "2026-09-19"
     },
     {
-        "id": 39,
+        "id": 42,
         "author": "I AM®",
         "username": "I AM®",
         "avatar": "https://i1.sndcdn.com/avatars-zNzdyArqeozIe0aU-R9pZxg-large.jpg",
@@ -430,7 +463,7 @@ const communityReviews = [
         "date": "2026-08-31"
     },
     {
-        "id": 40,
+        "id": 43,
         "author": "Khaos Creator",
         "username": "Khaos Creator",
         "avatar": "https://i1.sndcdn.com/avatars-QYriw83UO1MyzVFI-ECYPyQ-large.jpg",
@@ -441,7 +474,7 @@ const communityReviews = [
         "date": "2026-09-21"
     },
     {
-        "id": 41,
+        "id": 44,
         "author": "Rbh1",
         "username": "HXsoundZ™",
         "avatar": "https://i1.sndcdn.com/avatars-SqxHa9oVvM2qjgWu-TuOGyA-large.jpg",
@@ -452,7 +485,7 @@ const communityReviews = [
         "date": "2026-10-14"
     },
     {
-        "id": 42,
+        "id": 45,
         "author": "Edmmania",
         "username": "Edmmania",
         "avatar": "https://i1.sndcdn.com/avatars-000757534276-6ixoa8-large.jpg",
@@ -463,7 +496,7 @@ const communityReviews = [
         "date": "2026-07-27"
     },
     {
-        "id": 43,
+        "id": 46,
         "author": "SØLIX",
         "username": "SØLIX",
         "avatar": "https://i1.sndcdn.com/avatars-zznbzZQyP3bCCaOT-mHBcVw-large.jpg",
@@ -474,7 +507,7 @@ const communityReviews = [
         "date": "2026-08-17"
     },
     {
-        "id": 44,
+        "id": 47,
         "author": "Kouture Music",
         "username": "Kouture Music",
         "avatar": "https://i1.sndcdn.com/avatars-xdUkjspI5kdSdfzg-zsIuow-large.jpg",
@@ -485,7 +518,7 @@ const communityReviews = [
         "date": "2026-08-13"
     },
     {
-        "id": 45,
+        "id": 48,
         "author": "Luovodifaberge",
         "username": "Luovodifaberge",
         "avatar": "https://i1.sndcdn.com/avatars-zyhlae8iPBwhabcu-63uPbw-large.jpg",
@@ -496,7 +529,7 @@ const communityReviews = [
         "date": "2026-08-03"
     },
     {
-        "id": 46,
+        "id": 49,
         "author": "DJ TONIX",
         "username": "DJ TONIX",
         "avatar": "https://i1.sndcdn.com/avatars-vV4uxOXtXKTF2I7X-J5YigA-large.jpg",
@@ -507,7 +540,7 @@ const communityReviews = [
         "date": "2026-10-24"
     },
     {
-        "id": 47,
+        "id": 50,
         "author": "Mitchel Branston",
         "username": "Umshini Wena",
         "avatar": "https://i1.sndcdn.com/avatars-DMQFrirA29xRyJyz-Ms7cOg-large.jpg",
@@ -518,7 +551,7 @@ const communityReviews = [
         "date": "2026-07-29"
     },
     {
-        "id": 48,
+        "id": 51,
         "author": "Kid Boozie",
         "username": "Kid Boozie",
         "avatar": "https://i1.sndcdn.com/avatars-LrRMp4WHMmRMrSWs-rYjZAA-large.jpg",
@@ -529,18 +562,18 @@ const communityReviews = [
         "date": "2026-08-07"
     },
     {
-        "id": 49,
-        "author": "Sweet Melancholy",
-        "username": "Sweet Melancholy",
-        "avatar": "https://i1.sndcdn.com/avatars-jaZCZZuUlr7xOj01-e25XTA-large.jpg",
-        "comment": "nice sound 👏",
+        "id": 52,
+        "author": "Izzo",
+        "username": "Izzo",
+        "avatar": "https://i1.sndcdn.com/avatars-WzhfqvBdiNA8mluN-gyR4sg-large.jpg",
+        "comment": "Fire song it’s builds well",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
         "date": "2026-11-06"
     },
     {
-        "id": 50,
+        "id": 53,
         "author": "Ladislav Tesar",
         "username": "Ladat",
         "avatar": "https://i1.sndcdn.com/avatars-Rgozf7mUhzujbdb4-ArXQEQ-large.jpg",
@@ -551,7 +584,18 @@ const communityReviews = [
         "date": "2026-11-05"
     },
     {
-        "id": 51,
+        "id": 54,
+        "author": "giulianorodrigues.com",
+        "username": "Giuliano Rodrigues",
+        "avatar": "https://i1.sndcdn.com/avatars-gIgcfcLHJ2Qgvr6C-MQwoBw-large.jpg",
+        "comment": "nice vocals here on this part :) \\o/ kp it up",
+        "trackTitle": "Spooky | Happy Halloween 2026",
+        "trackUrl": "https://soundcloud.com/theprojectdee/spooky",
+        "trackThumb": "https://i1.sndcdn.com/artworks-M7FDcTeVfMXxyU2y-tuhX1w-t500x500.jpg",
+        "date": "2026-10-22"
+    },
+    {
+        "id": 55,
         "author": "Twistedreload",
         "username": "Twistedreload",
         "avatar": "https://i1.sndcdn.com/avatars-NNmSQlbcs71RyWyK-bltFag-large.jpg",
@@ -562,7 +606,7 @@ const communityReviews = [
         "date": "2026-10-11"
     },
     {
-        "id": 52,
+        "id": 56,
         "author": "Tom",
         "username": "dalaitom",
         "avatar": "https://i1.sndcdn.com/avatars-O5ygjaJLCkNBoxoZ-zKdSeg-large.jpg",
@@ -573,7 +617,7 @@ const communityReviews = [
         "date": "2026-10-11"
     },
     {
-        "id": 53,
+        "id": 57,
         "author": "Jiri Boruvka",
         "username": "Juroz",
         "avatar": "https://i1.sndcdn.com/avatars-dGKCllsikU9tQqOV-xdknTA-large.jpg",
@@ -584,7 +628,7 @@ const communityReviews = [
         "date": "2026-09-17"
     },
     {
-        "id": 54,
+        "id": 58,
         "author": "Iggor Lopes",
         "username": "Space Pirate",
         "avatar": "https://i1.sndcdn.com/avatars-zxabsJ2S6NbdOpX9-9S347w-large.jpg",
@@ -595,7 +639,7 @@ const communityReviews = [
         "date": "2026-08-30"
     },
     {
-        "id": 55,
+        "id": 59,
         "author": "Hagar Shay",
         "username": "Hagar Shay",
         "avatar": "https://i1.sndcdn.com/avatars-Ols2Gm2gVRNTvURz-SaIilA-large.jpg",
@@ -606,7 +650,7 @@ const communityReviews = [
         "date": "2026-09-18"
     },
     {
-        "id": 56,
+        "id": 60,
         "author": "Angel Pendragon",
         "username": "AdonaiAm ☀️",
         "avatar": "https://i1.sndcdn.com/avatars-fa8O5YSytlO6uzcF-9uEEIg-large.jpg",
@@ -617,7 +661,7 @@ const communityReviews = [
         "date": "2026-09-01"
     },
     {
-        "id": 57,
+        "id": 61,
         "author": "Oscar Richardson",
         "username": "R.I.C.O",
         "avatar": "https://i1.sndcdn.com/avatars-Zz7W8vtwxebY3C5R-iPoCKA-large.jpg",
@@ -628,7 +672,7 @@ const communityReviews = [
         "date": "2026-07-20"
     },
     {
-        "id": 58,
+        "id": 62,
         "author": "Cade Gallo",
         "username": "Cade Gallo",
         "avatar": "https://i1.sndcdn.com/avatars-m0zWsqGsyRYoVitD-6DKzOg-large.jpg",
@@ -639,7 +683,7 @@ const communityReviews = [
         "date": "2026-08-01"
     },
     {
-        "id": 59,
+        "id": 63,
         "author": "Gerhard Manthau",
         "username": "Mexicomaus - Label:Psychedelic new  Style  Records",
         "avatar": "https://i1.sndcdn.com/avatars-BvxReMtOeW0ywW6I-tK7RfQ-large.jpg",
@@ -650,7 +694,7 @@ const communityReviews = [
         "date": "2026-07-31"
     },
     {
-        "id": 60,
+        "id": 64,
         "author": "Zawley",
         "username": "Zawley",
         "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
@@ -661,7 +705,7 @@ const communityReviews = [
         "date": "2026-08-03"
     },
     {
-        "id": 61,
+        "id": 65,
         "author": "Twistedreload",
         "username": "Twistedreload",
         "avatar": "https://i1.sndcdn.com/avatars-NNmSQlbcs71RyWyK-bltFag-large.jpg",
@@ -672,7 +716,7 @@ const communityReviews = [
         "date": "2026-08-04"
     },
     {
-        "id": 62,
+        "id": 66,
         "author": "Record Label",
         "username": "Quintessential Records",
         "avatar": "https://i1.sndcdn.com/avatars-TinHNlPtg5Ge4Z2H-nYh02w-large.jpg",
