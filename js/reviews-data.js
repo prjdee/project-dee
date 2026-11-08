@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "K N Z D 3 N",
-        "username": "KNZD3N",
-        "avatar": "https://i1.sndcdn.com/avatars-QMHtJQ3ap4NvOJJR-Wb0vzg-large.jpg",
-        "comment": "Beauty chords.  Vocals are smoith on top 👽🌊👽🌊",
+        "author": "Integrity Creativity",
+        "username": "AFRICARE PRODUCTIONS",
+        "avatar": "https://i1.sndcdn.com/avatars-zzSGrxsrE7ozM2Wz-7EzBcg-large.jpg",
+        "comment": "serious vibes 🤩",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-07"
+        "date": "2026-11-08"
     },
     {
         "id": 2,
@@ -211,14 +211,14 @@ const communityReviews = [
     },
     {
         "id": 20,
-        "author": "Oscar Garcia",
-        "username": "Oscar J Garcia",
-        "avatar": "https://i1.sndcdn.com/avatars-6aKqoQWX6BpTGGOt-ulO1OQ-large.jpg",
-        "comment": "good track, nice melodic voices, relaxed vibe",
+        "author": "Deep Progressive Future  House",
+        "username": "PAS-RISKY",
+        "avatar": "https://i1.sndcdn.com/avatars-V9FqSyln95OhccnB-UO9aKQ-large.jpg",
+        "comment": "Great work with  sunlime vocals!! superbe!! cheers !!",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-06"
+        "date": "2026-11-07"
     },
     {
         "id": 21,
@@ -387,14 +387,14 @@ const communityReviews = [
     },
     {
         "id": 36,
-        "author": "JARR Head",
-        "username": "JARR Head",
-        "avatar": "https://i1.sndcdn.com/avatars-zZKB6hnh5IXqypAz-Ga7Bww-large.jpg",
-        "comment": "Great work - looking forward to your next release!",
+        "author": "K N Z D 3 N",
+        "username": "KNZD3N",
+        "avatar": "https://i1.sndcdn.com/avatars-QMHtJQ3ap4NvOJJR-Wb0vzg-large.jpg",
+        "comment": "Beauty chords.  Vocals are smoith on top 👽🌊👽🌊",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-06"
+        "date": "2026-11-07"
     },
     {
         "id": 37,
@@ -563,10 +563,10 @@ const communityReviews = [
     },
     {
         "id": 52,
-        "author": "Izzo",
-        "username": "Izzo",
-        "avatar": "https://i1.sndcdn.com/avatars-WzhfqvBdiNA8mluN-gyR4sg-large.jpg",
-        "comment": "Fire song it’s builds well",
+        "author": "Oscar Garcia",
+        "username": "Oscar J Garcia",
+        "avatar": "https://i1.sndcdn.com/avatars-6aKqoQWX6BpTGGOt-ulO1OQ-large.jpg",
+        "comment": "good track, nice melodic voices, relaxed vibe",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
