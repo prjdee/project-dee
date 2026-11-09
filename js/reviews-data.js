@@ -2,10 +2,10 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Integrity Creativity",
-        "username": "AFRICARE PRODUCTIONS",
-        "avatar": "https://i1.sndcdn.com/avatars-zzSGrxsrE7ozM2Wz-7EzBcg-large.jpg",
-        "comment": "serious vibes 🤩",
+        "author": "Roman Zegbaum",
+        "username": "ElektRoman The Biomind",
+        "avatar": "https://i1.sndcdn.com/avatars-XWMg9wT11vnbqrUF-hp2HxA-large.jpg",
+        "comment": "This is some lovely synth pop",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
@@ -13,14 +13,14 @@ const communityReviews = [
     },
     {
         "id": 2,
-        "author": "K N Z D 3 N",
-        "username": "KNZD3N",
-        "avatar": "https://i1.sndcdn.com/avatars-QMHtJQ3ap4NvOJJR-Wb0vzg-large.jpg",
-        "comment": "Beauty chords and synths! Dope vocals 💥💥🔥🔥🔥",
+        "author": "Gerhard Andreas Schreiber",
+        "username": "OCTAVE PLATEAU",
+        "avatar": "https://i1.sndcdn.com/avatars-jPzDrL8zdz6ufxQj-RPGNKA-large.jpg",
+        "comment": "quality",
         "trackTitle": "Drifting the city | 2026 remake",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
         "trackThumb": "https://i1.sndcdn.com/artworks-TbNqbJGuvyH9oYZ0-VAW9hg-t500x500.jpg",
-        "date": "2026-11-06"
+        "date": "2026-11-08"
     },
     {
         "id": 3,
@@ -211,25 +211,25 @@ const communityReviews = [
     },
     {
         "id": 20,
-        "author": "Deep Progressive Future  House",
-        "username": "PAS-RISKY",
-        "avatar": "https://i1.sndcdn.com/avatars-V9FqSyln95OhccnB-UO9aKQ-large.jpg",
-        "comment": "Great work with  sunlime vocals!! superbe!! cheers !!",
+        "author": "Arthur deBerardinis",
+        "username": "Sweetest Taboo",
+        "avatar": "https://i1.sndcdn.com/avatars-y5W0hRulWKHk1Hny-z97BUg-large.jpg",
+        "comment": "this has a strong vibe! brings me back!",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-07"
+        "date": "2026-11-08"
     },
     {
         "id": 21,
-        "author": "Ed Viber",
-        "username": "Ed Viber",
-        "avatar": "https://i1.sndcdn.com/avatars-zvF5emrzCl0JX7FF-RTqQwQ-large.jpg",
-        "comment": "dope 👌",
+        "author": "Arthur deBerardinis",
+        "username": "Sweetest Taboo",
+        "avatar": "https://i1.sndcdn.com/avatars-y5W0hRulWKHk1Hny-z97BUg-large.jpg",
+        "comment": "really liking the vocals in your track and the contrast between the femal and male vocalists",
         "trackTitle": "Drifting the city | 2026 remake",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
         "trackThumb": "https://i1.sndcdn.com/artworks-TbNqbJGuvyH9oYZ0-VAW9hg-t500x500.jpg",
-        "date": "2026-11-06"
+        "date": "2026-11-08"
     },
     {
         "id": 22,
@@ -387,25 +387,25 @@ const communityReviews = [
     },
     {
         "id": 36,
-        "author": "K N Z D 3 N",
-        "username": "KNZD3N",
-        "avatar": "https://i1.sndcdn.com/avatars-QMHtJQ3ap4NvOJJR-Wb0vzg-large.jpg",
-        "comment": "Beauty chords.  Vocals are smoith on top 👽🌊👽🌊",
+        "author": "Integrity Creativity",
+        "username": "AFRICARE PRODUCTIONS",
+        "avatar": "https://i1.sndcdn.com/avatars-zzSGrxsrE7ozM2Wz-7EzBcg-large.jpg",
+        "comment": "serious vibes 🤩",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-07"
+        "date": "2026-11-08"
     },
     {
         "id": 37,
-        "author": "DJ TONIX",
-        "username": "DJ TONIX",
-        "avatar": "https://i1.sndcdn.com/avatars-vV4uxOXtXKTF2I7X-J5YigA-large.jpg",
-        "comment": "Really impressive work here. The sound selection is on point, and the track has a nice identity that makes it stand out. Looking forward to hearing more from you.",
+        "author": "Klangtier",
+        "username": "Klangtier",
+        "avatar": "https://i1.sndcdn.com/avatars-iOSIgtGYIUEPyVDx-zgASqw-large.jpg",
+        "comment": "a 2026 remake of Drifting the city, nice to see you revisit it. cheers",
         "trackTitle": "Drifting the city | 2026 remake",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
         "trackThumb": "https://i1.sndcdn.com/artworks-TbNqbJGuvyH9oYZ0-VAW9hg-t500x500.jpg",
-        "date": "2026-11-05"
+        "date": "2026-11-08"
     },
     {
         "id": 38,
@@ -563,25 +563,25 @@ const communityReviews = [
     },
     {
         "id": 52,
-        "author": "Oscar Garcia",
-        "username": "Oscar J Garcia",
-        "avatar": "https://i1.sndcdn.com/avatars-6aKqoQWX6BpTGGOt-ulO1OQ-large.jpg",
-        "comment": "good track, nice melodic voices, relaxed vibe",
+        "author": "Deep Progressive Future  House",
+        "username": "PAS-RISKY",
+        "avatar": "https://i1.sndcdn.com/avatars-V9FqSyln95OhccnB-UO9aKQ-large.jpg",
+        "comment": "Great work with  sunlime vocals!! superbe!! cheers !!",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-06"
+        "date": "2026-11-07"
     },
     {
         "id": 53,
-        "author": "Ladislav Tesar",
-        "username": "Ladat",
-        "avatar": "https://i1.sndcdn.com/avatars-Rgozf7mUhzujbdb4-ArXQEQ-large.jpg",
-        "comment": "reposted 💥",
+        "author": "K N Z D 3 N",
+        "username": "KNZD3N",
+        "avatar": "https://i1.sndcdn.com/avatars-QMHtJQ3ap4NvOJJR-Wb0vzg-large.jpg",
+        "comment": "Beauty chords and synths! Dope vocals 💥💥🔥🔥🔥",
         "trackTitle": "Drifting the city | 2026 remake",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
         "trackThumb": "https://i1.sndcdn.com/artworks-TbNqbJGuvyH9oYZ0-VAW9hg-t500x500.jpg",
-        "date": "2026-11-05"
+        "date": "2026-11-06"
     },
     {
         "id": 54,
