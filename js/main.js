@@ -759,8 +759,8 @@ function initNewsFeed() {
             const badgeClass = `cat-${news.category.toLowerCase()}`;
             
             // Translated title, summary and readmore
-            const newsTitle = news['title_' + lang] || news.title_en || news.title;
-            const newsSummary = news['summary_' + lang] || news.summary_en || news.summary;
+            const newsTitle = news['title_' + lang] || (lang === 'jp' ? news.title_ja : null) || (lang === 'zh' ? news.title_zh : null) || news.title_en || news.title;
+            const newsSummary = news['summary_' + lang] || (lang === 'jp' ? news.summary_ja : null) || (lang === 'zh' ? news.summary_zh : null) || news.summary_en || news.summary;
             const readMoreText = translations[lang] ? translations[lang].news_readmore : 'Leggi di più';
             
             card.innerHTML = `
@@ -813,9 +813,9 @@ function initNewsFeed() {
 -------------------------------------------------- */
 function openNewsModal(article) {
     // Get translated modal title/summary/content
-    const modalTitle = article['title_' + activeLang] || article.title_en || article.title;
-    const modalSummary = article['summary_' + activeLang] || article.summary_en || article.summary;
-    const modalContent = article['content_' + activeLang] || article.content_en || article.content;
+    const modalTitle = article['title_' + activeLang] || (activeLang === 'jp' ? article.title_ja : null) || (activeLang === 'zh' ? article.title_zh : null) || article.title_en || article.title;
+    const modalSummary = article['summary_' + activeLang] || (activeLang === 'jp' ? article.summary_ja : null) || (activeLang === 'zh' ? article.summary_zh : null) || article.summary_en || article.summary;
+    const modalContent = article['content_' + activeLang] || (activeLang === 'jp' ? article.content_ja : null) || (activeLang === 'zh' ? article.content_zh : null) || article.content_en || article.content;
 
     // Create modal element
     const modal = document.createElement('div');
@@ -1031,6 +1031,7 @@ function initLanguageSelector() {
 function setLanguage(lang) {
     activeLang = lang;
     localStorage.setItem('prjdee_lang', lang);
+    document.documentElement.lang = (lang === 'jp' ? 'ja' : lang);
     
     // Update active lang code text in button
     const activeLangSpan = document.getElementById('active-lang');

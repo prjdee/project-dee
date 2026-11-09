@@ -149,6 +149,12 @@ def fetch_all_articles():
                     title_de = translate_text(title_en, 'de')
                     summary_de = translate_text(clean_desc_en, 'de')
 
+                    title_zh = translate_text(title_en, 'zh-CN')
+                    summary_zh = translate_text(clean_desc_en, 'zh-CN')
+
+                    title_jp = translate_text(title_en, 'ja')
+                    summary_jp = translate_text(clean_desc_en, 'ja')
+
                     all_articles.append({
                         "id": art_id,
                         "category": category,
@@ -169,7 +175,16 @@ def fetch_all_articles():
                         "content_fr": summary_fr,
                         "title_de": title_de,
                         "summary_de": summary_de,
-                        "content_de": summary_de
+                        "content_de": summary_de,
+                        "title_zh": title_zh,
+                        "summary_zh": summary_zh,
+                        "content_zh": summary_zh,
+                        "title_jp": title_jp,
+                        "summary_jp": summary_jp,
+                        "content_jp": summary_jp,
+                        "title_ja": title_jp,
+                        "summary_ja": summary_jp,
+                        "content_ja": summary_jp
                     })
                     art_id += 1
 

@@ -29,8 +29,8 @@
     --text-muted: #6b7280;
     
     /* Fonts */
-    --font-titles: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    --font-body: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-titles: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans", "Microsoft YaHei", "Yu Gothic", sans-serif;
+    --font-body: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans", "Microsoft YaHei", "Yu Gothic", sans-serif;
     
     /* Transitions */
     --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
@@ -3470,4 +3470,13 @@ h1, h2, h3, h4, h5, h6 {
 .totem-eagle:hover .totem-animal-img {
     filter: drop-shadow(0 0 18px rgba(181, 101, 245, 0.7));
     transform: scale(1.08);
+}
+
+/* CJK (Chinese & Japanese) Typography & Word Break Harmony */
+html[lang="zh"], html[lang="jp"], html[lang="ja"] {
+    word-break: break-word;
+    line-break: strict;
+}
+html[lang="zh"] body, html[lang="jp"] body, html[lang="ja"] body {
+    letter-spacing: 0.02em;
 }
