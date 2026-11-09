@@ -993,8 +993,54 @@ function initCookieBanner() {
 
 /* --------------------------------------------------
    Multilingual Language Selection & Translations
+   With Intelligent Geo-IP & Browser Locale Detection
 -------------------------------------------------- */
-let activeLang = localStorage.getItem('prjdee_lang') || 'it';
+
+// Mapping of countries to supported language codes
+const COUNTRY_TO_LANG_MAP = {
+    // Chinese (ZH) - China, Singapore, Taiwan, Hong Kong, Macao
+    'CN': 'zh', 'SG': 'zh', 'TW': 'zh', 'HK': 'zh', 'MO': 'zh',
+    // Japanese (JP) - Japan
+    'JP': 'jp',
+    // Italian (IT) - Italy, San Marino, Vatican
+    'IT': 'it', 'SM': 'it', 'VA': 'it',
+    // Spanish (ES) - Spain and Latin America
+    'ES': 'es', 'MX': 'es', 'AR': 'es', 'CO': 'es', 'CL': 'es', 'PE': 'es',
+    'VE': 'es', 'EC': 'es', 'GT': 'es', 'CU': 'es', 'BO': 'es', 'DO': 'es',
+    'HN': 'es', 'PY': 'es', 'SV': 'es', 'NI': 'es', 'CR': 'es', 'PA': 'es',
+    'UY': 'es', 'PR': 'es',
+    // French (FR) - France, Monaco, Belgium, Luxembourg
+    'FR': 'fr', 'MC': 'fr', 'BE': 'fr', 'LU': 'fr',
+    // German (DE) - Germany, Austria, Switzerland, Liechtenstein
+    'DE': 'de', 'AT': 'de', 'CH': 'de', 'LI': 'de'
+};
+
+function detectInitialLanguage() {
+    // 1. If user previously chose a language manually, always respect it
+    const saved = localStorage.getItem('prjdee_lang');
+    if (saved && typeof translations !== 'undefined' && translations[saved]) {
+        return saved;
+    }
+
+    // 2. Instant 0ms browser device language detection
+    const browserLangs = navigator.languages || [navigator.language || ''];
+    for (const b of browserLangs) {
+        if (!b) continue;
+        const lower = b.toLowerCase();
+        if (lower.startsWith('zh')) return 'zh';
+        if (lower.startsWith('ja')) return 'jp';
+        if (lower.startsWith('it')) return 'it';
+        if (lower.startsWith('es')) return 'es';
+        if (lower.startsWith('fr')) return 'fr';
+        if (lower.startsWith('de')) return 'de';
+        if (lower.startsWith('en')) return 'en';
+    }
+
+    // 3. Global fallback to English for any other country / locale
+    return 'en';
+}
+
+let activeLang = detectInitialLanguage();
 
 function initLanguageSelector() {
     const langBtn = document.getElementById('lang-btn');
@@ -1014,23 +1060,54 @@ function initLanguageSelector() {
         langDropdown.classList.remove('show');
     });
 
-    // Option clicks
+    // Option clicks (manual user selection)
     langOpts.forEach(opt => {
         opt.addEventListener('click', (e) => {
             e.preventDefault();
             const lang = opt.getAttribute('data-lang');
-            setLanguage(lang);
+            setLanguage(lang, true);
             langDropdown.classList.remove('show');
         });
     });
 
     // Apply activeLang initially
-    setLanguage(activeLang);
+    setLanguage(activeLang, false);
+
+    // Asynchronous Geo-IP Detection for first-time visitors without manual preference
+    detectGeoIPLanguage();
 }
 
-function setLanguage(lang) {
+function detectGeoIPLanguage() {
+    // Only detect if user has NOT manually set a language
+    if (localStorage.getItem('prjdee_user_choice') === 'true') return;
+
+    fetch('https://api.country.is', { cache: 'no-store' })
+        .then(res => {
+            if (!res.ok) throw new Error('GeoIP fetch failed');
+            return res.json();
+        })
+        .then(data => {
+            if (data && data.country) {
+                const country = data.country.toUpperCase();
+                const targetLang = COUNTRY_TO_LANG_MAP[country] || 'en';
+                // If detected geo country differs from current activeLang and user hasn't made a manual choice
+                if (targetLang !== activeLang && localStorage.getItem('prjdee_user_choice') !== 'true') {
+                    console.log(`[GEO-IP] Detected country ${country} -> Setting language to ${targetLang.toUpperCase()}`);
+                    setLanguage(targetLang, false);
+                }
+            }
+        })
+        .catch(() => {
+            // Silently maintain browser-detected language / English fallback
+        });
+}
+
+function setLanguage(lang, isManual = false) {
     activeLang = lang;
-    localStorage.setItem('prjdee_lang', lang);
+    if (isManual) {
+        localStorage.setItem('prjdee_user_choice', 'true');
+        localStorage.setItem('prjdee_lang', lang);
+    }
     document.documentElement.lang = (lang === 'jp' ? 'ja' : lang);
     
     // Update active lang code text in button
