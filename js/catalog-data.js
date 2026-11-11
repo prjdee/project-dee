@@ -2,7 +2,7 @@
 const soundCloudCatalog = [
     {
         "id": null,
-        "title": "The 5th Element",
+        "title": "The 5th Element (November Bonus Track)",
         "sc_url": "https://soundcloud.com/theprojectdee/thefifth",
         "yt_url": null,
         "published": "2026-11-08",
@@ -20,7 +20,7 @@ const soundCloudCatalog = [
     },
     {
         "id": null,
-        "title": "Drifting the city | 2026 remake",
+        "title": "Drifting the city | Project Dee",
         "sc_url": "https://soundcloud.com/theprojectdee/drifting26",
         "yt_url": null,
         "published": "2026-10-27",
@@ -38,7 +38,7 @@ const soundCloudCatalog = [
     },
     {
         "id": null,
-        "title": "Vertigine",
+        "title": "Vertigine | Project Dee",
         "sc_url": "https://soundcloud.com/theprojectdee/vertigine2035",
         "yt_url": null,
         "published": "2026-09-13",
@@ -47,7 +47,7 @@ const soundCloudCatalog = [
     },
     {
         "id": null,
-        "title": "Silentium | Lux Obscura (PjD)",
+        "title": "Silentium Lux Obscura | Project Dee",
         "sc_url": "https://soundcloud.com/theprojectdee/luxobscura",
         "yt_url": null,
         "published": "2026-09-06",
@@ -56,7 +56,7 @@ const soundCloudCatalog = [
     },
     {
         "id": null,
-        "title": "Japan Sinks | Sakyo Komatsu Tribute (Project Dee)",
+        "title": "Japan Sinks (Sakyo Komatsu Tribute) | Project Dee",
         "sc_url": "https://soundcloud.com/theprojectdee/jpsinks",
         "yt_url": null,
         "published": "2026-08-24",
@@ -65,7 +65,7 @@ const soundCloudCatalog = [
     },
     {
         "id": null,
-        "title": "Cats - Project Dee (Original Mix)",
+        "title": "CATS | Project Dee",
         "sc_url": "https://soundcloud.com/theprojectdee/cats",
         "yt_url": null,
         "published": "2026-08-16",
@@ -74,7 +74,7 @@ const soundCloudCatalog = [
     },
     {
         "id": null,
-        "title": "Threshold",
+        "title": "Threshold | Project Dee",
         "sc_url": "https://soundcloud.com/theprojectdee/threshold",
         "yt_url": null,
         "published": "2026-08-04",
@@ -83,29 +83,29 @@ const soundCloudCatalog = [
     },
     {
         "id": null,
-        "title": "Before The Floor Shakes",
+        "title": "Before the floor shakes | Project Dee",
         "sc_url": "https://soundcloud.com/theprojectdee/before-the-floor-shakes",
         "yt_url": null,
         "published": "2026-07-28",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-01.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-before-the-floor-shakes.jpg",
         "genre": "Dance & EDM"
     },
     {
         "id": "zmMbdhg6nn0",
-        "title": "Catch the Sun",
+        "title": "Catch the Sun | Project Dee",
         "sc_url": "https://soundcloud.com/theprojectdee/thesun",
         "yt_url": null,
         "published": "2026-07-16",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-02.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-thesun.jpg",
         "genre": "Electronic"
     },
     {
         "id": "FVJ_vvxKILo",
-        "title": "The Grid",
+        "title": "The Grid | Madness",
         "sc_url": "https://soundcloud.com/theprojectdee/grid",
-        "yt_url": "https://www.youtube.com/watch?v=FVJ_vvxKILo",
+        "yt_url": null,
         "published": "2026-06-22",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-cover-03.jpg",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-grid.jpg",
         "genre": "Electronic"
     },
     {
