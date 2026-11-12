@@ -13,14 +13,14 @@ const communityReviews = [
     },
     {
         "id": 2,
-        "author": "Zawley",
-        "username": "Zawley",
-        "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
-        "comment": "Got a nice rhythm to it for sure",
+        "author": "ZARKK",
+        "username": "ZARKK",
+        "avatar": "https://i1.sndcdn.com/avatars-mfd3mpXMteFUQTCM-8cMDVQ-large.jpg",
+        "comment": "sSSsS NICE SONG, GOOD TRIP!! yeaa",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-10"
+        "date": "2026-11-11"
     },
     {
         "id": 3,
@@ -233,14 +233,14 @@ const communityReviews = [
     },
     {
         "id": 22,
-        "author": "kharsh hemdy",
-        "username": "Kharshemdy",
-        "avatar": "https://i1.sndcdn.com/avatars-EuA1uOilPoWQyLSg-O7LYKw-large.jpg",
-        "comment": "i love it",
+        "author": "DJ Hypnotic",
+        "username": "DJ Hypnotic",
+        "avatar": "https://i1.sndcdn.com/avatars-oEQ10QciFCeyyz2S-aHyQyA-large.jpg",
+        "comment": "whos on a shift my friend? :)",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-10"
+        "date": "2026-11-11"
     },
     {
         "id": 23,
@@ -409,10 +409,10 @@ const communityReviews = [
     },
     {
         "id": 38,
-        "author": "Luovodifaberge",
-        "username": "Luovodifaberge",
-        "avatar": "https://i1.sndcdn.com/avatars-zyhlae8iPBwhabcu-63uPbw-large.jpg",
-        "comment": "great opening",
+        "author": "Zawley",
+        "username": "Zawley",
+        "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
+        "comment": "Got a nice rhythm to it for sure",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
@@ -585,10 +585,10 @@ const communityReviews = [
     },
     {
         "id": 54,
-        "author": "Kirill Koles",
-        "username": "Kirill Vladimir Koles",
-        "avatar": "https://i1.sndcdn.com/avatars-MBKGm6S3Po3rAOI3-oDbPig-large.jpg",
-        "comment": "great lyrics, awesome song, great flow",
+        "author": "kharsh hemdy",
+        "username": "Kharshemdy",
+        "avatar": "https://i1.sndcdn.com/avatars-EuA1uOilPoWQyLSg-O7LYKw-large.jpg",
+        "comment": "i love it",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",

@@ -217,9 +217,9 @@ const youtubeCatalog = [
     },
     {
         "id": "JG0YfGxLw48",
-        "title": "",
-        "full_title": "",
-        "published": "2026-01-01",
+        "title": "CATS",
+        "full_title": "CATS  #edm  #edmmusic #melodictechno  #electronicmusic   #bigroom",
+        "published": "2026-09-21",
         "thumb": "https://img.youtube.com/vi/JG0YfGxLw48/hqdefault.jpg",
         "genre": "RELEASE"
     },
