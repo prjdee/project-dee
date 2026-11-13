@@ -100,15 +100,6 @@ const soundCloudCatalog = [
         "genre": "Electronic"
     },
     {
-        "id": "FVJ_vvxKILo",
-        "title": "The Grid | Madness",
-        "sc_url": "https://soundcloud.com/theprojectdee/grid",
-        "yt_url": null,
-        "published": "2026-06-22",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-grid.jpg",
-        "genre": "Electronic"
-    },
-    {
         "id": "zmMbdhg6nn0",
         "title": "Come To Dubai (Original Mix)",
         "sc_url": "https://soundcloud.com/theprojectdee/dubai",
@@ -179,6 +170,15 @@ const soundCloudCatalog = [
         "published": "2026-04-09",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-pressure.jpg",
         "genre": "Electronic"
+    },
+    {
+        "id": null,
+        "title": "The Machine's Pulse",
+        "sc_url": "https://soundcloud.com/theprojectdee/machinepulse",
+        "yt_url": null,
+        "published": "2026-04-06",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-machinepulse.jpg",
+        "genre": "Electronic"
     }
 ];
 
@@ -217,9 +217,9 @@ const youtubeCatalog = [
     },
     {
         "id": "JG0YfGxLw48",
-        "title": "CATS",
-        "full_title": "CATS  #edm  #edmmusic #melodictechno  #electronicmusic   #bigroom",
-        "published": "2026-09-21",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
         "thumb": "https://img.youtube.com/vi/JG0YfGxLw48/hqdefault.jpg",
         "genre": "RELEASE"
     },
