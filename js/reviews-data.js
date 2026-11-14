@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Astronaut.Musik",
-        "username": "Astronaut.Musik",
-        "avatar": "https://i1.sndcdn.com/avatars-okh35V3iurCC8hDp-9YGOqg-large.jpg",
-        "comment": "HUGE ENERGY",
+        "author": "Wade Larwin",
+        "username": "Wade Larwin",
+        "avatar": "https://i1.sndcdn.com/avatars-t8cpAU4BJAzNu3V5-YAbJOw-large.jpg",
+        "comment": "love the energy 🔊",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
-        "date": "2026-11-12"
+        "date": "2026-11-14"
     },
     {
         "id": 2,
@@ -211,14 +211,14 @@ const communityReviews = [
     },
     {
         "id": 20,
-        "author": "Jerry Gildbrandsen",
-        "username": "Techneck Records",
-        "avatar": "https://i1.sndcdn.com/avatars-CxlSqh8Ooz3Z051W-rjE8GQ-large.jpg",
-        "comment": "straight fire",
+        "author": "Lorenzo Zucchi Sartori",
+        "username": "Lozart",
+        "avatar": "https://i1.sndcdn.com/avatars-fTydIXnnrtv6Kqlk-RwzI9Q-large.jpg",
+        "comment": "Pure dancefloor energy right here, massive tune!",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
-        "date": "2026-11-12"
+        "date": "2026-11-13"
     },
     {
         "id": 21,
@@ -398,10 +398,10 @@ const communityReviews = [
     },
     {
         "id": 37,
-        "author": "Tannova",
-        "username": "Tannova",
-        "avatar": "https://i1.sndcdn.com/avatars-FqOzJjgVNRqQF7s0-zOLqOA-large.jpg",
-        "comment": "love your tracks as always my friend well done!",
+        "author": "Astronaut.Musik",
+        "username": "Astronaut.Musik",
+        "avatar": "https://i1.sndcdn.com/avatars-okh35V3iurCC8hDp-9YGOqg-large.jpg",
+        "comment": "HUGE ENERGY",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
@@ -585,10 +585,10 @@ const communityReviews = [
     },
     {
         "id": 54,
-        "author": "Leigh Wylde",
-        "username": "WyLeigh",
-        "avatar": "https://i1.sndcdn.com/avatars-7k5hlXMbREYuhl9j-jwfMAA-large.jpg",
-        "comment": "Fn crayzee crayzee track love it",
+        "author": "Jerry Gildbrandsen",
+        "username": "Techneck Records",
+        "avatar": "https://i1.sndcdn.com/avatars-CxlSqh8Ooz3Z051W-rjE8GQ-large.jpg",
+        "comment": "straight fire",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
@@ -685,7 +685,7 @@ const communityReviews = [
     {
         "id": 63,
         "author": "Angel Pendragon",
-        "username": "AdonaiAm ☀️",
+        "username": "AdonaiAm",
         "avatar": "https://i1.sndcdn.com/avatars-fa8O5YSytlO6uzcF-9uEEIg-large.jpg",
         "comment": "Gorgeous track! Very well done. ✨",
         "trackTitle": "Before the floor shakes | Project Dee",
