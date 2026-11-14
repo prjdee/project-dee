@@ -151,7 +151,7 @@ def sync_comments():
 
     final_reviews = []
     track_titles = list(track_reviews_map.keys())
-    max_per_track = 4
+    max_per_track = 20
 
     for i in range(max_per_track):
         for title in track_titles:

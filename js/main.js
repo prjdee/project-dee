@@ -575,7 +575,15 @@ function initCustomWaveformPlayer() {
 function initCommunityReviews() {
     const reviewsContainer = document.getElementById('reviews-grid');
     const filtersContainer = document.getElementById('community-filters');
+    const loadMoreContainer = document.getElementById('reviews-load-more-container');
+    const loadMoreBtn = document.getElementById('btn-load-more-reviews');
+
     if (!reviewsContainer || typeof communityReviews === 'undefined' || communityReviews.length === 0) return;
+
+    const INITIAL_LIMIT_ALL = 9;
+    const INITIAL_LIMIT_TRACK = 4;
+    let isExpanded = false;
+    let currentReviewsFilter = 'ALL';
 
     // Expose render trigger for language changes
     window.triggerCommunityRender = (lang = activeLang) => {
@@ -618,14 +626,11 @@ function initCommunityReviews() {
                 btn.classList.add('active');
                 const filterValue = btn.getAttribute('data-track');
                 const currentLanguage = (typeof activeLang !== 'undefined' ? activeLang : 'it');
-                reviewsLimit = 9; // Reset limit when changing filter
+                isExpanded = false; // Reset expand state when switching track filter
                 renderReviews(filterValue, currentLanguage);
             });
         });
     }
-
-    let reviewsLimit = 9;
-    let currentReviewsFilter = 'ALL';
 
     function renderReviews(filterTrack = 'ALL', lang = activeLang) {
         currentReviewsFilter = filterTrack;
@@ -638,18 +643,17 @@ function initCommunityReviews() {
             filtered = communityReviews.filter(r => r.trackTitle === decoded);
         }
 
-        const loadMoreContainer = document.getElementById('reviews-load-more-container');
-
         if (filtered.length === 0) {
             reviewsContainer.innerHTML = `<p style="color:#a0a5b5; text-align:center; grid-column: 1/-1; padding: 2rem 0;">Nessuna recensione trovata per questa traccia.</p>`;
             if (loadMoreContainer) loadMoreContainer.style.display = 'none';
             return;
         }
 
-        let html = '';
-        const limitToUse = (filterTrack === 'ALL') ? reviewsLimit : filtered.length;
+        const initialLimit = (filterTrack === 'ALL') ? INITIAL_LIMIT_ALL : INITIAL_LIMIT_TRACK;
+        const limitToUse = isExpanded ? filtered.length : Math.min(initialLimit, filtered.length);
         const toRender = filtered.slice(0, limitToUse);
 
+        let html = '';
         toRender.forEach(rev => {
             const avatarUrl = rev.avatar || 'https://a-v2.sndcdn.com/assets/images/default/avatar.png';
             const shortTrackName = rev.trackTitle ? rev.trackTitle.split(' - ')[0] : 'Project Dee Track';
@@ -686,20 +690,38 @@ function initCommunityReviews() {
         });
         reviewsContainer.innerHTML = html;
 
-        if (loadMoreContainer) {
-            if (filterTrack === 'ALL' && filtered.length > reviewsLimit) {
+        // Toggle Expand/Collapse button visibility & text
+        if (loadMoreContainer && loadMoreBtn) {
+            const txtLabel = loadMoreBtn.querySelector('span');
+            const iconEl = loadMoreBtn.querySelector('i');
+
+            if (filtered.length > initialLimit) {
                 loadMoreContainer.style.display = 'block';
+                if (txtLabel) {
+                    if (isExpanded) {
+                        txtLabel.textContent = (translations[currentLanguage] && translations[currentLanguage].community_collapse) || "MOSTRA MENO";
+                        if (iconEl) iconEl.className = "fa-solid fa-chevron-up";
+                    } else {
+                        txtLabel.textContent = (translations[currentLanguage] && translations[currentLanguage].community_expand) || "MOSTRA TUTTE";
+                        if (iconEl) iconEl.className = "fa-solid fa-chevron-down";
+                    }
+                }
             } else {
                 loadMoreContainer.style.display = 'none';
             }
         }
     }
 
-    const loadMoreBtn = document.getElementById('btn-load-more-reviews');
     if (loadMoreBtn) {
         loadMoreBtn.addEventListener('click', () => {
-            reviewsLimit = communityReviews.length;
+            isExpanded = !isExpanded;
             renderReviews(currentReviewsFilter, activeLang);
+            if (!isExpanded) {
+                // If collapsed, smoothly scroll back to the reviews section top
+                if (filtersContainer) {
+                    filtersContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+            }
         });
     }
 

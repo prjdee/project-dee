@@ -111,7 +111,9 @@ const translations = {
         "news_empty": "Nessuna notizia trovata in questa categoria.",
         "news_readmore": "Leggi di più",
         "news_readoriginal": "Leggi l'articolo originale",
-        "watch_on_youtube": "Guarda su YouTube"
+        "watch_on_youtube": "Guarda su YouTube",
+        "community_expand": "MOSTRA TUTTE",
+        "community_collapse": "MOSTRA MENO"
     },
     "en": {
         "nav_home": "Home",
@@ -225,7 +227,9 @@ const translations = {
         "news_empty": "No articles in this feed right now.",
         "news_readmore": "Read more",
         "news_readoriginal": "Read full article",
-        "watch_on_youtube": "Watch on YouTube"
+        "watch_on_youtube": "Watch on YouTube",
+        "community_expand": "SHOW ALL REVIEWS",
+        "community_collapse": "SHOW LESS"
     },
     "es": {
         "nav_home": "Inicio",
@@ -339,7 +343,9 @@ const translations = {
         "news_empty": "No se encontraron noticias en esta categoría.",
         "news_readmore": "Leer más",
         "news_readoriginal": "Leer artículo original",
-        "watch_on_youtube": "Ver en YouTube"
+        "watch_on_youtube": "Ver en YouTube",
+        "community_expand": "MOSTRAR TODAS",
+        "community_collapse": "MOSTRAR MENOS"
     },
     "fr": {
         "nav_home": "Accueil",
@@ -453,7 +459,9 @@ const translations = {
         "news_empty": "Aucune actualité trouvée dans cette catégorie.",
         "news_readmore": "Lire la suite",
         "news_readoriginal": "Lire l'article original",
-        "watch_on_youtube": "Regarder sur YouTube"
+        "watch_on_youtube": "Regarder sur YouTube",
+        "community_expand": "AFFICHER TOUT",
+        "community_collapse": "AFFICHER MOINS"
     },
     "de": {
         "nav_home": "Start",
@@ -567,7 +575,9 @@ const translations = {
         "news_empty": "Keine News in dieser Kategorie gefunden.",
         "news_readmore": "Mehr lesen",
         "news_readoriginal": "Originalen Artikel lesen",
-        "watch_on_youtube": "Auf YouTube ansehen"
+        "watch_on_youtube": "Auf YouTube ansehen",
+        "community_expand": "ALLE ANZEIGEN",
+        "community_collapse": "WENIGER ANZEIGEN"
     },
     "zh": {
         "nav_home": "首页",
@@ -681,7 +691,9 @@ const translations = {
         "news_empty": "此分类下暂无最新资讯。",
         "news_readmore": "阅读全文",
         "news_readoriginal": "阅读原始报道",
-        "watch_on_youtube": "在 YouTube 观看"
+        "watch_on_youtube": "在 YouTube 观看",
+        "community_expand": "查看全部评价",
+        "community_collapse": "收起"
     },
     "jp": {
         "nav_home": "ホーム",
@@ -795,7 +807,9 @@ const translations = {
         "news_empty": "現在このカテゴリーの記事はありません。",
         "news_readmore": "続きを読む",
         "news_readoriginal": "記事全文を読む",
-        "watch_on_youtube": "YouTubeで見る"
+        "watch_on_youtube": "YouTubeで見る",
+        "community_expand": "すべてのレビューを表示",
+        "community_collapse": "閉じる"
     },
     "ja": {
         "nav_home": "ホーム",
@@ -909,6 +923,8 @@ const translations = {
         "news_empty": "現在このカテゴリーの記事はありません。",
         "news_readmore": "続きを読む",
         "news_readoriginal": "記事全文を読む",
-        "watch_on_youtube": "YouTubeで見る"
+        "watch_on_youtube": "YouTubeで見る",
+        "community_expand": "すべてのレビューを表示",
+        "community_collapse": "閉じる"
     }
 };

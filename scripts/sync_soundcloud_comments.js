@@ -168,7 +168,7 @@ async function syncComments() {
     // Interleave reviews across tracks so every track is represented fairly
     const finalReviews = [];
     const trackTitles = Object.keys(trackReviewsMap);
-    const maxPerTrack = 4; // Up to 4 top reviews per track
+    const maxPerTrack = 20; // Up to 4 top reviews per track
 
     for (let i = 0; i < maxPerTrack; i++) {
         for (const title of trackTitles) {
