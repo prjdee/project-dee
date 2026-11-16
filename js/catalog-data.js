@@ -2,6 +2,15 @@
 const soundCloudCatalog = [
     {
         "id": null,
+        "title": "The Jar of Anansi | Project Dee",
+        "sc_url": "https://soundcloud.com/theprojectdee/anansijar",
+        "yt_url": null,
+        "published": "2026-09-02",
+        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-anansijar.jpg",
+        "genre": "Electronic"
+    },
+    {
+        "id": null,
         "title": "The 5th Element (November Bonus Track)",
         "sc_url": "https://soundcloud.com/theprojectdee/thefifth",
         "yt_url": null,
@@ -170,19 +179,18 @@ const soundCloudCatalog = [
         "published": "2026-04-09",
         "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-pressure.jpg",
         "genre": "Electronic"
-    },
-    {
-        "id": null,
-        "title": "The Machine's Pulse",
-        "sc_url": "https://soundcloud.com/theprojectdee/machinepulse",
-        "yt_url": null,
-        "published": "2026-04-06",
-        "thumb": "https://raw.githubusercontent.com/prjdee/project-dee/main/assets/covers/sc-machinepulse.jpg",
-        "genre": "Electronic"
     }
 ];
 
 const youtubeCatalog = [
+    {
+        "id": "MpTZ3gu-NeM",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
+        "thumb": "https://img.youtube.com/vi/MpTZ3gu-NeM/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
     {
         "id": "FSbLxn0IZ20",
         "title": "",
@@ -333,14 +341,6 @@ const youtubeCatalog = [
         "full_title": "",
         "published": "2026-01-01",
         "thumb": "https://img.youtube.com/vi/4vvo0RPXMYY/hqdefault.jpg",
-        "genre": "RELEASE"
-    },
-    {
-        "id": "3pgLo0GyYzc",
-        "title": "",
-        "full_title": "",
-        "published": "2026-01-01",
-        "thumb": "https://img.youtube.com/vi/3pgLo0GyYzc/hqdefault.jpg",
         "genre": "RELEASE"
     }
 ];

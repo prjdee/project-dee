@@ -2,25 +2,25 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "SUPRIMO",
-        "username": "SUPRIMO",
-        "avatar": "https://i1.sndcdn.com/avatars-r9u0XRz5x7dC7rJ8-NJ5j1Q-large.jpg",
-        "comment": "Amazing bonus track, the drums sound soo good",
+        "author": "Hagar Shay",
+        "username": "Hagar Shay",
+        "avatar": "https://i1.sndcdn.com/avatars-Ols2Gm2gVRNTvURz-SaIilA-large.jpg",
+        "comment": "This track feels quietly self assured",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
-        "date": "2026-11-14"
+        "date": "2026-11-16"
     },
     {
         "id": 2,
-        "author": "Mimsoulrecords",
-        "username": "Mimsoulrecords",
-        "avatar": "https://i1.sndcdn.com/avatars-tiTK03DXlf9tOPw4-FA7bBQ-large.jpg",
-        "comment": "Dark melodic techno with a nice slow build, the atmosphere is great.",
+        "author": "Arshia Aali",
+        "username": "Vani$h",
+        "avatar": "https://i1.sndcdn.com/avatars-NdyInBShn0lBi4qh-ZvdB3w-large.jpg",
+        "comment": "Been searching for new sounds lately and this is exactly the kind of music I needed. Straight into my rotation.",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-12"
+        "date": "2026-11-15"
     },
     {
         "id": 3,
@@ -211,25 +211,25 @@ const communityReviews = [
     },
     {
         "id": 20,
-        "author": "Klangtier",
-        "username": "Klangtier",
-        "avatar": "https://i1.sndcdn.com/avatars-iOSIgtGYIUEPyVDx-zgASqw-large.jpg",
-        "comment": "first November Shift, now a bonus track on top. busy month for you!",
+        "author": "Brain Rot",
+        "username": "sanjock",
+        "avatar": "https://i1.sndcdn.com/avatars-LRv9v2q6GbfyNzvr-73uzyw-large.jpg",
+        "comment": "that opening is so sick. the synths are nuts",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
-        "date": "2026-11-14"
+        "date": "2026-11-15"
     },
     {
         "id": 21,
-        "author": "ZARKK",
-        "username": "ZARKK",
-        "avatar": "https://i1.sndcdn.com/avatars-mfd3mpXMteFUQTCM-8cMDVQ-large.jpg",
-        "comment": "sSSsS NICE SONG, GOOD TRIP!! yeaa",
+        "author": "Brain Rot",
+        "username": "sanjock",
+        "avatar": "https://i1.sndcdn.com/avatars-LRv9v2q6GbfyNzvr-73uzyw-large.jpg",
+        "comment": "i think i found the perfect track for november",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-11"
+        "date": "2026-11-15"
     },
     {
         "id": 22,
@@ -398,10 +398,10 @@ const communityReviews = [
     },
     {
         "id": 37,
-        "author": "Wade Larwin",
-        "username": "Wade Larwin",
-        "avatar": "https://i1.sndcdn.com/avatars-t8cpAU4BJAzNu3V5-YAbJOw-large.jpg",
-        "comment": "love the energy 🔊",
+        "author": "SUPRIMO",
+        "username": "SUPRIMO",
+        "avatar": "https://i1.sndcdn.com/avatars-r9u0XRz5x7dC7rJ8-NJ5j1Q-large.jpg",
+        "comment": "Amazing bonus track, the drums sound soo good",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
@@ -409,14 +409,14 @@ const communityReviews = [
     },
     {
         "id": 38,
-        "author": "DJ Hypnotic",
-        "username": "DJ Hypnotic",
-        "avatar": "https://i1.sndcdn.com/avatars-oEQ10QciFCeyyz2S-aHyQyA-large.jpg",
-        "comment": "whos on a shift my friend? :)",
+        "author": "Mimsoulrecords",
+        "username": "Mimsoulrecords",
+        "avatar": "https://i1.sndcdn.com/avatars-tiTK03DXlf9tOPw4-FA7bBQ-large.jpg",
+        "comment": "Dark melodic techno with a nice slow build, the atmosphere is great.",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-11"
+        "date": "2026-11-12"
     },
     {
         "id": 39,
@@ -585,25 +585,25 @@ const communityReviews = [
     },
     {
         "id": 54,
-        "author": "Lorenzo Zucchi Sartori",
-        "username": "Lozart",
-        "avatar": "https://i1.sndcdn.com/avatars-fTydIXnnrtv6Kqlk-RwzI9Q-large.jpg",
-        "comment": "Pure dancefloor energy right here, massive tune!",
+        "author": "Klangtier",
+        "username": "Klangtier",
+        "avatar": "https://i1.sndcdn.com/avatars-iOSIgtGYIUEPyVDx-zgASqw-large.jpg",
+        "comment": "first November Shift, now a bonus track on top. busy month for you!",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
-        "date": "2026-11-13"
+        "date": "2026-11-14"
     },
     {
         "id": 55,
-        "author": "Zawley",
-        "username": "Zawley",
-        "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
-        "comment": "Got a nice rhythm to it for sure",
+        "author": "ZARKK",
+        "username": "ZARKK",
+        "avatar": "https://i1.sndcdn.com/avatars-mfd3mpXMteFUQTCM-8cMDVQ-large.jpg",
+        "comment": "sSSsS NICE SONG, GOOD TRIP!! yeaa",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-10"
+        "date": "2026-11-11"
     },
     {
         "id": 56,
@@ -761,25 +761,25 @@ const communityReviews = [
     },
     {
         "id": 70,
-        "author": "Astronaut.Musik",
-        "username": "Astronaut.Musik",
-        "avatar": "https://i1.sndcdn.com/avatars-okh35V3iurCC8hDp-9YGOqg-large.jpg",
-        "comment": "HUGE ENERGY",
+        "author": "Wade Larwin",
+        "username": "Wade Larwin",
+        "avatar": "https://i1.sndcdn.com/avatars-t8cpAU4BJAzNu3V5-YAbJOw-large.jpg",
+        "comment": "love the energy 🔊",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
-        "date": "2026-11-12"
+        "date": "2026-11-14"
     },
     {
         "id": 71,
-        "author": "kharsh hemdy",
-        "username": "Kharshemdy",
-        "avatar": "https://i1.sndcdn.com/avatars-EuA1uOilPoWQyLSg-O7LYKw-large.jpg",
-        "comment": "i love it",
+        "author": "DJ Hypnotic",
+        "username": "DJ Hypnotic",
+        "avatar": "https://i1.sndcdn.com/avatars-oEQ10QciFCeyyz2S-aHyQyA-large.jpg",
+        "comment": "whos on a shift my friend? :)",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-10"
+        "date": "2026-11-11"
     },
     {
         "id": 72,
@@ -926,21 +926,21 @@ const communityReviews = [
     },
     {
         "id": 85,
-        "author": "Jerry Gildbrandsen",
-        "username": "Techneck Records",
-        "avatar": "https://i1.sndcdn.com/avatars-CxlSqh8Ooz3Z051W-rjE8GQ-large.jpg",
-        "comment": "straight fire",
+        "author": "Lorenzo Zucchi Sartori",
+        "username": "Lozart",
+        "avatar": "https://i1.sndcdn.com/avatars-fTydIXnnrtv6Kqlk-RwzI9Q-large.jpg",
+        "comment": "Pure dancefloor energy right here, massive tune!",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
-        "date": "2026-11-12"
+        "date": "2026-11-13"
     },
     {
         "id": 86,
-        "author": "Luovodifaberge",
-        "username": "Luovodifaberge",
-        "avatar": "https://i1.sndcdn.com/avatars-zyhlae8iPBwhabcu-63uPbw-large.jpg",
-        "comment": "great opening",
+        "author": "Zawley",
+        "username": "Zawley",
+        "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
+        "comment": "Got a nice rhythm to it for sure",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
@@ -1080,10 +1080,10 @@ const communityReviews = [
     },
     {
         "id": 99,
-        "author": "Tannova",
-        "username": "Tannova",
-        "avatar": "https://i1.sndcdn.com/avatars-FqOzJjgVNRqQF7s0-zOLqOA-large.jpg",
-        "comment": "love your tracks as always my friend well done!",
+        "author": "Astronaut.Musik",
+        "username": "Astronaut.Musik",
+        "avatar": "https://i1.sndcdn.com/avatars-okh35V3iurCC8hDp-9YGOqg-large.jpg",
+        "comment": "HUGE ENERGY",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
@@ -1091,10 +1091,10 @@ const communityReviews = [
     },
     {
         "id": 100,
-        "author": "Kirill Koles",
-        "username": "Kirill Vladimir Koles",
-        "avatar": "https://i1.sndcdn.com/avatars-MBKGm6S3Po3rAOI3-oDbPig-large.jpg",
-        "comment": "great lyrics, awesome song, great flow",
+        "author": "kharsh hemdy",
+        "username": "Kharshemdy",
+        "avatar": "https://i1.sndcdn.com/avatars-EuA1uOilPoWQyLSg-O7LYKw-large.jpg",
+        "comment": "i love it",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
@@ -1234,10 +1234,10 @@ const communityReviews = [
     },
     {
         "id": 113,
-        "author": "Leigh Wylde",
-        "username": "WyLeigh",
-        "avatar": "https://i1.sndcdn.com/avatars-7k5hlXMbREYuhl9j-jwfMAA-large.jpg",
-        "comment": "Fn crayzee crayzee track love it",
+        "author": "Jerry Gildbrandsen",
+        "username": "Techneck Records",
+        "avatar": "https://i1.sndcdn.com/avatars-CxlSqh8Ooz3Z051W-rjE8GQ-large.jpg",
+        "comment": "straight fire",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
@@ -1245,10 +1245,10 @@ const communityReviews = [
     },
     {
         "id": 114,
-        "author": "jean-Michel Regnault",
-        "username": "DJ BLUSH",
-        "avatar": "https://i1.sndcdn.com/avatars-L4ZbQPRD1iz9z63I-8Tziaw-large.jpg",
-        "comment": "quality 🔊",
+        "author": "Luovodifaberge",
+        "username": "Luovodifaberge",
+        "avatar": "https://i1.sndcdn.com/avatars-zyhlae8iPBwhabcu-63uPbw-large.jpg",
+        "comment": "great opening",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
@@ -1388,10 +1388,10 @@ const communityReviews = [
     },
     {
         "id": 127,
-        "author": "Mimsoulrecords",
-        "username": "Mimsoulrecords",
-        "avatar": "https://i1.sndcdn.com/avatars-tiTK03DXlf9tOPw4-FA7bBQ-large.jpg",
-        "comment": "Hard-hitting peak time energy, the kick and rolling percussion work really well.",
+        "author": "Tannova",
+        "username": "Tannova",
+        "avatar": "https://i1.sndcdn.com/avatars-FqOzJjgVNRqQF7s0-zOLqOA-large.jpg",
+        "comment": "love your tracks as always my friend well done!",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
@@ -1399,14 +1399,14 @@ const communityReviews = [
     },
     {
         "id": 128,
-        "author": "Jah-Femi Telewa",
-        "username": "The Monstera Music Group by Jah-Femi Telewa",
-        "avatar": "https://i1.sndcdn.com/avatars-kcyvlX2mH9hj07uH-QOSBIQ-large.jpg",
-        "comment": "Clean tracks with clean lyrics needed … the separation of the living from the dead as began",
+        "author": "Kirill Koles",
+        "username": "Kirill Vladimir Koles",
+        "avatar": "https://i1.sndcdn.com/avatars-MBKGm6S3Po3rAOI3-oDbPig-large.jpg",
+        "comment": "great lyrics, awesome song, great flow",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-09"
+        "date": "2026-11-10"
     },
     {
         "id": 129,
@@ -1542,10 +1542,10 @@ const communityReviews = [
     },
     {
         "id": 141,
-        "author": "Cocoa Spoon",
-        "username": "Cocoa Spoon",
-        "avatar": "https://i1.sndcdn.com/avatars-qYCcEBHsz5UIavyh-7xsNsQ-large.jpg",
-        "comment": "on repeat here for the third time",
+        "author": "Leigh Wylde",
+        "username": "WyLeigh",
+        "avatar": "https://i1.sndcdn.com/avatars-7k5hlXMbREYuhl9j-jwfMAA-large.jpg",
+        "comment": "Fn crayzee crayzee track love it",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
@@ -1553,14 +1553,14 @@ const communityReviews = [
     },
     {
         "id": 142,
-        "author": "Roman Zegbaum",
-        "username": "ElektRoman The Biomind",
-        "avatar": "https://i1.sndcdn.com/avatars-IjfwYBzMEkv7NHBW-srIuMA-large.jpg",
-        "comment": "This is some lovely synth pop",
+        "author": "jean-Michel Regnault",
+        "username": "DJ BLUSH",
+        "avatar": "https://i1.sndcdn.com/avatars-L4ZbQPRD1iz9z63I-8Tziaw-large.jpg",
+        "comment": "quality 🔊",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-08"
+        "date": "2026-11-10"
     },
     {
         "id": 143,
@@ -1696,10 +1696,10 @@ const communityReviews = [
     },
     {
         "id": 155,
-        "author": "KRT Production",
-        "username": "BBAM",
-        "avatar": "https://i1.sndcdn.com/avatars-xgtFE1mQaya1UYVy-YInE5g-large.jpg",
-        "comment": "this a jam ✨",
+        "author": "Mimsoulrecords",
+        "username": "Mimsoulrecords",
+        "avatar": "https://i1.sndcdn.com/avatars-tiTK03DXlf9tOPw4-FA7bBQ-large.jpg",
+        "comment": "Hard-hitting peak time energy, the kick and rolling percussion work really well.",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
@@ -1707,14 +1707,14 @@ const communityReviews = [
     },
     {
         "id": 156,
-        "author": "Arthur deBerardinis",
-        "username": "Sweetest Taboo",
-        "avatar": "https://i1.sndcdn.com/avatars-y5W0hRulWKHk1Hny-z97BUg-large.jpg",
-        "comment": "this has a strong vibe! brings me back!",
+        "author": "Jah-Femi Telewa",
+        "username": "The Monstera Music Group by Jah-Femi Telewa",
+        "avatar": "https://i1.sndcdn.com/avatars-kcyvlX2mH9hj07uH-QOSBIQ-large.jpg",
+        "comment": "Clean tracks with clean lyrics needed … the separation of the living from the dead as began",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-08"
+        "date": "2026-11-09"
     },
     {
         "id": 157,
@@ -1839,10 +1839,10 @@ const communityReviews = [
     },
     {
         "id": 168,
-        "author": "Roger Benini",
-        "username": "🅺🅾🅻🅻🅴🅺🆃🅸🆅🅴 🆂🅲🅷🅰🅻🅻🆂🅲🅷🆄🆃🆉",
-        "avatar": "https://i1.sndcdn.com/avatars-0xucdfRucpYFjqJn-d1iYkw-large.jpg",
-        "comment": "this knocks",
+        "author": "Cocoa Spoon",
+        "username": "Cocoa Spoon",
+        "avatar": "https://i1.sndcdn.com/avatars-qYCcEBHsz5UIavyh-7xsNsQ-large.jpg",
+        "comment": "on repeat here for the third time",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
@@ -1850,10 +1850,10 @@ const communityReviews = [
     },
     {
         "id": 169,
-        "author": "Integrity Creativity",
-        "username": "AFRICARE PRODUCTIONS",
-        "avatar": "https://i1.sndcdn.com/avatars-zzSGrxsrE7ozM2Wz-7EzBcg-large.jpg",
-        "comment": "serious vibes 🤩",
+        "author": "Roman Zegbaum",
+        "username": "ElektRoman The Biomind",
+        "avatar": "https://i1.sndcdn.com/avatars-IjfwYBzMEkv7NHBW-srIuMA-large.jpg",
+        "comment": "This is some lovely synth pop",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
@@ -1971,25 +1971,25 @@ const communityReviews = [
     },
     {
         "id": 180,
-        "author": "Connor Gray",
-        "username": "SkullFreek",
-        "avatar": "https://i1.sndcdn.com/avatars-gYtmyY2vyNIh7gF1-pHJQrg-large.jpg",
-        "comment": "Driving peak-time techno — the groove is relentless and the synth work is hypnotic. Massive track!",
+        "author": "KRT Production",
+        "username": "BBAM",
+        "avatar": "https://i1.sndcdn.com/avatars-xgtFE1mQaya1UYVy-YInE5g-large.jpg",
+        "comment": "this a jam ✨",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
-        "date": "2026-11-10"
+        "date": "2026-11-12"
     },
     {
         "id": 181,
-        "author": "Deep Progressive Future  House",
-        "username": "PAS-RISKY",
-        "avatar": "https://i1.sndcdn.com/avatars-V9FqSyln95OhccnB-UO9aKQ-large.jpg",
-        "comment": "Great work with  sunlime vocals!! superbe!! cheers !!",
+        "author": "Arthur deBerardinis",
+        "username": "Sweetest Taboo",
+        "avatar": "https://i1.sndcdn.com/avatars-y5W0hRulWKHk1Hny-z97BUg-large.jpg",
+        "comment": "this has a strong vibe! brings me back!",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-07"
+        "date": "2026-11-08"
     },
     {
         "id": 182,
@@ -2092,25 +2092,25 @@ const communityReviews = [
     },
     {
         "id": 191,
-        "author": "Harmonia At Night",
-        "username": "Harmonia At Night",
-        "avatar": "https://i1.sndcdn.com/avatars-000140583453-338nvj-large.jpg",
-        "comment": "Big ⚡",
+        "author": "Roger Benini",
+        "username": "🅺🅾🅻🅻🅴🅺🆃🅸🆅🅴 🆂🅲🅷🅰🅻🅻🆂🅲🅷🆄🆃🆉",
+        "avatar": "https://i1.sndcdn.com/avatars-0xucdfRucpYFjqJn-d1iYkw-large.jpg",
+        "comment": "this knocks",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
-        "date": "2026-11-10"
+        "date": "2026-11-12"
     },
     {
         "id": 192,
-        "author": "K N Z D 3 N",
-        "username": "KNZD3N",
-        "avatar": "https://i1.sndcdn.com/avatars-QMHtJQ3ap4NvOJJR-Wb0vzg-large.jpg",
-        "comment": "Beauty chords.  Vocals are smoith on top 👽🌊👽🌊",
+        "author": "Integrity Creativity",
+        "username": "AFRICARE PRODUCTIONS",
+        "avatar": "https://i1.sndcdn.com/avatars-zzSGrxsrE7ozM2Wz-7EzBcg-large.jpg",
+        "comment": "serious vibes 🤩",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-07"
+        "date": "2026-11-08"
     },
     {
         "id": 193,
@@ -2202,17 +2202,28 @@ const communityReviews = [
     },
     {
         "id": 201,
-        "author": "Oscar Garcia",
-        "username": "Oscar J Garcia",
-        "avatar": "https://i1.sndcdn.com/avatars-6aKqoQWX6BpTGGOt-ulO1OQ-large.jpg",
-        "comment": "good track, nice melodic voices, relaxed vibe",
-        "trackTitle": "November Shift | Project Dee",
-        "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
-        "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-06"
+        "author": "Connor Gray",
+        "username": "SkullFreek",
+        "avatar": "https://i1.sndcdn.com/avatars-gYtmyY2vyNIh7gF1-pHJQrg-large.jpg",
+        "comment": "Driving peak-time techno — the groove is relentless and the synth work is hypnotic. Massive track!",
+        "trackTitle": "The 5th Element (November Bonus Track)",
+        "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
+        "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
+        "date": "2026-11-10"
     },
     {
         "id": 202,
+        "author": "Deep Progressive Future  House",
+        "username": "PAS-RISKY",
+        "avatar": "https://i1.sndcdn.com/avatars-V9FqSyln95OhccnB-UO9aKQ-large.jpg",
+        "comment": "Great work with  sunlime vocals!! superbe!! cheers !!",
+        "trackTitle": "November Shift | Project Dee",
+        "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
+        "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
+        "date": "2026-11-07"
+    },
+    {
+        "id": 203,
         "author": "FOREV3R MYUSIC",
         "username": "千ㄖ尺乇<3尺",
         "avatar": "https://i1.sndcdn.com/avatars-sUrmDslP7hJ2jV3K-eAuoKQ-large.jpg",
@@ -2223,7 +2234,7 @@ const communityReviews = [
         "date": "2026-11-05"
     },
     {
-        "id": 203,
+        "id": 204,
         "author": "Frank Visosky",
         "username": "Frank Zozky",
         "avatar": "https://i1.sndcdn.com/avatars-Agni3c6GuJMSLrvl-RBNlfg-large.jpg",
@@ -2234,7 +2245,7 @@ const communityReviews = [
         "date": "2026-10-17"
     },
     {
-        "id": 204,
+        "id": 205,
         "author": "KRT Production",
         "username": "NUR",
         "avatar": "https://i1.sndcdn.com/avatars-Svzz22CMA0wyGVv1-z4sBPQ-large.jpg",
@@ -2245,7 +2256,7 @@ const communityReviews = [
         "date": "2026-09-27"
     },
     {
-        "id": 205,
+        "id": 206,
         "author": "Kakarottomax",
         "username": "Kakarottomax",
         "avatar": "https://i1.sndcdn.com/avatars-M2kfvS4HNTMvwi58-W3TYaw-large.jpg",
@@ -2256,7 +2267,7 @@ const communityReviews = [
         "date": "2026-09-10"
     },
     {
-        "id": 206,
+        "id": 207,
         "author": "Suzy Davies",
         "username": "Suzy Davies",
         "avatar": "https://i1.sndcdn.com/avatars-000245858999-hme53b-large.jpg",
@@ -2267,7 +2278,7 @@ const communityReviews = [
         "date": "2026-08-28"
     },
     {
-        "id": 207,
+        "id": 208,
         "author": "DJ Rituala",
         "username": "DJ Rituala (Progressive Techno Girl)",
         "avatar": "https://i1.sndcdn.com/avatars-fQgSyzjjOMQ1lW3O-k66RNQ-large.jpg",
@@ -2278,7 +2289,7 @@ const communityReviews = [
         "date": "2026-08-11"
     },
     {
-        "id": 208,
+        "id": 209,
         "author": "SØLIX",
         "username": "SØLIX",
         "avatar": "https://i1.sndcdn.com/avatars-zznbzZQyP3bCCaOT-mHBcVw-large.jpg",
@@ -2289,18 +2300,29 @@ const communityReviews = [
         "date": "2026-08-15"
     },
     {
-        "id": 209,
-        "author": "JARR Head",
-        "username": "JARR Head",
-        "avatar": "https://i1.sndcdn.com/avatars-zZKB6hnh5IXqypAz-Ga7Bww-large.jpg",
-        "comment": "Great work - looking forward to your next release!",
+        "id": 210,
+        "author": "Harmonia At Night",
+        "username": "Harmonia At Night",
+        "avatar": "https://i1.sndcdn.com/avatars-000140583453-338nvj-large.jpg",
+        "comment": "Big ⚡",
+        "trackTitle": "The 5th Element (November Bonus Track)",
+        "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
+        "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
+        "date": "2026-11-10"
+    },
+    {
+        "id": 211,
+        "author": "K N Z D 3 N",
+        "username": "KNZD3N",
+        "avatar": "https://i1.sndcdn.com/avatars-QMHtJQ3ap4NvOJJR-Wb0vzg-large.jpg",
+        "comment": "Beauty chords.  Vocals are smoith on top 👽🌊👽🌊",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-06"
+        "date": "2026-11-07"
     },
     {
-        "id": 210,
+        "id": 212,
         "author": "Vorales",
         "username": "VORALES",
         "avatar": "https://i1.sndcdn.com/avatars-FYW6lXbRmiMWiMEI-r8vYPg-large.jpg",
@@ -2311,7 +2333,7 @@ const communityReviews = [
         "date": "2026-11-05"
     },
     {
-        "id": 211,
+        "id": 213,
         "author": "Armijo Productions",
         "username": "Armijo Productions",
         "avatar": "https://i1.sndcdn.com/avatars-pGI8vD0WX8GNdsG3-DL1WJg-large.jpg",
@@ -2322,7 +2344,7 @@ const communityReviews = [
         "date": "2026-10-16"
     },
     {
-        "id": 212,
+        "id": 214,
         "author": "Sativadiva",
         "username": "Sativadiva",
         "avatar": "https://i1.sndcdn.com/avatars-43V1zyEkQzeATG3p-N1gktg-large.jpg",
@@ -2333,7 +2355,7 @@ const communityReviews = [
         "date": "2026-09-26"
     },
     {
-        "id": 213,
+        "id": 215,
         "author": "Cade Ackermann",
         "username": "Raebay",
         "avatar": "https://i1.sndcdn.com/avatars-aFJGd3teFTwhcyiM-DvVQ7A-large.jpg",
@@ -2344,7 +2366,7 @@ const communityReviews = [
         "date": "2026-09-10"
     },
     {
-        "id": 214,
+        "id": 216,
         "author": "Twistedreload",
         "username": "Twistedreload",
         "avatar": "https://i1.sndcdn.com/avatars-NNmSQlbcs71RyWyK-bltFag-large.jpg",
@@ -2355,7 +2377,7 @@ const communityReviews = [
         "date": "2026-08-28"
     },
     {
-        "id": 215,
+        "id": 217,
         "author": "Sativadiva",
         "username": "Sativadiva",
         "avatar": "https://i1.sndcdn.com/avatars-43V1zyEkQzeATG3p-N1gktg-large.jpg",
@@ -2366,7 +2388,7 @@ const communityReviews = [
         "date": "2026-08-11"
     },
     {
-        "id": 216,
+        "id": 218,
         "author": "Chris DIESEL MOTION RECORDS © ®",
         "username": "TheDieselman",
         "avatar": "https://i1.sndcdn.com/avatars-g3mrP9Ph0WklwyyV-qSj0tA-large.jpg",
@@ -2377,18 +2399,18 @@ const communityReviews = [
         "date": "2026-08-15"
     },
     {
-        "id": 217,
-        "author": "Izzo",
-        "username": "Izzo",
-        "avatar": "https://i1.sndcdn.com/avatars-WzhfqvBdiNA8mluN-gyR4sg-large.jpg",
-        "comment": "Fire song it’s builds well",
+        "id": 219,
+        "author": "Oscar Garcia",
+        "username": "Oscar J Garcia",
+        "avatar": "https://i1.sndcdn.com/avatars-6aKqoQWX6BpTGGOt-ulO1OQ-large.jpg",
+        "comment": "good track, nice melodic voices, relaxed vibe",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
         "date": "2026-11-06"
     },
     {
-        "id": 218,
+        "id": 220,
         "author": "KRVLL1ST",
         "username": "KRVLL1ST",
         "avatar": "https://i1.sndcdn.com/avatars-QGDLuPAMOTOsTxlo-LRtLbA-large.jpg",
@@ -2399,7 +2421,7 @@ const communityReviews = [
         "date": "2026-11-05"
     },
     {
-        "id": 219,
+        "id": 221,
         "author": "Lilac Beats",
         "username": "Lilac Beats",
         "avatar": "https://i1.sndcdn.com/avatars-Ws5tr7vXvu8pFLIw-hki99g-large.jpg",
@@ -2410,7 +2432,7 @@ const communityReviews = [
         "date": "2026-10-16"
     },
     {
-        "id": 220,
+        "id": 222,
         "author": "I AM®",
         "username": "I AM®",
         "avatar": "https://i1.sndcdn.com/avatars-zNzdyArqeozIe0aU-R9pZxg-large.jpg",
@@ -2421,7 +2443,7 @@ const communityReviews = [
         "date": "2026-09-26"
     },
     {
-        "id": 221,
+        "id": 223,
         "author": "K N Z D 3 N",
         "username": "KNZD3N",
         "avatar": "https://i1.sndcdn.com/avatars-QMHtJQ3ap4NvOJJR-Wb0vzg-large.jpg",
@@ -2432,7 +2454,7 @@ const communityReviews = [
         "date": "2026-09-09"
     },
     {
-        "id": 222,
+        "id": 224,
         "author": "Zawley",
         "username": "Zawley",
         "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
@@ -2443,7 +2465,7 @@ const communityReviews = [
         "date": "2026-08-28"
     },
     {
-        "id": 223,
+        "id": 225,
         "author": "W K",
         "username": "KAMYCZKOVA",
         "avatar": "https://i1.sndcdn.com/avatars-QoymyGXI7ueBNgZx-eMyAmg-large.jpg",
@@ -2454,7 +2476,7 @@ const communityReviews = [
         "date": "2026-08-11"
     },
     {
-        "id": 224,
+        "id": 226,
         "author": "KRT Production",
         "username": "KRT Production",
         "avatar": "https://i1.sndcdn.com/avatars-SXbacvZ3UrAOoI1K-QHyyFQ-large.jpg",
@@ -2465,18 +2487,18 @@ const communityReviews = [
         "date": "2026-08-15"
     },
     {
-        "id": 225,
-        "author": "Lorenzo Zucchi Sartori",
-        "username": "Lozart",
-        "avatar": "https://i1.sndcdn.com/avatars-fTydIXnnrtv6Kqlk-RwzI9Q-large.jpg",
-        "comment": "The sound design is on point",
+        "id": 227,
+        "author": "JARR Head",
+        "username": "JARR Head",
+        "avatar": "https://i1.sndcdn.com/avatars-zZKB6hnh5IXqypAz-Ga7Bww-large.jpg",
+        "comment": "Great work - looking forward to your next release!",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
         "date": "2026-11-06"
     },
     {
-        "id": 226,
+        "id": 228,
         "author": "Resazat Ay",
         "username": "Resazat",
         "avatar": "https://i1.sndcdn.com/avatars-fiJ6W3WXEqL2jPsO-ucYcCA-large.jpg",
@@ -2487,7 +2509,7 @@ const communityReviews = [
         "date": "2026-11-04"
     },
     {
-        "id": 227,
+        "id": 229,
         "author": "FREE DOWNLOADS",
         "username": "Bunshin Records",
         "avatar": "https://i1.sndcdn.com/avatars-EdJGQJfh39mniFyH-lvL8nQ-large.jpg",
@@ -2498,7 +2520,7 @@ const communityReviews = [
         "date": "2026-10-15"
     },
     {
-        "id": 228,
+        "id": 230,
         "author": "Lil Zaiyan",
         "username": "Lil Zaiyan",
         "avatar": "https://i1.sndcdn.com/avatars-hgvWz7yA9ZSEs1Gg-LeLbRA-large.jpg",
@@ -2509,7 +2531,7 @@ const communityReviews = [
         "date": "2026-09-26"
     },
     {
-        "id": 229,
+        "id": 231,
         "author": "guittim",
         "username": "guittim",
         "avatar": "https://i1.sndcdn.com/avatars-PVTR5wN5IYVyXzEY-rjTe2g-large.jpg",
@@ -2520,7 +2542,7 @@ const communityReviews = [
         "date": "2026-09-09"
     },
     {
-        "id": 230,
+        "id": 232,
         "author": "Michael Meyer",
         "username": "DJ Mandala",
         "avatar": "https://i1.sndcdn.com/avatars-t8eFjyERzFXiqzvq-H8LwJA-large.jpg",
@@ -2531,7 +2553,7 @@ const communityReviews = [
         "date": "2026-08-27"
     },
     {
-        "id": 231,
+        "id": 233,
         "author": "FALLEN PREVAIL",
         "username": "FALLEN PREVAIL",
         "avatar": "https://i1.sndcdn.com/avatars-lngyGDOmXyIQfwjO-OzGvFw-large.jpg",
@@ -2542,7 +2564,7 @@ const communityReviews = [
         "date": "2026-08-11"
     },
     {
-        "id": 232,
+        "id": 234,
         "author": "2fast4u123 2fast4u123",
         "username": "Joelyy",
         "avatar": "https://i1.sndcdn.com/avatars-4Ps8ymF4IIVFqNVb-9k3yJQ-large.jpg",
@@ -2553,18 +2575,18 @@ const communityReviews = [
         "date": "2026-08-13"
     },
     {
-        "id": 233,
-        "author": "Vorales",
-        "username": "VORALES",
-        "avatar": "https://i1.sndcdn.com/avatars-FYW6lXbRmiMWiMEI-r8vYPg-large.jpg",
-        "comment": "proposta ótima desse som e construção",
+        "id": 235,
+        "author": "Izzo",
+        "username": "Izzo",
+        "avatar": "https://i1.sndcdn.com/avatars-WzhfqvBdiNA8mluN-gyR4sg-large.jpg",
+        "comment": "Fire song it’s builds well",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
         "date": "2026-11-06"
     },
     {
-        "id": 234,
+        "id": 236,
         "author": "Andrea D'Argenio",
         "username": "Andarnio dj",
         "avatar": "https://i1.sndcdn.com/avatars-gENqOW6fmu93y4vr-Tq215w-large.jpg",
@@ -2575,7 +2597,7 @@ const communityReviews = [
         "date": "2026-11-04"
     },
     {
-        "id": 235,
+        "id": 237,
         "author": "Adam Chambers",
         "username": "ADVM BOMB",
         "avatar": "https://i1.sndcdn.com/avatars-4YGDzg1pnasWh58f-hzIvjg-large.jpg",
@@ -2586,7 +2608,7 @@ const communityReviews = [
         "date": "2026-10-15"
     },
     {
-        "id": 236,
+        "id": 238,
         "author": "Khaos Creator",
         "username": "Khaos Creator",
         "avatar": "https://i1.sndcdn.com/avatars-QYriw83UO1MyzVFI-ECYPyQ-large.jpg",
@@ -2597,7 +2619,7 @@ const communityReviews = [
         "date": "2026-09-25"
     },
     {
-        "id": 237,
+        "id": 239,
         "author": "Michael Meyer",
         "username": "DJ Mandala",
         "avatar": "https://i1.sndcdn.com/avatars-t8eFjyERzFXiqzvq-H8LwJA-large.jpg",
@@ -2608,7 +2630,7 @@ const communityReviews = [
         "date": "2026-09-09"
     },
     {
-        "id": 238,
+        "id": 240,
         "author": "Sergio Guarneri",
         "username": "Sergio Guarneri",
         "avatar": "https://i1.sndcdn.com/avatars-figE8AR2MjoMwAbj-PH6ihA-large.jpg",
@@ -2619,7 +2641,7 @@ const communityReviews = [
         "date": "2026-08-27"
     },
     {
-        "id": 239,
+        "id": 241,
         "author": "Bass Nomad",
         "username": "Bass Nomad",
         "avatar": "https://i1.sndcdn.com/avatars-JptEYN03uhKJ94kQ-aeZ1OQ-large.jpg",
@@ -2630,7 +2652,7 @@ const communityReviews = [
         "date": "2026-08-11"
     },
     {
-        "id": 240,
+        "id": 242,
         "author": "Harvey Twyman",
         "username": "Harvey Twyman",
         "avatar": "https://i1.sndcdn.com/avatars-fdQzp5QWkygKbykZ-g6zb4w-large.jpg",
@@ -2641,18 +2663,18 @@ const communityReviews = [
         "date": "2026-08-13"
     },
     {
-        "id": 241,
-        "author": "PS1C SLAYA",
-        "username": "PS1C SLAYA",
-        "avatar": "https://i1.sndcdn.com/avatars-ym35DkCk6741O8bC-VSb3Qg-large.jpg",
-        "comment": "so good! 👌",
+        "id": 243,
+        "author": "Lorenzo Zucchi Sartori",
+        "username": "Lozart",
+        "avatar": "https://i1.sndcdn.com/avatars-fTydIXnnrtv6Kqlk-RwzI9Q-large.jpg",
+        "comment": "The sound design is on point",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
         "date": "2026-11-06"
     },
     {
-        "id": 242,
+        "id": 244,
         "author": "Gabriel  patric smyth",
         "username": "Gabriel Patric",
         "avatar": "https://i1.sndcdn.com/avatars-RmKgsfwlhmEGbOAQ-asNjMg-large.jpg",
@@ -2663,7 +2685,7 @@ const communityReviews = [
         "date": "2026-11-03"
     },
     {
-        "id": 243,
+        "id": 245,
         "author": "Twistedreload",
         "username": "Twistedreload",
         "avatar": "https://i1.sndcdn.com/avatars-NNmSQlbcs71RyWyK-bltFag-large.jpg",
@@ -2674,7 +2696,7 @@ const communityReviews = [
         "date": "2026-10-15"
     },
     {
-        "id": 244,
+        "id": 246,
         "author": "Zawley",
         "username": "Zawley",
         "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
@@ -2685,7 +2707,7 @@ const communityReviews = [
         "date": "2026-09-25"
     },
     {
-        "id": 245,
+        "id": 247,
         "author": "Jah-Femi Telewa",
         "username": "The Monstera Music Group by Jah-Femi Telewa",
         "avatar": "https://i1.sndcdn.com/avatars-kcyvlX2mH9hj07uH-QOSBIQ-large.jpg",
@@ -2696,7 +2718,7 @@ const communityReviews = [
         "date": "2026-09-09"
     },
     {
-        "id": 246,
+        "id": 248,
         "author": "AGGRO",
         "username": "AGGRO",
         "avatar": "https://i1.sndcdn.com/avatars-fCqAr0GjsRwbeTpH-zYujKw-large.jpg",
@@ -2707,7 +2729,7 @@ const communityReviews = [
         "date": "2026-08-27"
     },
     {
-        "id": 247,
+        "id": 249,
         "author": "Leonhardt März",
         "username": "Leonhardt März",
         "avatar": "https://i1.sndcdn.com/avatars-aHQBLcKKLFcpu3Ip-4ZwzCA-large.jpg",
@@ -2718,7 +2740,7 @@ const communityReviews = [
         "date": "2026-08-10"
     },
     {
-        "id": 248,
+        "id": 250,
         "author": "Fabrice Monnot",
         "username": "ManBruce",
         "avatar": "https://i1.sndcdn.com/avatars-yjzyoaqgvR0zC3Cr-QEHyhw-large.jpg",
