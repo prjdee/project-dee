@@ -2,21 +2,21 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Aka Natty Rebel (*  KSB-PROJECT  *)",
-        "username": "KillaSoundBoy",
-        "avatar": "https://i1.sndcdn.com/avatars-vM6H1dxsmVhrfxjP-m5KKdQ-large.jpg",
-        "comment": "so good!",
+        "author": "Music that tells stories, and brings emotions",
+        "username": "Piamime",
+        "avatar": "https://i1.sndcdn.com/avatars-ynIymyHSprMMcwTh-xL3cPw-large.jpg",
+        "comment": "deep vibes 👏",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-17"
+        "date": "2026-11-18"
     },
     {
         "id": 2,
-        "author": "Rekog6",
-        "username": "Rekog6",
-        "avatar": "https://i1.sndcdn.com/avatars-umBjKy3YqYi8e8Ro-2XNdwA-large.jpg",
-        "comment": "Hi there, it has such a smooth flow. the drum swing is clean",
+        "author": "AKA OlynCTrance",
+        "username": "Olyn.cs",
+        "avatar": "https://i1.sndcdn.com/avatars-Jdh6IbperzqPqfom-K4mzbg-large.jpg",
+        "comment": "Buen techno el kick es genial",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
@@ -222,25 +222,25 @@ const communityReviews = [
     },
     {
         "id": 21,
-        "author": "Armijo Productions",
-        "username": "Armijo Productions",
-        "avatar": "https://i1.sndcdn.com/avatars-pGI8vD0WX8GNdsG3-DL1WJg-large.jpg",
-        "comment": "love it 💥",
+        "author": "KRT Production",
+        "username": "KRT Production",
+        "avatar": "https://i1.sndcdn.com/avatars-SXbacvZ3UrAOoI1K-QHyyFQ-large.jpg",
+        "comment": "unreal sound",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-17"
+        "date": "2026-11-18"
     },
     {
         "id": 22,
-        "author": "Hagar Shay",
-        "username": "Hagar Shay",
-        "avatar": "https://i1.sndcdn.com/avatars-Ols2Gm2gVRNTvURz-SaIilA-large.jpg",
-        "comment": "This track feels quietly self assured",
+        "author": "Decaf",
+        "username": "Decaf",
+        "avatar": "https://i1.sndcdn.com/avatars-n73gpZnzGTLOzpwI-CkMZuQ-large.jpg",
+        "comment": "Great one ! Definitely Banger ! 👍🏻",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
-        "date": "2026-11-16"
+        "date": "2026-11-17"
     },
     {
         "id": 23,
@@ -420,25 +420,25 @@ const communityReviews = [
     },
     {
         "id": 39,
-        "author": "Daniel Franke",
-        "username": "Sermocinor",
-        "avatar": "https://i1.sndcdn.com/avatars-UPUzqrLRwVhYms4r-h0CAOw-large.jpg",
-        "comment": "very soulful feeling, I like it, pretty cool",
+        "author": "KRT Production",
+        "username": "NUR",
+        "avatar": "https://i1.sndcdn.com/avatars-Svzz22CMA0wyGVv1-z4sBPQ-large.jpg",
+        "comment": "tune 🤯",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-16"
+        "date": "2026-11-18"
     },
     {
         "id": 40,
-        "author": "Brain Rot",
-        "username": "sanjock",
-        "avatar": "https://i1.sndcdn.com/avatars-LRv9v2q6GbfyNzvr-73uzyw-large.jpg",
-        "comment": "that opening is so sick. the synths are nuts",
+        "author": "PLEEZR",
+        "username": "PLEEZR",
+        "avatar": "https://i1.sndcdn.com/avatars-1UfF9u3pVPPYtJdL-QTGCbA-large.jpg",
+        "comment": "Love the energy 💪 this is hard",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
-        "date": "2026-11-15"
+        "date": "2026-11-17"
     },
     {
         "id": 41,
@@ -618,25 +618,25 @@ const communityReviews = [
     },
     {
         "id": 57,
-        "author": "Greg Elenis",
-        "username": "Greg Elenis",
-        "avatar": "https://i1.sndcdn.com/avatars-O74yyku4Ch9guJzD-B9iAyg-large.jpg",
-        "comment": "Great job here love the melodies",
+        "author": "Break - Drum and Bass",
+        "username": "Project : Mayhem",
+        "avatar": "https://i1.sndcdn.com/avatars-9yL1j3aTFPkFmLTX-xtPncg-large.jpg",
+        "comment": "dtrsngr in the cave of jungle",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-16"
+        "date": "2026-11-18"
     },
     {
         "id": 58,
-        "author": "SUPRIMO",
-        "username": "SUPRIMO",
-        "avatar": "https://i1.sndcdn.com/avatars-r9u0XRz5x7dC7rJ8-NJ5j1Q-large.jpg",
-        "comment": "Amazing bonus track, the drums sound soo good",
+        "author": "Rekog6",
+        "username": "Rekog6",
+        "avatar": "https://i1.sndcdn.com/avatars-umBjKy3YqYi8e8Ro-2XNdwA-large.jpg",
+        "comment": "Hi there, it has such a smooth flow. the drum swing is clean",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
-        "date": "2026-11-14"
+        "date": "2026-11-17"
     },
     {
         "id": 59,
@@ -805,25 +805,25 @@ const communityReviews = [
     },
     {
         "id": 74,
-        "author": "Michael Meyer",
-        "username": "DJ Mandala",
-        "avatar": "https://i1.sndcdn.com/avatars-t8eFjyERzFXiqzvq-H8LwJA-large.jpg",
-        "comment": "flawless",
+        "author": "Gefangen Intrance",
+        "username": "Gefangen Intrance",
+        "avatar": "https://i1.sndcdn.com/avatars-gCZ3ruSCGPmuUWxT-SbCgYA-large.jpg",
+        "comment": "amazing afro house tune, lovely vibes and beauty vocals!",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-16"
+        "date": "2026-11-18"
     },
     {
         "id": 75,
-        "author": "Klangtier",
-        "username": "Klangtier",
-        "avatar": "https://i1.sndcdn.com/avatars-iOSIgtGYIUEPyVDx-zgASqw-large.jpg",
-        "comment": "first November Shift, now a bonus track on top. busy month for you!",
+        "author": "Hagar Shay",
+        "username": "Hagar Shay",
+        "avatar": "https://i1.sndcdn.com/avatars-Ols2Gm2gVRNTvURz-SaIilA-large.jpg",
+        "comment": "This track feels quietly self assured",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
-        "date": "2026-11-14"
+        "date": "2026-11-16"
     },
     {
         "id": 76,
@@ -981,25 +981,25 @@ const communityReviews = [
     },
     {
         "id": 90,
-        "author": "AKA Mudlark ^",
-        "username": "AKA Mudlark ^",
-        "avatar": "https://i1.sndcdn.com/avatars-EMS2dg42vlOz2TVU-dSC55A-large.jpg",
-        "comment": "locked in",
+        "author": "Ra'ad",
+        "username": "RAAD (JO)",
+        "avatar": "https://i1.sndcdn.com/avatars-5IPGbcB0yWnbTxie-Lm9CMw-large.jpg",
+        "comment": "Vocals are interesting lol",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-16"
+        "date": "2026-11-17"
     },
     {
         "id": 91,
-        "author": "Wade Larwin",
-        "username": "Wade Larwin",
-        "avatar": "https://i1.sndcdn.com/avatars-t8cpAU4BJAzNu3V5-YAbJOw-large.jpg",
-        "comment": "love the energy 🔊",
+        "author": "Brain Rot",
+        "username": "sanjock",
+        "avatar": "https://i1.sndcdn.com/avatars-LRv9v2q6GbfyNzvr-73uzyw-large.jpg",
+        "comment": "that opening is so sick. the synths are nuts",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
-        "date": "2026-11-14"
+        "date": "2026-11-15"
     },
     {
         "id": 92,
@@ -1146,25 +1146,25 @@ const communityReviews = [
     },
     {
         "id": 105,
-        "author": "Chris Palmer",
-        "username": "Chris Palmer Refinoir",
-        "avatar": "https://i1.sndcdn.com/avatars-dmL8Z1sifnINpkwH-8ATmSg-large.jpg",
-        "comment": "Cool vocals, strong Afro beat, good perc and vibes",
+        "author": "JC.B featuring { *[] }",
+        "username": "JC.B featuring { *[] }",
+        "avatar": "https://i1.sndcdn.com/avatars-C7Vo6LeFFf88MNVr-iVOydg-large.jpg",
+        "comment": "Very relaxing vibes. Plus nice sounds and vocals. Really nice.",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-16"
+        "date": "2026-11-17"
     },
     {
         "id": 106,
-        "author": "Lorenzo Zucchi Sartori",
-        "username": "Lozart",
-        "avatar": "https://i1.sndcdn.com/avatars-fTydIXnnrtv6Kqlk-RwzI9Q-large.jpg",
-        "comment": "Pure dancefloor energy right here, massive tune!",
+        "author": "SUPRIMO",
+        "username": "SUPRIMO",
+        "avatar": "https://i1.sndcdn.com/avatars-r9u0XRz5x7dC7rJ8-NJ5j1Q-large.jpg",
+        "comment": "Amazing bonus track, the drums sound soo good",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
-        "date": "2026-11-13"
+        "date": "2026-11-14"
     },
     {
         "id": 107,
@@ -1311,25 +1311,25 @@ const communityReviews = [
     },
     {
         "id": 120,
-        "author": "AKA OlynCTrance",
-        "username": "Olyn.cs",
-        "avatar": "https://i1.sndcdn.com/avatars-Jdh6IbperzqPqfom-K4mzbg-large.jpg",
-        "comment": "buena composición  de esta cancion",
+        "author": "ROSSCO",
+        "username": "ROSSCO",
+        "avatar": "https://i1.sndcdn.com/avatars-wxo4L3Yyx88d1ldh-QfCNnQ-large.jpg",
+        "comment": "Really nice 👍",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-16"
+        "date": "2026-11-17"
     },
     {
         "id": 121,
-        "author": "Astronaut.Musik",
-        "username": "Astronaut.Musik",
-        "avatar": "https://i1.sndcdn.com/avatars-okh35V3iurCC8hDp-9YGOqg-large.jpg",
-        "comment": "HUGE ENERGY",
+        "author": "Klangtier",
+        "username": "Klangtier",
+        "avatar": "https://i1.sndcdn.com/avatars-iOSIgtGYIUEPyVDx-zgASqw-large.jpg",
+        "comment": "first November Shift, now a bonus track on top. busy month for you!",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
-        "date": "2026-11-12"
+        "date": "2026-11-14"
     },
     {
         "id": 122,
@@ -1476,25 +1476,25 @@ const communityReviews = [
     },
     {
         "id": 135,
-        "author": "Roberto Martin Brito",
-        "username": "R O B E R M A R T I N",
-        "avatar": "https://i1.sndcdn.com/avatars-Zv9MD8t2mVr6faIW-NaGDGA-large.jpg",
-        "comment": "nice track <33 sounds very well with full of good and sweet vibes, congrats!!!",
+        "author": "Aka Natty Rebel (*  KSB-PROJECT  *)",
+        "username": "KillaSoundBoy",
+        "avatar": "https://i1.sndcdn.com/avatars-vM6H1dxsmVhrfxjP-m5KKdQ-large.jpg",
+        "comment": "so good!",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-16"
+        "date": "2026-11-17"
     },
     {
         "id": 136,
-        "author": "Jerry Gildbrandsen",
-        "username": "Techneck Records and Tech or House Records",
-        "avatar": "https://i1.sndcdn.com/avatars-Q0OwQzlLgN6wyygW-eoYAKA-large.jpg",
-        "comment": "straight fire",
+        "author": "Wade Larwin",
+        "username": "Wade Larwin",
+        "avatar": "https://i1.sndcdn.com/avatars-t8cpAU4BJAzNu3V5-YAbJOw-large.jpg",
+        "comment": "love the energy 🔊",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
-        "date": "2026-11-12"
+        "date": "2026-11-14"
     },
     {
         "id": 137,
@@ -1641,25 +1641,25 @@ const communityReviews = [
     },
     {
         "id": 150,
-        "author": "Cocoa Spoon",
-        "username": "Cocoa Spoon",
-        "avatar": "https://i1.sndcdn.com/avatars-qYCcEBHsz5UIavyh-7xsNsQ-large.jpg",
-        "comment": "love this one a lot, what did you use for the low end?",
+        "author": "Armijo Productions",
+        "username": "Armijo Productions",
+        "avatar": "https://i1.sndcdn.com/avatars-pGI8vD0WX8GNdsG3-DL1WJg-large.jpg",
+        "comment": "love it 💥",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-16"
+        "date": "2026-11-17"
     },
     {
         "id": 151,
-        "author": "Tannova",
-        "username": "Tannova",
-        "avatar": "https://i1.sndcdn.com/avatars-FqOzJjgVNRqQF7s0-zOLqOA-large.jpg",
-        "comment": "love your tracks as always my friend well done!",
+        "author": "Lorenzo Zucchi Sartori",
+        "username": "Lozart",
+        "avatar": "https://i1.sndcdn.com/avatars-fTydIXnnrtv6Kqlk-RwzI9Q-large.jpg",
+        "comment": "Pure dancefloor energy right here, massive tune!",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
-        "date": "2026-11-12"
+        "date": "2026-11-13"
     },
     {
         "id": 152,
@@ -1806,17 +1806,28 @@ const communityReviews = [
     },
     {
         "id": 165,
-        "author": "Leigh Wylde",
-        "username": "WyLeigh",
-        "avatar": "https://i1.sndcdn.com/avatars-7k5hlXMbREYuhl9j-jwfMAA-large.jpg",
-        "comment": "Fn crayzee crayzee track love it",
+        "author": "Daniel Franke",
+        "username": "Sermocinor",
+        "avatar": "https://i1.sndcdn.com/avatars-UPUzqrLRwVhYms4r-h0CAOw-large.jpg",
+        "comment": "very soulful feeling, I like it, pretty cool",
+        "trackTitle": "The Jar of Anansi | Project Dee",
+        "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
+        "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
+        "date": "2026-11-16"
+    },
+    {
+        "id": 166,
+        "author": "Astronaut.Musik",
+        "username": "Astronaut.Musik",
+        "avatar": "https://i1.sndcdn.com/avatars-okh35V3iurCC8hDp-9YGOqg-large.jpg",
+        "comment": "HUGE ENERGY",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
         "date": "2026-11-12"
     },
     {
-        "id": 166,
+        "id": 167,
         "author": "Jah-Femi Telewa",
         "username": "The Monstera Music Group by Jah-Femi Telewa",
         "avatar": "https://i1.sndcdn.com/avatars-kcyvlX2mH9hj07uH-QOSBIQ-large.jpg",
@@ -1827,7 +1838,7 @@ const communityReviews = [
         "date": "2026-11-09"
     },
     {
-        "id": 167,
+        "id": 168,
         "author": "K N Z D 3 N",
         "username": "KNZD3N",
         "avatar": "https://i1.sndcdn.com/avatars-QMHtJQ3ap4NvOJJR-Wb0vzg-large.jpg",
@@ -1838,7 +1849,7 @@ const communityReviews = [
         "date": "2026-11-06"
     },
     {
-        "id": 168,
+        "id": 169,
         "author": "Sativadiva",
         "username": "Sativadiva",
         "avatar": "https://i1.sndcdn.com/avatars-43V1zyEkQzeATG3p-N1gktg-large.jpg",
@@ -1849,7 +1860,7 @@ const communityReviews = [
         "date": "2026-10-18"
     },
     {
-        "id": 169,
+        "id": 170,
         "author": "Zawley",
         "username": "Zawley",
         "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
@@ -1860,7 +1871,7 @@ const communityReviews = [
         "date": "2026-10-02"
     },
     {
-        "id": 170,
+        "id": 171,
         "author": "K-Netik",
         "username": "K-Netik",
         "avatar": "https://i1.sndcdn.com/avatars-Aysrw1y7GHiwfkF8-XgGTyQ-large.jpg",
@@ -1871,7 +1882,7 @@ const communityReviews = [
         "date": "2026-09-27"
     },
     {
-        "id": 171,
+        "id": 172,
         "author": "Harmonia At Night",
         "username": "Harmonia At Night",
         "avatar": "https://i1.sndcdn.com/avatars-000140583453-338nvj-large.jpg",
@@ -1882,7 +1893,7 @@ const communityReviews = [
         "date": "2026-09-10"
     },
     {
-        "id": 172,
+        "id": 173,
         "author": "Berry Fang",
         "username": "BerryFang",
         "avatar": "https://i1.sndcdn.com/avatars-s37cAL9R59DlLsjn-AC4V3Q-large.jpg",
@@ -1893,7 +1904,7 @@ const communityReviews = [
         "date": "2026-08-29"
     },
     {
-        "id": 173,
+        "id": 174,
         "author": "Johan F. Langhendries",
         "username": "Abstinent Dazzle Music Productions",
         "avatar": "https://i1.sndcdn.com/avatars-8qFTrEtj0Vb99Y7U-ynGSbQ-large.jpg",
@@ -1904,7 +1915,7 @@ const communityReviews = [
         "date": "2026-08-17"
     },
     {
-        "id": 174,
+        "id": 175,
         "author": "DJ Jamal G",
         "username": "DJ Jamal G",
         "avatar": "https://i1.sndcdn.com/avatars-iRb6LpSk2DhcYRPL-joLYhA-large.jpg",
@@ -1915,7 +1926,7 @@ const communityReviews = [
         "date": "2026-08-28"
     },
     {
-        "id": 175,
+        "id": 176,
         "author": "Kakarottomax",
         "username": "Kakarottomax",
         "avatar": "https://i1.sndcdn.com/avatars-M2kfvS4HNTMvwi58-W3TYaw-large.jpg",
@@ -1926,7 +1937,7 @@ const communityReviews = [
         "date": "2026-07-18"
     },
     {
-        "id": 176,
+        "id": 177,
         "author": "W K",
         "username": "KAMYCZKOVA",
         "avatar": "https://i1.sndcdn.com/avatars-QoymyGXI7ueBNgZx-eMyAmg-large.jpg",
@@ -1937,7 +1948,7 @@ const communityReviews = [
         "date": "2026-07-17"
     },
     {
-        "id": 177,
+        "id": 178,
         "author": "Number 1 in TOP 100 ON BEATPORT",
         "username": "Victor Marin",
         "avatar": "https://i1.sndcdn.com/avatars-OqUbhopmLd4H7uvb-uqJK3Q-large.jpg",
@@ -1948,18 +1959,29 @@ const communityReviews = [
         "date": "2026-07-23"
     },
     {
-        "id": 178,
-        "author": "Mimsoulrecords",
-        "username": "Mimsoulrecords",
-        "avatar": "https://i1.sndcdn.com/avatars-tiTK03DXlf9tOPw4-FA7bBQ-large.jpg",
-        "comment": "Hard-hitting peak time energy, the kick and rolling percussion work really well.",
+        "id": 179,
+        "author": "Greg Elenis",
+        "username": "Greg Elenis",
+        "avatar": "https://i1.sndcdn.com/avatars-O74yyku4Ch9guJzD-B9iAyg-large.jpg",
+        "comment": "Great job here love the melodies",
+        "trackTitle": "The Jar of Anansi | Project Dee",
+        "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
+        "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
+        "date": "2026-11-16"
+    },
+    {
+        "id": 180,
+        "author": "Jerry Gildbrandsen",
+        "username": "Techneck Records and Tech or House Records",
+        "avatar": "https://i1.sndcdn.com/avatars-Q0OwQzlLgN6wyygW-eoYAKA-large.jpg",
+        "comment": "straight fire",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
         "date": "2026-11-12"
     },
     {
-        "id": 179,
+        "id": 181,
         "author": "Roman Zegbaum",
         "username": "ElektRoman The Biomind",
         "avatar": "https://i1.sndcdn.com/avatars-IjfwYBzMEkv7NHBW-srIuMA-large.jpg",
@@ -1970,7 +1992,7 @@ const communityReviews = [
         "date": "2026-11-08"
     },
     {
-        "id": 180,
+        "id": 182,
         "author": "Ed Viber",
         "username": "Ed Viber",
         "avatar": "https://i1.sndcdn.com/avatars-zvF5emrzCl0JX7FF-RTqQwQ-large.jpg",
@@ -1981,7 +2003,7 @@ const communityReviews = [
         "date": "2026-11-06"
     },
     {
-        "id": 181,
+        "id": 183,
         "author": "I AM®",
         "username": "I AM®",
         "avatar": "https://i1.sndcdn.com/avatars-zNzdyArqeozIe0aU-R9pZxg-large.jpg",
@@ -1992,7 +2014,7 @@ const communityReviews = [
         "date": "2026-10-18"
     },
     {
-        "id": 182,
+        "id": 184,
         "author": "ÆLLI",
         "username": "ÆLLI",
         "avatar": "https://i1.sndcdn.com/avatars-JzjVpJCPwpyfX4XW-IYNYCA-large.jpg",
@@ -2003,7 +2025,7 @@ const communityReviews = [
         "date": "2026-10-02"
     },
     {
-        "id": 183,
+        "id": 185,
         "author": "guittim",
         "username": "guittim",
         "avatar": "https://i1.sndcdn.com/avatars-PVTR5wN5IYVyXzEY-rjTe2g-large.jpg",
@@ -2014,7 +2036,7 @@ const communityReviews = [
         "date": "2026-09-27"
     },
     {
-        "id": 184,
+        "id": 186,
         "author": "light gal",
         "username": "light gal",
         "avatar": "https://i1.sndcdn.com/avatars-6dzs4awsWEyDnOey-FbAyBA-large.jpg",
@@ -2025,7 +2047,7 @@ const communityReviews = [
         "date": "2026-09-10"
     },
     {
-        "id": 185,
+        "id": 187,
         "author": "Juan Fco. Bueno",
         "username": "Juan Fco. Bueno",
         "avatar": "https://i1.sndcdn.com/avatars-CeiwpRt9Xs1QHl9z-7KLqGQ-large.jpg",
@@ -2036,7 +2058,7 @@ const communityReviews = [
         "date": "2026-08-29"
     },
     {
-        "id": 186,
+        "id": 188,
         "author": "Chriss Chross",
         "username": "ChrissChross",
         "avatar": "https://i1.sndcdn.com/avatars-Jz8PsYhFqBfVBgIk-8qwPSw-large.jpg",
@@ -2047,7 +2069,7 @@ const communityReviews = [
         "date": "2026-08-14"
     },
     {
-        "id": 187,
+        "id": 189,
         "author": "METAXY",
         "username": "METAXY",
         "avatar": "https://i1.sndcdn.com/avatars-PtfiIZt40kAzQGZz-0wzFbA-large.jpg",
@@ -2058,7 +2080,7 @@ const communityReviews = [
         "date": "2026-08-24"
     },
     {
-        "id": 188,
+        "id": 190,
         "author": "Tok About It",
         "username": "Tok About It Records",
         "avatar": "https://i1.sndcdn.com/avatars-qOAJzMVUjAK4Pty7-fJvmQw-large.jpg",
@@ -2069,7 +2091,7 @@ const communityReviews = [
         "date": "2026-07-17"
     },
     {
-        "id": 189,
+        "id": 191,
         "author": "Jonas Bergström",
         "username": "GeezyorK",
         "avatar": "https://i1.sndcdn.com/avatars-hiI74ZKD2pRoNRQL-eU1CnA-large.jpg",
@@ -2080,18 +2102,29 @@ const communityReviews = [
         "date": "2026-07-23"
     },
     {
-        "id": 190,
-        "author": "Cocoa Spoon",
-        "username": "Cocoa Spoon",
-        "avatar": "https://i1.sndcdn.com/avatars-qYCcEBHsz5UIavyh-7xsNsQ-large.jpg",
-        "comment": "on repeat here for the third time",
+        "id": 192,
+        "author": "Michael Meyer",
+        "username": "DJ Mandala",
+        "avatar": "https://i1.sndcdn.com/avatars-t8eFjyERzFXiqzvq-H8LwJA-large.jpg",
+        "comment": "flawless",
+        "trackTitle": "The Jar of Anansi | Project Dee",
+        "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
+        "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
+        "date": "2026-11-16"
+    },
+    {
+        "id": 193,
+        "author": "Tannova",
+        "username": "Tannova",
+        "avatar": "https://i1.sndcdn.com/avatars-FqOzJjgVNRqQF7s0-zOLqOA-large.jpg",
+        "comment": "love your tracks as always my friend well done!",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
         "date": "2026-11-12"
     },
     {
-        "id": 191,
+        "id": 194,
         "author": "Arthur deBerardinis",
         "username": "Sweetest Taboo",
         "avatar": "https://i1.sndcdn.com/avatars-y5W0hRulWKHk1Hny-z97BUg-large.jpg",
@@ -2102,7 +2135,7 @@ const communityReviews = [
         "date": "2026-11-08"
     },
     {
-        "id": 192,
+        "id": 195,
         "author": "DJ TONIX",
         "username": "DJ TONIX",
         "avatar": "https://i1.sndcdn.com/avatars-vV4uxOXtXKTF2I7X-J5YigA-large.jpg",
@@ -2113,7 +2146,7 @@ const communityReviews = [
         "date": "2026-11-05"
     },
     {
-        "id": 193,
+        "id": 196,
         "author": "KRT Production",
         "username": "KRT Production",
         "avatar": "https://i1.sndcdn.com/avatars-SXbacvZ3UrAOoI1K-QHyyFQ-large.jpg",
@@ -2124,7 +2157,7 @@ const communityReviews = [
         "date": "2026-10-17"
     },
     {
-        "id": 194,
+        "id": 197,
         "author": "Tannova",
         "username": "Tannova",
         "avatar": "https://i1.sndcdn.com/avatars-FqOzJjgVNRqQF7s0-zOLqOA-large.jpg",
@@ -2135,7 +2168,7 @@ const communityReviews = [
         "date": "2026-10-02"
     },
     {
-        "id": 195,
+        "id": 198,
         "author": "KRT Production",
         "username": "BBAM",
         "avatar": "https://i1.sndcdn.com/avatars-xgtFE1mQaya1UYVy-YInE5g-large.jpg",
@@ -2146,7 +2179,7 @@ const communityReviews = [
         "date": "2026-09-27"
     },
     {
-        "id": 196,
+        "id": 199,
         "author": "Zawley",
         "username": "Zawley",
         "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
@@ -2157,7 +2190,7 @@ const communityReviews = [
         "date": "2026-09-10"
     },
     {
-        "id": 197,
+        "id": 200,
         "author": "Aaron Schwallier",
         "username": "TechTonic",
         "avatar": "https://i1.sndcdn.com/avatars-QUIM26R8onOpOJS6-78533w-large.jpg",
@@ -2168,7 +2201,7 @@ const communityReviews = [
         "date": "2026-08-29"
     },
     {
-        "id": 198,
+        "id": 201,
         "author": "retro to the present",
         "username": "analogstoy",
         "avatar": "https://i1.sndcdn.com/avatars-wV4OXz7DMnpzfCzy-WpMCTg-large.jpg",
@@ -2179,7 +2212,7 @@ const communityReviews = [
         "date": "2026-08-14"
     },
     {
-        "id": 199,
+        "id": 202,
         "author": "Capotillo Freestyle",
         "username": "Capotillo Freestyle",
         "avatar": "https://i1.sndcdn.com/avatars-yEhZxHNnIFKmuBEj-GKbX6w-large.jpg",
@@ -2190,7 +2223,7 @@ const communityReviews = [
         "date": "2026-08-20"
     },
     {
-        "id": 200,
+        "id": 203,
         "author": "Chris DIESEL MOTION RECORDS © ®",
         "username": "TheDieselman",
         "avatar": "https://i1.sndcdn.com/avatars-g3mrP9Ph0WklwyyV-qSj0tA-large.jpg",
@@ -2201,18 +2234,29 @@ const communityReviews = [
         "date": "2026-07-23"
     },
     {
-        "id": 201,
-        "author": "KRT Production",
-        "username": "BBAM",
-        "avatar": "https://i1.sndcdn.com/avatars-xgtFE1mQaya1UYVy-YInE5g-large.jpg",
-        "comment": "this a jam ✨",
+        "id": 204,
+        "author": "AKA Mudlark ^",
+        "username": "AKA Mudlark ^",
+        "avatar": "https://i1.sndcdn.com/avatars-EMS2dg42vlOz2TVU-dSC55A-large.jpg",
+        "comment": "locked in",
+        "trackTitle": "The Jar of Anansi | Project Dee",
+        "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
+        "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
+        "date": "2026-11-16"
+    },
+    {
+        "id": 205,
+        "author": "Leigh Wylde",
+        "username": "WyLeigh",
+        "avatar": "https://i1.sndcdn.com/avatars-7k5hlXMbREYuhl9j-jwfMAA-large.jpg",
+        "comment": "Fn crayzee crayzee track love it",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
         "date": "2026-11-12"
     },
     {
-        "id": 202,
+        "id": 206,
         "author": "Integrity Creativity",
         "username": "AFRICARE PRODUCTIONS",
         "avatar": "https://i1.sndcdn.com/avatars-zzSGrxsrE7ozM2Wz-7EzBcg-large.jpg",
@@ -2223,7 +2267,7 @@ const communityReviews = [
         "date": "2026-11-08"
     },
     {
-        "id": 203,
+        "id": 207,
         "author": "Ladislav Tesar",
         "username": "Ladat",
         "avatar": "https://i1.sndcdn.com/avatars-Rgozf7mUhzujbdb4-ArXQEQ-large.jpg",
@@ -2234,7 +2278,7 @@ const communityReviews = [
         "date": "2026-11-05"
     },
     {
-        "id": 204,
+        "id": 208,
         "author": "KRT Production",
         "username": "NUR",
         "avatar": "https://i1.sndcdn.com/avatars-Svzz22CMA0wyGVv1-z4sBPQ-large.jpg",
@@ -2245,7 +2289,7 @@ const communityReviews = [
         "date": "2026-10-17"
     },
     {
-        "id": 205,
+        "id": 209,
         "author": "KRT Production",
         "username": "KRT Production",
         "avatar": "https://i1.sndcdn.com/avatars-SXbacvZ3UrAOoI1K-QHyyFQ-large.jpg",
@@ -2256,7 +2300,7 @@ const communityReviews = [
         "date": "2026-09-27"
     },
     {
-        "id": 206,
+        "id": 210,
         "author": "Scribila DTN",
         "username": "Scribila DTN",
         "avatar": "https://i1.sndcdn.com/avatars-1IzVfPVWkquJyeyZ-Fr8bpQ-large.jpg",
@@ -2267,7 +2311,7 @@ const communityReviews = [
         "date": "2026-09-10"
     },
     {
-        "id": 207,
+        "id": 211,
         "author": "Jesus B Records",
         "username": "Jesus B Records",
         "avatar": "https://i1.sndcdn.com/avatars-cWtmz6LU3pyFJrCh-A1zIrA-large.jpg",
@@ -2278,7 +2322,7 @@ const communityReviews = [
         "date": "2026-08-29"
     },
     {
-        "id": 208,
+        "id": 212,
         "author": "Andrew Brower",
         "username": "LoNeWolF (Inc.)",
         "avatar": "https://i1.sndcdn.com/avatars-hPu8dsQMu1cheiVu-fHOeIw-large.jpg",
@@ -2289,7 +2333,7 @@ const communityReviews = [
         "date": "2026-08-14"
     },
     {
-        "id": 209,
+        "id": 213,
         "author": "Jungle | Drum & Bass | Breakbeat",
         "username": "DELTÄ ØCTÄGØN",
         "avatar": "https://i1.sndcdn.com/avatars-QLcqH4D6yt6FpvfR-zVAVzA-large.jpg",
@@ -2300,7 +2344,7 @@ const communityReviews = [
         "date": "2026-08-16"
     },
     {
-        "id": 210,
+        "id": 214,
         "author": "Marcus Flodge",
         "username": "Marcus Flodge",
         "avatar": "https://i1.sndcdn.com/avatars-cabjgePZgNfEcnOA-PBXTbQ-large.jpg",
@@ -2311,18 +2355,29 @@ const communityReviews = [
         "date": "2026-05-17"
     },
     {
-        "id": 211,
-        "author": "Roger Benini",
-        "username": "🅺🅾🅻🅻🅴🅺🆃🅸🆅🅴 🆂🅲🅷🅰🅻🅻🆂🅲🅷🆄🆃🆉",
-        "avatar": "https://i1.sndcdn.com/avatars-0xucdfRucpYFjqJn-d1iYkw-large.jpg",
-        "comment": "this knocks",
+        "id": 215,
+        "author": "Chris Palmer",
+        "username": "Chris Palmer Refinoir",
+        "avatar": "https://i1.sndcdn.com/avatars-dmL8Z1sifnINpkwH-8ATmSg-large.jpg",
+        "comment": "Cool vocals, strong Afro beat, good perc and vibes",
+        "trackTitle": "The Jar of Anansi | Project Dee",
+        "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
+        "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
+        "date": "2026-11-16"
+    },
+    {
+        "id": 216,
+        "author": "Mimsoulrecords",
+        "username": "Mimsoulrecords",
+        "avatar": "https://i1.sndcdn.com/avatars-tiTK03DXlf9tOPw4-FA7bBQ-large.jpg",
+        "comment": "Hard-hitting peak time energy, the kick and rolling percussion work really well.",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
         "date": "2026-11-12"
     },
     {
-        "id": 212,
+        "id": 217,
         "author": "Deep Progressive Future  House",
         "username": "PAS-RISKY",
         "avatar": "https://i1.sndcdn.com/avatars-V9FqSyln95OhccnB-UO9aKQ-large.jpg",
@@ -2333,7 +2388,7 @@ const communityReviews = [
         "date": "2026-11-07"
     },
     {
-        "id": 213,
+        "id": 218,
         "author": "FOREV3R MYUSIC",
         "username": "千ㄖ尺乇<3尺",
         "avatar": "https://i1.sndcdn.com/avatars-sUrmDslP7hJ2jV3K-eAuoKQ-large.jpg",
@@ -2344,7 +2399,7 @@ const communityReviews = [
         "date": "2026-11-05"
     },
     {
-        "id": 214,
+        "id": 219,
         "author": "Frank Visosky",
         "username": "Frank Zozky",
         "avatar": "https://i1.sndcdn.com/avatars-Agni3c6GuJMSLrvl-RBNlfg-large.jpg",
@@ -2355,7 +2410,7 @@ const communityReviews = [
         "date": "2026-10-17"
     },
     {
-        "id": 215,
+        "id": 220,
         "author": "KRT Production",
         "username": "NUR",
         "avatar": "https://i1.sndcdn.com/avatars-Svzz22CMA0wyGVv1-z4sBPQ-large.jpg",
@@ -2366,7 +2421,7 @@ const communityReviews = [
         "date": "2026-09-27"
     },
     {
-        "id": 216,
+        "id": 221,
         "author": "Kakarottomax",
         "username": "Kakarottomax",
         "avatar": "https://i1.sndcdn.com/avatars-M2kfvS4HNTMvwi58-W3TYaw-large.jpg",
@@ -2377,7 +2432,7 @@ const communityReviews = [
         "date": "2026-09-10"
     },
     {
-        "id": 217,
+        "id": 222,
         "author": "Suzy Davies",
         "username": "Suzy Davies",
         "avatar": "https://i1.sndcdn.com/avatars-000245858999-hme53b-large.jpg",
@@ -2388,7 +2443,7 @@ const communityReviews = [
         "date": "2026-08-28"
     },
     {
-        "id": 218,
+        "id": 223,
         "author": "DJ Rituala",
         "username": "DJ Rituala (Progressive Techno Girl)",
         "avatar": "https://i1.sndcdn.com/avatars-fQgSyzjjOMQ1lW3O-k66RNQ-large.jpg",
@@ -2399,7 +2454,7 @@ const communityReviews = [
         "date": "2026-08-11"
     },
     {
-        "id": 219,
+        "id": 224,
         "author": "SØLIX",
         "username": "SØLIX",
         "avatar": "https://i1.sndcdn.com/avatars-zznbzZQyP3bCCaOT-mHBcVw-large.jpg",
@@ -2410,18 +2465,29 @@ const communityReviews = [
         "date": "2026-08-15"
     },
     {
-        "id": 220,
-        "author": "Connor Gray",
-        "username": "SkullFreek",
-        "avatar": "https://i1.sndcdn.com/avatars-gYtmyY2vyNIh7gF1-pHJQrg-large.jpg",
-        "comment": "Driving peak-time techno — the groove is relentless and the synth work is hypnotic. Massive track!",
+        "id": 225,
+        "author": "AKA OlynCTrance",
+        "username": "Olyn.cs",
+        "avatar": "https://i1.sndcdn.com/avatars-Jdh6IbperzqPqfom-K4mzbg-large.jpg",
+        "comment": "buena composición  de esta cancion",
+        "trackTitle": "The Jar of Anansi | Project Dee",
+        "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
+        "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
+        "date": "2026-11-16"
+    },
+    {
+        "id": 226,
+        "author": "Cocoa Spoon",
+        "username": "Cocoa Spoon",
+        "avatar": "https://i1.sndcdn.com/avatars-qYCcEBHsz5UIavyh-7xsNsQ-large.jpg",
+        "comment": "on repeat here for the third time",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
-        "date": "2026-11-10"
+        "date": "2026-11-12"
     },
     {
-        "id": 221,
+        "id": 227,
         "author": "K N Z D 3 N",
         "username": "KNZD3N",
         "avatar": "https://i1.sndcdn.com/avatars-QMHtJQ3ap4NvOJJR-Wb0vzg-large.jpg",
@@ -2432,7 +2498,7 @@ const communityReviews = [
         "date": "2026-11-07"
     },
     {
-        "id": 222,
+        "id": 228,
         "author": "Vorales",
         "username": "VORALES",
         "avatar": "https://i1.sndcdn.com/avatars-FYW6lXbRmiMWiMEI-r8vYPg-large.jpg",
@@ -2443,7 +2509,7 @@ const communityReviews = [
         "date": "2026-11-05"
     },
     {
-        "id": 223,
+        "id": 229,
         "author": "Armijo Productions",
         "username": "Armijo Productions",
         "avatar": "https://i1.sndcdn.com/avatars-pGI8vD0WX8GNdsG3-DL1WJg-large.jpg",
@@ -2454,7 +2520,7 @@ const communityReviews = [
         "date": "2026-10-16"
     },
     {
-        "id": 224,
+        "id": 230,
         "author": "Sativadiva",
         "username": "Sativadiva",
         "avatar": "https://i1.sndcdn.com/avatars-43V1zyEkQzeATG3p-N1gktg-large.jpg",
@@ -2465,7 +2531,7 @@ const communityReviews = [
         "date": "2026-09-26"
     },
     {
-        "id": 225,
+        "id": 231,
         "author": "Cade Ackermann",
         "username": "Raebay",
         "avatar": "https://i1.sndcdn.com/avatars-aFJGd3teFTwhcyiM-DvVQ7A-large.jpg",
@@ -2476,7 +2542,7 @@ const communityReviews = [
         "date": "2026-09-10"
     },
     {
-        "id": 226,
+        "id": 232,
         "author": "Twistedreload",
         "username": "Twistedreload",
         "avatar": "https://i1.sndcdn.com/avatars-NNmSQlbcs71RyWyK-bltFag-large.jpg",
@@ -2487,7 +2553,7 @@ const communityReviews = [
         "date": "2026-08-28"
     },
     {
-        "id": 227,
+        "id": 233,
         "author": "Sativadiva",
         "username": "Sativadiva",
         "avatar": "https://i1.sndcdn.com/avatars-43V1zyEkQzeATG3p-N1gktg-large.jpg",
@@ -2498,7 +2564,7 @@ const communityReviews = [
         "date": "2026-08-11"
     },
     {
-        "id": 228,
+        "id": 234,
         "author": "Chris DIESEL MOTION RECORDS © ®",
         "username": "TheDieselman",
         "avatar": "https://i1.sndcdn.com/avatars-g3mrP9Ph0WklwyyV-qSj0tA-large.jpg",
@@ -2509,18 +2575,29 @@ const communityReviews = [
         "date": "2026-08-15"
     },
     {
-        "id": 229,
-        "author": "Harmonia At Night",
-        "username": "Harmonia At Night",
-        "avatar": "https://i1.sndcdn.com/avatars-000140583453-338nvj-large.jpg",
-        "comment": "Big ⚡",
+        "id": 235,
+        "author": "Roberto Martin Brito",
+        "username": "R O B E R M A R T I N",
+        "avatar": "https://i1.sndcdn.com/avatars-Zv9MD8t2mVr6faIW-NaGDGA-large.jpg",
+        "comment": "nice track <33 sounds very well with full of good and sweet vibes, congrats!!!",
+        "trackTitle": "The Jar of Anansi | Project Dee",
+        "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
+        "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
+        "date": "2026-11-16"
+    },
+    {
+        "id": 236,
+        "author": "KRT Production",
+        "username": "BBAM",
+        "avatar": "https://i1.sndcdn.com/avatars-xgtFE1mQaya1UYVy-YInE5g-large.jpg",
+        "comment": "this a jam ✨",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
         "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
-        "date": "2026-11-10"
+        "date": "2026-11-12"
     },
     {
-        "id": 230,
+        "id": 237,
         "author": "Oscar Garcia",
         "username": "Oscar J Garcia",
         "avatar": "https://i1.sndcdn.com/avatars-6aKqoQWX6BpTGGOt-ulO1OQ-large.jpg",
@@ -2531,7 +2608,7 @@ const communityReviews = [
         "date": "2026-11-06"
     },
     {
-        "id": 231,
+        "id": 238,
         "author": "KRVLL1ST",
         "username": "KRVLL1ST",
         "avatar": "https://i1.sndcdn.com/avatars-QGDLuPAMOTOsTxlo-LRtLbA-large.jpg",
@@ -2542,7 +2619,7 @@ const communityReviews = [
         "date": "2026-11-05"
     },
     {
-        "id": 232,
+        "id": 239,
         "author": "Lilac Beats",
         "username": "Lilac Beats",
         "avatar": "https://i1.sndcdn.com/avatars-Ws5tr7vXvu8pFLIw-hki99g-large.jpg",
@@ -2553,7 +2630,7 @@ const communityReviews = [
         "date": "2026-10-16"
     },
     {
-        "id": 233,
+        "id": 240,
         "author": "I AM®",
         "username": "I AM®",
         "avatar": "https://i1.sndcdn.com/avatars-zNzdyArqeozIe0aU-R9pZxg-large.jpg",
@@ -2564,7 +2641,7 @@ const communityReviews = [
         "date": "2026-09-26"
     },
     {
-        "id": 234,
+        "id": 241,
         "author": "K N Z D 3 N",
         "username": "KNZD3N",
         "avatar": "https://i1.sndcdn.com/avatars-QMHtJQ3ap4NvOJJR-Wb0vzg-large.jpg",
@@ -2575,7 +2652,7 @@ const communityReviews = [
         "date": "2026-09-09"
     },
     {
-        "id": 235,
+        "id": 242,
         "author": "Zawley",
         "username": "Zawley",
         "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
@@ -2586,7 +2663,7 @@ const communityReviews = [
         "date": "2026-08-28"
     },
     {
-        "id": 236,
+        "id": 243,
         "author": "W K",
         "username": "KAMYCZKOVA",
         "avatar": "https://i1.sndcdn.com/avatars-QoymyGXI7ueBNgZx-eMyAmg-large.jpg",
@@ -2597,7 +2674,7 @@ const communityReviews = [
         "date": "2026-08-11"
     },
     {
-        "id": 237,
+        "id": 244,
         "author": "KRT Production",
         "username": "KRT Production",
         "avatar": "https://i1.sndcdn.com/avatars-SXbacvZ3UrAOoI1K-QHyyFQ-large.jpg",
@@ -2608,7 +2685,29 @@ const communityReviews = [
         "date": "2026-08-15"
     },
     {
-        "id": 238,
+        "id": 245,
+        "author": "Cocoa Spoon",
+        "username": "Cocoa Spoon",
+        "avatar": "https://i1.sndcdn.com/avatars-qYCcEBHsz5UIavyh-7xsNsQ-large.jpg",
+        "comment": "love this one a lot, what did you use for the low end?",
+        "trackTitle": "The Jar of Anansi | Project Dee",
+        "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
+        "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
+        "date": "2026-11-16"
+    },
+    {
+        "id": 246,
+        "author": "Roger Benini",
+        "username": "🅺🅾🅻🅻🅴🅺🆃🅸🆅🅴 🆂🅲🅷🅰🅻🅻🆂🅲🅷🆄🆃🆉",
+        "avatar": "https://i1.sndcdn.com/avatars-0xucdfRucpYFjqJn-d1iYkw-large.jpg",
+        "comment": "this knocks",
+        "trackTitle": "The 5th Element (November Bonus Track)",
+        "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
+        "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
+        "date": "2026-11-12"
+    },
+    {
+        "id": 247,
         "author": "JARR Head",
         "username": "JARR Head",
         "avatar": "https://i1.sndcdn.com/avatars-zZKB6hnh5IXqypAz-Ga7Bww-large.jpg",
@@ -2619,7 +2718,7 @@ const communityReviews = [
         "date": "2026-11-06"
     },
     {
-        "id": 239,
+        "id": 248,
         "author": "Resazat Ay",
         "username": "Resazat",
         "avatar": "https://i1.sndcdn.com/avatars-fiJ6W3WXEqL2jPsO-ucYcCA-large.jpg",
@@ -2630,7 +2729,7 @@ const communityReviews = [
         "date": "2026-11-04"
     },
     {
-        "id": 240,
+        "id": 249,
         "author": "FREE DOWNLOADS",
         "username": "Bunshin Records",
         "avatar": "https://i1.sndcdn.com/avatars-EdJGQJfh39mniFyH-lvL8nQ-large.jpg",
@@ -2641,7 +2740,7 @@ const communityReviews = [
         "date": "2026-10-15"
     },
     {
-        "id": 241,
+        "id": 250,
         "author": "Lil Zaiyan",
         "username": "Lil Zaiyan",
         "avatar": "https://i1.sndcdn.com/avatars-hgvWz7yA9ZSEs1Gg-LeLbRA-large.jpg",
@@ -2652,7 +2751,7 @@ const communityReviews = [
         "date": "2026-09-26"
     },
     {
-        "id": 242,
+        "id": 251,
         "author": "guittim",
         "username": "guittim",
         "avatar": "https://i1.sndcdn.com/avatars-PVTR5wN5IYVyXzEY-rjTe2g-large.jpg",
@@ -2663,7 +2762,7 @@ const communityReviews = [
         "date": "2026-09-09"
     },
     {
-        "id": 243,
+        "id": 252,
         "author": "Michael Meyer",
         "username": "DJ Mandala",
         "avatar": "https://i1.sndcdn.com/avatars-t8eFjyERzFXiqzvq-H8LwJA-large.jpg",
@@ -2674,7 +2773,7 @@ const communityReviews = [
         "date": "2026-08-27"
     },
     {
-        "id": 244,
+        "id": 253,
         "author": "FALLEN PREVAIL",
         "username": "FALLEN PREVAIL",
         "avatar": "https://i1.sndcdn.com/avatars-lngyGDOmXyIQfwjO-OzGvFw-large.jpg",
@@ -2685,7 +2784,7 @@ const communityReviews = [
         "date": "2026-08-11"
     },
     {
-        "id": 245,
+        "id": 254,
         "author": "2fast4u123 2fast4u123",
         "username": "Joelyy",
         "avatar": "https://i1.sndcdn.com/avatars-4Ps8ymF4IIVFqNVb-9k3yJQ-large.jpg",
@@ -2696,7 +2795,18 @@ const communityReviews = [
         "date": "2026-08-13"
     },
     {
-        "id": 246,
+        "id": 255,
+        "author": "Connor Gray",
+        "username": "SkullFreek",
+        "avatar": "https://i1.sndcdn.com/avatars-gYtmyY2vyNIh7gF1-pHJQrg-large.jpg",
+        "comment": "Driving peak-time techno — the groove is relentless and the synth work is hypnotic. Massive track!",
+        "trackTitle": "The 5th Element (November Bonus Track)",
+        "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
+        "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
+        "date": "2026-11-10"
+    },
+    {
+        "id": 256,
         "author": "Izzo",
         "username": "Izzo",
         "avatar": "https://i1.sndcdn.com/avatars-WzhfqvBdiNA8mluN-gyR4sg-large.jpg",
@@ -2707,7 +2817,7 @@ const communityReviews = [
         "date": "2026-11-06"
     },
     {
-        "id": 247,
+        "id": 257,
         "author": "Andrea D'Argenio",
         "username": "Andarnio dj",
         "avatar": "https://i1.sndcdn.com/avatars-gENqOW6fmu93y4vr-Tq215w-large.jpg",
@@ -2718,7 +2828,7 @@ const communityReviews = [
         "date": "2026-11-04"
     },
     {
-        "id": 248,
+        "id": 258,
         "author": "Adam Chambers",
         "username": "ADVM BOMB",
         "avatar": "https://i1.sndcdn.com/avatars-4YGDzg1pnasWh58f-hzIvjg-large.jpg",
@@ -2729,7 +2839,7 @@ const communityReviews = [
         "date": "2026-10-15"
     },
     {
-        "id": 249,
+        "id": 259,
         "author": "Khaos Creator",
         "username": "Khaos Creator",
         "avatar": "https://i1.sndcdn.com/avatars-QYriw83UO1MyzVFI-ECYPyQ-large.jpg",
@@ -2740,7 +2850,7 @@ const communityReviews = [
         "date": "2026-09-25"
     },
     {
-        "id": 250,
+        "id": 260,
         "author": "Michael Meyer",
         "username": "DJ Mandala",
         "avatar": "https://i1.sndcdn.com/avatars-t8eFjyERzFXiqzvq-H8LwJA-large.jpg",
@@ -2751,7 +2861,7 @@ const communityReviews = [
         "date": "2026-09-09"
     },
     {
-        "id": 251,
+        "id": 261,
         "author": "Sergio Guarneri",
         "username": "Sergio Guarneri",
         "avatar": "https://i1.sndcdn.com/avatars-figE8AR2MjoMwAbj-PH6ihA-large.jpg",
@@ -2762,7 +2872,7 @@ const communityReviews = [
         "date": "2026-08-27"
     },
     {
-        "id": 252,
+        "id": 262,
         "author": "Bass Nomad",
         "username": "Bass Nomad",
         "avatar": "https://i1.sndcdn.com/avatars-JptEYN03uhKJ94kQ-aeZ1OQ-large.jpg",
@@ -2773,7 +2883,7 @@ const communityReviews = [
         "date": "2026-08-11"
     },
     {
-        "id": 253,
+        "id": 263,
         "author": "Harvey Twyman",
         "username": "Harvey Twyman",
         "avatar": "https://i1.sndcdn.com/avatars-fdQzp5QWkygKbykZ-g6zb4w-large.jpg",
@@ -2784,7 +2894,18 @@ const communityReviews = [
         "date": "2026-08-13"
     },
     {
-        "id": 254,
+        "id": 264,
+        "author": "Harmonia At Night",
+        "username": "Harmonia At Night",
+        "avatar": "https://i1.sndcdn.com/avatars-000140583453-338nvj-large.jpg",
+        "comment": "Big ⚡",
+        "trackTitle": "The 5th Element (November Bonus Track)",
+        "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
+        "trackThumb": "https://i1.sndcdn.com/artworks-cwWvnXqSA2PApG6v-2XYAfQ-t500x500.jpg",
+        "date": "2026-11-10"
+    },
+    {
+        "id": 265,
         "author": "Lorenzo Zucchi Sartori",
         "username": "Lozart",
         "avatar": "https://i1.sndcdn.com/avatars-fTydIXnnrtv6Kqlk-RwzI9Q-large.jpg",
@@ -2795,7 +2916,7 @@ const communityReviews = [
         "date": "2026-11-06"
     },
     {
-        "id": 255,
+        "id": 266,
         "author": "Gabriel  patric smyth",
         "username": "Gabriel Patric",
         "avatar": "https://i1.sndcdn.com/avatars-RmKgsfwlhmEGbOAQ-asNjMg-large.jpg",
@@ -2806,7 +2927,7 @@ const communityReviews = [
         "date": "2026-11-03"
     },
     {
-        "id": 256,
+        "id": 267,
         "author": "Twistedreload",
         "username": "Twistedreload",
         "avatar": "https://i1.sndcdn.com/avatars-NNmSQlbcs71RyWyK-bltFag-large.jpg",
@@ -2817,7 +2938,7 @@ const communityReviews = [
         "date": "2026-10-15"
     },
     {
-        "id": 257,
+        "id": 268,
         "author": "Zawley",
         "username": "Zawley",
         "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
@@ -2828,7 +2949,7 @@ const communityReviews = [
         "date": "2026-09-25"
     },
     {
-        "id": 258,
+        "id": 269,
         "author": "Jah-Femi Telewa",
         "username": "The Monstera Music Group by Jah-Femi Telewa",
         "avatar": "https://i1.sndcdn.com/avatars-kcyvlX2mH9hj07uH-QOSBIQ-large.jpg",
@@ -2839,7 +2960,7 @@ const communityReviews = [
         "date": "2026-09-09"
     },
     {
-        "id": 259,
+        "id": 270,
         "author": "AGGRO",
         "username": "AGGRO",
         "avatar": "https://i1.sndcdn.com/avatars-fCqAr0GjsRwbeTpH-zYujKw-large.jpg",
@@ -2850,7 +2971,7 @@ const communityReviews = [
         "date": "2026-08-27"
     },
     {
-        "id": 260,
+        "id": 271,
         "author": "Leonhardt März",
         "username": "Leonhardt März",
         "avatar": "https://i1.sndcdn.com/avatars-aHQBLcKKLFcpu3Ip-4ZwzCA-large.jpg",
@@ -2861,7 +2982,7 @@ const communityReviews = [
         "date": "2026-08-10"
     },
     {
-        "id": 261,
+        "id": 272,
         "author": "Fabrice Monnot",
         "username": "ManBruce",
         "avatar": "https://i1.sndcdn.com/avatars-yjzyoaqgvR0zC3Cr-QEHyhw-large.jpg",
