@@ -2,14 +2,14 @@
 const communityReviews = [
     {
         "id": 1,
-        "author": "Roman Zegbaum",
-        "username": "ElektRoman The Biomind",
-        "avatar": "https://i1.sndcdn.com/avatars-IjfwYBzMEkv7NHBW-srIuMA-large.jpg",
-        "comment": "This track is a really nice summer song.",
+        "author": "Zawley",
+        "username": "Zawley",
+        "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
+        "comment": "This tune is exactly what i was lookong for🔥🙏",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-19"
+        "date": "2026-11-20"
     },
     {
         "id": 2,
@@ -24,14 +24,14 @@ const communityReviews = [
     },
     {
         "id": 3,
-        "author": "Arshia Aali",
-        "username": "Vani$h",
-        "avatar": "https://i1.sndcdn.com/avatars-NdyInBShn0lBi4qh-ZvdB3w-large.jpg",
-        "comment": "Been searching for new sounds lately and this is exactly the kind of music I needed. Straight into my rotation.",
+        "author": "Marcio Reis",
+        "username": "Reeis",
+        "avatar": "https://i1.sndcdn.com/avatars-mESAMtnB20DGKhO3-B4VEvw-large.jpg",
+        "comment": "Excelente os synths nessa track ! Coisa linda",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-15"
+        "date": "2026-11-19"
     },
     {
         "id": 4,
@@ -222,10 +222,10 @@ const communityReviews = [
     },
     {
         "id": 21,
-        "author": "Utopian Digit",
-        "username": "Utopian Digit",
-        "avatar": "https://i1.sndcdn.com/avatars-4cVFK8zPZACZEe20-cOnF3g-large.jpg",
-        "comment": "Beautiful stuff, top track, great work 👊🏾",
+        "author": "Arthur deBerardinis",
+        "username": "Sweetest Taboo",
+        "avatar": "https://i1.sndcdn.com/avatars-y5W0hRulWKHk1Hny-z97BUg-large.jpg",
+        "comment": "nice vocal work, solid track",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
@@ -244,10 +244,10 @@ const communityReviews = [
     },
     {
         "id": 23,
-        "author": "Brain Rot",
-        "username": "sanjock",
-        "avatar": "https://i1.sndcdn.com/avatars-LRv9v2q6GbfyNzvr-73uzyw-large.jpg",
-        "comment": "i think i found the perfect track for november",
+        "author": "Arshia Aali",
+        "username": "Vani$h",
+        "avatar": "https://i1.sndcdn.com/avatars-NdyInBShn0lBi4qh-ZvdB3w-large.jpg",
+        "comment": "Been searching for new sounds lately and this is exactly the kind of music I needed. Straight into my rotation.",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
@@ -420,14 +420,14 @@ const communityReviews = [
     },
     {
         "id": 39,
-        "author": "Khaos Creator",
-        "username": "Khaos Creator",
-        "avatar": "https://i1.sndcdn.com/avatars-QYriw83UO1MyzVFI-ECYPyQ-large.jpg",
-        "comment": "Actually really hot. Love the energy",
+        "author": "DJ Rituala",
+        "username": "DJ Rituala (Progressive Techno Girl)",
+        "avatar": "https://i1.sndcdn.com/avatars-fQgSyzjjOMQ1lW3O-k66RNQ-large.jpg",
+        "comment": "Supported 👌",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-18"
+        "date": "2026-11-19"
     },
     {
         "id": 40,
@@ -442,14 +442,14 @@ const communityReviews = [
     },
     {
         "id": 41,
-        "author": "Mimsoulrecords",
-        "username": "Mimsoulrecords",
-        "avatar": "https://i1.sndcdn.com/avatars-tiTK03DXlf9tOPw4-FA7bBQ-large.jpg",
-        "comment": "Dark melodic techno with a nice slow build, the atmosphere is great.",
+        "author": "Brain Rot",
+        "username": "sanjock",
+        "avatar": "https://i1.sndcdn.com/avatars-LRv9v2q6GbfyNzvr-73uzyw-large.jpg",
+        "comment": "i think i found the perfect track for november",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-12"
+        "date": "2026-11-15"
     },
     {
         "id": 42,
@@ -618,14 +618,14 @@ const communityReviews = [
     },
     {
         "id": 57,
-        "author": "Klangtier",
-        "username": "Klangtier",
-        "avatar": "https://i1.sndcdn.com/avatars-iOSIgtGYIUEPyVDx-zgASqw-large.jpg",
-        "comment": "building a track around the Anansi jar from West African folklore is such a cool starting point",
+        "author": "Cesar Rodriguez",
+        "username": "Cesar Rodriguez",
+        "avatar": "https://i1.sndcdn.com/avatars-ubwFk9sUTsLlE5X6-IDBx9Q-large.jpg",
+        "comment": "i love it",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-18"
+        "date": "2026-11-19"
     },
     {
         "id": 58,
@@ -640,14 +640,14 @@ const communityReviews = [
     },
     {
         "id": 59,
-        "author": "ZARKK",
-        "username": "ZARKK",
-        "avatar": "https://i1.sndcdn.com/avatars-mfd3mpXMteFUQTCM-8cMDVQ-large.jpg",
-        "comment": "sSSsS NICE SONG, GOOD TRIP!! yeaa",
+        "author": "Mimsoulrecords",
+        "username": "Mimsoulrecords",
+        "avatar": "https://i1.sndcdn.com/avatars-tiTK03DXlf9tOPw4-FA7bBQ-large.jpg",
+        "comment": "Dark melodic techno with a nice slow build, the atmosphere is great.",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-11"
+        "date": "2026-11-12"
     },
     {
         "id": 60,
@@ -805,14 +805,14 @@ const communityReviews = [
     },
     {
         "id": 74,
-        "author": "Music that tells stories, and brings emotions",
-        "username": "Piamime",
-        "avatar": "https://i1.sndcdn.com/avatars-ynIymyHSprMMcwTh-xL3cPw-large.jpg",
-        "comment": "deep vibes 👏",
+        "author": "LEKS BEATS",
+        "username": "LEKS BEATS",
+        "avatar": "https://i1.sndcdn.com/avatars-9iNm0eBCvVFXxrGs-mYI59Q-large.jpg",
+        "comment": "Very good one ! Vocals are amazing and the beat is very nice 👌",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-18"
+        "date": "2026-11-19"
     },
     {
         "id": 75,
@@ -827,10 +827,10 @@ const communityReviews = [
     },
     {
         "id": 76,
-        "author": "DJ Hypnotic",
-        "username": "DJ Hypnotic",
-        "avatar": "https://i1.sndcdn.com/avatars-oEQ10QciFCeyyz2S-aHyQyA-large.jpg",
-        "comment": "whos on a shift my friend? :)",
+        "author": "ZARKK",
+        "username": "ZARKK",
+        "avatar": "https://i1.sndcdn.com/avatars-mfd3mpXMteFUQTCM-8cMDVQ-large.jpg",
+        "comment": "sSSsS NICE SONG, GOOD TRIP!! yeaa",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
@@ -981,14 +981,14 @@ const communityReviews = [
     },
     {
         "id": 90,
-        "author": "KRT Production",
-        "username": "KRT Production",
-        "avatar": "https://i1.sndcdn.com/avatars-SXbacvZ3UrAOoI1K-QHyyFQ-large.jpg",
-        "comment": "unreal sound",
+        "author": "Mimsoulrecords",
+        "username": "Mimsoulrecords",
+        "avatar": "https://i1.sndcdn.com/avatars-tiTK03DXlf9tOPw4-FA7bBQ-large.jpg",
+        "comment": "Warm tribal percussion over a rolling afro groove. Really enjoyed the energy.",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-18"
+        "date": "2026-11-19"
     },
     {
         "id": 91,
@@ -1003,14 +1003,14 @@ const communityReviews = [
     },
     {
         "id": 92,
-        "author": "Zawley",
-        "username": "Zawley",
-        "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
-        "comment": "Got a nice rhythm to it for sure",
+        "author": "DJ Hypnotic",
+        "username": "DJ Hypnotic",
+        "avatar": "https://i1.sndcdn.com/avatars-oEQ10QciFCeyyz2S-aHyQyA-large.jpg",
+        "comment": "whos on a shift my friend? :)",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-10"
+        "date": "2026-11-11"
     },
     {
         "id": 93,
@@ -1146,14 +1146,14 @@ const communityReviews = [
     },
     {
         "id": 105,
-        "author": "KRT Production",
-        "username": "NUR",
-        "avatar": "https://i1.sndcdn.com/avatars-Svzz22CMA0wyGVv1-z4sBPQ-large.jpg",
-        "comment": "tune 🤯",
+        "author": "Roman Zegbaum",
+        "username": "ElektRoman The Biomind",
+        "avatar": "https://i1.sndcdn.com/avatars-IjfwYBzMEkv7NHBW-srIuMA-large.jpg",
+        "comment": "This track is a really nice summer song.",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-18"
+        "date": "2026-11-19"
     },
     {
         "id": 106,
@@ -1168,10 +1168,10 @@ const communityReviews = [
     },
     {
         "id": 107,
-        "author": "kharsh hemdy",
-        "username": "Kharshemdy",
-        "avatar": "https://i1.sndcdn.com/avatars-EuA1uOilPoWQyLSg-O7LYKw-large.jpg",
-        "comment": "i love it",
+        "author": "Zawley",
+        "username": "Zawley",
+        "avatar": "https://i1.sndcdn.com/avatars-xpQM6UizvtqEGJ0J-Uj0Yug-large.jpg",
+        "comment": "Got a nice rhythm to it for sure",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
@@ -1311,14 +1311,14 @@ const communityReviews = [
     },
     {
         "id": 120,
-        "author": "Break - Drum and Bass",
-        "username": "Project : Mayhem",
-        "avatar": "https://i1.sndcdn.com/avatars-9yL1j3aTFPkFmLTX-xtPncg-large.jpg",
-        "comment": "dtrsngr in the cave of jungle",
+        "author": "Utopian Digit",
+        "username": "Utopian Digit",
+        "avatar": "https://i1.sndcdn.com/avatars-4cVFK8zPZACZEe20-cOnF3g-large.jpg",
+        "comment": "Beautiful stuff, top track, great work 👊🏾",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-18"
+        "date": "2026-11-19"
     },
     {
         "id": 121,
@@ -1333,10 +1333,10 @@ const communityReviews = [
     },
     {
         "id": 122,
-        "author": "Luovodifaberge",
-        "username": "Luovodifaberge",
-        "avatar": "https://i1.sndcdn.com/avatars-zyhlae8iPBwhabcu-63uPbw-large.jpg",
-        "comment": "great opening",
+        "author": "kharsh hemdy",
+        "username": "Kharshemdy",
+        "avatar": "https://i1.sndcdn.com/avatars-EuA1uOilPoWQyLSg-O7LYKw-large.jpg",
+        "comment": "i love it",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
@@ -1476,10 +1476,10 @@ const communityReviews = [
     },
     {
         "id": 135,
-        "author": "Gefangen Intrance",
-        "username": "Gefangen Intrance",
-        "avatar": "https://i1.sndcdn.com/avatars-gCZ3ruSCGPmuUWxT-SbCgYA-large.jpg",
-        "comment": "amazing afro house tune, lovely vibes and beauty vocals!",
+        "author": "Khaos Creator",
+        "username": "Khaos Creator",
+        "avatar": "https://i1.sndcdn.com/avatars-QYriw83UO1MyzVFI-ECYPyQ-large.jpg",
+        "comment": "Actually really hot. Love the energy",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
@@ -1489,7 +1489,7 @@ const communityReviews = [
         "id": 136,
         "author": "Klangtier",
         "username": "Klangtier",
-        "avatar": "https://i1.sndcdn.com/avatars-iOSIgtGYIUEPyVDx-zgASqw-large.jpg",
+        "avatar": "https://i1.sndcdn.com/avatars-weXDXCdsXM1qfMRw-lKExHg-large.jpg",
         "comment": "first November Shift, now a bonus track on top. busy month for you!",
         "trackTitle": "The 5th Element (November Bonus Track)",
         "trackUrl": "https://soundcloud.com/theprojectdee/thefifth",
@@ -1498,10 +1498,10 @@ const communityReviews = [
     },
     {
         "id": 137,
-        "author": "Kirill Koles",
-        "username": "Kirill Vladimir Koles",
-        "avatar": "https://i1.sndcdn.com/avatars-MBKGm6S3Po3rAOI3-oDbPig-large.jpg",
-        "comment": "great lyrics, awesome song, great flow",
+        "author": "Luovodifaberge",
+        "username": "Luovodifaberge",
+        "avatar": "https://i1.sndcdn.com/avatars-zyhlae8iPBwhabcu-63uPbw-large.jpg",
+        "comment": "great opening",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
@@ -1641,14 +1641,14 @@ const communityReviews = [
     },
     {
         "id": 150,
-        "author": "Ra'ad",
-        "username": "RAAD (JO)",
-        "avatar": "https://i1.sndcdn.com/avatars-5IPGbcB0yWnbTxie-Lm9CMw-large.jpg",
-        "comment": "Vocals are interesting lol",
+        "author": "Klangtier",
+        "username": "Klangtier",
+        "avatar": "https://i1.sndcdn.com/avatars-weXDXCdsXM1qfMRw-lKExHg-large.jpg",
+        "comment": "building a track around the Anansi jar from West African folklore is such a cool starting point",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-17"
+        "date": "2026-11-18"
     },
     {
         "id": 151,
@@ -1663,10 +1663,10 @@ const communityReviews = [
     },
     {
         "id": 152,
-        "author": "jean-Michel Regnault",
-        "username": "DJ BLUSH",
-        "avatar": "https://i1.sndcdn.com/avatars-L4ZbQPRD1iz9z63I-8Tziaw-large.jpg",
-        "comment": "quality 🔊",
+        "author": "Kirill Koles",
+        "username": "Kirill Vladimir Koles",
+        "avatar": "https://i1.sndcdn.com/avatars-MBKGm6S3Po3rAOI3-oDbPig-large.jpg",
+        "comment": "great lyrics, awesome song, great flow",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
@@ -1676,7 +1676,7 @@ const communityReviews = [
         "id": 153,
         "author": "Klangtier",
         "username": "Klangtier",
-        "avatar": "https://i1.sndcdn.com/avatars-iOSIgtGYIUEPyVDx-zgASqw-large.jpg",
+        "avatar": "https://i1.sndcdn.com/avatars-weXDXCdsXM1qfMRw-lKExHg-large.jpg",
         "comment": "a 2026 remake of Drifting the city, nice to see you revisit it. cheers",
         "trackTitle": "Drifting the city | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
@@ -1806,14 +1806,14 @@ const communityReviews = [
     },
     {
         "id": 165,
-        "author": "JC.B featuring { *[] }",
-        "username": "JC.B featuring { *[] }",
-        "avatar": "https://i1.sndcdn.com/avatars-C7Vo6LeFFf88MNVr-iVOydg-large.jpg",
-        "comment": "Very relaxing vibes. Plus nice sounds and vocals. Really nice.",
+        "author": "Music that tells stories, and brings emotions",
+        "username": "Piamime",
+        "avatar": "https://i1.sndcdn.com/avatars-ynIymyHSprMMcwTh-xL3cPw-large.jpg",
+        "comment": "deep vibes 👏",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-17"
+        "date": "2026-11-18"
     },
     {
         "id": 166,
@@ -1828,14 +1828,14 @@ const communityReviews = [
     },
     {
         "id": 167,
-        "author": "Jah-Femi Telewa",
-        "username": "The Monstera Music Group by Jah-Femi Telewa",
-        "avatar": "https://i1.sndcdn.com/avatars-kcyvlX2mH9hj07uH-QOSBIQ-large.jpg",
-        "comment": "Clean tracks with clean lyrics needed … the separation of the living from the dead as began",
+        "author": "jean-Michel Regnault",
+        "username": "DJ BLUSH",
+        "avatar": "https://i1.sndcdn.com/avatars-L4ZbQPRD1iz9z63I-8Tziaw-large.jpg",
+        "comment": "quality 🔊",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-09"
+        "date": "2026-11-10"
     },
     {
         "id": 168,
@@ -1960,14 +1960,14 @@ const communityReviews = [
     },
     {
         "id": 179,
-        "author": "ROSSCO",
-        "username": "ROSSCO",
-        "avatar": "https://i1.sndcdn.com/avatars-wxo4L3Yyx88d1ldh-QfCNnQ-large.jpg",
-        "comment": "Really nice 👍",
+        "author": "KRT Production",
+        "username": "KRT Production",
+        "avatar": "https://i1.sndcdn.com/avatars-SXbacvZ3UrAOoI1K-QHyyFQ-large.jpg",
+        "comment": "unreal sound",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-17"
+        "date": "2026-11-18"
     },
     {
         "id": 180,
@@ -1982,14 +1982,14 @@ const communityReviews = [
     },
     {
         "id": 181,
-        "author": "Roman Zegbaum",
-        "username": "ElektRoman The Biomind",
-        "avatar": "https://i1.sndcdn.com/avatars-IjfwYBzMEkv7NHBW-srIuMA-large.jpg",
-        "comment": "This is some lovely synth pop",
+        "author": "Jah-Femi Telewa",
+        "username": "The Monstera Music Group by Jah-Femi Telewa",
+        "avatar": "https://i1.sndcdn.com/avatars-kcyvlX2mH9hj07uH-QOSBIQ-large.jpg",
+        "comment": "Clean tracks with clean lyrics needed … the separation of the living from the dead as began",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-08"
+        "date": "2026-11-09"
     },
     {
         "id": 182,
@@ -2103,19 +2103,19 @@ const communityReviews = [
     },
     {
         "id": 192,
-        "author": "Aka Natty Rebel (*  KSB-PROJECT  *)",
-        "username": "KillaSoundBoy",
-        "avatar": "https://i1.sndcdn.com/avatars-vM6H1dxsmVhrfxjP-m5KKdQ-large.jpg",
-        "comment": "so good!",
+        "author": "KRT Production",
+        "username": "NUR",
+        "avatar": "https://i1.sndcdn.com/avatars-Svzz22CMA0wyGVv1-z4sBPQ-large.jpg",
+        "comment": "tune 🤯",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-17"
+        "date": "2026-11-18"
     },
     {
         "id": 193,
         "author": "Jerry Gildbrandsen",
-        "username": "Technck Techno Tech House Label",
+        "username": "Techneck Labels",
         "avatar": "https://i1.sndcdn.com/avatars-Q0OwQzlLgN6wyygW-eoYAKA-large.jpg",
         "comment": "straight fire",
         "trackTitle": "The 5th Element (November Bonus Track)",
@@ -2125,10 +2125,10 @@ const communityReviews = [
     },
     {
         "id": 194,
-        "author": "Arthur deBerardinis",
-        "username": "Sweetest Taboo",
-        "avatar": "https://i1.sndcdn.com/avatars-y5W0hRulWKHk1Hny-z97BUg-large.jpg",
-        "comment": "this has a strong vibe! brings me back!",
+        "author": "Roman Zegbaum",
+        "username": "ElektRoman The Biomind",
+        "avatar": "https://i1.sndcdn.com/avatars-IjfwYBzMEkv7NHBW-srIuMA-large.jpg",
+        "comment": "This is some lovely synth pop",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
@@ -2235,14 +2235,14 @@ const communityReviews = [
     },
     {
         "id": 204,
-        "author": "Armijo Productions",
-        "username": "Armijo Productions",
-        "avatar": "https://i1.sndcdn.com/avatars-pGI8vD0WX8GNdsG3-DL1WJg-large.jpg",
-        "comment": "love it 💥",
+        "author": "Break - Drum and Bass",
+        "username": "Project : Mayhem",
+        "avatar": "https://i1.sndcdn.com/avatars-9yL1j3aTFPkFmLTX-xtPncg-large.jpg",
+        "comment": "dtrsngr in the cave of jungle",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-17"
+        "date": "2026-11-18"
     },
     {
         "id": 205,
@@ -2257,10 +2257,10 @@ const communityReviews = [
     },
     {
         "id": 206,
-        "author": "Integrity Creativity",
-        "username": "AFRICARE PRODUCTIONS",
-        "avatar": "https://i1.sndcdn.com/avatars-zzSGrxsrE7ozM2Wz-7EzBcg-large.jpg",
-        "comment": "serious vibes 🤩",
+        "author": "Arthur deBerardinis",
+        "username": "Sweetest Taboo",
+        "avatar": "https://i1.sndcdn.com/avatars-y5W0hRulWKHk1Hny-z97BUg-large.jpg",
+        "comment": "this has a strong vibe! brings me back!",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
@@ -2356,14 +2356,14 @@ const communityReviews = [
     },
     {
         "id": 215,
-        "author": "Daniel Franke",
-        "username": "Sermocinor",
-        "avatar": "https://i1.sndcdn.com/avatars-UPUzqrLRwVhYms4r-h0CAOw-large.jpg",
-        "comment": "very soulful feeling, I like it, pretty cool",
+        "author": "Gefangen Intrance",
+        "username": "Gefangen Intrance",
+        "avatar": "https://i1.sndcdn.com/avatars-gCZ3ruSCGPmuUWxT-SbCgYA-large.jpg",
+        "comment": "amazing afro house tune, lovely vibes and beauty vocals!",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-16"
+        "date": "2026-11-18"
     },
     {
         "id": 216,
@@ -2378,14 +2378,14 @@ const communityReviews = [
     },
     {
         "id": 217,
-        "author": "Deep Progressive Future  House",
-        "username": "PAS-RISKY",
-        "avatar": "https://i1.sndcdn.com/avatars-V9FqSyln95OhccnB-UO9aKQ-large.jpg",
-        "comment": "Great work with  sunlime vocals!! superbe!! cheers !!",
+        "author": "Integrity Creativity",
+        "username": "AFRICARE PRODUCTIONS",
+        "avatar": "https://i1.sndcdn.com/avatars-zzSGrxsrE7ozM2Wz-7EzBcg-large.jpg",
+        "comment": "serious vibes 🤩",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-07"
+        "date": "2026-11-08"
     },
     {
         "id": 218,
@@ -2466,14 +2466,14 @@ const communityReviews = [
     },
     {
         "id": 225,
-        "author": "Greg Elenis",
-        "username": "Greg Elenis",
-        "avatar": "https://i1.sndcdn.com/avatars-O74yyku4Ch9guJzD-B9iAyg-large.jpg",
-        "comment": "Great job here love the melodies",
+        "author": "Ra'ad",
+        "username": "RAAD (JO)",
+        "avatar": "https://i1.sndcdn.com/avatars-5IPGbcB0yWnbTxie-Lm9CMw-large.jpg",
+        "comment": "Vocals are interesting lol",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-16"
+        "date": "2026-11-17"
     },
     {
         "id": 226,
@@ -2488,10 +2488,10 @@ const communityReviews = [
     },
     {
         "id": 227,
-        "author": "K N Z D 3 N",
-        "username": "KNZD3N",
-        "avatar": "https://i1.sndcdn.com/avatars-QMHtJQ3ap4NvOJJR-Wb0vzg-large.jpg",
-        "comment": "Beauty chords.  Vocals are smoith on top 👽🌊👽🌊",
+        "author": "Deep Progressive Future  House",
+        "username": "PAS-RISKY",
+        "avatar": "https://i1.sndcdn.com/avatars-V9FqSyln95OhccnB-UO9aKQ-large.jpg",
+        "comment": "Great work with  sunlime vocals!! superbe!! cheers !!",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
@@ -2576,14 +2576,14 @@ const communityReviews = [
     },
     {
         "id": 235,
-        "author": "Michael Meyer",
-        "username": "DJ Mandala",
-        "avatar": "https://i1.sndcdn.com/avatars-t8eFjyERzFXiqzvq-H8LwJA-large.jpg",
-        "comment": "flawless",
+        "author": "JC.B featuring { *[] }",
+        "username": "JC.B featuring { *[] }",
+        "avatar": "https://i1.sndcdn.com/avatars-C7Vo6LeFFf88MNVr-iVOydg-large.jpg",
+        "comment": "Very relaxing vibes. Plus nice sounds and vocals. Really nice.",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-16"
+        "date": "2026-11-17"
     },
     {
         "id": 236,
@@ -2598,14 +2598,14 @@ const communityReviews = [
     },
     {
         "id": 237,
-        "author": "Oscar Garcia",
-        "username": "Oscar J Garcia",
-        "avatar": "https://i1.sndcdn.com/avatars-6aKqoQWX6BpTGGOt-ulO1OQ-large.jpg",
-        "comment": "good track, nice melodic voices, relaxed vibe",
+        "author": "K N Z D 3 N",
+        "username": "KNZD3N",
+        "avatar": "https://i1.sndcdn.com/avatars-QMHtJQ3ap4NvOJJR-Wb0vzg-large.jpg",
+        "comment": "Beauty chords.  Vocals are smoith on top 👽🌊👽🌊",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
-        "date": "2026-11-06"
+        "date": "2026-11-07"
     },
     {
         "id": 238,
@@ -2686,14 +2686,14 @@ const communityReviews = [
     },
     {
         "id": 245,
-        "author": "AKA Mudlark ^",
-        "username": "AKA Mudlark ^",
-        "avatar": "https://i1.sndcdn.com/avatars-EMS2dg42vlOz2TVU-dSC55A-large.jpg",
-        "comment": "locked in",
+        "author": "ROSSCO",
+        "username": "ROSSCO",
+        "avatar": "https://i1.sndcdn.com/avatars-wxo4L3Yyx88d1ldh-QfCNnQ-large.jpg",
+        "comment": "Really nice 👍",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-16"
+        "date": "2026-11-17"
     },
     {
         "id": 246,
@@ -2708,10 +2708,10 @@ const communityReviews = [
     },
     {
         "id": 247,
-        "author": "JARR Head",
-        "username": "JARR Head",
-        "avatar": "https://i1.sndcdn.com/avatars-zZKB6hnh5IXqypAz-Ga7Bww-large.jpg",
-        "comment": "Great work - looking forward to your next release!",
+        "author": "Oscar Garcia",
+        "username": "Oscar J Garcia",
+        "avatar": "https://i1.sndcdn.com/avatars-6aKqoQWX6BpTGGOt-ulO1OQ-large.jpg",
+        "comment": "good track, nice melodic voices, relaxed vibe",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
@@ -2796,14 +2796,14 @@ const communityReviews = [
     },
     {
         "id": 255,
-        "author": "Chris Palmer",
-        "username": "Chris Palmer Refinoir",
-        "avatar": "https://i1.sndcdn.com/avatars-dmL8Z1sifnINpkwH-8ATmSg-large.jpg",
-        "comment": "Cool vocals, strong Afro beat, good perc and vibes",
+        "author": "Aka Natty Rebel (*  KSB-PROJECT  *)",
+        "username": "KillaSoundBoy",
+        "avatar": "https://i1.sndcdn.com/avatars-vM6H1dxsmVhrfxjP-m5KKdQ-large.jpg",
+        "comment": "so good!",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-16"
+        "date": "2026-11-17"
     },
     {
         "id": 256,
@@ -2818,10 +2818,10 @@ const communityReviews = [
     },
     {
         "id": 257,
-        "author": "Izzo",
-        "username": "Izzo",
-        "avatar": "https://i1.sndcdn.com/avatars-WzhfqvBdiNA8mluN-gyR4sg-large.jpg",
-        "comment": "Fire song it’s builds well",
+        "author": "JARR Head",
+        "username": "JARR Head",
+        "avatar": "https://i1.sndcdn.com/avatars-zZKB6hnh5IXqypAz-Ga7Bww-large.jpg",
+        "comment": "Great work - looking forward to your next release!",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
@@ -2906,14 +2906,14 @@ const communityReviews = [
     },
     {
         "id": 265,
-        "author": "AKA OlynCTrance",
-        "username": "Olyn.cs",
-        "avatar": "https://i1.sndcdn.com/avatars-Jdh6IbperzqPqfom-K4mzbg-large.jpg",
-        "comment": "buena composición  de esta cancion",
+        "author": "Armijo Productions",
+        "username": "Armijo Productions",
+        "avatar": "https://i1.sndcdn.com/avatars-pGI8vD0WX8GNdsG3-DL1WJg-large.jpg",
+        "comment": "love it 💥",
         "trackTitle": "The Jar of Anansi | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/anansijar",
         "trackThumb": "https://i1.sndcdn.com/artworks-9qisMRXFj0ILQthK-1K3M2g-t500x500.jpg",
-        "date": "2026-11-16"
+        "date": "2026-11-17"
     },
     {
         "id": 266,
@@ -2928,10 +2928,10 @@ const communityReviews = [
     },
     {
         "id": 267,
-        "author": "Lorenzo Zucchi Sartori",
-        "username": "Lozart",
-        "avatar": "https://i1.sndcdn.com/avatars-fTydIXnnrtv6Kqlk-RwzI9Q-large.jpg",
-        "comment": "The sound design is on point",
+        "author": "Izzo",
+        "username": "Izzo",
+        "avatar": "https://i1.sndcdn.com/avatars-WzhfqvBdiNA8mluN-gyR4sg-large.jpg",
+        "comment": "Fire song it’s builds well",
         "trackTitle": "November Shift | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/novembershift",
         "trackThumb": "https://i1.sndcdn.com/artworks-eqytlq0iXbn5miAH-2yKomA-t500x500.jpg",
