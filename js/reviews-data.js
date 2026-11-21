@@ -257,7 +257,7 @@ const communityReviews = [
         "id": 24,
         "author": "Diego",
         "username": "DILAZAmusic",
-        "avatar": "https://i1.sndcdn.com/avatars-ohacymFJkkXcAHzX-5eHWQw-large.jpg",
+        "avatar": "https://i1.sndcdn.com/avatars-zSlKrPQFiMUkgH6G-EUlyuw-large.jpg",
         "comment": "magical 💃",
         "trackTitle": "Drifting the city | Project Dee",
         "trackUrl": "https://soundcloud.com/theprojectdee/drifting26",
