@@ -184,59 +184,163 @@ const soundCloudCatalog = [
 
 const youtubeCatalog = [
     {
+        "id": "MpTZ3gu-NeM",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
+        "thumb": "https://img.youtube.com/vi/MpTZ3gu-NeM/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "FSbLxn0IZ20",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
+        "thumb": "https://img.youtube.com/vi/FSbLxn0IZ20/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "IZNAlgtPlyw",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
+        "thumb": "https://img.youtube.com/vi/IZNAlgtPlyw/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "QnPLIwVnV5E",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
+        "thumb": "https://img.youtube.com/vi/QnPLIwVnV5E/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "fceglTwTINg",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
+        "thumb": "https://img.youtube.com/vi/fceglTwTINg/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "JG0YfGxLw48",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
+        "thumb": "https://img.youtube.com/vi/JG0YfGxLw48/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "qCDsOK54jPA",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
+        "thumb": "https://img.youtube.com/vi/qCDsOK54jPA/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "2BSCm67v8-w",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
+        "thumb": "https://img.youtube.com/vi/2BSCm67v8-w/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "utZhZ3Ubsss",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
+        "thumb": "https://img.youtube.com/vi/utZhZ3Ubsss/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "aAHWUcpEeKc",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
+        "thumb": "https://img.youtube.com/vi/aAHWUcpEeKc/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
         "id": "5qegZ_NBvqI",
-        "title": "Honey and the Tide",
-        "full_title": "Honey and the Tide #deephouse #melodictechno #ethnoedm #organichouse  #anjunadeep #afterlife",
-        "published": "2026-07-31",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
         "thumb": "https://img.youtube.com/vi/5qegZ_NBvqI/hqdefault.jpg",
-        "genre": "OFFICIAL"
+        "genre": "RELEASE"
     },
     {
         "id": "zmMbdhg6nn0",
-        "title": "Come to Dubai  (Habibi)",
-        "full_title": "Come to Dubai  (Habibi) #dubailife #dubaimarinabeach #mydubai #dancemusic #dubainightlife #dubai",
-        "published": "2026-07-18",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
         "thumb": "https://img.youtube.com/vi/zmMbdhg6nn0/hqdefault.jpg",
         "genre": "RELEASE"
     },
     {
         "id": "FVJ_vvxKILo",
-        "title": "THE GRID (Mix)",
-        "full_title": "THE GRID (Mix) #edm  #technomusic  #technodance  #dance2026  #summer2026  ‪@prjdee‬",
-        "published": "2026-06-30",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
         "thumb": "https://img.youtube.com/vi/FVJ_vvxKILo/hqdefault.jpg",
-        "genre": "MIX"
+        "genre": "RELEASE"
     },
     {
         "id": "jWlCvzgN_xE",
-        "title": "🌅 Angel of Light",
-        "full_title": "🌅 Angel of Light #progressivehouse #edm #newmusic #nordicvibes #prjdee",
-        "published": "2026-06-01",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
         "thumb": "https://img.youtube.com/vi/jWlCvzgN_xE/hqdefault.jpg",
         "genre": "RELEASE"
     },
     {
         "id": "NiGySiGy6ik",
-        "title": "C60 -",
-        "full_title": "C60 - #popitaliano #urbanpop @prjdee",
-        "published": "2026-05-03",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
         "thumb": "https://img.youtube.com/vi/NiGySiGy6ik/hqdefault.jpg",
         "genre": "RELEASE"
     },
     {
-        "id": "SVN03CZMGJg",
-        "title": "The Pressure",
-        "full_title": "The Pressure #shorts",
-        "published": "2026-04-25",
-        "thumb": "https://img.youtube.com/vi/SVN03CZMGJg/hqdefault.jpg",
+        "id": "NQmDbgjFzq4",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
+        "thumb": "https://img.youtube.com/vi/NQmDbgjFzq4/hqdefault.jpg",
         "genre": "RELEASE"
     },
     {
-        "id": "t5J5_J1qHq0",
-        "title": "The Space Between (Pure Extended Mix)",
-        "full_title": "The Space Between (Pure Extended Mix) #edm #prjdee",
-        "published": "2026-02-16",
-        "thumb": "https://img.youtube.com/vi/t5J5_J1qHq0/hqdefault.jpg",
+        "id": "0h2rGTagQCk",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
+        "thumb": "https://img.youtube.com/vi/0h2rGTagQCk/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "YIBnVnTjnv8",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
+        "thumb": "https://img.youtube.com/vi/YIBnVnTjnv8/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "wf1xRyLs_Y4",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
+        "thumb": "https://img.youtube.com/vi/wf1xRyLs_Y4/hqdefault.jpg",
+        "genre": "RELEASE"
+    },
+    {
+        "id": "4vvo0RPXMYY",
+        "title": "",
+        "full_title": "",
+        "published": "2026-01-01",
+        "thumb": "https://img.youtube.com/vi/4vvo0RPXMYY/hqdefault.jpg",
         "genre": "RELEASE"
     }
 ];
